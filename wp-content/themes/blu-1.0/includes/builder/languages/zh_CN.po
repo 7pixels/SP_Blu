@@ -922,7 +922,7 @@ msgstr "生成器缓存警告"
 
 #: ../core.php:1380
 msgid ""
-"The Divi Builder has been updated, however your browser is loading an old "
+"The Blu Builder has been updated, however your browser is loading an old "
 "cached version of the builder. Loading old files can cause the builder to "
 "malfunction."
 msgstr ""
@@ -1882,7 +1882,7 @@ msgid "Use Default Editor"
 msgstr "使用默认编辑器"
 
 #: ../functions.php:1558 ../functions.php:1559
-msgid "Use The Divi Builder"
+msgid "Use The Blu Builder"
 msgstr "使用Divi构建器"
 
 #: ../functions.php:1565
@@ -2431,7 +2431,7 @@ msgid "on Desktop"
 msgstr "在桌面上"
 
 #: ../functions.php:2254
-msgid "The Divi Builder"
+msgid "The Blu Builder"
 msgstr "Divi构建器"
 
 #: ../functions.php:2290

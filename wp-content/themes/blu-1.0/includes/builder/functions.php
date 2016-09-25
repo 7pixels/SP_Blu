@@ -1567,8 +1567,8 @@ function et_pb_before_main_editor( $post ) {
 	// Add button only if current user is allowed to use it otherwise display placeholder with all required data
 	if ( et_pb_is_allowed( 'blu_builder_control' ) ) {
 		$buttons = sprintf('<a href="#" id="et_pb_toggle_builder" data-builder="%2$s" data-editor="%3$s" class="button button-primary button-large%4$s%5$s">%1$s</a>',
-			( $is_builder_used ? esc_html__( 'Use Default Editor', 'et_builder' ) : esc_html__( 'Use The Divi Builder', 'et_builder' ) ),
-			esc_html__( 'Use The Divi Builder', 'et_builder' ),
+			( $is_builder_used ? esc_html__( 'Use Default Editor', 'et_builder' ) : esc_html__( 'Use The Blu Builder', 'et_builder' ) ),
+			esc_html__( 'Use The Blu Builder', 'et_builder' ),
 			esc_html__( 'Use Default Editor', 'et_builder' ),
 			( $is_builder_used ? ' et_pb_builder_is_used' : '' ),
 			( $builder_always_enabled ? ' et_pb_hidden' : '' )
@@ -2272,7 +2272,7 @@ function et_pb_add_custom_box() {
 	$post_types = et_builder_get_builder_post_types();
 
 	foreach ( $post_types as $post_type ){
-		add_meta_box( ET_BUILDER_LAYOUT_POST_TYPE, esc_html__( 'The Divi Builder', 'et_builder' ), 'et_pb_pagebuilder_meta_box', $post_type, 'normal', 'high' );
+		add_meta_box( ET_BUILDER_LAYOUT_POST_TYPE, esc_html__( 'The Blu Builder', 'et_builder' ), 'et_pb_pagebuilder_meta_box', $post_type, 'normal', 'high' );
 	}
 }
 

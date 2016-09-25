@@ -928,7 +928,7 @@ msgstr "Builder Önbellek Uyarısı"
 
 #: ../core.php:1380
 msgid ""
-"The Divi Builder has been updated, however your browser is loading an old "
+"The Blu Builder has been updated, however your browser is loading an old "
 "cached version of the builder. Loading old files can cause the builder to "
 "malfunction."
 msgstr ""
@@ -1913,8 +1913,8 @@ msgid "Use Default Editor"
 msgstr "Varsayılan Düzenleyiciyi Kullan"
 
 #: ../functions.php:1558 ../functions.php:1559
-msgid "Use The Divi Builder"
-msgstr "The Divi Builder Kullan"
+msgid "Use The Blu Builder"
+msgstr "The Blu Builder Kullan"
 
 #: ../functions.php:1565
 msgid "Use Visual Builder"
@@ -2490,8 +2490,8 @@ msgid "on Desktop"
 msgstr "Masaüstünde"
 
 #: ../functions.php:2254
-msgid "The Divi Builder"
-msgstr "The Divi Builder"
+msgid "The Blu Builder"
+msgstr "The Blu Builder"
 
 #: ../functions.php:2290
 msgid "% Comments"
@@ -2624,7 +2624,7 @@ msgid ""
 "All content created in the Divi Builder will be lost. Previous content will "
 "be restored."
 msgstr ""
-"The Divi Builder'da yarattığınız tüm içerik yok olacak. Önceki içerik geri "
+"The Blu Builder'da yarattığınız tüm içerik yok olacak. Önceki içerik geri "
 "getirilecek."
 
 #: ../functions.php:3494 ../functions.php:3507 ../functions.php:3518

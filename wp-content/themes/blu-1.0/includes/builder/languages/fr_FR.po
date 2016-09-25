@@ -933,7 +933,7 @@ msgstr "Alerte de cache Builder"
 
 #: ../core.php:1380
 msgid ""
-"The Divi Builder has been updated, however your browser is loading an old "
+"The Blu Builder has been updated, however your browser is loading an old "
 "cached version of the builder. Loading old files can cause the builder to "
 "malfunction."
 msgstr ""
@@ -1932,7 +1932,7 @@ msgid "Use Default Editor"
 msgstr "Utiliser la mise en forme par défaut"
 
 #: ../functions.php:1558 ../functions.php:1559
-msgid "Use The Divi Builder"
+msgid "Use The Blu Builder"
 msgstr "Utiliser le générateur Divi"
 
 #: ../functions.php:1565
@@ -2520,7 +2520,7 @@ msgid "on Desktop"
 msgstr "sur ordinateur de bureau"
 
 #: ../functions.php:2254
-msgid "The Divi Builder"
+msgid "The Blu Builder"
 msgstr "Le générateur Divi"
 
 #: ../functions.php:2290

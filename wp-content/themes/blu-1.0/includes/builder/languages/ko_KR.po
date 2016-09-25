@@ -927,7 +927,7 @@ msgstr "빌더 캐시 경고"
 
 #: ../core.php:1380
 msgid ""
-"The Divi Builder has been updated, however your browser is loading an old "
+"The Blu Builder has been updated, however your browser is loading an old "
 "cached version of the builder. Loading old files can cause the builder to "
 "malfunction."
 msgstr ""
@@ -1902,7 +1902,7 @@ msgid "Use Default Editor"
 msgstr "기본설정 편집기 사용"
 
 #: ../functions.php:1558 ../functions.php:1559
-msgid "Use The Divi Builder"
+msgid "Use The Blu Builder"
 msgstr "Divi 빌더 사용"
 
 #: ../functions.php:1565
@@ -2469,7 +2469,7 @@ msgid "on Desktop"
 msgstr "데스크톱"
 
 #: ../functions.php:2254
-msgid "The Divi Builder"
+msgid "The Blu Builder"
 msgstr "Divi 빌더"
 
 #: ../functions.php:2290

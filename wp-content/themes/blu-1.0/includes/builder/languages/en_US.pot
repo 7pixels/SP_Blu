@@ -826,7 +826,7 @@ msgstr ""
 
 #: core.php:1307
 msgid ""
-"The Divi Builder has been updated, however your browser is loading an old "
+"The Blu Builder has been updated, however your browser is loading an old "
 "cached version of the builder. Loading old files can cause the builder to "
 "malfunction."
 msgstr ""
@@ -1052,7 +1052,7 @@ msgid "Use Default Editor"
 msgstr ""
 
 #: functions.php:1316 functions.php:1317
-msgid "Use The Divi Builder"
+msgid "Use The Blu Builder"
 msgstr ""
 
 #: functions.php:1365
@@ -1637,7 +1637,7 @@ msgid "Shortcode Conversions"
 msgstr ""
 
 #: functions.php:1969
-msgid "The Divi Builder"
+msgid "The Blu Builder"
 msgstr ""
 
 #: functions.php:1990

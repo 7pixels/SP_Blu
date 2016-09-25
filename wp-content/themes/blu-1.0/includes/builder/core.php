@@ -1390,7 +1390,7 @@ function et_builder_get_cache_notification_modal() {
 			</div>
 		</div>',
 		esc_html__( 'Builder Cache Warning', 'et_builder' ),
-		esc_html__( 'The Divi Builder has been updated, however your browser is loading an old cached version of the builder. Loading old files can cause the builder to malfunction.', 'et_builder' ),
+		esc_html__( 'The Blu Builder has been updated, however your browser is loading an old cached version of the builder. Loading old files can cause the builder to malfunction.', 'et_builder' ),
 		esc_html__( 'Reload The Builder', 'et_builder' ),
 		$cache_plugin_message,
 		$browser_cache_message,
