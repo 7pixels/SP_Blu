@@ -97,7 +97,7 @@ msgstr "%s Temaindstillinger"
 msgid "Reset to Defaults"
 msgstr "Nulstil til standarder"
 
-#: epanel/core_functions.php:160 options_divi.php:38
+#: epanel/core_functions.php:160 options_blu.php:38
 msgid "General"
 msgstr "Generelt"
 
@@ -161,7 +161,7 @@ msgstr "Forfatter"
 msgid "Date"
 msgstr "Dato"
 
-#: epanel/core_functions.php:510 options_divi.php:316
+#: epanel/core_functions.php:510 options_blu.php:316
 msgid "Categories"
 msgstr "Kategorier"
 
@@ -508,15 +508,15 @@ msgstr "Færdigheder"
 msgid "Posted on"
 msgstr "Indsendt den"
 
-#: functions.php:293 options_divi.php:103
+#: functions.php:293 options_blu.php:103
 msgid "Right Sidebar"
 msgstr "Rød Sidebar"
 
-#: functions.php:294 options_divi.php:104
+#: functions.php:294 options_blu.php:104
 msgid "Left Sidebar"
 msgstr "Venstre Sidebar"
 
-#: functions.php:295 options_divi.php:105
+#: functions.php:295 options_blu.php:105
 msgid "Full Width"
 msgstr "Fuld bredde"
 
@@ -586,7 +586,7 @@ msgstr "Projektnavigering"
 msgid "you don't have sufficient permissions to access this page"
 msgstr "du har ikke tilstrækkelige tilladelser til at få adgang til denne side"
 
-#: functions.php:586 options_divi.php:321 options_divi.php:461
+#: functions.php:586 options_blu.php:321 options_blu.php:461
 msgid "General Settings"
 msgstr "Generelle indstillinger"
 
@@ -1792,15 +1792,15 @@ msgstr "Adsense"
 msgid "Adsense Code"
 msgstr "Adsense Kode"
 
-#: options_divi.php:45
+#: options_blu.php:45
 msgid "Logo"
 msgstr "Logo"
 
-#: options_divi.php:48
+#: options_blu.php:48
 msgid "Set As Logo"
 msgstr "Angiv som Logo"
 
-#: options_divi.php:50
+#: options_blu.php:50
 msgid ""
 "If you would like to use your own custom logo image click the Upload Image "
 "button."
@@ -1808,15 +1808,15 @@ msgstr ""
 "Hvis du vil bruge dit eget brugerdefinerede logobillede tryk på ”Upload "
 "billede” knappen."
 
-#: options_divi.php:53
+#: options_blu.php:53
 msgid "Favicon"
 msgstr "Favicon"
 
-#: options_divi.php:56
+#: options_blu.php:56
 msgid "Set As Favicon"
 msgstr "Angiv som Favicon"
 
-#: options_divi.php:58
+#: options_blu.php:58
 msgid ""
 "If you would like to use your own custom favicon image click the Upload "
 "Image button."
@@ -1824,11 +1824,11 @@ msgstr ""
 "Hvis du vil bruge dit eget brugerdefinerede favicon billede tryk på Upload "
 "billede knappen."
 
-#: options_divi.php:61
+#: options_blu.php:61
 msgid "Fixed Navigation Bar"
 msgstr "Fast navigationslinje"
 
-#: options_divi.php:65
+#: options_blu.php:65
 msgid ""
 "By default the navigation bar stays on top of the screen at all times. We "
 "suggest to disable this option, if you need to use a logo taller than the "
@@ -1837,11 +1837,11 @@ msgstr ""
 "Som standard forbliver navigationslinjen altid i toppen af skærmen. Vi "
 "anbefaler at du deaktiverer dette hvis du skal bruge et stort logobillede."
 
-#: options_divi.php:68
+#: options_blu.php:68
 msgid "Enable Divi Gallery"
 msgstr "Aktiver Divi Galleri"
 
-#: options_divi.php:72
+#: options_blu.php:72
 msgid ""
 "Enable this if you want to replace the WordPress default gallery with the "
 "Divi-style gallery."
@@ -1849,19 +1849,19 @@ msgstr ""
 "Aktiver dette hvis du vil erstatte WordPress standardgalleriet med Divi-stil "
 "galleriet."
 
-#: options_divi.php:75
+#: options_blu.php:75
 msgid "Color Pickers Default Palette"
 msgstr "Farvevælgere standard palet"
 
-#: options_divi.php:80
+#: options_blu.php:80
 msgid "Define the default color palette for color pickers in the Divi Builder."
 msgstr "Definer standard-farvepaletten for farvevælgere i Divi Builder."
 
-#: options_divi.php:85
+#: options_blu.php:85
 msgid "Grab the first post image"
 msgstr "Tag det første billede"
 
-#: options_divi.php:89
+#: options_blu.php:89
 msgid ""
 "By default thumbnail images are created using custom fields. However, if you "
 "would rather use the images that are already in your post for your thumbnail "
@@ -1876,11 +1876,11 @@ msgstr ""
 "automatisk ved at bruge det første billede i dit indlæg. Billedet skal være "
 "på din egen server."
 
-#: options_divi.php:92
+#: options_blu.php:92
 msgid "Blog Style Mode"
 msgstr "Blogstil-tilstand"
 
-#: options_divi.php:96
+#: options_blu.php:96
 msgid ""
 "By default the theme truncates your posts on index/homepages automatically "
 "to create post previews. If you would rather show your posts in full on "
@@ -1890,19 +1890,19 @@ msgstr ""
 "indlægseksempler. Hvis du hellere vil vise dine indlæg i fuld som en "
 "traditionel blog, så kan du aktivere denne funktion."
 
-#: options_divi.php:99
+#: options_blu.php:99
 msgid "Shop Page & Category Page Layout for WooCommerce"
 msgstr "Butiksside & kategori sidelayout til WooCommerce"
 
-#: options_divi.php:108
+#: options_blu.php:108
 msgid "Here you can choose Shop Page & Category Page Layout for WooCommerce."
 msgstr "Her kan du vælge butiksside & kategori sidelayout til WooCommerce"
 
-#: options_divi.php:112
+#: options_blu.php:112
 msgid "MailChimp API Key"
 msgstr "MailChimp API Nøgle"
 
-#: options_divi.php:117
+#: options_blu.php:117
 msgid ""
 "Enter your MailChimp API key. You can create an api key <a target=\"_blank\" "
 "href=\"%1$s\">here</a>"
@@ -1910,19 +1910,19 @@ msgstr ""
 "Indtast din MailChimp API nøgle. Du kan lave en api nøgle <a target=\"_blank"
 "\" href=\"%1$s\">her</a>"
 
-#: options_divi.php:120
+#: options_blu.php:120
 msgid "Aweber Authorization"
 msgstr "Aweber tilladelse"
 
-#: options_divi.php:122
+#: options_blu.php:122
 msgid "Authorize your Aweber account here."
 msgstr "Tillad din Aweberkonto her."
 
-#: options_divi.php:126
+#: options_blu.php:126
 msgid "Regenerate MailChimp Lists"
 msgstr "Gendan MailChimp lister"
 
-#: options_divi.php:130
+#: options_blu.php:130
 msgid ""
 "By default, MailChimp lists are cached for one day. If you added new list, "
 "but it doesn't appear within the Email Optin module settings, activate this "
@@ -1933,11 +1933,11 @@ msgstr ""
 "aktivere denne mulighed. Glem ikke at deaktivere det, når listen er blevet "
 "regenereret."
 
-#: options_divi.php:132
+#: options_blu.php:132
 msgid "Regenerate Aweber Lists"
 msgstr "Gendan Aweber lister"
 
-#: options_divi.php:136
+#: options_blu.php:136
 msgid ""
 "By default, Aweber lists are cached for one day. If you added new list, but "
 "it doesn't appear within the Email Optin module settings, activate this "
@@ -1948,75 +1948,75 @@ msgstr ""
 "aktivere denne mulighed. Glem ikke at deaktivere det, når listen er blevet "
 "regenereret."
 
-#: options_divi.php:138
+#: options_blu.php:138
 msgid "Show Facebook Icon"
 msgstr "Vis Facebook ikon"
 
-#: options_divi.php:142
+#: options_blu.php:142
 msgid "Here you can choose to display the Facebook Icon on your homepage. "
 msgstr "Her kan du vælge at vise Facebook ikonet på din hjemside. "
 
-#: options_divi.php:144
+#: options_blu.php:144
 msgid "Show Twitter Icon"
 msgstr "Vis Twitter ikon"
 
-#: options_divi.php:148
+#: options_blu.php:148
 msgid "Here you can choose to display the Twitter Icon. "
 msgstr "Her kan du vælge at vise Twitter ikonet. "
 
-#: options_divi.php:150
+#: options_blu.php:150
 msgid "Show Google+ Icon"
 msgstr "Vis Google+ ikon"
 
-#: options_divi.php:154
+#: options_blu.php:154
 msgid "Here you can choose to display the Google+ Icon on your homepage. "
 msgstr "Her kan du vælge at vise Google+ ikonet på din hjemside. "
 
-#: options_divi.php:156
+#: options_blu.php:156
 msgid "Show RSS Icon"
 msgstr "Vis RSS ikon"
 
-#: options_divi.php:160
+#: options_blu.php:160
 msgid "Here you can choose to display the RSS Icon. "
 msgstr "Her kan du vælge at vise RSS ikonet. "
 
-#: options_divi.php:162
+#: options_blu.php:162
 msgid "Facebook Profile Url"
 msgstr "Facebook Profil URL"
 
-#: options_divi.php:167
+#: options_blu.php:167
 msgid "Enter the URL of your Facebook Profile. "
 msgstr "Indtast URL til din Facebook profil. "
 
-#: options_divi.php:169
+#: options_blu.php:169
 msgid "Twitter Profile Url"
 msgstr "Twitter Profil URL"
 
-#: options_divi.php:174
+#: options_blu.php:174
 msgid "Enter the URL of your Twitter Profile."
 msgstr "Indtast URL til din Twitter profil."
 
-#: options_divi.php:176
+#: options_blu.php:176
 msgid "Google+ Profile Url"
 msgstr "Google+ Profil URL"
 
-#: options_divi.php:181
+#: options_blu.php:181
 msgid "Enter the URL of your Google+ Profile. "
 msgstr "Indtast URL til din Google+ profil. "
 
-#: options_divi.php:183
+#: options_blu.php:183
 msgid "RSS Icon Url"
 msgstr "RSS Ikon URL"
 
-#: options_divi.php:188
+#: options_blu.php:188
 msgid "Enter the URL of your RSS feed. "
 msgstr "Indtast URL til din RSS feed. "
 
-#: options_divi.php:190
+#: options_blu.php:190
 msgid "Number of Products displayed on WooCommerce archive pages"
 msgstr "Antal produkter vist på WooCommerce arkivsider"
 
-#: options_divi.php:194
+#: options_blu.php:194
 msgid ""
 "Here you can designate how many WooCommerce products are displayed on the "
 "archive page. This option works independently from the Settings > Reading "
@@ -2026,11 +2026,11 @@ msgstr ""
 "Denne indstilling virker uafhængigt af Indstillinger > Læseindstillinger i "
 "wp-admin."
 
-#: options_divi.php:198
+#: options_blu.php:198
 msgid "Number of Posts displayed on Category page"
 msgstr "Antal af indlæg vist på kategoriside"
 
-#: options_divi.php:202
+#: options_blu.php:202
 msgid ""
 "Here you can designate how many recent articles are displayed on the "
 "Category page. This option works independently from the Settings > Reading "
@@ -2039,11 +2039,11 @@ msgstr ""
 "Her kan du angive hvor mange seneste artikler bliver vist på kategorisiden. "
 "Denne indstilling virker uafhængig af læseindstillingerne i wp-admin."
 
-#: options_divi.php:206
+#: options_blu.php:206
 msgid "Number of Posts displayed on Archive pages"
 msgstr "Antal af indlæg vist på arkivsider"
 
-#: options_divi.php:210
+#: options_blu.php:210
 msgid ""
 "Here you can designate how many recent articles are displayed on the Archive "
 "pages. This option works independently from the Settings > Reading options "
@@ -2052,11 +2052,11 @@ msgstr ""
 "Her kan du angive hvor mange seneste artikler bliver vist på arkivsiderne. "
 "Denne indstilling virker uafhængig af læseindstillingerne i wp-admin."
 
-#: options_divi.php:214
+#: options_blu.php:214
 msgid "Number of Posts displayed on Search pages"
 msgstr "Antal af indlæg vist på søgesider"
 
-#: options_divi.php:218
+#: options_blu.php:218
 msgid ""
 "Here you can designate how many recent articles are displayed on the Search "
 "results pages. This option works independently from the Settings > Reading "
@@ -2066,11 +2066,11 @@ msgstr ""
 "søgeresultatsiderne. Denne indstilling virker uafhængig af "
 "læseindstillingerne i wp-admin."
 
-#: options_divi.php:222
+#: options_blu.php:222
 msgid "Number of Posts displayed on Tag pages"
 msgstr "Antal af indlæg vist på tag-sider"
 
-#: options_divi.php:226
+#: options_blu.php:226
 msgid ""
 "Here you can designate how many recent articles are displayed on the Tag "
 "pages. This option works independently from the Settings > Reading options "
@@ -2079,11 +2079,11 @@ msgstr ""
 "Her kan du angive hvor mange seneste artikler bliver vist på tag-siderne. "
 "Denne indstilling virker uafhængig af læseindstillingerne i wp-admin."
 
-#: options_divi.php:230
+#: options_blu.php:230
 msgid "Date format"
 msgstr "Datoformat"
 
-#: options_divi.php:234
+#: options_blu.php:234
 msgid ""
 "This option allows you to change how your dates are displayed. For more "
 "information please refer to the WordPress codex here:<a href='http://codex."
@@ -2095,54 +2095,54 @@ msgstr ""
 "codex.wordpress.org/Formatting_Date_and_Time' target='_blank'>Formatting "
 "Date and Time</a>"
 
-#: options_divi.php:238
+#: options_blu.php:238
 msgid "Use excerpts when defined"
 msgstr "Brug uddrag når det er angivet"
 
-#: options_divi.php:242
+#: options_blu.php:242
 msgid "This will enable the use of excerpts in posts or pages."
 msgstr "Dette vil aktivere brugen af uddrag i indlæg eller sider."
 
-#: options_divi.php:245
+#: options_blu.php:245
 msgid "Responsive shortcodes"
 msgstr "Respons fra shortcodes"
 
-#: options_divi.php:249
+#: options_blu.php:249
 msgid "Enable this option to make shortcodes respond to various screen sizes"
 msgstr ""
 "Aktiver denne indstilling for at gøre så shortcodes reagerer på forskellige "
 "skærmstørrelser"
 
-#: options_divi.php:252
+#: options_blu.php:252
 msgid "Google Fonts subsets"
 msgstr "Google Fonts delmængder"
 
-#: options_divi.php:256
+#: options_blu.php:256
 msgid "This will enable Google Fonts for Non-English languages."
 msgstr "Dette vil aktivere Google Fonts for alle ikke-engelske sprog."
 
-#: options_divi.php:259
+#: options_blu.php:259
 msgid "Back To Top Button"
 msgstr "Tilbage til toppen knap"
 
-#: options_divi.php:263
+#: options_blu.php:263
 msgid "Enable this option to display Back To Top Button while scrolling"
 msgstr ""
 "Aktiver denne indstilling for at vise Tilbage til toppen knap mens man ruller"
 
-#: options_divi.php:266
+#: options_blu.php:266
 msgid "Smooth Scrolling"
 msgstr "Blødt rul"
 
-#: options_divi.php:270
+#: options_blu.php:270
 msgid "Enable this option to get the smooth scrolling effect with mouse wheel"
 msgstr "Aktiver denne indstilling for at få en blød rulleeffekt med musehjulet"
 
-#: options_divi.php:273
+#: options_blu.php:273
 msgid "Disable Translations"
 msgstr "Deaktiver oversættelser"
 
-#: options_divi.php:277
+#: options_blu.php:277
 msgid ""
 "Disable translations if you don't want to display translated theme strings "
 "on your site."
@@ -2150,33 +2150,33 @@ msgstr ""
 "Deaktiver oversættelser hvis du ikke vil vise oversatte temastrenge på din "
 "side."
 
-#: options_divi.php:280
+#: options_blu.php:280
 msgid "Custom CSS"
 msgstr "Brugerdefineret CSS"
 
-#: options_divi.php:284
+#: options_blu.php:284
 msgid "Here you can add custom css to override or extend default styles."
 msgstr ""
 "Her kan du tilføje brugerdefinerede  CSS til at overtræde eller udvide "
 "standard stile."
 
-#: options_divi.php:289
+#: options_blu.php:289
 msgid "Memory Limit Increase"
 msgstr "Hukommelsesgrænse-hævning"
 
-#: options_divi.php:291
+#: options_blu.php:291
 msgid "Here you can disable automatic memory limit increase."
 msgstr "Her kan du deaktivere automatisk hukommelsesgrænse-hævning."
 
-#: options_divi.php:311
+#: options_blu.php:311
 msgid "Pages"
 msgstr "Sider"
 
-#: options_divi.php:329
+#: options_blu.php:329
 msgid "Exclude pages from the navigation bar"
 msgstr "Ekskluder sider fra navigationslinjen"
 
-#: options_divi.php:333
+#: options_blu.php:333
 msgid ""
 "Here you can choose to remove certain pages from the navigation menu. All "
 "pages marked with an X will not appear in your navigation bar. "
@@ -2184,11 +2184,11 @@ msgstr ""
 "Her kan du vælge at fjerne bestemte sider fra navigationsmenuen. Alle sider "
 "mærket med et X vil ikke vises på din navigationslinje. "
 
-#: options_divi.php:337 options_divi.php:387
+#: options_blu.php:337 options_blu.php:387
 msgid "Show dropdown menus"
 msgstr "Vis rul-ned menuer"
 
-#: options_divi.php:341
+#: options_blu.php:341
 msgid ""
 "If you would like to remove the dropdown menus from the pages navigation bar "
 "disable this feature."
@@ -2196,11 +2196,11 @@ msgstr ""
 "Hvis du vil fjerne rul-ned menuerne fra sidenavigationslinjen, deaktiver da "
 "denne funktion."
 
-#: options_divi.php:344
+#: options_blu.php:344
 msgid "Display Home link"
 msgstr "Vis hjem link"
 
-#: options_divi.php:348
+#: options_blu.php:348
 msgid ""
 "By default the theme creates a Home link that, when clicked, leads back to "
 "your blog's homepage. If, however, you are using a static homepage and have "
@@ -2213,19 +2213,19 @@ msgstr ""
 "duplikat link. I dette tilfælde bør du deaktivere denne funktion for at "
 "fjerne linket."
 
-#: options_divi.php:351
+#: options_blu.php:351
 msgid "Sort Pages Links"
 msgstr "Sorter sidelinks"
 
-#: options_divi.php:355
+#: options_blu.php:355
 msgid "Here you can choose to sort your pages links."
 msgstr "Her kan du vælge hvordan dine sidelinks skal sorters."
 
-#: options_divi.php:358
+#: options_blu.php:358
 msgid "Order Pages Links by Ascending/Descending"
 msgstr "Sorter sidelinks efter Stigende/Faldende"
 
-#: options_divi.php:362
+#: options_blu.php:362
 msgid ""
 "Here you can choose to reverse the order that your pages links are "
 "displayed. You can choose between ascending and descending."
@@ -2233,11 +2233,11 @@ msgstr ""
 "Her kan du vælge at omvende rækkefølgen dine links bliver vist i. Du kan "
 "vælge mellem stigende og faldende."
 
-#: options_divi.php:365 options_divi.php:401
+#: options_blu.php:365 options_blu.php:401
 msgid "Number of dropdown tiers shown"
 msgstr "Antal af rul-ned niveauer vist"
 
-#: options_divi.php:369 options_divi.php:405
+#: options_blu.php:369 options_blu.php:405
 msgid ""
 "This options allows you to control how many teirs your pages dropdown menu "
 "has. Increasing the number allows for additional menu items to be shown."
@@ -2245,11 +2245,11 @@ msgstr ""
 "Denne indstilling lader dig styre hvor mange niveauer dine rul-ned menuer "
 "har. Forøgelse af nummeret tillader yderligere ting at blive vist på menuen."
 
-#: options_divi.php:379
+#: options_blu.php:379
 msgid "Exclude categories from the navigation bar"
 msgstr "Ekskluder kategorier fra navigationslinjen"
 
-#: options_divi.php:383
+#: options_blu.php:383
 msgid ""
 "Here you can choose to remove certain categories from the navigation menu. "
 "All categories marked with an X will not appear in your navigation bar. "
@@ -2257,7 +2257,7 @@ msgstr ""
 "Her kan du vælge af fjerne bestemte kategorier fra navigationsmenuen. Alle "
 "kategorier mærket med et X vil ikke blive vist på din navigationslinje. "
 
-#: options_divi.php:391
+#: options_blu.php:391
 msgid ""
 "If you would like to remove the dropdown menus from the categories "
 "navigation bar disable this feature."
@@ -2265,11 +2265,11 @@ msgstr ""
 "Hvis du vil fjerne rul-ned menuer fra kategori-navigationslinjen, deaktiver "
 "da denne function."
 
-#: options_divi.php:394
+#: options_blu.php:394
 msgid "Hide empty categories"
 msgstr "Skjul tomme kategorier"
 
-#: options_divi.php:398
+#: options_blu.php:398
 msgid ""
 "If you would like categories to be displayed in your navigationbar that "
 "don't have any posts in them then disable this option. By default empty "
@@ -2279,11 +2279,11 @@ msgstr ""
 "på din navigationslinje så deaktiver denne indstilling. Kategorier er skjult "
 "som standard."
 
-#: options_divi.php:409
+#: options_blu.php:409
 msgid "Sort Categories Links by Name/ID/Slug/Count/Term Group"
 msgstr "Sorter kategorilinks efter Navn/ID/Slug/Antal/Udtryk gruppe"
 
-#: options_divi.php:413
+#: options_blu.php:413
 msgid ""
 "By default pages are sorted by name. However if you would rather have them "
 "sorted by ID you can adjust this setting."
@@ -2291,11 +2291,11 @@ msgstr ""
 "Som standard er sider sorteret efter navn. Men hvis du hellere vil have dem "
 "sorteret efter ID kan du ændre denne indstilling."
 
-#: options_divi.php:416
+#: options_blu.php:416
 msgid "Order Category Links by Ascending/Descending"
 msgstr "Sorter kategorilinks efter Stigende eller Faldende"
 
-#: options_divi.php:420
+#: options_blu.php:420
 msgid ""
 "Here you can choose to reverse the order that your categories links are "
 "displayed. You can choose between ascending and descending."
@@ -2303,11 +2303,11 @@ msgstr ""
 "Her kan du vælge at omvende rækkefølgen dine kategorilinks er vist i. Du kan "
 "vælge mellem stigende og faldende."
 
-#: options_divi.php:429
+#: options_blu.php:429
 msgid "Disable top tier dropdown menu links"
 msgstr "Deaktiver topniveau rul-ned menu links"
 
-#: options_divi.php:433
+#: options_blu.php:433
 msgid ""
 "In some cases users will want to create parent categories or links as "
 "placeholders to hold a list of child links or categories. In this case it is "
@@ -2323,19 +2323,19 @@ msgstr ""
 "denne indstilling vil fjerne links fra alle forældresider/kategorier så de "
 "ikke fører nogen stedet hen når de trykkes på."
 
-#: options_divi.php:451
+#: options_blu.php:451
 msgid "Single Post Layout"
 msgstr "Enkelt indlæg layout"
 
-#: options_divi.php:456
+#: options_blu.php:456
 msgid "Single Page Layout"
 msgstr "Enkel side layout"
 
-#: options_divi.php:469
+#: options_blu.php:469
 msgid "Choose which items to display in the postinfo section"
 msgstr "Vælg hvilke objekter der vises i indlægsinfo-sektion"
 
-#: options_divi.php:473
+#: options_blu.php:473
 msgid ""
 "Here you can choose which items appear in the postinfo section on single "
 "post pages. This is the area, usually below the post title, which displays "
@@ -2347,11 +2347,11 @@ msgstr ""
 "grundlæggende information om dit indlæg. De fremhævede objekter vist "
 "nedenfor vil vises. "
 
-#: options_divi.php:477
+#: options_blu.php:477
 msgid "Show comments on posts"
 msgstr "Vis kommentarer på indlæg"
 
-#: options_divi.php:481
+#: options_blu.php:481
 msgid ""
 "You can disable this option if you want to remove the comments and comment "
 "form from single post pages. "
@@ -2359,11 +2359,11 @@ msgstr ""
 "Du kan deaktivere denne indstilling hvis du vil fjerne kommentarerne og "
 "kommentarformular fra indlæg. "
 
-#: options_divi.php:484
+#: options_blu.php:484
 msgid "Place Thumbs on Posts"
 msgstr "Placer thumbnailbilleder på indlæg"
 
-#: options_divi.php:488
+#: options_blu.php:488
 msgid ""
 "By default thumbnails are placed at the beginning of your post on single "
 "post pages. If you would like to remove this initial thumbnail image to "
@@ -2373,11 +2373,11 @@ msgstr ""
 "enkelt indlægsside. Hvis du vil fjerne dette indledende thumbnailbillede for "
 "at undgå gentagelse kan du deaktivere denne indstilling. "
 
-#: options_divi.php:497
+#: options_blu.php:497
 msgid "Place Thumbs on Pages"
 msgstr "Placer thumbnailbilleder på sider"
 
-#: options_divi.php:501
+#: options_blu.php:501
 msgid ""
 "By default thumbnails are not placed on pages (they are only used on posts). "
 "However, if you want to use thumbnails on pages you can! Just enable this "
@@ -2387,11 +2387,11 @@ msgstr ""
 "indlæg). Men hvis du ønsker at bruge thumbnails på sider, så kan du godt! "
 "Bare aktiver denne indstilling."
 
-#: options_divi.php:504
+#: options_blu.php:504
 msgid "Show comments on pages"
 msgstr "Vis kommentarer på sider."
 
-#: options_divi.php:508
+#: options_blu.php:508
 msgid ""
 "By default comments are not placed on pages, however, if you would like to "
 "allow people to comment on your pages simply enable this option. "
@@ -2399,11 +2399,11 @@ msgstr ""
 "Som standard er kommentarer ikke placeret på sider, men, hvis du vil tillade "
 "folk at kommentere på dine sider, aktiver da blot denne indstilling. "
 
-#: options_divi.php:517
+#: options_blu.php:517
 msgid "Post info section"
 msgstr "Indlæg-infosektion"
 
-#: options_divi.php:521
+#: options_blu.php:521
 msgid ""
 "Here you can choose which items appear in the postinfo section on pages. "
 "This is the area, usually below the post title, which displays basic "
@@ -2413,31 +2413,31 @@ msgstr ""
 "Dette er området, oftest under indlægsoverskriften, som viser grundlæggende "
 "information om dit indlæg. De fremhævede objekter vist nedenfor vil vises. "
 
-#: options_divi.php:524
+#: options_blu.php:524
 msgid "Show Thumbs on Index pages"
 msgstr "Vis thumbnailbilleder på indekssider."
 
-#: options_divi.php:528
+#: options_blu.php:528
 msgid "Enable this option to show thumbnails on Index Pages."
 msgstr "Aktiver denne indstilling for at vise thumbnails på indekssider."
 
-#: options_divi.php:545
+#: options_blu.php:545
 msgid "Homepage SEO"
 msgstr "Hjemside SEO"
 
-#: options_divi.php:550
+#: options_blu.php:550
 msgid "Single Post Page SEO"
 msgstr "Enkelt-indlæg side SEO"
 
-#: options_divi.php:555
+#: options_blu.php:555
 msgid "Index Page SEO"
 msgstr "Indeksside SEO"
 
-#: options_divi.php:563
+#: options_blu.php:563
 msgid " Enable custom title "
 msgstr "Aktiver brugerdefineret overskrift "
 
-#: options_divi.php:567
+#: options_blu.php:567
 msgid ""
 "By default the theme uses a combination of your blog name and your blog "
 "description, as defined when you created your blog, to create your homepage "
@@ -2449,11 +2449,11 @@ msgstr ""
 "hjemmesideoverskrifter. Men hvis du vil lave en brugerdefineret overskrift "
 "aktiver da blot denne indstilling og udfyld feltet nedenfor. "
 
-#: options_divi.php:570
+#: options_blu.php:570
 msgid " Enable meta description"
 msgstr "Aktiver meta tag beskrivelse"
 
-#: options_divi.php:574
+#: options_blu.php:574
 msgid ""
 "By default the theme uses your blog description, as defined when you created "
 "your blog, to fill in the meta description field. If you would like to use a "
@@ -2464,11 +2464,11 @@ msgstr ""
 "blog til at udfylde meta beskrivelsesfeltet. Hvis du vil bruge en anden "
 "beskrivelse aktiver da denne indstilling og udfyld feltet nedenfor. "
 
-#: options_divi.php:577
+#: options_blu.php:577
 msgid " Enable meta keywords"
 msgstr "Aktiver meta nøgleord"
 
-#: options_divi.php:581
+#: options_blu.php:581
 msgid ""
 "By default the theme does not add keywords to your header. Most search "
 "engines don't use keywords to rank your site anymore, but some people define "
@@ -2481,11 +2481,11 @@ msgstr ""
 "meta nøgleord til din header så aktiver denne indstilling og udfyld "
 "nøgleordsfeltet nedenfor. "
 
-#: options_divi.php:584 options_divi.php:711
+#: options_blu.php:584 options_blu.php:711
 msgid " Enable canonical URL's"
 msgstr "Aktiver kanoniske URL’S"
 
-#: options_divi.php:588 options_divi.php:662 options_divi.php:715
+#: options_blu.php:588 options_blu.php:662 options_blu.php:715
 msgid ""
 "Canonicalization helps to prevent the indexing of duplicate content by "
 "search engines, and as a result, may help avoid duplicate content penalties "
@@ -2510,11 +2510,11 @@ msgstr ""
 "Temaet baserer sine kanoniske webadresser fra dine links, og domænenavnet er "
 "defineret i fanebladet wp-admin indstillinger."
 
-#: options_divi.php:591
+#: options_blu.php:591
 msgid "Homepage custom title (if enabled)"
 msgstr "Hjemside brugerdefineret overskrift (hvis aktiveret)"
 
-#: options_divi.php:595
+#: options_blu.php:595
 msgid ""
 "If you have enabled custom titles you can add your custom title here. "
 "Whatever you type here will be placed between the < title >< /title > tags "
@@ -2524,22 +2524,22 @@ msgstr ""
 "overskrift her. Hvad end du skriver her vil blive placeret mellem < title "
 ">< /title > tags i header.php"
 
-#: options_divi.php:599
+#: options_blu.php:599
 msgid "Homepage meta description (if enabled)"
 msgstr "Hjemside metabeskrivelse (hvis aktiveret)"
 
-#: options_divi.php:603
+#: options_blu.php:603
 msgid ""
 "If you have enabled meta descriptions you can add your custom description "
 "here."
 msgstr ""
 "Hvis du har aktiveret metabeskrivelser kan du tilføje din beskrivelse her."
 
-#: options_divi.php:607
+#: options_blu.php:607
 msgid "Homepage meta keywords (if enabled)"
 msgstr "Hjemside metanøgleord (hvis aktiveret)"
 
-#: options_divi.php:611
+#: options_blu.php:611
 msgid ""
 "If you have enabled meta keywords you can add your custom keywords here. "
 "Keywords should be separated by comas. For example: wordpress,themes,"
@@ -2549,13 +2549,13 @@ msgstr ""
 "Nøgleord skal adskilles med kommaer. For eksempel: wordpress,temaer,"
 "skabeloner,elegant"
 
-#: options_divi.php:615 options_divi.php:689
+#: options_blu.php:615 options_blu.php:689
 msgid "If custom titles are disabled, choose autogeneration method"
 msgstr ""
 "Hvis brugerdefinerede overskrifter at aktiverede, vælg automatisk "
 "genereringsmetode."
 
-#: options_divi.php:620
+#: options_blu.php:620
 msgid ""
 "If you are not using cutsom post titles you can still have control over how "
 "your titles are generated. Here you can choose which order you would like "
@@ -2567,11 +2567,11 @@ msgstr ""
 "rækkefølge du ønsker din indlægsoverskrift og blognavn vises i, eller du kan "
 "fjerne blognavnet helt fra overskriften."
 
-#: options_divi.php:623 options_divi.php:697 options_divi.php:733
+#: options_blu.php:623 options_blu.php:697 options_blu.php:733
 msgid "Define a character to separate BlogName and Post title"
 msgstr "Angiv et tegn til at adskille hjemmesidenavn og indlægsoverskrift"
 
-#: options_divi.php:627 options_divi.php:701
+#: options_blu.php:627 options_blu.php:701
 msgid ""
 "Here you can change which character separates your blog title and post name "
 "when using autogenerated post titles. Common values are | or -"
@@ -2580,11 +2580,11 @@ msgstr ""
 "indlægsnavn ved brug af automatisk genererede indlægsoverskrifter. "
 "Almindelige værdier er | eller -"
 
-#: options_divi.php:637
+#: options_blu.php:637
 msgid "Enable custom titles"
 msgstr "Aktiver brugerdefinerede overskrifter"
 
-#: options_divi.php:641
+#: options_blu.php:641
 msgid ""
 "By default the theme creates post titles based on the title of your post and "
 "your blog name. If you would like to make your meta title different than "
@@ -2599,11 +2599,11 @@ msgstr ""
 "være aktiveret for at brugerdefinerede overskrifter virker, og du skal vælge "
 "et brugerdefineret feltnavn til din overskrift nedenfor."
 
-#: options_divi.php:644
+#: options_blu.php:644
 msgid "Enable custom description"
 msgstr "Aktiver brugerdefineret beskrivelse"
 
-#: options_divi.php:648
+#: options_blu.php:648
 msgid ""
 "If you would like to add a meta description to your post you can do so using "
 "custom fields. This option must be enabled for descriptions to be displayed "
@@ -2616,11 +2616,11 @@ msgstr ""
 "brug af brugerdefinerede felter baseret på brugerdefineret feltnavn du "
 "angiver nedenfor."
 
-#: options_divi.php:651
+#: options_blu.php:651
 msgid "Enable custom keywords"
 msgstr "Aktiver brugerdefinerede nøgleord"
 
-#: options_divi.php:655
+#: options_blu.php:655
 msgid ""
 "If you would like to add meta keywords to your post you can do so using "
 "custom fields. This option must be enabled for keywords to be displayed on "
@@ -2633,15 +2633,15 @@ msgstr ""
 "brugerdefinerede felter baseret på brugerdefineret feltnavn du angiver "
 "nedenfor."
 
-#: options_divi.php:658
+#: options_blu.php:658
 msgid "Enable canonical URL's"
 msgstr "Aktiver kanoniske URL’s"
 
-#: options_divi.php:665
+#: options_blu.php:665
 msgid "Custom field Name to be used for title"
 msgstr "Brugerdefineret feltnavn til brug i overskrift"
 
-#: options_divi.php:669
+#: options_blu.php:669
 msgid ""
 "When you define your title using custom fields you should use this value for "
 "the custom field Name. The Value of your custom field should be the custom "
@@ -2651,11 +2651,11 @@ msgstr ""
 "bruge denne værdi til det brugerdefinerede feltnavn. Værdien af dit "
 "brugerdefinerede felt bør være den brugerdefinerede overskrift du vil bruge."
 
-#: options_divi.php:673
+#: options_blu.php:673
 msgid "Custom field Name to be used for description"
 msgstr "Brugerdefineret feltnavn til brug i beskrivelse"
 
-#: options_divi.php:677
+#: options_blu.php:677
 msgid ""
 "When you define your meta description using custom fields you should use "
 "this value for the custom field Name. The Value of your custom field should "
@@ -2665,11 +2665,11 @@ msgstr ""
 "du bruge denne værdi til det brugerdefinerede feltnavn. Værdien af dit "
 "brugerdefinerede felt bør være den brugerdefinerede beskrivelse du vil bruge."
 
-#: options_divi.php:681
+#: options_blu.php:681
 msgid "Custom field Name to be used for keywords"
 msgstr "Brugerdefineret feltnavn til brug for nøgleord"
 
-#: options_divi.php:685
+#: options_blu.php:685
 msgid ""
 "When you define your keywords using custom fields you should use this value "
 "for the custom field Name. The Value of your custom field should be the meta "
@@ -2680,7 +2680,7 @@ msgstr ""
 "brugerdefinerede felt bør være metanøgleordene du vil bruge, adskilt af "
 "kommaer."
 
-#: options_divi.php:694
+#: options_blu.php:694
 msgid ""
 "If you are not using cutsom post titles you can still have control over hw "
 "your titles are generated. Here you can choose which order you would like "
@@ -2692,11 +2692,11 @@ msgstr ""
 "rækkefølge du vil have dine indlægsoverskrifter og blognavn vist i, eller du "
 "kan fjerne blognavnet helt fra overskriften."
 
-#: options_divi.php:718
+#: options_blu.php:718
 msgid "Enable meta descriptions"
 msgstr "Aktiver metabeskrivelser"
 
-#: options_divi.php:722
+#: options_blu.php:722
 msgid ""
 "Check this box if you want to display meta descriptions on category/archive "
 "pages. The description is based off the category description you choose when "
@@ -2706,11 +2706,11 @@ msgstr ""
 "Beskrivelsen er baseret på kategoribeskrivelsen du vælger når du laver/"
 "redigerer din kategori i wp-admin."
 
-#: options_divi.php:725
+#: options_blu.php:725
 msgid "Choose title autogeneration method"
 msgstr "Vælg overskriftsgenereringsmetode"
 
-#: options_divi.php:730
+#: options_blu.php:730
 msgid ""
 "Here you can choose how your titles on index pages are generated. You can "
 "change which order your blog name and index title are displayed, or you can "
@@ -2720,7 +2720,7 @@ msgstr ""
 "ændre rækkefølgen dit blognavn og indeksoverskrift vises i, eller du kan "
 "fjerne blognavnet helt fra overskriften."
 
-#: options_divi.php:737
+#: options_blu.php:737
 msgid ""
 "Here you can change which character separates your blog title and index page "
 "name when using autogenerated post titles. Common values are | or -"
@@ -2729,15 +2729,15 @@ msgstr ""
 "indekssidenavn ved brug af automatisk genererede indlægsoverskrifter. "
 "Almindelige værdier er | eller -"
 
-#: options_divi.php:756
+#: options_blu.php:756
 msgid "Code Integration"
 msgstr "Kodeintegration"
 
-#: options_divi.php:764
+#: options_blu.php:764
 msgid "Enable header code"
 msgstr "Aktiver headerkode"
 
-#: options_divi.php:768
+#: options_blu.php:768
 msgid ""
 "Disabling this option will remove the header code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2745,11 +2745,11 @@ msgstr ""
 "Deaktivering af denne indstilling vil fjerne headerkoden nedenfor fra din "
 "blog. Dette lader dig fjerne koden og gemme den til senere brug."
 
-#: options_divi.php:771
+#: options_blu.php:771
 msgid "Enable body code"
 msgstr "Aktiver < body > kode"
 
-#: options_divi.php:775
+#: options_blu.php:775
 msgid ""
 "Disabling this option will remove the body code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2757,11 +2757,11 @@ msgstr ""
 "Deaktivering af denne indstilling vil fjerne body koden nedenfor fra din "
 "blog. Dette lader dig fjerne koden og gemme den til senere brug."
 
-#: options_divi.php:778
+#: options_blu.php:778
 msgid "Enable single top code"
 msgstr "Aktiver single top kode"
 
-#: options_divi.php:782
+#: options_blu.php:782
 msgid ""
 "Disabling this option will remove the single top code below from your blog. "
 "This allows you to remove the code while saving it for later use."
@@ -2769,11 +2769,11 @@ msgstr ""
 "Deaktivering af denne indstilling vil fjerne single top koden nedenfor fra "
 "din blog. Dette lader dig fjerne koden og gemme den til senere brug."
 
-#: options_divi.php:785
+#: options_blu.php:785
 msgid "Enable single bottom code"
 msgstr "Aktiver single bottom kode"
 
-#: options_divi.php:789
+#: options_blu.php:789
 msgid ""
 "Disabling this option will remove the single bottom code below from your "
 "blog. This allows you to remove the code while saving it for later use."
@@ -2781,11 +2781,11 @@ msgstr ""
 "Deaktivering af denne indstilling vil fjerne single bottom koden nedenfor "
 "fra din blog. Dette lader dig fjerne koden og gemme den til senere brug."
 
-#: options_divi.php:792
+#: options_blu.php:792
 msgid "Add code to the < head > of your blog"
 msgstr "Tilføj kode til < head > på din blog"
 
-#: options_divi.php:796
+#: options_blu.php:796
 msgid ""
 "Any code you place here will appear in the head section of every page of "
 "your blog. This is useful when you need to add javascript or css to all "
@@ -2794,13 +2794,13 @@ msgstr ""
 "Enhver kode du placerer her vil vises i head sektionen på din blog. Dette er "
 "nyttigt når du skal tilføje Javascrip eller CSS til alle sider."
 
-#: options_divi.php:799
+#: options_blu.php:799
 msgid ""
 "Add code to the < body > (good for tracking codes such as google analytics)"
 msgstr ""
 "Tilføj koden til < body > (god til tracking koder såsom Google Analytics)"
 
-#: options_divi.php:803
+#: options_blu.php:803
 msgid ""
 "Any code you place here will appear in body section of all pages of your "
 "blog. This is usefull if you need to input a tracking pixel for a state "
@@ -2810,11 +2810,11 @@ msgstr ""
 "blog. Dette er nyttigt hvis du skal indsætte en sporingspixel til en stat-"
 "tæller som Google Analytics."
 
-#: options_divi.php:806
+#: options_blu.php:806
 msgid "Add code to the top of your posts"
 msgstr "Tilføj kode til toppen af dine indlæg"
 
-#: options_divi.php:810 options_divi.php:817
+#: options_blu.php:810 options_blu.php:817
 msgid ""
 "Any code you place here will be placed at the top of all single posts. This "
 "is useful if you are looking to integrating things such as social "
@@ -2823,19 +2823,19 @@ msgstr ""
 "Enhver kode du placerer her vil blive placeret I toppen af alle indlæg. "
 "Dette er nyttigt hvis du vil integrere ting såsom sociale bogmærke links."
 
-#: options_divi.php:813
+#: options_blu.php:813
 msgid "Add code to the bottom of your posts, before the comments"
 msgstr "Tilføj kode til bunden af dine indlæg, før kommentarerne"
 
-#: options_divi.php:835
+#: options_blu.php:835
 msgid "Manage Un-widgetized Advertisements"
 msgstr "Administrer reklamer"
 
-#: options_divi.php:843
+#: options_blu.php:843
 msgid "Enable Single Post 468x60 banner"
 msgstr "Aktiver enkeltindlægs 468x50 banner"
 
-#: options_divi.php:847
+#: options_blu.php:847
 msgid ""
 "Enabling this option will display a 468x60 banner ad on the bottom of your "
 "post pages below the single post content. If enabled you must fill in the "
@@ -2845,27 +2845,27 @@ msgstr ""
 "af din indlægsside under enkeltindlægsindholdet. Hvis aktiveret skal du "
 "udfylde bannerbillede og destination URL nedenfor."
 
-#: options_divi.php:850
+#: options_blu.php:850
 msgid "Input 468x60 advertisement banner image"
 msgstr "Indsæt 468x60 reklamebannerbillede"
 
-#: options_divi.php:854
+#: options_blu.php:854
 msgid "Here you can provide 468x60 banner image url"
 msgstr "Her kan du angive 468x60 bannerbillede URL"
 
-#: options_divi.php:858
+#: options_blu.php:858
 msgid "Input 468x60 advertisement destination url"
 msgstr "Indsæt 468x60 reklamedestination URL"
 
-#: options_divi.php:862
+#: options_blu.php:862
 msgid "Here you can provide 468x60 banner destination url"
 msgstr "Her kan du angive 468x60 bannerdestination URL"
 
-#: options_divi.php:866
+#: options_blu.php:866
 msgid "Input 468x60 adsense code"
 msgstr "Indsæt 468x60 Google Adsense kode"
 
-#: options_divi.php:870
+#: options_blu.php:870
 msgid "Place your adsense code here."
 msgstr "Placer din Google Adsense kode her."
 
