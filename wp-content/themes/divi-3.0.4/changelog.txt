@@ -3,18 +3,18 @@ version 3.0.4 ( updated 09-12-2016 )
 	* includes/builder/scripts/front-end-builder-scripts.js
 
 version 3.0.3 ( updated 09-12-2016 )
-- Fixed issue with the Fullwidth Code Module that caused the Visual Builder to fail to save. 
+- Fixed issue with the Fullwidth Code Module that caused the Visual Builder to fail to save.
 - Fixed an issue with the Portfolio Module that caused the Visual Builder to fail to save for some users.
 - Private pages saved via the Visual Builder will now be saved correctly as private.
 - Fixed various rendering issues with the Audio module when viewed inside the Visual Builder.
-- Disabled modules will now show their current visibility-state while using the responsive preview toggles. 
+- Disabled modules will now show their current visibility-state while using the responsive preview toggles.
 - Fixed typo in the Row width unit switcher in the Visual Builder.
 	* includes/builder/front-end-builder/app/bundle.js
 	* includes/builder/front-end-builder/app/style.
 	* includes/builder/class-et-builder-element.php
 
 version 3.0.2 ( updated 09-10-2016 )
-- Fixed issue with (+) overlap when footer menu and footer widgets are not present. 
+- Fixed issue with (+) overlap when footer menu and footer widgets are not present.
 - Fixed issues with Post Navigation module rendering inside the Visual Builder.
 - Right click menu now works correctly for specialty sections.
 - In-line Editor will no longer leave the screen view-port when activated at the top or to the sides of the browser.
@@ -28,7 +28,7 @@ version 3.0.1 ( updated 09-08-2016 )
 - Fixed various third party module conflicts in the Visual Builder.
 - Fixed issue with content width misalignment in the Visual Builder while boxed layout was enabled.
 - Fixed occurrences where the in-line editor did not save properly
-- The save button will now appear automatically when attempting to leave the Visual Builder without saving. 
+- The save button will now appear automatically when attempting to leave the Visual Builder without saving.
 - Fixed issues with IE11 and the Slider Module when viewed inside the Visual Builder.
 - Fixed problem with the rendering of the divider module height setting in the Visual Builder.
 	* includes/builder/front-end-builder/app/bundle.js
@@ -69,7 +69,7 @@ version 2.7.9 ( updated 08-15-2016 )
 
 version 2.7.8 ( updated 06-25-2016 )
 - Added Google Maps API setting ( Google no longer support keyless access )
-	* options_divi.php
+	* options_blu.php
 	* includes/builder/framework.php
 	* includes/builder/functions.php
 	* includes/builder/main-modules.php
@@ -86,7 +86,7 @@ version 2.7.6 ( updated 06-21-2016 )
 - Fixed the issue with scroll-to position for anchor links that was calculated before the page had fully loaded
 	* functions.php
 	* js/custom.js
-	* options_divi.php
+	* options_blu.php
 - Fixed unwanted collapse on mega menu's fourth column in RTL layout
 	* style.css
 	* rtl.css
@@ -142,7 +142,7 @@ version 2.7.4 ( updated 05-10-2016 )
 	* includes/builder/main-modules.php
 - Fullwidth Portfolio module images will now crop to a more optimal size.
 	* includes/builder/main-modules.php
-	* post_thumbnails_divi.php
+	* post_thumbnails_blu.php
 - Custom row padding in the Divi Builder will no longer be overwritten by custom row padding in from the Theme Customizer.
 	* includes/builder/main-structure-elements.php
 - Updated core and epanel submodules to latest versions (Fonts files were moved to /core. If you are currently calling these font files, your CSS files should be updated with new file paths).
@@ -652,7 +652,7 @@ version 2.5.4 ( updated 10-20-2015 )
 - Fixed the issue when preview in Customizer stops working with certain options, if fixed menu is disabled
 	* js/theme-customizer.js
 - Added "Disable Translations" option which forces Divi to use English regardless of Wordpress language
-	* epanel/options_divi.php
+	* epanel/options_blu.php
 	* functions.php
 - Fixed the issue with WooCommerce product image popup appearing under the header
 - Fixed "Comments Reply" button position on mobile breakpoints
@@ -661,7 +661,7 @@ version 2.5.4 ( updated 10-20-2015 )
 	* js/custom.js
 - Added option to control number of Products displayed on WooCommerce archive pages
 	* epanel/custom_functions.php
-	* epanel/options_divi.php
+	* epanel/options_blu.php
 - Fixed the issue with "Hide Nav Before Scroll" option, not working correctly on Single Pages
 	* functions.php
 - Added ability to enter the values manually in Customizer range options
@@ -1190,7 +1190,7 @@ version 2.3 ( updated 02-12-2015 )
 	* js/custom.js
 - Fixed the issue with date, saved with double slashes
 	* epanel/core_functions.php
-	* epanel/options_divi.php
+	* epanel/options_blu.php
 	* functions.php
 - Fixed non-English slugs, breaking the filterable portfolio
 	* functions.php
@@ -1208,7 +1208,7 @@ version 2.3 ( updated 02-12-2015 )
 - Updated image uploader in ePanel
 	* epanel/core_functions.php
 	* epanel/js/custom_uploader.js
-	* epanel/options_divi.php
+	* epanel/options_blu.php
 - Fullwidth menus now use classes in place of ids to pass HTML validation
 	* functions.php
 	* style.css
@@ -1371,7 +1371,7 @@ version 2.1 ( updated 07-22-2014 )
 
 List of modified files:
 * epanel/google-fonts/et_google_fonts.js
-* epanel/options_divi.php
+* epanel/options_blu.php
 * et-pagebuilder/css/style.css
 * et-pagebuilder/et-pagebuilder.php
 * et-pagebuilder/fonts/etbuilder.eot
@@ -1601,8 +1601,8 @@ version 1.3 ( updated 01-14-2014 )
 - Fixed the issue with pagination on search pages
 
 List of modified files:
-* epanel/options_divi.php
-* epanel/post_thumbnails_divi.php
+* epanel/options_blu.php
+* epanel/post_thumbnails_blu.php
 * et-pagebuilder/et-pagebuilder.php
 * functions.php
 * header.php

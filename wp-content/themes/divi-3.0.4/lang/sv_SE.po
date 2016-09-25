@@ -96,7 +96,7 @@ msgstr "%s tema-alternativ"
 msgid "Reset to Defaults"
 msgstr "Återställ till grundinställningar"
 
-#: epanel/core_functions.php:160 options_divi.php:38
+#: epanel/core_functions.php:160 options_blu.php:38
 msgid "General"
 msgstr "Allmänt"
 
@@ -160,7 +160,7 @@ msgstr "Skapare"
 msgid "Date"
 msgstr "Datum"
 
-#: epanel/core_functions.php:510 options_divi.php:316
+#: epanel/core_functions.php:510 options_blu.php:316
 msgid "Categories"
 msgstr "Kategorier"
 
@@ -511,15 +511,15 @@ msgstr "Färdigheter"
 msgid "Posted on"
 msgstr "Upplagt på"
 
-#: functions.php:293 options_divi.php:103
+#: functions.php:293 options_blu.php:103
 msgid "Right Sidebar"
 msgstr "Höger sidofält"
 
-#: functions.php:294 options_divi.php:104
+#: functions.php:294 options_blu.php:104
 msgid "Left Sidebar"
 msgstr "Vänster sidofält"
 
-#: functions.php:295 options_divi.php:105
+#: functions.php:295 options_blu.php:105
 msgid "Full Width"
 msgstr "Full bredd"
 
@@ -590,7 +590,7 @@ msgid "you don't have sufficient permissions to access this page"
 msgstr ""
 "du inte har tillräckliga rättigheter för att få tillgång till den här sidan"
 
-#: functions.php:586 options_divi.php:321 options_divi.php:461
+#: functions.php:586 options_blu.php:321 options_blu.php:461
 msgid "General Settings"
 msgstr "Allmänna inställningar"
 
@@ -1795,40 +1795,40 @@ msgstr "Adsense"
 msgid "Adsense Code"
 msgstr "Adsense-kod"
 
-#: options_divi.php:45
+#: options_blu.php:45
 msgid "Logo"
 msgstr "Logotyp"
 
-#: options_divi.php:48
+#: options_blu.php:48
 msgid "Set As Logo"
 msgstr "Ange som logo"
 
-#: options_divi.php:50
+#: options_blu.php:50
 msgid ""
 "If you would like to use your own custom logo image click the Upload Image "
 "button."
 msgstr ""
 "Om du vill använda dina egna logotyp klicka på knappen \"Ladda upp bild\"."
 
-#: options_divi.php:53
+#: options_blu.php:53
 msgid "Favicon"
 msgstr "Favicon"
 
-#: options_divi.php:56
+#: options_blu.php:56
 msgid "Set As Favicon"
 msgstr "Ange som Favicon"
 
-#: options_divi.php:58
+#: options_blu.php:58
 msgid ""
 "If you would like to use your own custom favicon image click the Upload "
 "Image button."
 msgstr "Om du vill använda dina egna favicon klicka på knappen Ladda upp bild."
 
-#: options_divi.php:61
+#: options_blu.php:61
 msgid "Fixed Navigation Bar"
 msgstr "Fast navigationsfält"
 
-#: options_divi.php:65
+#: options_blu.php:65
 msgid ""
 "By default the navigation bar stays on top of the screen at all times. We "
 "suggest to disable this option, if you need to use a logo taller than the "
@@ -1838,30 +1838,30 @@ msgstr ""
 "föreslår att inaktivera det här alternativet om du vill använda en stor "
 "logotyp."
 
-#: options_divi.php:68
+#: options_blu.php:68
 msgid "Enable Divi Gallery"
 msgstr "Aktivera Divi galleri"
 
-#: options_divi.php:72
+#: options_blu.php:72
 msgid ""
 "Enable this if you want to replace the WordPress default gallery with the "
 "Divi-style gallery."
 msgstr ""
 "Aktivera ifall du vill byta ut grundinställningen WordPress med Divi galleri."
 
-#: options_divi.php:75
+#: options_blu.php:75
 msgid "Color Pickers Default Palette"
 msgstr "Färgväljarens standardpalett"
 
-#: options_divi.php:80
+#: options_blu.php:80
 msgid "Define the default color palette for color pickers in the Divi Builder."
 msgstr "Ange standardpaletten för färgväljare i Divi Builder."
 
-#: options_divi.php:85
+#: options_blu.php:85
 msgid "Grab the first post image"
 msgstr "Ta första inlagda bilden"
 
-#: options_divi.php:89
+#: options_blu.php:89
 msgid ""
 "By default thumbnail images are created using custom fields. However, if you "
 "would rather use the images that are already in your post for your thumbnail "
@@ -1876,11 +1876,11 @@ msgstr ""
 "automatiskt av första bilden i ditt inlägg. Bilden måste finnas på din egen "
 "server."
 
-#: options_divi.php:92
+#: options_blu.php:92
 msgid "Blog Style Mode"
 msgstr "Bloggens stilläge"
 
-#: options_divi.php:96
+#: options_blu.php:96
 msgid ""
 "By default the theme truncates your posts on index/homepages automatically "
 "to create post previews. If you would rather show your posts in full on "
@@ -1890,20 +1890,20 @@ msgstr ""
 "inläggsförhandsvisningar. Om du hellre vill visa dina inlägg i sin helhet "
 "som en traditionell blogg kan du aktivera den här funktionen."
 
-#: options_divi.php:99
+#: options_blu.php:99
 msgid "Shop Page & Category Page Layout for WooCommerce"
 msgstr "Shoppingsidans & Kategorisidans layout för WooCommerce"
 
-#: options_divi.php:108
+#: options_blu.php:108
 msgid "Here you can choose Shop Page & Category Page Layout for WooCommerce."
 msgstr ""
 "Här kan du välja Shoppingsidans & Kategorisidans layout för  WooCommerce."
 
-#: options_divi.php:112
+#: options_blu.php:112
 msgid "MailChimp API Key"
 msgstr "MailChimp API nyckel"
 
-#: options_divi.php:117
+#: options_blu.php:117
 msgid ""
 "Enter your MailChimp API key. You can create an api key <a target=\"_blank\" "
 "href=\"%1$s\">here</a>"
@@ -1911,19 +1911,19 @@ msgstr ""
 "Ange ditt MailChimp API-nyckel. Du kan skapa en API-nyckel <a target=\"_blank"
 "\" href=\"%1$s\">here</a>"
 
-#: options_divi.php:120
+#: options_blu.php:120
 msgid "Aweber Authorization"
 msgstr "Aweber Auktorisering"
 
-#: options_divi.php:122
+#: options_blu.php:122
 msgid "Authorize your Aweber account here."
 msgstr "Auktorisera ditt Aweber-konto här."
 
-#: options_divi.php:126
+#: options_blu.php:126
 msgid "Regenerate MailChimp Lists"
 msgstr "Regenerera MailChimp listor"
 
-#: options_divi.php:130
+#: options_blu.php:130
 msgid ""
 "By default, MailChimp lists are cached for one day. If you added new list, "
 "but it doesn't appear within the Email Optin module settings, activate this "
@@ -1933,11 +1933,11 @@ msgstr ""
 "ny lista, men det verkar inte inom modul E OptIn, aktivera det här "
 "alternativet. Glöm inte att stänga av den när listan har regenereras."
 
-#: options_divi.php:132
+#: options_blu.php:132
 msgid "Regenerate Aweber Lists"
 msgstr "Regenerera AWeber listor"
 
-#: options_divi.php:136
+#: options_blu.php:136
 msgid ""
 "By default, Aweber lists are cached for one day. If you added new list, but "
 "it doesn't appear within the Email Optin module settings, activate this "
@@ -1947,75 +1947,75 @@ msgstr ""
 "lista, men det verkar inte inom modul E OptIn, aktivera det här "
 "alternativet. Glöm inte att stänga av den när listan har regenereras."
 
-#: options_divi.php:138
+#: options_blu.php:138
 msgid "Show Facebook Icon"
 msgstr "Visa Facebook ikon"
 
-#: options_divi.php:142
+#: options_blu.php:142
 msgid "Here you can choose to display the Facebook Icon on your homepage. "
 msgstr "Här kan du välja att visa en Facebook ikon på din hemsida. "
 
-#: options_divi.php:144
+#: options_blu.php:144
 msgid "Show Twitter Icon"
 msgstr "Visa Twitter Ikon"
 
-#: options_divi.php:148
+#: options_blu.php:148
 msgid "Here you can choose to display the Twitter Icon. "
 msgstr "Här kan du välja att visa en Twitter ikon. "
 
-#: options_divi.php:150
+#: options_blu.php:150
 msgid "Show Google+ Icon"
 msgstr "Show Google+ ikon"
 
-#: options_divi.php:154
+#: options_blu.php:154
 msgid "Here you can choose to display the Google+ Icon on your homepage. "
 msgstr "Här kan du välja att visa en Google+ ikon på din hemsida. "
 
-#: options_divi.php:156
+#: options_blu.php:156
 msgid "Show RSS Icon"
 msgstr "Visa RSS ikon"
 
-#: options_divi.php:160
+#: options_blu.php:160
 msgid "Here you can choose to display the RSS Icon. "
 msgstr "Här kan du välja att visa en RSS ikon. "
 
-#: options_divi.php:162
+#: options_blu.php:162
 msgid "Facebook Profile Url"
 msgstr "Facebook profil URL"
 
-#: options_divi.php:167
+#: options_blu.php:167
 msgid "Enter the URL of your Facebook Profile. "
 msgstr "Ange URL för din Facebook profil. "
 
-#: options_divi.php:169
+#: options_blu.php:169
 msgid "Twitter Profile Url"
 msgstr "Twitter profil URL"
 
-#: options_divi.php:174
+#: options_blu.php:174
 msgid "Enter the URL of your Twitter Profile."
 msgstr "Ange URL för din Twitter profil."
 
-#: options_divi.php:176
+#: options_blu.php:176
 msgid "Google+ Profile Url"
 msgstr "Google+ profil URL"
 
-#: options_divi.php:181
+#: options_blu.php:181
 msgid "Enter the URL of your Google+ Profile. "
 msgstr "Ange URL för din Google+ profil. "
 
-#: options_divi.php:183
+#: options_blu.php:183
 msgid "RSS Icon Url"
 msgstr "RSS ikon URL"
 
-#: options_divi.php:188
+#: options_blu.php:188
 msgid "Enter the URL of your RSS feed. "
 msgstr "Skriv in URL för ditt RSS flöde. "
 
-#: options_divi.php:190
+#: options_blu.php:190
 msgid "Number of Products displayed on WooCommerce archive pages"
 msgstr "Antal produkter visade på WooCommerce arkivsida"
 
-#: options_divi.php:194
+#: options_blu.php:194
 msgid ""
 "Here you can designate how many WooCommerce products are displayed on the "
 "archive page. This option works independently from the Settings > Reading "
@@ -2024,11 +2024,11 @@ msgstr ""
 "Här kan du ange hur många WooCommerce produkter som visas på arkivsidan. "
 "Alternativet är oberoende av alternativet Inställningar > Läs i wp-admin."
 
-#: options_divi.php:198
+#: options_blu.php:198
 msgid "Number of Posts displayed on Category page"
 msgstr "Antal inlägg som visas på kategorisidorna"
 
-#: options_divi.php:202
+#: options_blu.php:202
 msgid ""
 "Here you can designate how many recent articles are displayed on the "
 "Category page. This option works independently from the Settings > Reading "
@@ -2037,11 +2037,11 @@ msgstr ""
 "Här kan du ange hur många nya artiklar som visas på kategorisidorna. Detta "
 "alternativ fungerar oberoende av läsningsalternativet i wp-admin."
 
-#: options_divi.php:206
+#: options_blu.php:206
 msgid "Number of Posts displayed on Archive pages"
 msgstr "Antal inlägg som visas på arkiv-sidorna"
 
-#: options_divi.php:210
+#: options_blu.php:210
 msgid ""
 "Here you can designate how many recent articles are displayed on the Archive "
 "pages. This option works independently from the Settings > Reading options "
@@ -2050,11 +2050,11 @@ msgstr ""
 "Här kan du ange hur många nya artiklar som visas på arkivsidorna. Detta "
 "alternativ fungerar oberoende av läsningsalternativ i wp-admin."
 
-#: options_divi.php:214
+#: options_blu.php:214
 msgid "Number of Posts displayed on Search pages"
 msgstr "Antal inlägg visas på söksidorna"
 
-#: options_divi.php:218
+#: options_blu.php:218
 msgid ""
 "Here you can designate how many recent articles are displayed on the Search "
 "results pages. This option works independently from the Settings > Reading "
@@ -2063,11 +2063,11 @@ msgstr ""
 "Här kan du ange hur många nya artiklar som visas på sökresultatsidorna. "
 "Detta alternativ fungerar oberoende av läsningsalternativ i wp-admin."
 
-#: options_divi.php:222
+#: options_blu.php:222
 msgid "Number of Posts displayed on Tag pages"
 msgstr "Antal inlägg visas på Taggsidorna"
 
-#: options_divi.php:226
+#: options_blu.php:226
 msgid ""
 "Here you can designate how many recent articles are displayed on the Tag "
 "pages. This option works independently from the Settings > Reading options "
@@ -2076,11 +2076,11 @@ msgstr ""
 "Här kan du ange hur många nya artiklar visas på taggsidorna. Detta "
 "alternativ fungerar oberoende av läsningsalternativ i wp-admin."
 
-#: options_divi.php:230
+#: options_blu.php:230
 msgid "Date format"
 msgstr "Datumformat"
 
-#: options_divi.php:234
+#: options_blu.php:234
 msgid ""
 "This option allows you to change how your dates are displayed. For more "
 "information please refer to the WordPress codex here:<a href='http://codex."
@@ -2091,56 +2091,56 @@ msgstr ""
 "hänvisar vi till Wordpress kodex här:<a href='http://codex.wordpress.org/"
 "Formatting_Date_and_Time' target='_blank'>Formatera datum och tid</a>"
 
-#: options_divi.php:238
+#: options_blu.php:238
 msgid "Use excerpts when defined"
 msgstr "Använd utdrag när definierade"
 
-#: options_divi.php:242
+#: options_blu.php:242
 msgid "This will enable the use of excerpts in posts or pages."
 msgstr "Detta kommer att möjliggöra användning av utdrag i inlägg eller sidor."
 
-#: options_divi.php:245
+#: options_blu.php:245
 msgid "Responsive shortcodes"
 msgstr "Responsiva shortcodes"
 
-#: options_divi.php:249
+#: options_blu.php:249
 msgid "Enable this option to make shortcodes respond to various screen sizes"
 msgstr ""
 "Aktivera det här alternativet för att få shortcodes att anpassa sig till "
 "olika skärmstorlekar"
 
-#: options_divi.php:252
+#: options_blu.php:252
 msgid "Google Fonts subsets"
 msgstr "Google Fonts delmängder"
 
-#: options_divi.php:256
+#: options_blu.php:256
 msgid "This will enable Google Fonts for Non-English languages."
 msgstr "Det här aktiverar Google Fonts för andra språk än engelska."
 
-#: options_divi.php:259
+#: options_blu.php:259
 msgid "Back To Top Button"
 msgstr "Till toppen knappen"
 
-#: options_divi.php:263
+#: options_blu.php:263
 msgid "Enable this option to display Back To Top Button while scrolling"
 msgstr ""
 "Aktivera det här alternativet för att visa tillbaka till toppen knappen "
 "medan du bläddrar"
 
-#: options_divi.php:266
+#: options_blu.php:266
 msgid "Smooth Scrolling"
 msgstr "Mjuk rullning"
 
-#: options_divi.php:270
+#: options_blu.php:270
 msgid "Enable this option to get the smooth scrolling effect with mouse wheel"
 msgstr ""
 "Aktivera det här alternativet för att få effekten mjuk rullning med mushjulet"
 
-#: options_divi.php:273
+#: options_blu.php:273
 msgid "Disable Translations"
 msgstr "Avaktivera översättningar"
 
-#: options_divi.php:277
+#: options_blu.php:277
 msgid ""
 "Disable translations if you don't want to display translated theme strings "
 "on your site."
@@ -2148,33 +2148,33 @@ msgstr ""
 "Avaktivera översättningar ifall du inte vill att översatta temarader ska "
 "visas på din sida."
 
-#: options_divi.php:280
+#: options_blu.php:280
 msgid "Custom CSS"
 msgstr "Anpassad CSS"
 
-#: options_divi.php:284
+#: options_blu.php:284
 msgid "Here you can add custom css to override or extend default styles."
 msgstr ""
 "Här kan du lägga till anpassade CSS för att byta ut eller addera till "
 "standardstilar."
 
-#: options_divi.php:289
+#: options_blu.php:289
 msgid "Memory Limit Increase"
 msgstr "Höjning av minnesgräns"
 
-#: options_divi.php:291
+#: options_blu.php:291
 msgid "Here you can disable automatic memory limit increase."
 msgstr "Du kan inaktivera automatisk höjning av minnesgräns här."
 
-#: options_divi.php:311
+#: options_blu.php:311
 msgid "Pages"
 msgstr "Sidor"
 
-#: options_divi.php:329
+#: options_blu.php:329
 msgid "Exclude pages from the navigation bar"
 msgstr "Uteslut sidor från navigeringsfältet"
 
-#: options_divi.php:333
+#: options_blu.php:333
 msgid ""
 "Here you can choose to remove certain pages from the navigation menu. All "
 "pages marked with an X will not appear in your navigation bar. "
@@ -2182,11 +2182,11 @@ msgstr ""
 "Här kan du välja att ta bort vissa sidor från navigationsmenyn. Alla sidor "
 "som är markerade med en X kommer inte att visas i navigeringsfältet. "
 
-#: options_divi.php:337 options_divi.php:387
+#: options_blu.php:337 options_blu.php:387
 msgid "Show dropdown menus"
 msgstr "Visa rullgardinsmenyer"
 
-#: options_divi.php:341
+#: options_blu.php:341
 msgid ""
 "If you would like to remove the dropdown menus from the pages navigation bar "
 "disable this feature."
@@ -2194,11 +2194,11 @@ msgstr ""
 "Om du vill ta bort rullgardinsmenyer från sidornas navigeringsfältet "
 "inaktivera den här funktionen."
 
-#: options_divi.php:344
+#: options_blu.php:344
 msgid "Display Home link"
 msgstr "Visa hemlänk"
 
-#: options_divi.php:348
+#: options_blu.php:348
 msgid ""
 "By default the theme creates a Home link that, when clicked, leads back to "
 "your blog's homepage. If, however, you are using a static homepage and have "
@@ -2211,19 +2211,19 @@ msgstr ""
 "en dubblettlänk. I så fall bör du inaktivera den här funktionen för att ta "
 "bort länken."
 
-#: options_divi.php:351
+#: options_blu.php:351
 msgid "Sort Pages Links"
 msgstr "Sortera Sidlänkar"
 
-#: options_divi.php:355
+#: options_blu.php:355
 msgid "Here you can choose to sort your pages links."
 msgstr "Här kan du välja hur du vill sortera dina sidlänkar."
 
-#: options_divi.php:358
+#: options_blu.php:358
 msgid "Order Pages Links by Ascending/Descending"
 msgstr "Sortera sidlänkar efter stigande/fallande"
 
-#: options_divi.php:362
+#: options_blu.php:362
 msgid ""
 "Here you can choose to reverse the order that your pages links are "
 "displayed. You can choose between ascending and descending."
@@ -2231,11 +2231,11 @@ msgstr ""
 "Här kan du välja att vända på hur dina sidlänkar visas. Du kan välja mellan "
 "stigande och fallande."
 
-#: options_divi.php:365 options_divi.php:401
+#: options_blu.php:365 options_blu.php:401
 msgid "Number of dropdown tiers shown"
 msgstr "Antal rullgardinsnivåer som visas"
 
-#: options_divi.php:369 options_divi.php:405
+#: options_blu.php:369 options_blu.php:405
 msgid ""
 "This options allows you to control how many teirs your pages dropdown menu "
 "has. Increasing the number allows for additional menu items to be shown."
@@ -2243,11 +2243,11 @@ msgstr ""
 "Det här alternativet låter dig styra hur många nivåer din rullgardinsmeny "
 "har. Genom att öka antalet kan ytterligare menyalternativ visas."
 
-#: options_divi.php:379
+#: options_blu.php:379
 msgid "Exclude categories from the navigation bar"
 msgstr "Uteslut kategorier från navigeringsfältet"
 
-#: options_divi.php:383
+#: options_blu.php:383
 msgid ""
 "Here you can choose to remove certain categories from the navigation menu. "
 "All categories marked with an X will not appear in your navigation bar. "
@@ -2255,7 +2255,7 @@ msgstr ""
 "Här kan du välja att ta bort vissa kategorier från navigationsmenyn. Alla "
 "kategorier markerade med ett X kommer inte att visas i navigeringsfältet. "
 
-#: options_divi.php:391
+#: options_blu.php:391
 msgid ""
 "If you would like to remove the dropdown menus from the categories "
 "navigation bar disable this feature."
@@ -2263,11 +2263,11 @@ msgstr ""
 "Om du vill ta bort rullgardinsmenyer från kategoriernas navigeringsfält "
 "inaktivera den här funktionen."
 
-#: options_divi.php:394
+#: options_blu.php:394
 msgid "Hide empty categories"
 msgstr "Göm tomma kategorier"
 
-#: options_divi.php:398
+#: options_blu.php:398
 msgid ""
 "If you would like categories to be displayed in your navigationbar that "
 "don't have any posts in them then disable this option. By default empty "
@@ -2277,11 +2277,11 @@ msgstr ""
 "navigationsfältet inaktivera det här alternativet. Som standard är tomma "
 "kategorier dolda."
 
-#: options_divi.php:409
+#: options_blu.php:409
 msgid "Sort Categories Links by Name/ID/Slug/Count/Term Group"
 msgstr "Sortera kategorilänkar efter Name/ID/Slug/Count/Term grupp"
 
-#: options_divi.php:413
+#: options_blu.php:413
 msgid ""
 "By default pages are sorted by name. However if you would rather have them "
 "sorted by ID you can adjust this setting."
@@ -2289,11 +2289,11 @@ msgstr ""
 "Som standard är sidor sorterade efter namn. Men om du hellre vill ha dem "
 "sorterade efter ID du kan justera den här inställningen."
 
-#: options_divi.php:416
+#: options_blu.php:416
 msgid "Order Category Links by Ascending/Descending"
 msgstr "Sortera kategorilänkar efter stigande eller fallande"
 
-#: options_divi.php:420
+#: options_blu.php:420
 msgid ""
 "Here you can choose to reverse the order that your categories links are "
 "displayed. You can choose between ascending and descending."
@@ -2301,11 +2301,11 @@ msgstr ""
 "Här kan du välja att vända på hur dina kategorilänkar visas. Du kan välja "
 "mellan stigande och fallande."
 
-#: options_divi.php:429
+#: options_blu.php:429
 msgid "Disable top tier dropdown menu links"
 msgstr "Inaktivera huvudlänken för rullgardinsmenyer"
 
-#: options_divi.php:433
+#: options_blu.php:433
 msgid ""
 "In some cases users will want to create parent categories or links as "
 "placeholders to hold a list of child links or categories. In this case it is "
@@ -2321,19 +2321,19 @@ msgstr ""
 "alternativ kommer länkar från alla överordnade sidor/kategorier att tas "
 "bort, så att de inte leder någonstans när du klickar på dem."
 
-#: options_divi.php:451
+#: options_blu.php:451
 msgid "Single Post Layout"
 msgstr "Layout för enkelinlägg"
 
-#: options_divi.php:456
+#: options_blu.php:456
 msgid "Single Page Layout"
 msgstr "Layout för enkelsidor"
 
-#: options_divi.php:469
+#: options_blu.php:469
 msgid "Choose which items to display in the postinfo section"
 msgstr "Välj vilka objekt som ska visas i inläggets inforuta"
 
-#: options_divi.php:473
+#: options_blu.php:473
 msgid ""
 "Here you can choose which items appear in the postinfo section on single "
 "post pages. This is the area, usually below the post title, which displays "
@@ -2345,11 +2345,11 @@ msgstr ""
 "grundläggande information om ditt inlägg. De markerade objekten nedan kommer "
 "visas. "
 
-#: options_divi.php:477
+#: options_blu.php:477
 msgid "Show comments on posts"
 msgstr "Visa kommentarer på inlägg"
 
-#: options_divi.php:481
+#: options_blu.php:481
 msgid ""
 "You can disable this option if you want to remove the comments and comment "
 "form from single post pages. "
@@ -2357,11 +2357,11 @@ msgstr ""
 "Du kan inaktivera det här alternativet om du vill ta bort kommentarer och "
 "kommentersformuläret från inlägg. "
 
-#: options_divi.php:484
+#: options_blu.php:484
 msgid "Place Thumbs on Posts"
 msgstr "Placera miniatyrbilder i inlägg"
 
-#: options_divi.php:488
+#: options_blu.php:488
 msgid ""
 "By default thumbnails are placed at the beginning of your post on single "
 "post pages. If you would like to remove this initial thumbnail image to "
@@ -2371,11 +2371,11 @@ msgstr ""
 "enkelinläggssidor. Om du vill ta bort denna första miniatyrbild för att "
 "undvika upprepning inaktivera det här alternativet. "
 
-#: options_divi.php:497
+#: options_blu.php:497
 msgid "Place Thumbs on Pages"
 msgstr "Placera miniatyrbilder på sidor"
 
-#: options_divi.php:501
+#: options_blu.php:501
 msgid ""
 "By default thumbnails are not placed on pages (they are only used on posts). "
 "However, if you want to use thumbnails on pages you can! Just enable this "
@@ -2385,11 +2385,11 @@ msgstr ""
 "bara i inlägg). Du kan dock använda dem på sidor om du så vill! Aktivera "
 "helt enkelt detta alternativ."
 
-#: options_divi.php:504
+#: options_blu.php:504
 msgid "Show comments on pages"
 msgstr "Visa kommentarer på sidor"
 
-#: options_divi.php:508
+#: options_blu.php:508
 msgid ""
 "By default comments are not placed on pages, however, if you would like to "
 "allow people to comment on your pages simply enable this option. "
@@ -2397,11 +2397,11 @@ msgstr ""
 "Som standard visas kommentarer inte på sidor, men om du vill ge personer "
 "möjlighet att kommentera dina sidor aktivera det här alternativet. "
 
-#: options_divi.php:517
+#: options_blu.php:517
 msgid "Post info section"
 msgstr "Inläggens infosektion"
 
-#: options_divi.php:521
+#: options_blu.php:521
 msgid ""
 "Here you can choose which items appear in the postinfo section on pages. "
 "This is the area, usually below the post title, which displays basic "
@@ -2412,32 +2412,32 @@ msgstr ""
 "grundläggande information om ditt inlägg. De markerade objekten nedan kommer "
 "att visas. "
 
-#: options_divi.php:524
+#: options_blu.php:524
 msgid "Show Thumbs on Index pages"
 msgstr "Visa miniatyrbilder på indexsidor"
 
-#: options_divi.php:528
+#: options_blu.php:528
 msgid "Enable this option to show thumbnails on Index Pages."
 msgstr ""
 "Aktivera det här alternativet för att visa miniatyrbilder på indexsidor."
 
-#: options_divi.php:545
+#: options_blu.php:545
 msgid "Homepage SEO"
 msgstr "Hemsida SEO"
 
-#: options_divi.php:550
+#: options_blu.php:550
 msgid "Single Post Page SEO"
 msgstr "Enkelinläggssida SEO"
 
-#: options_divi.php:555
+#: options_blu.php:555
 msgid "Index Page SEO"
 msgstr "Indexsida SEO"
 
-#: options_divi.php:563
+#: options_blu.php:563
 msgid " Enable custom title "
 msgstr "Aktivera anpassad titel "
 
-#: options_divi.php:567
+#: options_blu.php:567
 msgid ""
 "By default the theme uses a combination of your blog name and your blog "
 "description, as defined when you created your blog, to create your homepage "
@@ -2449,11 +2449,11 @@ msgstr ""
 "dina hemsidetitlar. Men om du vill skapa en anpassad titel aktivera helt "
 "enkelt det här alternativet och fyll i en egen titel i titelfältet nedan. "
 
-#: options_divi.php:570
+#: options_blu.php:570
 msgid " Enable meta description"
 msgstr "Aktivera metatagg-beskrivning"
 
-#: options_divi.php:574
+#: options_blu.php:574
 msgid ""
 "By default the theme uses your blog description, as defined when you created "
 "your blog, to fill in the meta description field. If you would like to use a "
@@ -2465,11 +2465,11 @@ msgstr ""
 "använda en annan beskrivning aktivera det här alternativet och fyll i en "
 "anpassad beskrivning i beskrivningsfältet nedan. "
 
-#: options_divi.php:577
+#: options_blu.php:577
 msgid " Enable meta keywords"
 msgstr "Aktivera metasökord"
 
-#: options_divi.php:581
+#: options_blu.php:581
 msgid ""
 "By default the theme does not add keywords to your header. Most search "
 "engines don't use keywords to rank your site anymore, but some people define "
@@ -2482,11 +2482,11 @@ msgstr ""
 "metasökord till ditt sidhuvud aktivera det här alternativet och fyll i  "
 "anpassade sökord i fältet nedan. "
 
-#: options_divi.php:584 options_divi.php:711
+#: options_blu.php:584 options_blu.php:711
 msgid " Enable canonical URL's"
 msgstr "Aktivera kanonisk URL"
 
-#: options_divi.php:588 options_divi.php:662 options_divi.php:715
+#: options_blu.php:588 options_blu.php:662 options_blu.php:715
 msgid ""
 "Canonicalization helps to prevent the indexing of duplicate content by "
 "search engines, and as a result, may help avoid duplicate content penalties "
@@ -2510,11 +2510,11 @@ msgstr ""
 "officiellt. Temat baserar sina kanoniska URL på dina länkar och domänens "
 "namn som anges i inställningsfliken i wp-admin."
 
-#: options_divi.php:591
+#: options_blu.php:591
 msgid "Homepage custom title (if enabled)"
 msgstr "Anpassad titel för hemsida (om aktiverat)"
 
-#: options_divi.php:595
+#: options_blu.php:595
 msgid ""
 "If you have enabled custom titles you can add your custom title here. "
 "Whatever you type here will be placed between the < title >< /title > tags "
@@ -2524,11 +2524,11 @@ msgstr ""
 "Det du skriver här kommer att placeras mellan < title >< /title > taggarna i "
 "header.php"
 
-#: options_divi.php:599
+#: options_blu.php:599
 msgid "Homepage meta description (if enabled)"
 msgstr "Metabeskrivning för hemsida (om aktiverat)"
 
-#: options_divi.php:603
+#: options_blu.php:603
 msgid ""
 "If you have enabled meta descriptions you can add your custom description "
 "here."
@@ -2536,11 +2536,11 @@ msgstr ""
 "Om du har aktiverat metabeskrivningar kan du lägga till din egen beskrivning "
 "här."
 
-#: options_divi.php:607
+#: options_blu.php:607
 msgid "Homepage meta keywords (if enabled)"
 msgstr "Metasökord för hemsida (om aktiverat)"
 
-#: options_divi.php:611
+#: options_blu.php:611
 msgid ""
 "If you have enabled meta keywords you can add your custom keywords here. "
 "Keywords should be separated by comas. For example: wordpress,themes,"
@@ -2550,11 +2550,11 @@ msgstr ""
 "Nyckelord bör separeras av kommatecken. Till exempel: wordpress,themes,"
 "templates,elegant"
 
-#: options_divi.php:615 options_divi.php:689
+#: options_blu.php:615 options_blu.php:689
 msgid "If custom titles are disabled, choose autogeneration method"
 msgstr "Om anpassade titlar är inaktiverat välj metoden automatisk generering"
 
-#: options_divi.php:620
+#: options_blu.php:620
 msgid ""
 "If you are not using cutsom post titles you can still have control over how "
 "your titles are generated. Here you can choose which order you would like "
@@ -2566,11 +2566,11 @@ msgstr ""
 "inläggstitel och ditt bloggnamn ska visas, eller så kan du ta bort "
 "bloggnamnet från titeln helt."
 
-#: options_divi.php:623 options_divi.php:697 options_divi.php:733
+#: options_blu.php:623 options_blu.php:697 options_blu.php:733
 msgid "Define a character to separate BlogName and Post title"
 msgstr "Definiera en karaktär för att separera wbbplats-namn och inläggstitel"
 
-#: options_divi.php:627 options_divi.php:701
+#: options_blu.php:627 options_blu.php:701
 msgid ""
 "Here you can change which character separates your blog title and post name "
 "when using autogenerated post titles. Common values are | or -"
@@ -2579,11 +2579,11 @@ msgstr ""
 "åt när du använder automatiskt genererade inläggstitlar. Vanliga karaktärer "
 "är | eller -"
 
-#: options_divi.php:637
+#: options_blu.php:637
 msgid "Enable custom titles"
 msgstr "Aktivera anpassade titlar"
 
-#: options_divi.php:641
+#: options_blu.php:641
 msgid ""
 "By default the theme creates post titles based on the title of your post and "
 "your blog name. If you would like to make your meta title different than "
@@ -2598,11 +2598,11 @@ msgstr ""
 "titlar ska fungera och du måste välja ett anpassat fältnamn för din titel "
 "nedan."
 
-#: options_divi.php:644
+#: options_blu.php:644
 msgid "Enable custom description"
 msgstr "Aktivera anpassad beskrivning"
 
-#: options_divi.php:648
+#: options_blu.php:648
 msgid ""
 "If you would like to add a meta description to your post you can do so using "
 "custom fields. This option must be enabled for descriptions to be displayed "
@@ -2615,11 +2615,11 @@ msgstr ""
 "med hjälp av anpassade fält baserade på det anpassade fältnamn som du "
 "definierar nedan."
 
-#: options_divi.php:651
+#: options_blu.php:651
 msgid "Enable custom keywords"
 msgstr "Aktivera anpassade nyckelord"
 
-#: options_divi.php:655
+#: options_blu.php:655
 msgid ""
 "If you would like to add meta keywords to your post you can do so using "
 "custom fields. This option must be enabled for keywords to be displayed on "
@@ -2631,15 +2631,15 @@ msgstr ""
 "visas på inläggssidor. Du kan lägga till dina metasökord med anpassade fält "
 "baserade på det anpassade fältnamn som du definierar nedan."
 
-#: options_divi.php:658
+#: options_blu.php:658
 msgid "Enable canonical URL's"
 msgstr "Aktivera kanoniska URL's"
 
-#: options_divi.php:665
+#: options_blu.php:665
 msgid "Custom field Name to be used for title"
 msgstr "Anpassad fältnamn som ska användas som titeln"
 
-#: options_divi.php:669
+#: options_blu.php:669
 msgid ""
 "When you define your title using custom fields you should use this value for "
 "the custom field Name. The Value of your custom field should be the custom "
@@ -2649,11 +2649,11 @@ msgstr ""
 "här värdet som namn på anpassat fält. Värdet på ditt anpassade fält bör vara "
 "den anpassade titel du vill använda."
 
-#: options_divi.php:673
+#: options_blu.php:673
 msgid "Custom field Name to be used for description"
 msgstr "Anpassat fältnamn som ska användas som beskrivning"
 
-#: options_divi.php:677
+#: options_blu.php:677
 msgid ""
 "When you define your meta description using custom fields you should use "
 "this value for the custom field Name. The Value of your custom field should "
@@ -2663,11 +2663,11 @@ msgstr ""
 "använda det här värdet som namn för anpassat fält. Värdet på ditt anpassade "
 "fält bör vara den anpassade beskrivning du vill använda."
 
-#: options_divi.php:681
+#: options_blu.php:681
 msgid "Custom field Name to be used for keywords"
 msgstr "Anpassat fältnamn som ska användas för sökord"
 
-#: options_divi.php:685
+#: options_blu.php:685
 msgid ""
 "When you define your keywords using custom fields you should use this value "
 "for the custom field Name. The Value of your custom field should be the meta "
@@ -2677,7 +2677,7 @@ msgstr ""
 "här värdet som namn för anpassat fält. Värdet på ditt anpassade fält bör "
 "vara de metasökord du vill använda, åtskilda med kommatecken."
 
-#: options_divi.php:694
+#: options_blu.php:694
 msgid ""
 "If you are not using cutsom post titles you can still have control over hw "
 "your titles are generated. Here you can choose which order you would like "
@@ -2689,11 +2689,11 @@ msgstr ""
 "din inläggstitel och bloggnamn ska visas, eller så kan du ta bort "
 "bloggnamnet från titeln helt."
 
-#: options_divi.php:718
+#: options_blu.php:718
 msgid "Enable meta descriptions"
 msgstr "Aktivera metabeskrivningar"
 
-#: options_divi.php:722
+#: options_blu.php:722
 msgid ""
 "Check this box if you want to display meta descriptions on category/archive "
 "pages. The description is based off the category description you choose when "
@@ -2703,11 +2703,11 @@ msgstr ""
 "arkivsidor. Beskrivningen är baserad på den kategorinbeskrivning du väljer "
 "när du skapar/redigerar din kategori i wp-admin."
 
-#: options_divi.php:725
+#: options_blu.php:725
 msgid "Choose title autogeneration method"
 msgstr "Välj metod för titelgenerering"
 
-#: options_divi.php:730
+#: options_blu.php:730
 msgid ""
 "Here you can choose how your titles on index pages are generated. You can "
 "change which order your blog name and index title are displayed, or you can "
@@ -2717,7 +2717,7 @@ msgstr ""
 "vilken i vilken ordning ditt bloggnamn och din indextitel visas, eller så "
 "kan du ta bort bloggnamnet från titeln helt."
 
-#: options_divi.php:737
+#: options_blu.php:737
 msgid ""
 "Here you can change which character separates your blog title and index page "
 "name when using autogenerated post titles. Common values are | or -"
@@ -2726,15 +2726,15 @@ msgstr ""
 "namn när du använder automatiskt genererade inläggstitlar. Vanliga "
 "karaktärer är | eller -"
 
-#: options_divi.php:756
+#: options_blu.php:756
 msgid "Code Integration"
 msgstr "Kodintegration"
 
-#: options_divi.php:764
+#: options_blu.php:764
 msgid "Enable header code"
 msgstr "Aktivera sidhuvudskod"
 
-#: options_divi.php:768
+#: options_blu.php:768
 msgid ""
 "Disabling this option will remove the header code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2743,11 +2743,11 @@ msgstr ""
 "din blogg. Detta gör att du kan ta bort koden och samtidigt spara den för "
 "användning vid ett senare tillfälle."
 
-#: options_divi.php:771
+#: options_blu.php:771
 msgid "Enable body code"
 msgstr "Aktivera < body > kod"
 
-#: options_divi.php:775
+#: options_blu.php:775
 msgid ""
 "Disabling this option will remove the body code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2756,11 +2756,11 @@ msgstr ""
 "blogg.  Detta gör att du kan ta bort koden och samtidigt spara den för "
 "användning vid ett senare tillfälle."
 
-#: options_divi.php:778
+#: options_blu.php:778
 msgid "Enable single top code"
 msgstr "Aktivera enkel topp-kod"
 
-#: options_divi.php:782
+#: options_blu.php:782
 msgid ""
 "Disabling this option will remove the single top code below from your blog. "
 "This allows you to remove the code while saving it for later use."
@@ -2769,11 +2769,11 @@ msgstr ""
 "blogg. Detta gör att du kan ta bort koden och samtidigt spara den för "
 "användning vid ett senare tillfälle."
 
-#: options_divi.php:785
+#: options_blu.php:785
 msgid "Enable single bottom code"
 msgstr "Aktivera enkel botten-kod"
 
-#: options_divi.php:789
+#: options_blu.php:789
 msgid ""
 "Disabling this option will remove the single bottom code below from your "
 "blog. This allows you to remove the code while saving it for later use."
@@ -2782,11 +2782,11 @@ msgstr ""
 "bort från din blogg.  Detta gör att du kan ta bort koden och samtidigt spara "
 "den för användning vid ett senare tillfälle."
 
-#: options_divi.php:792
+#: options_blu.php:792
 msgid "Add code to the < head > of your blog"
 msgstr "Lägg till kod till <head> på din blogg"
 
-#: options_divi.php:796
+#: options_blu.php:796
 msgid ""
 "Any code you place here will appear in the head section of every page of "
 "your blog. This is useful when you need to add javascript or css to all "
@@ -2796,13 +2796,13 @@ msgstr ""
 "din blogg. Detta är användbart när du behöver lägga till Javascript eller "
 "CSS på alla sidor."
 
-#: options_divi.php:799
+#: options_blu.php:799
 msgid ""
 "Add code to the < body > (good for tracking codes such as google analytics)"
 msgstr ""
 "Lägg till kod till <body> (bra för uppföljningskoder såsom Google Analytics)"
 
-#: options_divi.php:803
+#: options_blu.php:803
 msgid ""
 "Any code you place here will appear in body section of all pages of your "
 "blog. This is usefull if you need to input a tracking pixel for a state "
@@ -2812,11 +2812,11 @@ msgstr ""
 "din blogg. Detta är användbart om du vill placera en spårningspixel för en "
 "statistik-räknare som Google Analytics."
 
-#: options_divi.php:806
+#: options_blu.php:806
 msgid "Add code to the top of your posts"
 msgstr "Lägg till kod till toppen av dina inlägg"
 
-#: options_divi.php:810 options_divi.php:817
+#: options_blu.php:810 options_blu.php:817
 msgid ""
 "Any code you place here will be placed at the top of all single posts. This "
 "is useful if you are looking to integrating things such as social "
@@ -2826,19 +2826,19 @@ msgstr ""
 "är användbart om du funderar på att integrera saker som sociala "
 "favoritlänkar."
 
-#: options_divi.php:813
+#: options_blu.php:813
 msgid "Add code to the bottom of your posts, before the comments"
 msgstr "Lägg till kod till botten av dina inlägg, innan kommentarerna"
 
-#: options_divi.php:835
+#: options_blu.php:835
 msgid "Manage Un-widgetized Advertisements"
 msgstr "Hantera Annonser"
 
-#: options_divi.php:843
+#: options_blu.php:843
 msgid "Enable Single Post 468x60 banner"
 msgstr "Aktivera enkelinlägg 468x60 banner"
 
-#: options_divi.php:847
+#: options_blu.php:847
 msgid ""
 "Enabling this option will display a 468x60 banner ad on the bottom of your "
 "post pages below the single post content. If enabled you must fill in the "
@@ -2848,27 +2848,27 @@ msgstr ""
 "under dina enkelinlägg. Om du väljer att aktivera måste du fylla i banner-"
 "bilden och destinations URL nedan."
 
-#: options_divi.php:850
+#: options_blu.php:850
 msgid "Input 468x60 advertisement banner image"
 msgstr "Lägg till bild för 468x60 annonsbanner"
 
-#: options_divi.php:854
+#: options_blu.php:854
 msgid "Here you can provide 468x60 banner image url"
 msgstr "Här kan du skriva in 468x60 bannerbildens URL"
 
-#: options_divi.php:858
+#: options_blu.php:858
 msgid "Input 468x60 advertisement destination url"
 msgstr "Lägg till 468x60 annonsen destinations URL"
 
-#: options_divi.php:862
+#: options_blu.php:862
 msgid "Here you can provide 468x60 banner destination url"
 msgstr "Här kan du skriva in 468x60 banners destinations URL"
 
-#: options_divi.php:866
+#: options_blu.php:866
 msgid "Input 468x60 adsense code"
 msgstr "Skriv in 468x60 Google Adsense koden"
 
-#: options_divi.php:870
+#: options_blu.php:870
 msgid "Place your adsense code here."
 msgstr "Placera din Google Adsense kod här."
 
