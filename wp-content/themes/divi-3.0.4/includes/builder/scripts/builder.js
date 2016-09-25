@@ -2392,7 +2392,7 @@ window.et_builder_version = '3.0.4';
 					delete this.options.do_preview;
 				}
 
-				if ( et_pb_options.is_divi_library === "1" && $.inArray( et_pb_options.layout_type, [ "row", "module" ] ) > -1 ) {
+				if ( et_pb_options.is_blu_library === "1" && $.inArray( et_pb_options.layout_type, [ "row", "module" ] ) > -1 ) {
 					// Divi Library's layout editor auto generates section and row in module and row layout type
 					// The auto generates item cause cause an issue during shortcode generation
 					// Removing its cid will force ET_PageBuilder_App.generateCompleteShortcode to generate the whole page's layout shortcode which solves the preview issue
@@ -4971,7 +4971,7 @@ window.et_builder_version = '3.0.4';
 				}
 
 				// Divi Library adjustment
-				if ( et_pb_options.is_divi_library === '1' && this.has_compatible_clipboard_content !== false ) {
+				if ( et_pb_options.is_blu_library === '1' && this.has_compatible_clipboard_content !== false ) {
 					// There are four recognized layout type: layout, section, row, module
 					switch( et_pb_options.layout_type ) {
 						case 'module' :
@@ -5679,7 +5679,7 @@ window.et_builder_version = '3.0.4';
 								 ! ET_PageBuilder_Layout.is_global_children( this.options.model ) &&
 								 this.options.model.attributes.et_pb_locked !== "on" &&
 								 ! ( ET_PageBuilder_AB_Testing.is_active() && ( ET_PageBuilder_AB_Testing.is_split_test_item( this.options.model ) || type === 'app' ) ) &&
-								 et_pb_options.is_divi_library !== "1" ) {
+								 et_pb_options.is_blu_library !== "1" ) {
 								has_option = true;
 							}
 						break;
@@ -6363,7 +6363,7 @@ window.et_builder_version = '3.0.4';
 				event.preventDefault();
 
 				// View Split Testing stats is disabled on Divi Library
-				if ( et_pb_options.is_divi_library === "1" ) {
+				if ( et_pb_options.is_blu_library === "1" ) {
 					return;
 				}
 
@@ -6374,7 +6374,7 @@ window.et_builder_version = '3.0.4';
 				event.preventDefault();
 
 				// Builder settings is disabled on Divi Library
-				if ( et_pb_options.is_divi_library === "1" ) {
+				if ( et_pb_options.is_blu_library === "1" ) {
 					return;
 				}
 
@@ -12102,7 +12102,7 @@ window.et_builder_version = '3.0.4';
 		 * Add app settings button and link it to actual settings button
 		 * Hide settings button on Divi Library
 		 */
-		if ( et_pb_options.is_divi_library === "0" ) {
+		if ( et_pb_options.is_blu_library === "0" ) {
 			var $app_settings_button = $( '#et-builder-app-settings-button-template' ).html();
 
 			$( '#et_pb_layout' ).prepend( $app_settings_button );

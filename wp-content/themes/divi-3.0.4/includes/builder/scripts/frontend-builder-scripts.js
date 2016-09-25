@@ -969,7 +969,7 @@
 				$et_sticky_image = $('.et_pb_image_sticky'),
 				$et_pb_counter_amount = $('.et_pb_counter_amount'),
 				$et_pb_carousel = $( '.et_pb_carousel' ),
-				$et_menu_selector = et_pb_custom.is_divi_theme_used ? $( 'ul.nav' ) : $( '.et_pb_fullwidth_menu ul.nav' ),
+				$et_menu_selector = et_pb_custom.is_blu_theme_used ? $( 'ul.nav' ) : $( '.et_pb_fullwidth_menu ul.nav' ),
 				et_pb_ab_bounce_rate = et_pb_custom.ab_bounce_rate * 1000,
 				et_pb_ab_logged_status = {
 					read_page: false,

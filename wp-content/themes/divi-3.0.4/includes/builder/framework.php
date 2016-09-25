@@ -84,7 +84,7 @@ function et_builder_load_modules_styles() {
 		'next'                   => esc_html__( 'Next', 'et_builder' ),
 		'wrong_captcha'          => esc_html__( 'You entered the wrong number in captcha.', 'et_builder' ),
 		'is_builder_plugin_used' => et_is_builder_plugin_active(),
-		'is_divi_theme_used'     => function_exists( 'sevenp_blu_fonts_url' ),
+		'is_blu_theme_used'     => function_exists( 'sevenp_blu_fonts_url' ),
 		'widget_search_selector' => apply_filters( 'et_pb_widget_search_selector', '.widget_search' ),
 		'is_ab_testing_active'   => et_is_ab_testing_active(),
 		'page_id'                => $current_page_id,
