@@ -706,7 +706,7 @@ msgstr "Cancella"
 
 #: ../core.php:391 ../core.php:2909 ../functions.php:5914
 msgid ""
-"You have not saved any items to your Divi Library yet. Once an item has been "
+"You have not saved any items to your Blu Library yet. Once an item has been "
 "saved to your library, it will appear here for easy use."
 msgstr ""
 "Non hai ancora salvato nessun oggetto nella tua libreria Divi. Una volta che "
@@ -1595,13 +1595,13 @@ msgid "Add To Categories"
 msgstr "Aggiungi Alle Categorie"
 
 #: ../frontend-builder/helpers.php:420
-msgid "Here you can add the current item to your Divi Library for later use."
+msgid "Here you can add the current item to your Blu Library for later use."
 msgstr ""
 "Qui puoi aggiungere l'elemento corrente alla tua libreria Divi per poterlo "
 "usare più tardi."
 
 #: ../frontend-builder/helpers.php:421 ../functions.php:3550
-msgid "Save your current page to the Divi Library for later use."
+msgid "Save your current page to the Blu Library for later use."
 msgstr ""
 "Salva la tua pagina corrente nella Libreria Divi per utilizzarla in seguito."
 
@@ -2688,7 +2688,7 @@ msgstr "Includi impostazioni Avanzate di Design"
 
 #: ../functions.php:3660
 msgid ""
-"Here you can save the current item and add it to your Divi Library for later "
+"Here you can save the current item and add it to your Blu Library for later "
 "use as well."
 msgstr ""
 "Qui puoi salvare l'elemento corrente e aggiungerlo alla tua Libreria Divi "
@@ -2753,10 +2753,10 @@ msgstr ""
 #: ../functions.php:3841
 msgid ""
 "Save winner as global item (selected subject will be synced and your global "
-"item will be updated in the Divi Library)"
+"item will be updated in the Blu Library)"
 msgstr ""
 "Salva il vincitore come oggetto globale (il campione selezionato verrà "
-"sincronizzato e la Divi Library verrà aggiornata con il tuo nuovo oggetto "
+"sincronizzato e la Blu Library verrà aggiornata con il tuo nuovo oggetto "
 "globale)"
 
 #: ../functions.php:3842
@@ -3010,7 +3010,7 @@ msgid "Theme Options"
 msgstr "Opzioni Del Tema"
 
 #: ../functions.php:5132
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr "Libreria Divi"
 
 #: ../functions.php:5142

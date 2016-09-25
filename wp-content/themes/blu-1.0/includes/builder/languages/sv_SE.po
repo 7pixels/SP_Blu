@@ -703,7 +703,7 @@ msgstr "Radera"
 
 #: ../core.php:391 ../core.php:2909 ../functions.php:5914
 msgid ""
-"You have not saved any items to your Divi Library yet. Once an item has been "
+"You have not saved any items to your Blu Library yet. Once an item has been "
 "saved to your library, it will appear here for easy use."
 msgstr ""
 "Du har inte sparat några föremål i ditt Divi-bibliotek ännu. När ett föremål "
@@ -1584,13 +1584,13 @@ msgid "Add To Categories"
 msgstr "Lägg till i kategorier"
 
 #: ../frontend-builder/helpers.php:420
-msgid "Here you can add the current item to your Divi Library for later use."
+msgid "Here you can add the current item to your Blu Library for later use."
 msgstr ""
 "Här kan du lägga till det nuvarande objektet i ditt Divi-bibliotek för "
 "senare användning."
 
 #: ../frontend-builder/helpers.php:421 ../functions.php:3550
-msgid "Save your current page to the Divi Library for later use."
+msgid "Save your current page to the Blu Library for later use."
 msgstr "Spara din nuvarande sida till Divi-biblioteket för senare användning."
 
 #: ../frontend-builder/helpers.php:432 ../frontend-builder/helpers.php:466
@@ -2664,7 +2664,7 @@ msgstr "Inkludera avancerade design-inställningar"
 
 #: ../functions.php:3660
 msgid ""
-"Here you can save the current item and add it to your Divi Library for later "
+"Here you can save the current item and add it to your Blu Library for later "
 "use as well."
 msgstr ""
 "Här kan du spara det aktuella föremålet och även lägga till det i ditt Divi-"
@@ -2729,7 +2729,7 @@ msgstr ""
 #: ../functions.php:3841
 msgid ""
 "Save winner as global item (selected subject will be synced and your global "
-"item will be updated in the Divi Library)"
+"item will be updated in the Blu Library)"
 msgstr ""
 "Spara vinnaren som ett globalt objekt (det valda subjektet kommer att "
 "synkroniseras och ditt globala objekt kommer att uppdateras i Divi-"
@@ -2983,7 +2983,7 @@ msgid "Theme Options"
 msgstr "Tema Alternativ"
 
 #: ../functions.php:5132
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr "Divi-biblioteket"
 
 #: ../functions.php:5142

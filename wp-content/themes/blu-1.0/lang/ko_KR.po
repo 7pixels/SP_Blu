@@ -1482,7 +1482,7 @@ msgid "Role Editor"
 msgstr "역할 편집기"
 
 #: functions.php:8250
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr "Divi 라이브러리"
 
 #: functions.php:8428

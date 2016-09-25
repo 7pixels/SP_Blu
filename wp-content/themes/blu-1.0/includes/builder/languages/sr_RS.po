@@ -706,7 +706,7 @@ msgstr "Izbriši"
 
 #: ../core.php:391 ../core.php:2909 ../functions.php:5914
 msgid ""
-"You have not saved any items to your Divi Library yet. Once an item has been "
+"You have not saved any items to your Blu Library yet. Once an item has been "
 "saved to your library, it will appear here for easy use."
 msgstr ""
 "Još uvek niste sačuvali nijednu stavku u vašu Divi biblioteku. Jednom kada "
@@ -1592,13 +1592,13 @@ msgid "Add To Categories"
 msgstr "Dodaj u kategorije"
 
 #: ../frontend-builder/helpers.php:420
-msgid "Here you can add the current item to your Divi Library for later use."
+msgid "Here you can add the current item to your Blu Library for later use."
 msgstr ""
 "Ovde možete dodati trenutnu stavku vašoj Divi biblioteci da biste je kasnije "
 "upotrebili."
 
 #: ../frontend-builder/helpers.php:421 ../functions.php:3550
-msgid "Save your current page to the Divi Library for later use."
+msgid "Save your current page to the Blu Library for later use."
 msgstr ""
 "Sačuvajte vašu važeću stranicu u Divi biblioteku, zarad kasnije upotrebe."
 
@@ -2674,7 +2674,7 @@ msgstr "Uključi napredne postavke dizajna"
 
 #: ../functions.php:3660
 msgid ""
-"Here you can save the current item and add it to your Divi Library for later "
+"Here you can save the current item and add it to your Blu Library for later "
 "use as well."
 msgstr ""
 "Ovde možete sačuvati važeću stavku i dodati je vašoj Divi biblioteci takođe "
@@ -2739,7 +2739,7 @@ msgstr ""
 #: ../functions.php:3841
 msgid ""
 "Save winner as global item (selected subject will be synced and your global "
-"item will be updated in the Divi Library)"
+"item will be updated in the Blu Library)"
 msgstr ""
 "Sačuvajte pobednika kao globalnu stavku (odabrani subjekat će se "
 "sinhronizovati i vaša globalna stavka će se ažurirati u Divi biblioteci)"
@@ -2990,7 +2990,7 @@ msgid "Theme Options"
 msgstr "Опције Теме"
 
 #: ../functions.php:5132
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr "Divi biblioteka"
 
 #: ../functions.php:5142

@@ -610,7 +610,7 @@ msgstr ""
 
 #: core.php:468
 msgid ""
-"You have not saved any items to your Divi Library yet. Once an item has "
+"You have not saved any items to your Blu Library yet. Once an item has "
 "been saved to your library, it will appear here for easy use."
 msgstr ""
 
@@ -1892,7 +1892,7 @@ msgid "Save To Library"
 msgstr ""
 
 #: functions.php:3207
-msgid "Save your current page to the Divi Library for later use."
+msgid "Save your current page to the Blu Library for later use."
 msgstr ""
 
 #: functions.php:3208
@@ -1921,7 +1921,7 @@ msgstr ""
 
 #: functions.php:3317
 msgid ""
-"Here you can save the current item and add it to your Divi Library for "
+"Here you can save the current item and add it to your Blu Library for "
 "later use as well."
 msgstr ""
 
@@ -1992,7 +1992,7 @@ msgstr ""
 #: functions.php:3498
 msgid ""
 "Save winner as global item (selected subject will be synced and your global "
-"item will be updated in the Divi Library)"
+"item will be updated in the Blu Library)"
 msgstr ""
 
 #: functions.php:3499
@@ -2231,7 +2231,7 @@ msgid "Theme Options"
 msgstr ""
 
 #: functions.php:4662
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr ""
 
 #: functions.php:4672

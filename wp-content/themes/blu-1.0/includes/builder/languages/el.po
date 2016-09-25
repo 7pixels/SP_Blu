@@ -707,7 +707,7 @@ msgstr "Διαγραφή"
 
 #: ../core.php:391 ../core.php:2909 ../functions.php:5914
 msgid ""
-"You have not saved any items to your Divi Library yet. Once an item has been "
+"You have not saved any items to your Blu Library yet. Once an item has been "
 "saved to your library, it will appear here for easy use."
 msgstr ""
 "Δεν έχετε αποθηκεύσει κανένα στοιχείο στη Divi Βιβλιοθήκη σας ακόμα. Μόλις "
@@ -1601,13 +1601,13 @@ msgid "Add To Categories"
 msgstr "Προσθήκη Στις Κατηγορίες"
 
 #: ../frontend-builder/helpers.php:420
-msgid "Here you can add the current item to your Divi Library for later use."
+msgid "Here you can add the current item to your Blu Library for later use."
 msgstr ""
 "Εδώ μπορείτε να προσθέσετε το τρέχον στοιχείο στην Βιβλιοθήκη Divi για "
 "μεταγενέστερη χρήση."
 
 #: ../frontend-builder/helpers.php:421 ../functions.php:3550
-msgid "Save your current page to the Divi Library for later use."
+msgid "Save your current page to the Blu Library for later use."
 msgstr ""
 "Αποθήκευση της τρέχουσας σελίδας σας στην Divi Βιβλιοθήκη για μελλοντική "
 "χρήση."
@@ -2703,7 +2703,7 @@ msgstr "Να Περιλαμβάνονται οι Προηγμένες Ρυθμί
 
 #: ../functions.php:3660
 msgid ""
-"Here you can save the current item and add it to your Divi Library for later "
+"Here you can save the current item and add it to your Blu Library for later "
 "use as well."
 msgstr ""
 "Εδώ μπορείτε επίσης να αποθηκεύσετε το τρέχων στοιχείο και να το προσθέσετε "
@@ -2769,7 +2769,7 @@ msgstr ""
 #: ../functions.php:3841
 msgid ""
 "Save winner as global item (selected subject will be synced and your global "
-"item will be updated in the Divi Library)"
+"item will be updated in the Blu Library)"
 msgstr ""
 "Αποθηκεύστε το νικητή σαν καθολικό στοιχείο (το επιλεγμένο θέμα θα "
 "συγχρονιστεί και το καθολικό στοιχείο σας θα ενημερωθεί στη Βιβλιοθήκη Divi)"
@@ -3024,7 +3024,7 @@ msgid "Theme Options"
 msgstr "Επιλογές Θέμα"
 
 #: ../functions.php:5132
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr "Βιβλιοθήκη Divi"
 
 #: ../functions.php:5142

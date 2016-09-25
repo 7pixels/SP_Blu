@@ -1484,7 +1484,7 @@ msgid "Role Editor"
 msgstr "Szerepkör szerkesztő"
 
 #: functions.php:8250
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr "Divi könyvtár"
 
 #: functions.php:8428

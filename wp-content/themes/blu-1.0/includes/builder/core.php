@@ -401,7 +401,7 @@ function et_pb_get_saved_templates() {
 	$templates_data = et_pb_retrieve_templates( $layout_type, $module_width, $is_global, $specialty_query, $post_type );
 
 	if ( empty( $templates_data ) ) {
-		$templates_data = array( 'error' => esc_html__( 'You have not saved any items to your Divi Library yet. Once an item has been saved to your library, it will appear here for easy use.', 'et_builder' ) );
+		$templates_data = array( 'error' => esc_html__( 'You have not saved any items to your Blu Library yet. Once an item has been saved to your library, it will appear here for easy use.', 'et_builder' ) );
 	}
 
 	$json_templates = json_encode( $templates_data );
@@ -2878,7 +2878,7 @@ function et_fb_get_saved_templates() {
 		$templates_data_processed = array();
 	} else {
 		if ( empty( $templates_data ) ) {
-			$templates_data_processed = array( 'error' => esc_html__( 'You have not saved any items to your Divi Library yet. Once an item has been saved to your library, it will appear here for easy use.', 'et_builder' ) );
+			$templates_data_processed = array( 'error' => esc_html__( 'You have not saved any items to your Blu Library yet. Once an item has been saved to your library, it will appear here for easy use.', 'et_builder' ) );
 		} else {
 			foreach( $templates_data as $index => $data ) {
 				$templates_data_processed[ $index ]['shortcode'] = et_fb_process_shortcode( $data['shortcode'] );

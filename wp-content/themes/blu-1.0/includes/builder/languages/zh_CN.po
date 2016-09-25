@@ -702,7 +702,7 @@ msgstr "删除"
 
 #: ../core.php:391 ../core.php:2909 ../functions.php:5914
 msgid ""
-"You have not saved any items to your Divi Library yet. Once an item has been "
+"You have not saved any items to your Blu Library yet. Once an item has been "
 "saved to your library, it will appear here for easy use."
 msgstr ""
 "您还没有保存任何项目到您的Divi库中。一旦您将某个项目保存到了您的库中，它将出"
@@ -1559,11 +1559,11 @@ msgid "Add To Categories"
 msgstr "添加到分类"
 
 #: ../frontend-builder/helpers.php:420
-msgid "Here you can add the current item to your Divi Library for later use."
+msgid "Here you can add the current item to your Blu Library for later use."
 msgstr "您可以在这里添加当前项目到您的 Divi 库供以后使用。"
 
 #: ../frontend-builder/helpers.php:421 ../functions.php:3550
-msgid "Save your current page to the Divi Library for later use."
+msgid "Save your current page to the Blu Library for later use."
 msgstr "保存您的当前页面到Divi库以备后用。"
 
 #: ../frontend-builder/helpers.php:432 ../frontend-builder/helpers.php:466
@@ -2600,7 +2600,7 @@ msgstr "包括高级设计设置"
 
 #: ../functions.php:3660
 msgid ""
-"Here you can save the current item and add it to your Divi Library for later "
+"Here you can save the current item and add it to your Blu Library for later "
 "use as well."
 msgstr "在这里，您可以保存当前项目并把它添加到您的Divi库中以备后用。"
 
@@ -2660,9 +2660,9 @@ msgstr "您正在使用全局项作为分割测试的胜者。因此，你必须
 #: ../functions.php:3841
 msgid ""
 "Save winner as global item (selected subject will be synced and your global "
-"item will be updated in the Divi Library)"
+"item will be updated in the Blu Library)"
 msgstr ""
-"保存胜者为全局项（选择的主题将被同步，你的全局项将在 Divi Library 中更新）"
+"保存胜者为全局项（选择的主题将被同步，你的全局项将在 Blu Library 中更新）"
 
 #: ../functions.php:3842
 msgid ""
@@ -2907,7 +2907,7 @@ msgid "Theme Options"
 msgstr "主题选择"
 
 #: ../functions.php:5132
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr "Divi库"
 
 #: ../functions.php:5142

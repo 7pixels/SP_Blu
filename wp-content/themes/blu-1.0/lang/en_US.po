@@ -1465,7 +1465,7 @@ msgid "Role Editor"
 msgstr ""
 
 #: functions.php:8250
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr ""
 
 #: functions.php:8428

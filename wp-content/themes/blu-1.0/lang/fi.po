@@ -1484,7 +1484,7 @@ msgid "Role Editor"
 msgstr "rooli Editor"
 
 #: functions.php:8250
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr "Divi-kirjasto"
 
 #: functions.php:8428

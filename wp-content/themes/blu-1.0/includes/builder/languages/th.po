@@ -595,7 +595,7 @@ msgstr "ลบ"
 
 #: ../core.php:391 ../core.php:2909 ../functions.php:5914
 msgid ""
-"You have not saved any items to your Divi Library yet. Once an item has been saved to your library, it will appear here "
+"You have not saved any items to your Blu Library yet. Once an item has been saved to your library, it will appear here "
 "for easy use."
 msgstr "คุณยังไม่ได้บันทึกไอเท็มใดๆ ลงในไลบรารี Divi  เมื่อไอเท็มได้รับการบันทึกในไลบรารี มันจะปรากฏที่นี่เพื่อความสะดวกในการใช้งาน"
 
@@ -1405,11 +1405,11 @@ msgid "Add To Categories"
 msgstr "เพิ่มลงในหมวดหมู่"
 
 #: ../frontend-builder/helpers.php:420
-msgid "Here you can add the current item to your Divi Library for later use."
+msgid "Here you can add the current item to your Blu Library for later use."
 msgstr "ตรงนี้ คุณสามารถเพิ่มไอเท็มปัจจุบันเข้าสู่คลัง Divi ของคุณไว้ใช้ในภายหลัง"
 
 #: ../frontend-builder/helpers.php:421 ../functions.php:3550
-msgid "Save your current page to the Divi Library for later use."
+msgid "Save your current page to the Blu Library for later use."
 msgstr "บันทึกหน้าเว็บปัจจุบันลงในไลบรารี Divi สำหรับใช้งานภายหลัง"
 
 #: ../frontend-builder/helpers.php:432 ../frontend-builder/helpers.php:466
@@ -2378,7 +2378,7 @@ msgid "Include Advanced Design settings"
 msgstr "รวมการตั้งค่าการออกแบบขั้นสูง"
 
 #: ../functions.php:3660
-msgid "Here you can save the current item and add it to your Divi Library for later use as well."
+msgid "Here you can save the current item and add it to your Blu Library for later use as well."
 msgstr "ที่นี่คุณสามารถบันทึกไอเท็มปัจจุบันและเพิ่มลงในไลบรารี Divi เพื่อใช้งานในภายหลังได้เช่นกัน"
 
 #: ../functions.php:3667
@@ -2433,7 +2433,7 @@ msgstr "คุณกำลังใช้งานรายการกลาง
 
 #: ../functions.php:3841
 msgid ""
-"Save winner as global item (selected subject will be synced and your global item will be updated in the Divi Library)"
+"Save winner as global item (selected subject will be synced and your global item will be updated in the Blu Library)"
 msgstr "บันทึกรายการที่ชนะเป็นรายการกลาง (หัวข้อที่เลือกจะถูกซิงค์และรายการกลางของคุณจะได้รับการอัปเดตในคลัง Divi)"
 
 #: ../functions.php:3842
@@ -2660,7 +2660,7 @@ msgid "Theme Options"
 msgstr "ตัวเลือกชุดตกแต่ง"
 
 #: ../functions.php:5132
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr "ไลบรารี Divi"
 
 #: ../functions.php:5142

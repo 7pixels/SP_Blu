@@ -188,7 +188,7 @@ version 2.7 ( updated 03-30-2016 )
 - Added option to configure Content Area and Section background color for individual pages
 - Added option to define custom css for individual pages
 - Added ability to import/export Customizer settings, ePanel settings, Roles settings and Layouts of particular posts/pages made with Divi Builder
-- Improved import/export of Divi Library
+- Improved import/export of Blu Library
 - Added option to configure color palette for color pickers in Divi Builder
 - Added mechanism which diagnoses common issues in Divi Builder ( such as cached files, low memory limit, etc ) and helps to resolve them
 	* /includes/builder
@@ -226,7 +226,7 @@ version 2.7 ( updated 03-30-2016 )
 	* includes/builder/class-et-builder-element.php
 - Fixed the issue with comments appearance on small screens
 	* includes/builder/styles/frontend-builder-style.css
-- Fixed the issue with incorrect number of posts in "mine" field in the Divi Library
+- Fixed the issue with incorrect number of posts in "mine" field in the Blu Library
 	* includes/builder/functions.php
 - Fixed the issue when animation is not triggered for the very bottom elements on the page and they never become visible
 	* includes/builder/scripts/frontend-builder-scripts.js
@@ -552,7 +552,7 @@ version 2.5.4 ( updated 10-20-2015 )
 	* includes/builder/layouts.php
 - Sidebar Module: Made the first registered sidebar default
 	* includes/builder/main-modules.php
-- Fixed the issue with Divi Library export feature when all the items were exported without Layout Type
+- Fixed the issue with Blu Library export feature when all the items were exported without Layout Type
 	* includes/builder/framework.php
 - Fixed the issue with right click feature not working on some elements inside the Row
 	* includes/builder/scripts/builder.js
@@ -1059,7 +1059,7 @@ version 2.4.1 ( updated 06-18-2015 )
 version 2.4 ( updated 06-17-2015 )
 * All files changed/updated
 - Made Divi fully fluid ( all Module are percentage based now )
-- Added Divi Library and ability to save modules, rows and sections
+- Added Blu Library and ability to save modules, rows and sections
 - Added ability to create global modules, rows and sections and sync their content
 - Added Settings for Rows
 - Added "Change Column Structure" option for Rows

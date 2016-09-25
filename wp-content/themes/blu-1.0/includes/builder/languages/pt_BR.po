@@ -703,7 +703,7 @@ msgstr "Excluir"
 
 #: ../core.php:391 ../core.php:2909 ../functions.php:5914
 msgid ""
-"You have not saved any items to your Divi Library yet. Once an item has been "
+"You have not saved any items to your Blu Library yet. Once an item has been "
 "saved to your library, it will appear here for easy use."
 msgstr ""
 "Você ainda não salvou nenhum item na sua Biblioteca Divi. Quando o item "
@@ -1589,13 +1589,13 @@ msgid "Add To Categories"
 msgstr "Adicionar às Categorias"
 
 #: ../frontend-builder/helpers.php:420
-msgid "Here you can add the current item to your Divi Library for later use."
+msgid "Here you can add the current item to your Blu Library for later use."
 msgstr ""
 "Aqui você pode adicionar o item atual à sua Biblioteca de Divi para uso "
 "posterior."
 
 #: ../frontend-builder/helpers.php:421 ../functions.php:3550
-msgid "Save your current page to the Divi Library for later use."
+msgid "Save your current page to the Blu Library for later use."
 msgstr "Salve sua página atual na Biblioteca Divi para uso posterior."
 
 #: ../frontend-builder/helpers.php:432 ../frontend-builder/helpers.php:466
@@ -2683,7 +2683,7 @@ msgstr "Incluir Configurações Avançadas de Design"
 
 #: ../functions.php:3660
 msgid ""
-"Here you can save the current item and add it to your Divi Library for later "
+"Here you can save the current item and add it to your Blu Library for later "
 "use as well."
 msgstr ""
 "Aqui você pode salvar o item atual e adicioná-lo à sua Biblioteca Divi para "
@@ -2749,7 +2749,7 @@ msgstr ""
 #: ../functions.php:3841
 msgid ""
 "Save winner as global item (selected subject will be synced and your global "
-"item will be updated in the Divi Library)"
+"item will be updated in the Blu Library)"
 msgstr ""
 "Salve o vencedor como item global (o assunto selecionado será sincronizado e "
 "seu item global será atualizado na Biblioteca Divi)"
@@ -3002,7 +3002,7 @@ msgid "Theme Options"
 msgstr "Opções De Tema"
 
 #: ../functions.php:5132
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr "Biblioteca Divi"
 
 #: ../functions.php:5142

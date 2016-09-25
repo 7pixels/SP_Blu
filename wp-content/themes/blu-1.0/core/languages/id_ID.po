@@ -1274,7 +1274,7 @@ msgstr "Impor & Ekspor"
 #~ msgid "Role Editor"
 #~ msgstr "peran Editor"
 
-#~ msgid "Divi Library"
+#~ msgid "Blu Library"
 #~ msgstr "Pustaka Divi"
 
 #~ msgid "Divi Customizer Settings"

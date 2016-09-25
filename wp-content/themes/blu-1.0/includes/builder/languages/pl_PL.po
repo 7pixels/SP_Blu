@@ -705,7 +705,7 @@ msgstr "Usuń"
 
 #: ../core.php:391 ../core.php:2909 ../functions.php:5914
 msgid ""
-"You have not saved any items to your Divi Library yet. Once an item has been "
+"You have not saved any items to your Blu Library yet. Once an item has been "
 "saved to your library, it will appear here for easy use."
 msgstr ""
 "Nie zapisano jeszcze żadnych elementów w twojej bibliotece Divi. Po "
@@ -1589,13 +1589,13 @@ msgid "Add To Categories"
 msgstr "Dodaj do kategorii"
 
 #: ../frontend-builder/helpers.php:420
-msgid "Here you can add the current item to your Divi Library for later use."
+msgid "Here you can add the current item to your Blu Library for later use."
 msgstr ""
 "Tutaj możesz dodać bieżący element do swojej biblitoteki Divi w celu jego "
 "późniejszego użycia."
 
 #: ../frontend-builder/helpers.php:421 ../functions.php:3550
-msgid "Save your current page to the Divi Library for later use."
+msgid "Save your current page to the Blu Library for later use."
 msgstr ""
 "Zapisz bieżącą stronę w bibliotece Divi w celu późniejszego wykorzystania."
 
@@ -2666,7 +2666,7 @@ msgstr "Dołącz zaawansowane ustawienia projektu"
 
 #: ../functions.php:3660
 msgid ""
-"Here you can save the current item and add it to your Divi Library for later "
+"Here you can save the current item and add it to your Blu Library for later "
 "use as well."
 msgstr ""
 "Tutaj możesz zapisać aktualny element i dodać go do biblioteki Divi w celu "
@@ -2731,7 +2731,7 @@ msgstr ""
 #: ../functions.php:3841
 msgid ""
 "Save winner as global item (selected subject will be synced and your global "
-"item will be updated in the Divi Library)"
+"item will be updated in the Blu Library)"
 msgstr ""
 "Zachowaj zwycięzcę jako element globalny (wybrany obszar zostanie "
 "zsynchronizowany a element globalny zostanie dołączony do biblioteki "
@@ -2986,7 +2986,7 @@ msgid "Theme Options"
 msgstr "Opcje Tematu"
 
 #: ../functions.php:5132
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr "Biblioteka Divi"
 
 #: ../functions.php:5142

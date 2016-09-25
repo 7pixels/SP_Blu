@@ -88,7 +88,7 @@ function et_update_old_layouts_taxonomy( $posts ) {
 }
 add_filter( 'wp_import_posts', 'et_update_old_layouts_taxonomy', 10 );
 
-// add custom filters for posts in the Divi Library
+// add custom filters for posts in the Blu Library
 if ( ! function_exists( 'et_pb_add_layout_filters' ) ) :
 function et_pb_add_layout_filters() {
 	if ( isset( $_GET['post_type'] ) && 'et_pb_layout' === $_GET['post_type'] ) {
@@ -158,7 +158,7 @@ function et_pb_add_layout_filters() {
 endif;
 add_action( 'restrict_manage_posts', 'et_pb_add_layout_filters' );
 
-// Add "Export Divi Layouts" button to the Divi Library page
+// Add "Export Divi Layouts" button to the Blu Library page
 if ( ! function_exists( 'et_pb_load_export_section' ) ) :
 function et_pb_load_export_section(){
 	$current_screen = get_current_screen();
@@ -3568,7 +3568,7 @@ function et_pb_pagebuilder_meta_box() {
 			<input type="text" value="" id="et_pb_new_layout_name" class="regular-text" />
 		</script>',
 		esc_html__( 'Save To Library', 'et_builder' ),
-		esc_html__( 'Save your current page to the Divi Library for later use.', 'et_builder' ),
+		esc_html__( 'Save your current page to the Blu Library for later use.', 'et_builder' ),
 		esc_html__( 'Layout Name:', 'et_builder' )
 	);
 
@@ -3678,7 +3678,7 @@ function et_pb_pagebuilder_meta_box() {
 				%10$s
 			</div>
 		</script>',
-		esc_html__( 'Here you can save the current item and add it to your Divi Library for later use as well.', 'et_builder' ),
+		esc_html__( 'Here you can save the current item and add it to your Blu Library for later use as well.', 'et_builder' ),
 		esc_html__( 'Template Name', 'et_builder' ),
 		esc_html__( 'Selective Sync', 'et_builder' ),
 		et_pb_is_allowed( 'general_settings' ) ? $general_checkbox : '',
@@ -3859,7 +3859,7 @@ function et_pb_pagebuilder_meta_box() {
 		</script>',
 		esc_html__( 'Set Winner Status', 'et_builder' ),
 		esc_html__( 'You were using global item as split testing winner. Consequently, you have to choose between:', 'et_builder' ),
-		esc_html__( 'Save winner as global item (selected subject will be synced and your global item will be updated in the Divi Library)', 'et_builder' ),
+		esc_html__( 'Save winner as global item (selected subject will be synced and your global item will be updated in the Blu Library)', 'et_builder' ),
 		esc_html__( 'Save winner as non-global item (selected subject will no longer be a global item and your changes will not modify the global item)', 'et_builder' )
 	);
 
@@ -5150,7 +5150,7 @@ function et_pb_all_role_options() {
 					'applicability'  => array( 'administrator' ),
 				),
 				'blu_library' => array(
-					'name'    => esc_html__( 'Divi Library', 'et_builder' ),
+					'name'    => esc_html__( 'Blu Library', 'et_builder' ),
 					'default' => 'on',
 				),
 				'ab_testing' => array(
@@ -5936,7 +5936,7 @@ function et_fb_get_saved_layouts() {
 		$all_layouts_data_processed = array();
 	} else {
 		if ( empty( $all_layouts_data ) ) {
-			$all_layouts_data_processed = array( 'error' => esc_html__( 'You have not saved any items to your Divi Library yet. Once an item has been saved to your library, it will appear here for easy use.', 'et_builder' ) );
+			$all_layouts_data_processed = array( 'error' => esc_html__( 'You have not saved any items to your Blu Library yet. Once an item has been saved to your library, it will appear here for easy use.', 'et_builder' ) );
 		} else {
 			foreach( $all_layouts_data as $index => $data ) {
 				$all_layouts_data_processed[ $index ]['shortcode'] = et_fb_process_shortcode( $data['shortcode'] );

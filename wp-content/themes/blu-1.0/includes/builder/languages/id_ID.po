@@ -706,7 +706,7 @@ msgstr "Hapus"
 
 #: ../core.php:391 ../core.php:2909 ../functions.php:5914
 msgid ""
-"You have not saved any items to your Divi Library yet. Once an item has been "
+"You have not saved any items to your Blu Library yet. Once an item has been "
 "saved to your library, it will appear here for easy use."
 msgstr ""
 "Anda belum menyimpan item apa pun ke Pustaka Divi Anda. Setelah item "
@@ -1589,13 +1589,13 @@ msgid "Add To Categories"
 msgstr "Tambah ke Kategori"
 
 #: ../frontend-builder/helpers.php:420
-msgid "Here you can add the current item to your Divi Library for later use."
+msgid "Here you can add the current item to your Blu Library for later use."
 msgstr ""
 "Di sini Anda dapat menambahkan item yang ada saat ini ke Pustaka Divi untuk "
 "digunakan di saat selanjutnya."
 
 #: ../frontend-builder/helpers.php:421 ../functions.php:3550
-msgid "Save your current page to the Divi Library for later use."
+msgid "Save your current page to the Blu Library for later use."
 msgstr "Simpan laman Anda saat ini ke Library Divi untuk pemakaian mendatang."
 
 #: ../frontend-builder/helpers.php:432 ../frontend-builder/helpers.php:466
@@ -2674,7 +2674,7 @@ msgstr "Sertakan Pengaturan Desain Lanjutan"
 
 #: ../functions.php:3660
 msgid ""
-"Here you can save the current item and add it to your Divi Library for later "
+"Here you can save the current item and add it to your Blu Library for later "
 "use as well."
 msgstr ""
 "Di sini Anda dapat menyimpan item saat ini dan juga menambahkannya ke "
@@ -2739,10 +2739,10 @@ msgstr ""
 #: ../functions.php:3841
 msgid ""
 "Save winner as global item (selected subject will be synced and your global "
-"item will be updated in the Divi Library)"
+"item will be updated in the Blu Library)"
 msgstr ""
 "Simpan pemenang sebagai global item (subjek terpilih akan disinkronkan dan "
-"global item Anda akan diperbarui dalam Divi Library)"
+"global item Anda akan diperbarui dalam Blu Library)"
 
 #: ../functions.php:3842
 msgid ""
@@ -2991,7 +2991,7 @@ msgid "Theme Options"
 msgstr "Tema Pilihan"
 
 #: ../functions.php:5132
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr "Pustaka Divi"
 
 #: ../functions.php:5142

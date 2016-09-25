@@ -1493,7 +1493,7 @@ msgid "Role Editor"
 msgstr "ρόλος Εκδότης"
 
 #: functions.php:8250
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr "Βιβλιοθήκη Divi"
 
 #: functions.php:8428

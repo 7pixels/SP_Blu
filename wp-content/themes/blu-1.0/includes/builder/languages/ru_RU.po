@@ -670,7 +670,7 @@ msgstr "Удалить"
 
 #: core.php:391 core.php:2909 functions.php:5914
 msgid ""
-"You have not saved any items to your Divi Library yet. Once an item has been "
+"You have not saved any items to your Blu Library yet. Once an item has been "
 "saved to your library, it will appear here for easy use."
 msgstr ""
 "Вы еще не сохранили ни одной позиции для вашей Divi библиотеки. После того, "
@@ -1544,15 +1544,15 @@ msgid "Add To Categories"
 msgstr "Добавить в категории"
 
 #: frontend-builder/helpers.php:420
-msgid "Here you can add the current item to your Divi Library for later use."
+msgid "Here you can add the current item to your Blu Library for later use."
 msgstr ""
 "Здесь можно добавить в библиотеку Divi текущий элемент, чтобы использовать "
 "его в дальнейшем."
 
 #: frontend-builder/helpers.php:421 functions.php:3550
-msgid "Save your current page to the Divi Library for later use."
+msgid "Save your current page to the Blu Library for later use."
 msgstr ""
-"Сохранить вашу текущую страницу в Divi Library для последующего "
+"Сохранить вашу текущую страницу в Blu Library для последующего "
 "использования."
 
 #: frontend-builder/helpers.php:432 frontend-builder/helpers.php:466
@@ -2626,10 +2626,10 @@ msgstr "Включить настройки усовершенствованно
 
 #: functions.php:3660
 msgid ""
-"Here you can save the current item and add it to your Divi Library for later "
+"Here you can save the current item and add it to your Blu Library for later "
 "use as well."
 msgstr ""
-"Здесь вы можете сохранить текущий элемент и добавить его в Divi Library для "
+"Здесь вы можете сохранить текущий элемент и добавить его в Blu Library для "
 "последующего использования."
 
 #: functions.php:3667
@@ -2691,7 +2691,7 @@ msgstr ""
 #: functions.php:3841
 msgid ""
 "Save winner as global item (selected subject will be synced and your global "
-"item will be updated in the Divi Library)"
+"item will be updated in the Blu Library)"
 msgstr ""
 "Сохранить победителя как глобальный элемент (выбранный объект будет "
 "синхронизирован и ваш глобальный элемент будет обновлен в библиотеке Divi)"
@@ -2937,7 +2937,7 @@ msgid "Theme Options"
 msgstr "Опции Темы"
 
 #: functions.php:5132
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr "Библиотека Divi"
 
 #: functions.php:5142

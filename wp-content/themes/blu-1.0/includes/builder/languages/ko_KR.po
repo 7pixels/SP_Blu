@@ -703,7 +703,7 @@ msgstr "삭제"
 
 #: ../core.php:391 ../core.php:2909 ../functions.php:5914
 msgid ""
-"You have not saved any items to your Divi Library yet. Once an item has been "
+"You have not saved any items to your Blu Library yet. Once an item has been "
 "saved to your library, it will appear here for easy use."
 msgstr ""
 "당신의 Divi 라이브러리에 아이템을 저장하지 않으셨습니다. 아이템이 당신의 라이"
@@ -1575,13 +1575,13 @@ msgid "Add To Categories"
 msgstr "카테고리에 추가"
 
 #: ../frontend-builder/helpers.php:420
-msgid "Here you can add the current item to your Divi Library for later use."
+msgid "Here you can add the current item to your Blu Library for later use."
 msgstr ""
 "여기에서 현재 아이템을 사용자 Divi 라이브러리에 추가하면 나중에 사용할 수 있"
 "습니다."
 
 #: ../frontend-builder/helpers.php:421 ../functions.php:3550
-msgid "Save your current page to the Divi Library for later use."
+msgid "Save your current page to the Blu Library for later use."
 msgstr ""
 "나중에 사용하기 위해 당신의 현재 페이지를 Divi 라이브러리에 저장하세요."
 
@@ -2639,7 +2639,7 @@ msgstr "고급 디자인설정 포함"
 
 #: ../functions.php:3660
 msgid ""
-"Here you can save the current item and add it to your Divi Library for later "
+"Here you can save the current item and add it to your Blu Library for later "
 "use as well."
 msgstr ""
 "여기에서 현재 아이템을 저장하고 나중에 사용하기 위해 당신의 Divi 라이브러리"
@@ -2704,7 +2704,7 @@ msgstr ""
 #: ../functions.php:3841
 msgid ""
 "Save winner as global item (selected subject will be synced and your global "
-"item will be updated in the Divi Library)"
+"item will be updated in the Blu Library)"
 msgstr ""
 "우승자를 글로벌 아이템으로 저장 (선택한 서브젝트는 싱크될 것이고 당신의 글로"
 "벌 아이템은 Divi 라이브러리에 업데이트 될 것입니다)"
@@ -2953,7 +2953,7 @@ msgid "Theme Options"
 msgstr "테마 옵션"
 
 #: ../functions.php:5132
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr "Divi 라이브러리"
 
 #: ../functions.php:5142

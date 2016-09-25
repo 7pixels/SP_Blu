@@ -671,7 +671,7 @@ msgstr "Vymazať"
 
 #: ../core.php:391 ../core.php:2909 ../functions.php:5914
 msgid ""
-"You have not saved any items to your Divi Library yet. Once an item has been "
+"You have not saved any items to your Blu Library yet. Once an item has been "
 "saved to your library, it will appear here for easy use."
 msgstr ""
 "Do vašej Divi knižnice ste zatiaľ neuložili žiadne položky. Akákoľvek položka, "
@@ -1555,13 +1555,13 @@ msgid "Add To Categories"
 msgstr "Pridať ku kategóriám"
 
 #: ../frontend-builder/helpers.php:420
-msgid "Here you can add the current item to your Divi Library for later use."
+msgid "Here you can add the current item to your Blu Library for later use."
 msgstr ""
 "Tu si môžete aktuálnu položku vložiť do svojej Divi knižnice pre neskoršie "
 "použitie."
 
 #: ../frontend-builder/helpers.php:421 ../functions.php:3550
-msgid "Save your current page to the Divi Library for later use."
+msgid "Save your current page to the Blu Library for later use."
 msgstr "Uložte si aktuálnu stránku do Divi knižnice na neskoršie použitie."
 
 #: ../frontend-builder/helpers.php:432 ../frontend-builder/helpers.php:466
@@ -2631,7 +2631,7 @@ msgstr "Zahrnúť nastavenia pokročilého vzhľadu"
 
 #: ../functions.php:3660
 msgid ""
-"Here you can save the current item and add it to your Divi Library for later "
+"Here you can save the current item and add it to your Blu Library for later "
 "use as well."
 msgstr ""
 "Aj tu si môžete aktuálnu položku uložiť a pridať ju do vašej Divi knižnice na "
@@ -2696,7 +2696,7 @@ msgstr ""
 #: ../functions.php:3841
 msgid ""
 "Save winner as global item (selected subject will be synced and your global "
-"item will be updated in the Divi Library)"
+"item will be updated in the Blu Library)"
 msgstr ""
 "Uložiť víťaza ako globálnu položku (vybratý predmet sa zosynchronizuje a vaša "
 "globálna položka sa aktualizuje v knižnici Divi)"
@@ -2940,7 +2940,7 @@ msgid "Theme Options"
 msgstr "Tému Možnosti"
 
 #: ../functions.php:5132
-msgid "Divi Library"
+msgid "Blu Library"
 msgstr "Divi Knižnica"
 
 #: ../functions.php:5142

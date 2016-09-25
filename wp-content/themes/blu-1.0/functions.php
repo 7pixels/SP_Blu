@@ -8329,9 +8329,9 @@ function et_add_divi_menu() {
 		add_submenu_page( 'sevenp_blu_options', esc_html__( 'Module Customizer', 'Blu' ), esc_html__( 'Module Customizer', 'Blu' ), 'manage_options', 'customize.php?et_customizer_option_set=module' );
 	}
 	add_submenu_page( 'sevenp_blu_options', esc_html__( 'Role Editor', 'Blu' ), esc_html__( 'Role Editor', 'Blu' ), 'manage_options', 'sevenp_blu_role_editor', 'et_pb_display_role_editor' );
-	// Add Divi Library menu only if it's enabled for current user
+	// Add Blu Library menu only if it's enabled for current user
 	if ( et_pb_is_allowed( 'blu_library' ) ) {
-		add_submenu_page( 'sevenp_blu_options', esc_html__( 'Divi Library', 'Blu' ), esc_html__( 'Divi Library', 'Blu' ), 'manage_options', 'edit.php?post_type=et_pb_layout' );
+		add_submenu_page( 'sevenp_blu_options', esc_html__( 'Blu Library', 'Blu' ), esc_html__( 'Blu Library', 'Blu' ), 'manage_options', 'edit.php?post_type=et_pb_layout' );
 	}
 
 	add_action( "load-{$core_page}", 'et_pb_check_options_access' ); // load function to check the permissions of current user
