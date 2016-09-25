@@ -943,7 +943,7 @@ function et_pb_submit_subscribe_form() {
 				$mailchimp_api_option = get_option( 'et_pb_builder_options' );
 				$mailchimp_api_key = isset( $mailchimp_api_option['newsletter_main_mailchimp_key'] ) ? $mailchimp_api_option['newsletter_main_mailchimp_key'] : '';
 			} else {
-				$mailchimp_api_key = et_get_option( 'divi_mailchimp_api_key' );
+				$mailchimp_api_key = et_get_option( 'blu_mailchimp_api_key' );
 			}
 
 			if ( '' === $mailchimp_api_key ) die( json_encode( array( 'error' => esc_html__( 'Configuration error: api key is not defined', 'et_builder' ) ) ) );
@@ -1032,10 +1032,10 @@ function et_pb_get_aweber_account() {
 		$access_key = isset( $aweber_api_option['aweber_access_key'] ) ? $aweber_api_option['aweber_access_key'] : '';
 		$access_secret = isset( $aweber_api_option['aweber_access_secret'] ) ? $aweber_api_option['aweber_access_secret'] : '';
 	} else {
-		$consumer_key = et_get_option( 'divi_aweber_consumer_key' );
-		$consumer_secret = et_get_option( 'divi_aweber_consumer_secret' );
-		$access_key = et_get_option( 'divi_aweber_access_key' );
-		$access_secret = et_get_option( 'divi_aweber_access_secret' );
+		$consumer_key = et_get_option( 'blu_aweber_consumer_key' );
+		$consumer_secret = et_get_option( 'blu_aweber_consumer_secret' );
+		$access_key = et_get_option( 'blu_aweber_access_key' );
+		$access_secret = et_get_option( 'blu_aweber_access_secret' );
 	}
 
 	if ( ! empty( $consumer_key ) && ! empty( $consumer_secret ) && ! empty( $access_key ) && ! empty( $access_secret ) ) {
@@ -1091,10 +1091,10 @@ function et_aweber_submit_authorization_code() {
 
 		list( $consumer_key, $consumer_secret, $access_key, $access_secret ) = $auth;
 
-		et_update_option( 'divi_aweber_consumer_key', $consumer_key );
-		et_update_option( 'divi_aweber_consumer_secret', $consumer_secret );
-		et_update_option( 'divi_aweber_access_key', $access_key );
-		et_update_option( 'divi_aweber_access_secret', $access_secret );
+		et_update_option( 'blu_aweber_consumer_key', $consumer_key );
+		et_update_option( 'blu_aweber_consumer_secret', $consumer_secret );
+		et_update_option( 'blu_aweber_access_key', $access_key );
+		et_update_option( 'blu_aweber_access_secret', $access_secret );
 
 		die( 'success' );
 	} catch ( AWeberAPIException $exc ) {
@@ -1128,10 +1128,10 @@ function et_aweber_remove_connection() {
 		die( -1 );
 	}
 
-	et_delete_option( 'divi_aweber_consumer_key' );
-	et_delete_option( 'divi_aweber_consumer_secret' );
-	et_delete_option( 'divi_aweber_access_key' );
-	et_delete_option( 'divi_aweber_access_secret' );
+	et_delete_option( 'blu_aweber_consumer_key' );
+	et_delete_option( 'blu_aweber_consumer_secret' );
+	et_delete_option( 'blu_aweber_access_key' );
+	et_delete_option( 'blu_aweber_access_secret' );
 
 	die( 'success' );
 }
@@ -2691,8 +2691,8 @@ function et_pb_get_mailchimp_lists( $regenerate_mailchimp_list = 'off' ) {
 		$mailchimp_api_option = get_option( 'et_pb_builder_options' );
 		$mailchimp_api_key = isset( $mailchimp_api_option['newsletter_main_mailchimp_key'] ) ? $mailchimp_api_option['newsletter_main_mailchimp_key'] : '';
 	} else {
-		$mailchimp_api_key = et_get_option( 'divi_mailchimp_api_key' );
-		$regenerate_mailchimp_list = et_get_option( 'divi_regenerate_mailchimp_lists', 'false' );
+		$mailchimp_api_key = et_get_option( 'blu_mailchimp_api_key' );
+		$regenerate_mailchimp_list = et_get_option( 'blu_regenerate_mailchimp_lists', 'false' );
 	}
 
 	if ( empty( $mailchimp_api_key ) || false === strpos( $mailchimp_api_key, '-' ) ) {
@@ -2761,7 +2761,7 @@ function et_pb_get_aweber_lists( $regenerate_aweber_list = 'off' ) {
 	$account = et_pb_get_aweber_account();
 
 	if ( ! et_is_builder_plugin_active() ) {
-		$regenerate_aweber_list = et_get_option( 'divi_regenerate_aweber_lists', 'false' );
+		$regenerate_aweber_list = et_get_option( 'blu_regenerate_aweber_lists', 'false' );
 	}
 
 	if ( ! $account ) {

@@ -13,7 +13,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 		<div id="content-area" class="clearfix">
 			<div id="left-area">
 			<?php while ( have_posts() ) : the_post(); ?>
-				<?php if (et_get_option('divi_integration_single_top') <> '' && et_get_option('divi_integrate_singletop_enable') == 'on') echo(et_get_option('divi_integration_single_top')); ?>
+				<?php if (et_get_option('blu_integration_single_top') <> '' && et_get_option('blu_integrate_singletop_enable') == 'on') echo(et_get_option('blu_integration_single_top')); ?>
 
 				<?php
 					$et_pb_has_comments_module = has_shortcode( get_the_content(), 'et_pb_comments' );
@@ -49,7 +49,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 										</div>',
 										$first_video
 									);
-								} else if ( ! in_array( $post_format, array( 'gallery', 'link', 'quote' ) ) && 'on' === et_get_option( 'divi_thumbnails', 'on' ) && '' !== $thumb ) {
+								} else if ( ! in_array( $post_format, array( 'gallery', 'link', 'quote' ) ) && 'on' === et_get_option( 'blu_thumbnails', 'on' ) && '' !== $thumb ) {
 									print_thumbnail( $thumb, $thumbnail["use_timthumb"], $titletext, $width, $height );
 								} else if ( 'gallery' === $post_format ) {
 									et_pb_gallery_images();
@@ -114,20 +114,20 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 					</div> <!-- .entry-content -->
 					<div class="et_post_meta_wrapper">
 					<?php
-					if ( et_get_option('divi_468_enable') == 'on' ){
+					if ( et_get_option('blu_468_enable') == 'on' ){
 						echo '<div class="et-single-post-ad">';
-						if ( et_get_option('divi_468_adsense') <> '' ) echo( et_get_option('divi_468_adsense') );
+						if ( et_get_option('blu_468_adsense') <> '' ) echo( et_get_option('blu_468_adsense') );
 						else { ?>
-							<a href="<?php echo esc_url(et_get_option('divi_468_url')); ?>"><img src="<?php echo esc_attr(et_get_option('divi_468_image')); ?>" alt="468" class="foursixeight" /></a>
+							<a href="<?php echo esc_url(et_get_option('blu_468_url')); ?>"><img src="<?php echo esc_attr(et_get_option('blu_468_image')); ?>" alt="468" class="foursixeight" /></a>
 				<?php 	}
 						echo '</div> <!-- .et-single-post-ad -->';
 					}
 				?>
 
-					<?php if (et_get_option('divi_integration_single_bottom') <> '' && et_get_option('divi_integrate_singlebottom_enable') == 'on') echo(et_get_option('divi_integration_single_bottom')); ?>
+					<?php if (et_get_option('blu_integration_single_bottom') <> '' && et_get_option('blu_integrate_singlebottom_enable') == 'on') echo(et_get_option('blu_integration_single_bottom')); ?>
 
 					<?php
-						if ( ( comments_open() || get_comments_number() ) && 'on' == et_get_option( 'divi_show_postcomments', 'on' ) && ! $et_pb_has_comments_module ) {
+						if ( ( comments_open() || get_comments_number() ) && 'on' == et_get_option( 'blu_show_postcomments', 'on' ) && ! $et_pb_has_comments_module ) {
 							comments_template( '', true );
 						}
 					?>

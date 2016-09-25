@@ -16165,7 +16165,7 @@ class ET_Builder_Module_Fullwidth_Menu extends ET_Builder_Module {
 
 		$menuClass = 'fullwidth-menu nav';
 
-		if ( ! et_is_builder_plugin_active() && 'on' == et_get_option( 'divi_disable_toptier' ) ) {
+		if ( ! et_is_builder_plugin_active() && 'on' == et_get_option( 'blu_disable_toptier' ) ) {
 			$menuClass .= ' et_disable_top_tier';
 		}
 		$menuClass .= ( '' !== $args['submenu_direction'] ? sprintf( ' %s', esc_attr( $args['submenu_direction'] ) ) : '' );
@@ -16192,7 +16192,7 @@ class ET_Builder_Module_Fullwidth_Menu extends ET_Builder_Module {
 				'<ul class="%1$s">
 					%2$s',
 				esc_attr( $menuClass ),
-				( ! et_is_builder_plugin_active() && 'on' === et_get_option( 'divi_home_link' )
+				( ! et_is_builder_plugin_active() && 'on' === et_get_option( 'blu_home_link' )
 					? sprintf( '<li%1$s><a href="%2$s">%3$s</a></li>',
 						( is_home() ? ' class="current_page_item"' : '' ),
 						esc_url( home_url( '/' ) ),

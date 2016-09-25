@@ -74,7 +74,7 @@ $show_navigation = get_post_meta( get_the_ID(), '_et_pb_project_nav', true );
 				</article> <!-- .et_pb_post -->
 
 			<?php
-				if ( ! $is_page_builder_used && comments_open() && 'on' == et_get_option( 'divi_show_postcomments', 'on' ) )
+				if ( ! $is_page_builder_used && comments_open() && 'on' == et_get_option( 'blu_show_postcomments', 'on' ) )
 					comments_template( '', true );
 			?>
 			<?php endwhile; ?>

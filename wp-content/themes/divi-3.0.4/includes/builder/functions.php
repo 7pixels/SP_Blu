@@ -165,7 +165,7 @@ function et_pb_load_export_section(){
 
 	if ( 'edit-et_pb_layout' === $current_screen->id ) {
 		// display wp error screen if library is disabled for current user
-		if ( ! et_pb_is_allowed( 'divi_library' ) || ! et_pb_is_allowed( 'add_library' ) || ! et_pb_is_allowed( 'save_library' ) ) {
+		if ( ! et_pb_is_allowed( 'blu_library' ) || ! et_pb_is_allowed( 'add_library' ) || ! et_pb_is_allowed( 'save_library' ) ) {
 			wp_die( esc_html__( "you don't have sufficient permissions to access this page", 'et_builder' ) );
 		}
 
@@ -179,7 +179,7 @@ add_action( 'load-edit.php', 'et_pb_load_export_section' );
 function et_pb_check_library_permissions(){
 	$current_screen = get_current_screen();
 
-	if ( 'et_pb_layout' === $current_screen->id && ( ! et_pb_is_allowed( 'divi_library' ) || ! et_pb_is_allowed( 'save_library' ) ) ) {
+	if ( 'et_pb_layout' === $current_screen->id && ( ! et_pb_is_allowed( 'blu_library' ) || ! et_pb_is_allowed( 'save_library' ) ) ) {
 		// display wp error screen if library is disabled for current user
 		wp_die( esc_html__( "you don't have sufficient permissions to access this page", 'et_builder' ) );
 	}
@@ -1565,7 +1565,7 @@ function et_pb_before_main_editor( $post ) {
 	}
 
 	// Add button only if current user is allowed to use it otherwise display placeholder with all required data
-	if ( et_pb_is_allowed( 'divi_builder_control' ) ) {
+	if ( et_pb_is_allowed( 'blu_builder_control' ) ) {
 		$buttons = sprintf('<a href="#" id="et_pb_toggle_builder" data-builder="%2$s" data-editor="%3$s" class="button button-primary button-large%4$s%5$s">%1$s</a>',
 			( $is_builder_used ? esc_html__( 'Use Default Editor', 'et_builder' ) : esc_html__( 'Use The Divi Builder', 'et_builder' ) ),
 			esc_html__( 'Use The Divi Builder', 'et_builder' ),
@@ -1910,7 +1910,7 @@ function et_pb_add_builder_page_js_css(){
 	}
 
 	// force update cache if need to regenerate MailChimp or AWeber Lists or if et_pb_clear_templates_cache option is set to on
-	if ( 'on' === et_get_option( 'divi_regenerate_mailchimp_lists', 'false' ) || 'on' === et_get_option( 'divi_regenerate_aweber_lists', 'false' ) || 'on' === et_get_option( 'et_pb_clear_templates_cache', 'off' ) ) {
+	if ( 'on' === et_get_option( 'blu_regenerate_mailchimp_lists', 'false' ) || 'on' === et_get_option( 'blu_regenerate_aweber_lists', 'false' ) || 'on' === et_get_option( 'et_pb_clear_templates_cache', 'off' ) ) {
 		$force_cache_value = true;
 	} else {
 		$force_cache_value = false;
@@ -2803,7 +2803,7 @@ function et_pb_pagebuilder_meta_box() {
 		esc_html__( 'Collapse', 'et_builder' ), //#5
 		et_pb_is_allowed( 'add_module' ) ? $copy_module_menu : '',
 		et_pb_is_allowed( 'add_module' ) ? $paste_after_menu : '',
-		et_pb_is_allowed( 'divi_library' ) && et_pb_is_allowed( 'save_library' ) ? $save_to_lib_menu : '',
+		et_pb_is_allowed( 'blu_library' ) && et_pb_is_allowed( 'save_library' ) ? $save_to_lib_menu : '',
 		esc_html__( 'Undo', 'et_builder' ),
 		esc_html__( 'Redo', 'et_builder' ), //#10
 		et_pb_is_allowed( 'add_module' ) ? $paste_menu_item : '',
@@ -2928,8 +2928,8 @@ function et_pb_pagebuilder_meta_box() {
 			<div id="et-pb-histories-visualizer-overlay"></div>
 			<ol id="et-pb-histories-visualizer"></ol>
 		</script>',
-		et_pb_is_allowed( 'divi_library' ) && et_pb_is_allowed( 'save_library' ) ? $save_to_lib_button : '',
-		et_pb_is_allowed( 'divi_library' ) && et_pb_is_allowed( 'load_layout' ) && et_pb_is_allowed( 'add_library' ) && et_pb_is_allowed( 'add_module' ) ? $load_from_lib_button : '',
+		et_pb_is_allowed( 'blu_library' ) && et_pb_is_allowed( 'save_library' ) ? $save_to_lib_button : '',
+		et_pb_is_allowed( 'blu_library' ) && et_pb_is_allowed( 'load_layout' ) && et_pb_is_allowed( 'add_library' ) && et_pb_is_allowed( 'add_module' ) ? $load_from_lib_button : '',
 		et_pb_is_allowed( 'add_module' ) ? $clear_layout_button : '',
 		$history_button,
 		$redo_button,
@@ -3068,7 +3068,7 @@ function et_pb_pagebuilder_meta_box() {
 		$add_standard_section_button,
 		$add_fullwidth_section_button,
 		$add_specialty_section_button,
-		et_pb_is_allowed( 'divi_library' ) && et_pb_is_allowed( 'add_library' ) ? $add_from_lib_section : ''
+		et_pb_is_allowed( 'blu_library' ) && et_pb_is_allowed( 'add_library' ) ? $add_from_lib_section : ''
 	);
 
 	printf(
@@ -3309,9 +3309,9 @@ function et_pb_pagebuilder_meta_box() {
 			</div>
 		</script>',
 		esc_html__( 'Cancel', 'et_builder' ),
-		et_pb_is_allowed( 'divi_library' ) && et_pb_is_allowed( 'save_library' ) ? $save_template_button : '',
+		et_pb_is_allowed( 'blu_library' ) && et_pb_is_allowed( 'save_library' ) ? $save_template_button : '',
 		$can_edit_or_has_modal_view_tab ? $save_exit_button : '',
-		! et_pb_is_allowed( 'divi_library' ) || ! et_pb_is_allowed( 'save_library' ) ? ' et_pb_single_button' : '',
+		! et_pb_is_allowed( 'blu_library' ) || ! et_pb_is_allowed( 'save_library' ) ? ' et_pb_single_button' : '',
 		$preview_template_button,
 		$can_edit_or_has_modal_view_tab ? '' : ' et_pb_no_editing'
 	);
@@ -3366,9 +3366,9 @@ function et_pb_pagebuilder_meta_box() {
 		esc_html__( 'Insert Columns', 'et_builder' ),
 		$data_specialty_columns,
 		esc_html__( 'New Row', 'et_builder' ),
-		et_pb_is_allowed( 'divi_library' ) && et_pb_is_allowed( 'add_library' ) ? $saved_row_tab : '',
+		et_pb_is_allowed( 'blu_library' ) && et_pb_is_allowed( 'add_library' ) ? $saved_row_tab : '',
 		et_builder_get_columns_layout(),
-		et_pb_is_allowed( 'divi_library' ) && et_pb_is_allowed( 'add_library' ) ? $saved_row_container : ''
+		et_pb_is_allowed( 'blu_library' ) && et_pb_is_allowed( 'add_library' ) ? $saved_row_container : ''
 	);
 
 	// "Add Module" Template
@@ -3409,9 +3409,9 @@ function et_pb_pagebuilder_meta_box() {
 		</script>',
 		esc_html__( 'Insert Module', 'et_builder' ),
 		esc_html__( 'New Module', 'et_builder' ),
-		et_pb_is_allowed( 'divi_library' ) && et_pb_is_allowed( 'add_library' ) ? $saved_modules_tab : '',
+		et_pb_is_allowed( 'blu_library' ) && et_pb_is_allowed( 'add_library' ) ? $saved_modules_tab : '',
 		$fullwidth_class,
-		et_pb_is_allowed( 'divi_library' ) && et_pb_is_allowed( 'add_library' ) ? $saved_modules_container : '',
+		et_pb_is_allowed( 'blu_library' ) && et_pb_is_allowed( 'add_library' ) ? $saved_modules_container : '',
 		et_pb_allowed_modules_list()
 	);
 
@@ -4600,7 +4600,7 @@ function et_pb_get_default_color_palette( $post_id = 0 ) {
 		'#8300E9',
 	);
 
-	$saved_global_palette = et_get_option( 'divi_color_palette', false );
+	$saved_global_palette = et_get_option( 'blu_color_palette', false );
 
 	$palette = $saved_global_palette && '' !== str_replace( '|', '', $saved_global_palette ) ? explode( '|', $saved_global_palette ) : $default_palette;
 
@@ -4676,7 +4676,7 @@ function et_aweber_authorization_option() {
 
 	$hide_style = ' style="display: none;"';
 
-	$aweber_connection_established = et_get_option( 'divi_aweber_consumer_key', false ) && et_get_option( 'divi_aweber_consumer_secret', false ) && et_get_option( 'divi_aweber_access_key', false ) && et_get_option( 'divi_aweber_access_secret', false );
+	$aweber_connection_established = et_get_option( 'blu_aweber_consumer_key', false ) && et_get_option( 'blu_aweber_consumer_secret', false ) && et_get_option( 'blu_aweber_access_key', false ) && et_get_option( 'blu_aweber_access_secret', false );
 
 	$output = sprintf(
 		'<div id="et_aweber_connection">
@@ -5149,7 +5149,7 @@ function et_pb_all_role_options() {
 					'default'        => 'on',
 					'applicability'  => array( 'administrator' ),
 				),
-				'divi_library' => array(
+				'blu_library' => array(
 					'name'    => esc_html__( 'Divi Library', 'et_builder' ),
 					'default' => 'on',
 				),
@@ -5182,7 +5182,7 @@ function et_pb_all_role_options() {
 					'name'    => esc_html__( 'Lock Item', 'et_builder' ),
 					'default' => 'on',
 				),
-				'divi_builder_control' => array(
+				'blu_builder_control' => array(
 					'name'    => esc_html__( 'Toggle Divi Builder', 'et_builder' ),
 					'default' => 'on',
 				),

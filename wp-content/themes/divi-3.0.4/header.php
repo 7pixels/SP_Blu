@@ -184,7 +184,7 @@
 				<?php
 					if ( '' == $slide_nav ) :
 				?>
-						<?php if ( 'on' == et_get_option( 'divi_home_link' ) ) { ?>
+						<?php if ( 'on' == et_get_option( 'blu_home_link' ) ) { ?>
 							<li <?php if ( is_home() ) echo( 'class="current_page_item"' ); ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Home', 'Blu' ); ?></a></li>
 						<?php }; ?>
 
@@ -204,7 +204,7 @@
 		<header id="main-header" data-height-onload="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>">
 			<div class="container clearfix et_menu_container">
 			<?php
-				$logo = ( $user_logo = et_get_option( 'divi_logo' ) ) && '' != $user_logo
+				$logo = ( $user_logo = et_get_option( 'blu_logo' ) ) && '' != $user_logo
 					? $user_logo
 					: $template_directory_uri . '/images/logo.png';
 			?>
@@ -219,7 +219,7 @@
 						<nav id="top-menu-nav">
 						<?php
 							$menuClass = 'nav';
-							if ( 'on' == et_get_option( 'divi_disable_toptier' ) ) $menuClass .= ' et_disable_top_tier';
+							if ( 'on' == et_get_option( 'blu_disable_toptier' ) ) $menuClass .= ' et_disable_top_tier';
 							$primaryNav = '';
 
 							$primaryNav = wp_nav_menu( array( 'theme_location' => 'primary-menu', 'container' => '', 'fallback_cb' => '', 'menu_class' => $menuClass, 'menu_id' => 'top-menu', 'echo' => false ) );
@@ -227,7 +227,7 @@
 							if ( '' == $primaryNav ) :
 						?>
 							<ul id="top-menu" class="<?php echo esc_attr( $menuClass ); ?>">
-								<?php if ( 'on' == et_get_option( 'divi_home_link' ) ) { ?>
+								<?php if ( 'on' == et_get_option( 'blu_home_link' ) ) { ?>
 									<li <?php if ( is_home() ) echo( 'class="current_page_item"' ); ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Home', 'Blu' ); ?></a></li>
 								<?php }; ?>
 

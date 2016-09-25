@@ -32,7 +32,7 @@
 								</div>',
 								$first_video
 							);
-						elseif ( ! in_array( $post_format, array( 'gallery' ) ) && 'on' === et_get_option( 'divi_thumbnails_index', 'on' ) && '' !== $thumb ) : ?>
+						elseif ( ! in_array( $post_format, array( 'gallery' ) ) && 'on' === et_get_option( 'blu_thumbnails_index', 'on' ) && '' !== $thumb ) : ?>
 							<a href="<?php the_permalink(); ?>">
 								<?php print_thumbnail( $thumb, $thumbnail["use_timthumb"], $titletext, $width, $height ); ?>
 							</a>
@@ -50,7 +50,7 @@
 					<?php
 						sevenp_blu_post_meta();
 
-						if ( 'on' !== et_get_option( 'divi_blog_style', 'false' ) || ( is_search() && ( 'on' === get_post_meta( get_the_ID(), '_et_pb_use_builder', true ) ) ) ) {
+						if ( 'on' !== et_get_option( 'blu_blog_style', 'false' ) || ( is_search() && ( 'on' === get_post_meta( get_the_ID(), '_et_pb_use_builder', true ) ) ) ) {
 							truncate_post( 270 );
 						} else {
 							the_content();

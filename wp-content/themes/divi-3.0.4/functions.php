@@ -164,7 +164,7 @@ function sevenp_blu_load_scripts_styles(){
 	wp_enqueue_script( 'et-jquery-touch-mobile', $template_dir . '/includes/builder/scripts/jquery.mobile.custom.min.js', array( 'jquery' ), $theme_version, true );
 	wp_enqueue_script( 'divi-custom-script', $template_dir . '/js/custom.js', $dependencies_array , $theme_version, true );
 
-	if ( 'on' === et_get_option( 'divi_smooth_scroll', false ) ) {
+	if ( 'on' === et_get_option( 'blu_smooth_scroll', false ) ) {
 		wp_enqueue_script( 'smooth-scroll', $template_dir . '/js/smoothscroll.js', array( 'jquery' ), $theme_version, true );
 	}
 
@@ -223,7 +223,7 @@ function et_add_viewport_meta(){
 add_action( 'wp_head', 'et_add_viewport_meta' );
 
 function et_maybe_add_scroll_to_anchor_fix() {
-	$add_scroll_to_anchor_fix = et_get_option( 'divi_scroll_to_anchor_fix' );
+	$add_scroll_to_anchor_fix = et_get_option( 'blu_scroll_to_anchor_fix' );
 
 	if ( 'on' === $add_scroll_to_anchor_fix ) {
 		echo '<script>
@@ -1487,7 +1487,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		'choices'	=> sevenp_blu_left_right_choices(),
 	) );
 
-	if ( 'on' === et_get_option( 'divi_fixed_nav', 'on' ) ) {
+	if ( 'on' === et_get_option( 'blu_fixed_nav', 'on' ) ) {
 
 		$wp_customize->add_setting( 'sevenp_blu[hide_nav]', array(
 			'type'			=> 'option',
@@ -1502,7 +1502,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 			'type'      => 'checkbox',
 		) );
 
-	} // 'on' === et_get_option( 'divi_fixed_nav', 'on' )
+	} // 'on' === et_get_option( 'blu_fixed_nav', 'on' )
 
 	$wp_customize->add_setting( 'sevenp_blu[show_header_social_icons]', array(
 		'type'			=> 'option',
@@ -2243,7 +2243,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		'sanitize_callback' => 'sanitize_hex_color',
 	) );
 
-	if ( 'on' === et_get_option( 'divi_fixed_nav', 'on' ) ) {
+	if ( 'on' === et_get_option( 'blu_fixed_nav', 'on' ) ) {
 		$wp_customize->add_setting( 'sevenp_blu[hide_fixed_logo]', array(
 			'type'			=> 'option',
 			'capability'	=> 'edit_theme_options',
@@ -7826,11 +7826,11 @@ add_action( 'customize_controls_print_styles', 'et_load_google_fonts_styles' );
 
 if ( ! function_exists( 'sevenp_blu_post_meta' ) ) :
 function sevenp_blu_post_meta() {
-	$postinfo = is_single() ? et_get_option( 'divi_postinfo2' ) : et_get_option( 'divi_postinfo1' );
+	$postinfo = is_single() ? et_get_option( 'blu_postinfo2' ) : et_get_option( 'blu_postinfo1' );
 
 	if ( $postinfo ) :
 		echo '<p class="post-meta">';
-		echo et_pb_postinfo_meta( $postinfo, et_get_option( 'divi_date_format', 'M j, Y' ), esc_html__( '0 comments', 'Blu' ), esc_html__( '1 comment', 'Blu' ), '% ' . esc_html__( 'comments', 'Blu' ) );
+		echo et_pb_postinfo_meta( $postinfo, et_get_option( 'blu_date_format', 'M j, Y' ), esc_html__( '0 comments', 'Blu' ), esc_html__( '1 comment', 'Blu' ), '% ' . esc_html__( 'comments', 'Blu' ) );
 		echo '</p>';
 	endif;
 }
@@ -7989,13 +7989,13 @@ function et_layout_body_class( $classes ) {
 		if ( 'right' === et_get_option( 'vertical_nav_orientation', 'left' ) ) {
 			$classes[] = 'et_vertical_right';
 		}
-	} else if ( 'on' === et_get_option( 'divi_fixed_nav', 'on' ) ) {
+	} else if ( 'on' === et_get_option( 'blu_fixed_nav', 'on' ) ) {
 		$classes[] = 'et_fixed_nav';
-	} else if ( 'on' !== et_get_option( 'divi_fixed_nav', 'on' ) ) {
+	} else if ( 'on' !== et_get_option( 'blu_fixed_nav', 'on' ) ) {
 		$classes[] = 'et_non_fixed_nav';
 	}
 
-	if ( true === et_get_option( 'vertical_nav', false ) && 'on' === et_get_option( 'divi_fixed_nav', 'on' ) ) {
+	if ( true === et_get_option( 'vertical_nav', false ) && 'on' === et_get_option( 'blu_fixed_nav', 'on' ) ) {
 		$classes[] = 'et_vertical_fixed';
 	}
 
@@ -8086,7 +8086,7 @@ function et_layout_body_class( $classes ) {
 		}
 	}
 
-	$logo = et_get_option( 'divi_logo', '' );
+	$logo = et_get_option( 'blu_logo', '' );
 	if ( '.svg' === substr( $logo, -4, 4 ) ) {
 		$classes[] = 'et_pb_svg_logo';
 	}
@@ -8172,7 +8172,7 @@ function sevenp_blu_sidebar_class( $classes ) {
 
 	// Set Woo shop and taxonomies layout.
 	if ( class_exists( 'woocommerce' ) && ( is_woocommerce() && ( is_shop() || is_tax() ) ) ) {
-		$page_layout = et_get_option( 'divi_shop_page_sidebar', 'et_right_sidebar' );
+		$page_layout = et_get_option( 'blu_shop_page_sidebar', 'et_right_sidebar' );
 	}
 	// Set post meta layout which will work for all third party plugins.
 	elseif ( false == ( $page_layout = get_post_meta( get_queried_object_id(), '_et_pb_page_layout', true ) ) ) {
@@ -8209,7 +8209,7 @@ add_filter( 'body_class', 'sevenp_blu_customize_preview_class' );
 
 function et_modify_shop_page_columns_num( $columns_num ) {
 	if ( class_exists( 'woocommerce' ) && is_shop() ) {
-		$columns_num = 'et_full_width_page' !== et_get_option( 'divi_shop_page_sidebar', 'et_right_sidebar' )
+		$columns_num = 'et_full_width_page' !== et_get_option( 'blu_shop_page_sidebar', 'et_right_sidebar' )
 			? 3
 			: 4;
 	}
@@ -8234,10 +8234,10 @@ if ( is_admin() && isset( $_GET['activated'] ) && $pagenow == 'themes.php' ) {
  * Checks if WooCommerce image dimensions have been updated already.
  */
 function sevenp_blu_check_woocommerce_images() {
-	if ( 'checked' === et_get_option( 'divi_1_3_images' ) ) return;
+	if ( 'checked' === et_get_option( 'blu_1_3_images' ) ) return;
 
 	sevenp_blu_woocommerce_image_dimensions();
-	et_update_option( 'divi_1_3_images', 'checked' );
+	et_update_option( 'blu_1_3_images', 'checked' );
 }
 add_action( 'admin_init', 'sevenp_blu_check_woocommerce_images' );
 
@@ -8291,7 +8291,7 @@ function sevenp_blu_output_content_wrapper_end() {
 	if (
 		( is_product() && 'et_full_width_page' !== get_post_meta( get_the_ID(), '_et_pb_page_layout', true ) )
 		||
-		( ( is_shop() || is_product_category() || is_product_tag() ) && 'et_full_width_page' !== et_get_option( 'divi_shop_page_sidebar', 'et_right_sidebar' ) )
+		( ( is_shop() || is_product_category() || is_product_tag() ) && 'et_full_width_page' !== et_get_option( 'blu_shop_page_sidebar', 'et_right_sidebar' ) )
 	) {
 		woocommerce_get_sidebar();
 	}
@@ -8330,7 +8330,7 @@ function et_add_divi_menu() {
 	}
 	add_submenu_page( 'sevenp_blu_options', esc_html__( 'Role Editor', 'Blu' ), esc_html__( 'Role Editor', 'Blu' ), 'manage_options', 'sevenp_blu_role_editor', 'et_pb_display_role_editor' );
 	// Add Divi Library menu only if it's enabled for current user
-	if ( et_pb_is_allowed( 'divi_library' ) ) {
+	if ( et_pb_is_allowed( 'blu_library' ) ) {
 		add_submenu_page( 'sevenp_blu_options', esc_html__( 'Divi Library', 'Blu' ), esc_html__( 'Divi Library', 'Blu' ), 'manage_options', 'edit.php?post_type=et_pb_layout' );
 	}
 
@@ -8458,7 +8458,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 }
 
 function sevenp_blu_maybe_change_frontend_locale( $locale ) {
-	$option_name   = 'divi_disable_translations';
+	$option_name   = 'blu_disable_translations';
 	$theme_options = get_option( 'sevenp_blu' );
 
 	$disable_translations = isset ( $theme_options[ $option_name ] ) ? $theme_options[ $option_name ] : false;
@@ -8476,7 +8476,7 @@ add_filter( 'locale', 'sevenp_blu_maybe_change_frontend_locale' );
  * @return bool
  */
 function sevenp_blu_gallery_layout_enable( $option ) {
-	$setting = et_get_option( 'divi_gallery_layout_enable' );
+	$setting = et_get_option( 'blu_gallery_layout_enable' );
 
 	return ( 'on' === $setting ) ? true : $option;
 }
