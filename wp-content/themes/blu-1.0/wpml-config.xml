@@ -4,10 +4,10 @@
 	</custom-types>
 	<admin-texts>
 		<key name="sevenp_blu">
-			<key name="divi_date_format" />
-			<key name="divi_seo_home_titletext" />
-			<key name="divi_seo_home_descriptiontext" />
-			<key name="divi_seo_home_keywordstext" />
+			<key name="blu_date_format" />
+			<key name="blu_seo_home_titletext" />
+			<key name="blu_seo_home_descriptiontext" />
+			<key name="blu_seo_home_keywordstext" />
 		</key>
 	</admin-texts>
 </wpml-config>
