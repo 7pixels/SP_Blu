@@ -113,7 +113,7 @@
  */
 #epanel-header {
 	background: rgb(108, 46, 185);
-	padding: 25px 28px;
+	padding: 18px 28px;
 	line-height: .8;
 	position: relative;
 	border-radius: 4px 4px 0 0;
@@ -131,7 +131,7 @@ h1#epanel-title {
 	padding-left: 11px;
 }
 
-#epanel-title:before {
+/*#epanel-title:before {
 	font-family: 'etbuilder';
 	speak: none;
 	font-weight: normal;
@@ -145,10 +145,12 @@ h1#epanel-title {
 	left: 0;
 	top: -6px;
 	font-size: 32px;
-}
+}*/
 
 .toplevel_page_et_extra_options h1#epanel-title, .toplevel_page_sevenp_blu_options h1#epanel-title {
-	padding-left: 45px;
+	padding-left: 13px;
+	display: inline;
+	top: -8px;
 }
 
 .toplevel_page_et_extra_options #epanel-title:before, .toplevel_page_sevenp_blu_options #epanel-title:before {

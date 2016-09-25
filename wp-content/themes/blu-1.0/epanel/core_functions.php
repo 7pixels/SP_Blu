@@ -155,6 +155,7 @@ if ( ! function_exists( 'et_build_epanel' ) ) {
 						<div id="epanel-content-wrap">
 							<div id="epanel-content">
 								<div id="epanel-header">
+									<img src="<?php echo esc_url( get_template_directory_uri() . '/epanel/images/blu_epanel_icon.png' ); ?>" width="32" heigh="32" alt="Blu ePanel Icon" id="blu_epanel_icon" />
 									<h1 id="epanel-title"><?php printf( esc_html__( '%s Theme Options', $themename ), $themename ); ?></h1>
 
 									<?php
