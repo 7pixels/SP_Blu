@@ -4660,15 +4660,15 @@ function et_pb_post_format_in_pagebuilder( $post_format, $post_id ) {
 add_filter( 'et_pb_post_format', 'et_pb_post_format_in_pagebuilder', 10, 2 );
 
 function et_aweber_authorization_option() {
-	wp_enqueue_script( 'divi-advanced-options', ET_BUILDER_URI . '/scripts/advanced_options.js', array( 'jquery' ), ET_BUILDER_VERSION, true );
-	wp_localize_script( 'divi-advanced-options', 'et_advanced_options', array(
+	wp_enqueue_script( 'blu-advanced-options', ET_BUILDER_URI . '/scripts/advanced_options.js', array( 'jquery' ), ET_BUILDER_VERSION, true );
+	wp_localize_script( 'blu-advanced-options', 'et_advanced_options', array(
 		'et_admin_load_nonce'      => wp_create_nonce( 'et_admin_load_nonce' ),
 		'aweber_connecting'        => esc_html__( 'Connecting...', 'et_builder' ),
 		'aweber_failed'            => esc_html__( 'Connection failed', 'et_builder' ),
 		'aweber_remove_connection' => esc_html__( 'Removing connection...', 'et_builder' ),
 		'aweber_done'              => esc_html__( 'Done', 'et_builder' ),
 	) );
-	wp_enqueue_style( 'divi-advanced-options', ET_BUILDER_URI . '/styles/advanced_options.css', array(), ET_BUILDER_VERSION );
+	wp_enqueue_style( 'blu-advanced-options', ET_BUILDER_URI . '/styles/advanced_options.css', array(), ET_BUILDER_VERSION );
 
 	$app_id = 'b17f3351';
 
