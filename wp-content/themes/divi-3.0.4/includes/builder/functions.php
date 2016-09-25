@@ -5461,7 +5461,7 @@ function et_pb_generate_capabilities_output( $cap_array, $role ) {
 function et_pb_load_roles_admin( $hook ) {
 	// load scripts only on role editor page
 
-	if ( apply_filters( 'et_pb_load_roles_admin_hook', 'divi_page_sevenp_blu_role_editor' ) !== $hook ) {
+	if ( apply_filters( 'et_pb_load_roles_admin_hook', 'blu_page_sevenp_blu_role_editor' ) !== $hook ) {
 		return;
 	}
 

@@ -35,7 +35,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() ); ?>
 					$thumbnail = get_thumbnail( $width, $height, $classtext, $titletext, $titletext, false, 'Blogimage' );
 					$thumb = $thumbnail["thumb"];
 
-					if ( 'on' === et_get_option( 'divi_page_thumbnails', 'false' ) && '' !== $thumb )
+					if ( 'on' === et_get_option( 'blu_page_thumbnails', 'false' ) && '' !== $thumb )
 						print_thumbnail( $thumb, $thumbnail["use_timthumb"], $titletext, $width, $height );
 				?>
 
