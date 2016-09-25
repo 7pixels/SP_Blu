@@ -32,7 +32,7 @@ function et_setup_theme() {
 
 	require_once( $template_directory . '/epanel/core_functions.php' );
 
-	require_once( $template_directory . '/post_thumbnails_blu.php' );
+	require_once( $template_directory . '/post_thumbnails_divi.php' );
 
 	include( $template_directory . '/includes/widgets.php' );
 

@@ -97,7 +97,7 @@ msgstr "Opties voor thema %s"
 msgid "Reset to Defaults"
 msgstr "Fabrieksinstellingen"
 
-#: epanel/core_functions.php:160 options_blu.php:38
+#: epanel/core_functions.php:160 options_divi.php:38
 msgid "General"
 msgstr "Algemeen"
 
@@ -161,7 +161,7 @@ msgstr "Auteur"
 msgid "Date"
 msgstr "Datum"
 
-#: epanel/core_functions.php:510 options_blu.php:316
+#: epanel/core_functions.php:510 options_divi.php:316
 msgid "Categories"
 msgstr "Categorieen"
 
@@ -512,15 +512,15 @@ msgstr "Vaardigheden"
 msgid "Posted on"
 msgstr "Gepubliceerd op"
 
-#: functions.php:293 options_blu.php:103
+#: functions.php:293 options_divi.php:103
 msgid "Right Sidebar"
 msgstr "Rechter zijbalk"
 
-#: functions.php:294 options_blu.php:104
+#: functions.php:294 options_divi.php:104
 msgid "Left Sidebar"
 msgstr "Linker zijbalk"
 
-#: functions.php:295 options_blu.php:105
+#: functions.php:295 options_divi.php:105
 msgid "Full Width"
 msgstr "Volle Breedte"
 
@@ -590,7 +590,7 @@ msgstr "Projectnavigatie"
 msgid "you don't have sufficient permissions to access this page"
 msgstr "je hoeft niet voldoende rechten om deze pagina"
 
-#: functions.php:586 options_blu.php:321 options_blu.php:461
+#: functions.php:586 options_divi.php:321 options_divi.php:461
 msgid "General Settings"
 msgstr "Algemene Instellingen"
 
@@ -1798,30 +1798,30 @@ msgstr "Adsense"
 msgid "Adsense Code"
 msgstr "Adsense code"
 
-#: options_blu.php:45
+#: options_divi.php:45
 msgid "Logo"
 msgstr "Logo"
 
-#: options_blu.php:48
+#: options_divi.php:48
 msgid "Set As Logo"
 msgstr "Stel in als logo"
 
-#: options_blu.php:50
+#: options_divi.php:50
 msgid ""
 "If you would like to use your own custom logo image click the Upload Image "
 "button."
 msgstr ""
 "Als u uw eigen aangepaste logo wilt gebruiken, klik dan \"Upload Image\" aan."
 
-#: options_blu.php:53
+#: options_divi.php:53
 msgid "Favicon"
 msgstr "Favicon"
 
-#: options_blu.php:56
+#: options_divi.php:56
 msgid "Set As Favicon"
 msgstr "Stel in als Favicon"
 
-#: options_blu.php:58
+#: options_divi.php:58
 msgid ""
 "If you would like to use your own custom favicon image click the Upload "
 "Image button."
@@ -1829,11 +1829,11 @@ msgstr ""
 "Als u uw eigen aangepaste favicon afbeelding wilt gebruiken, klik dan "
 "Afbeelding Uploaden aan."
 
-#: options_blu.php:61
+#: options_divi.php:61
 msgid "Fixed Navigation Bar"
 msgstr "Gerepareerde Navigatiebar"
 
-#: options_blu.php:65
+#: options_divi.php:65
 msgid ""
 "By default the navigation bar stays on top of the screen at all times. We "
 "suggest to disable this option, if you need to use a logo taller than the "
@@ -1842,11 +1842,11 @@ msgstr ""
 "De navigatiebar blijft standaard altijd bovenaan het scherm. We raden u aan "
 "deze optie uit te schakelen als u een groot logo moet gebruiken."
 
-#: options_blu.php:68
+#: options_divi.php:68
 msgid "Enable Divi Gallery"
 msgstr "Divi-galerij inschakelen"
 
-#: options_blu.php:72
+#: options_divi.php:72
 msgid ""
 "Enable this if you want to replace the WordPress default gallery with the "
 "Divi-style gallery."
@@ -1854,20 +1854,20 @@ msgstr ""
 "Schakel dit in als u de standaard galerij van WordPress wilt vervangen door "
 "de galerij in Divi-stijl."
 
-#: options_blu.php:75
+#: options_divi.php:75
 msgid "Color Pickers Default Palette"
 msgstr "Standaard palet van kleurenkiezer"
 
-#: options_blu.php:80
+#: options_divi.php:80
 msgid "Define the default color palette for color pickers in the Divi Builder."
 msgstr ""
 "Definieer het standaard kleurenpalet voor kleurkiezers in de Divi Builder."
 
-#: options_blu.php:85
+#: options_divi.php:85
 msgid "Grab the first post image"
 msgstr "Pak de eerste post afbeelding"
 
-#: options_blu.php:89
+#: options_divi.php:89
 msgid ""
 "By default thumbnail images are created using custom fields. However, if you "
 "would rather use the images that are already in your post for your thumbnail "
@@ -1882,11 +1882,11 @@ msgstr ""
 "miniatuur afbeeldingen automatisch gegenereerd met gebruik van de eerste "
 "afbeelding in uw post. De afbeelding moet op uw eigen server gehost zijn."
 
-#: options_blu.php:92
+#: options_divi.php:92
 msgid "Blog Style Mode"
 msgstr "Blog Stijl Modus"
 
-#: options_blu.php:96
+#: options_divi.php:96
 msgid ""
 "By default the theme truncates your posts on index/homepages automatically "
 "to create post previews. If you would rather show your posts in full on "
@@ -1896,20 +1896,20 @@ msgstr ""
 "voorbeelden te maken. Wilt u liever uw posts volledig tonen, als een "
 "tradioneel blog, dan kunt u deze functie activeren."
 
-#: options_blu.php:99
+#: options_divi.php:99
 msgid "Shop Page & Category Page Layout for WooCommerce"
 msgstr "Winkel Pagina & Categorie Pagina voor Layout voor WooCommerce"
 
-#: options_blu.php:108
+#: options_divi.php:108
 msgid "Here you can choose Shop Page & Category Page Layout for WooCommerce."
 msgstr ""
 "Hier kunt u Winkel Pagina en Categorie Pagina Layout kiezen voor WooCommerce."
 
-#: options_blu.php:112
+#: options_divi.php:112
 msgid "MailChimp API Key"
 msgstr "MailChimp API Code"
 
-#: options_blu.php:117
+#: options_divi.php:117
 msgid ""
 "Enter your MailChimp API key. You can create an api key <a target=\"_blank\" "
 "href=\"%1$s\">here</a>"
@@ -1917,19 +1917,19 @@ msgstr ""
 "Voer uw MailChimp API code in. U kunt <a target=\"_blank\" href=\"%1$s"
 "\">hier</a> een API code aanmaken"
 
-#: options_blu.php:120
+#: options_divi.php:120
 msgid "Aweber Authorization"
 msgstr "Aweber Autorisatie"
 
-#: options_blu.php:122
+#: options_divi.php:122
 msgid "Authorize your Aweber account here."
 msgstr "Autoriseer uw Aweber account hier."
 
-#: options_blu.php:126
+#: options_divi.php:126
 msgid "Regenerate MailChimp Lists"
 msgstr "Regenereer MailChimp Lijsten"
 
-#: options_blu.php:130
+#: options_divi.php:130
 msgid ""
 "By default, MailChimp lists are cached for one day. If you added new list, "
 "but it doesn't appear within the Email Optin module settings, activate this "
@@ -1940,11 +1940,11 @@ msgstr ""
 "instellingen verschijnen, activeert u deze optie. Vergeet niet om het uit te "
 "schakelen zodra de lijst is geregenereerd."
 
-#: options_blu.php:132
+#: options_divi.php:132
 msgid "Regenerate Aweber Lists"
 msgstr "Regenereer Aweber Lijsten"
 
-#: options_blu.php:136
+#: options_divi.php:136
 msgid ""
 "By default, Aweber lists are cached for one day. If you added new list, but "
 "it doesn't appear within the Email Optin module settings, activate this "
@@ -1955,76 +1955,76 @@ msgstr ""
 "verschijnen, activeert u deze optie. Vergeet niet om het uit te schakelen "
 "zodra de lijst is geregenereerd."
 
-#: options_blu.php:138
+#: options_divi.php:138
 msgid "Show Facebook Icon"
 msgstr "Toon Facebook Icoon"
 
-#: options_blu.php:142
+#: options_divi.php:142
 msgid "Here you can choose to display the Facebook Icon on your homepage. "
 msgstr ""
 "Hier kunt u ervoor kiezen de Facebook Icoon op uw startpagina te tonen."
 
-#: options_blu.php:144
+#: options_divi.php:144
 msgid "Show Twitter Icon"
 msgstr "Toon Twitter Icoon"
 
-#: options_blu.php:148
+#: options_divi.php:148
 msgid "Here you can choose to display the Twitter Icon. "
 msgstr "Hier kunt u ervoor kiezen de Twitter Icoon op uw startpagina te tonen."
 
-#: options_blu.php:150
+#: options_divi.php:150
 msgid "Show Google+ Icon"
 msgstr "Toon Google+ Icoon"
 
-#: options_blu.php:154
+#: options_divi.php:154
 msgid "Here you can choose to display the Google+ Icon on your homepage. "
 msgstr "Hier kunt u ervoor kiezen de Google+ Icoon op uw startpagina te tonen."
 
-#: options_blu.php:156
+#: options_divi.php:156
 msgid "Show RSS Icon"
 msgstr "Toon RSS Icoon"
 
-#: options_blu.php:160
+#: options_divi.php:160
 msgid "Here you can choose to display the RSS Icon. "
 msgstr "Hier kunt u ervoor kiezen de RSS Icoon te tonen."
 
-#: options_blu.php:162
+#: options_divi.php:162
 msgid "Facebook Profile Url"
 msgstr "Facebook Profiel URL"
 
-#: options_blu.php:167
+#: options_divi.php:167
 msgid "Enter the URL of your Facebook Profile. "
 msgstr "Voer de URL van uw Facebook Profiel in."
 
-#: options_blu.php:169
+#: options_divi.php:169
 msgid "Twitter Profile Url"
 msgstr "Twitter Profiel URL"
 
-#: options_blu.php:174
+#: options_divi.php:174
 msgid "Enter the URL of your Twitter Profile."
 msgstr "Voer de URL van uw Twitter Profiel in."
 
-#: options_blu.php:176
+#: options_divi.php:176
 msgid "Google+ Profile Url"
 msgstr "Google+ Profiel URL"
 
-#: options_blu.php:181
+#: options_divi.php:181
 msgid "Enter the URL of your Google+ Profile. "
 msgstr "Voer de URL van uw Google+ Profiel in."
 
-#: options_blu.php:183
+#: options_divi.php:183
 msgid "RSS Icon Url"
 msgstr "RSS Icoon URL"
 
-#: options_blu.php:188
+#: options_divi.php:188
 msgid "Enter the URL of your RSS feed. "
 msgstr "Voer de URL van uw RSS feed in."
 
-#: options_blu.php:190
+#: options_divi.php:190
 msgid "Number of Products displayed on WooCommerce archive pages"
 msgstr "Aantal producten weergegeven op archiefpagina's van WooCommerce"
 
-#: options_blu.php:194
+#: options_divi.php:194
 msgid ""
 "Here you can designate how many WooCommerce products are displayed on the "
 "archive page. This option works independently from the Settings > Reading "
@@ -2034,11 +2034,11 @@ msgstr ""
 "op de archiefpagina. Deze optie werkt onafhankelijk van de Instellingen > "
 "Leesopties in wp-admin."
 
-#: options_blu.php:198
+#: options_divi.php:198
 msgid "Number of Posts displayed on Category page"
 msgstr "Aantal getoonde Posts op Categorie pagina"
 
-#: options_blu.php:202
+#: options_divi.php:202
 msgid ""
 "Here you can designate how many recent articles are displayed on the "
 "Category page. This option works independently from the Settings > Reading "
@@ -2048,11 +2048,11 @@ msgstr ""
 "Categorie pagina. Deze optie werkt onafhankelijk van de Instellingen > Lees "
 "opties in wp-admin."
 
-#: options_blu.php:206
+#: options_divi.php:206
 msgid "Number of Posts displayed on Archive pages"
 msgstr "Aantal getoonde Posts op Archief pagina's"
 
-#: options_blu.php:210
+#: options_divi.php:210
 msgid ""
 "Here you can designate how many recent articles are displayed on the Archive "
 "pages. This option works independently from the Settings > Reading options "
@@ -2062,11 +2062,11 @@ msgstr ""
 "Archief pagina's. Deze optie werkt onafhankelijk van de Instellingen > Lees "
 "opties in wp-admin."
 
-#: options_blu.php:214
+#: options_divi.php:214
 msgid "Number of Posts displayed on Search pages"
 msgstr "Aantal getoonde Posts op Zoek pagina's"
 
-#: options_blu.php:218
+#: options_divi.php:218
 msgid ""
 "Here you can designate how many recent articles are displayed on the Search "
 "results pages. This option works independently from the Settings > Reading "
@@ -2076,11 +2076,11 @@ msgstr ""
 "resultaat pagina's. Deze optie werkt onafhankelijk van de Instellingen > "
 "Lees opties in wp-admin."
 
-#: options_blu.php:222
+#: options_divi.php:222
 msgid "Number of Posts displayed on Tag pages"
 msgstr "Aantal getoonde Posts op Tag pagina's"
 
-#: options_blu.php:226
+#: options_divi.php:226
 msgid ""
 "Here you can designate how many recent articles are displayed on the Tag "
 "pages. This option works independently from the Settings > Reading options "
@@ -2090,11 +2090,11 @@ msgstr ""
 "pagina's. Deze optie werkt onafhankelijk van de Instellingen > Lees opties "
 "in wp-admin."
 
-#: options_blu.php:230
+#: options_divi.php:230
 msgid "Date format"
 msgstr "Datum formaat"
 
-#: options_blu.php:234
+#: options_divi.php:234
 msgid ""
 "This option allows you to change how your dates are displayed. For more "
 "information please refer to the WordPress codex here:<a href='http://codex."
@@ -2105,54 +2105,54 @@ msgstr ""
 "informatie raadpleeg WordPress codex hier:<a href='http://codex.wordpress."
 "org/Formatting_Date_and_Time' target='_blank'>Datum en Tijd formatteren</a>"
 
-#: options_blu.php:238
+#: options_divi.php:238
 msgid "Use excerpts when defined"
 msgstr "Gebruik fragmenten als gedefenieerd"
 
-#: options_blu.php:242
+#: options_divi.php:242
 msgid "This will enable the use of excerpts in posts or pages."
 msgstr "Dit schakelt het gebruik in van fragmenten in posts of pagina's."
 
-#: options_blu.php:245
+#: options_divi.php:245
 msgid "Responsive shortcodes"
 msgstr "Responsive shortcodes"
 
-#: options_blu.php:249
+#: options_divi.php:249
 msgid "Enable this option to make shortcodes respond to various screen sizes"
 msgstr ""
 "Schakel deze optie in om shortcodes te laten reageren op verschillende "
 "schermafmetingen"
 
-#: options_blu.php:252
+#: options_divi.php:252
 msgid "Google Fonts subsets"
 msgstr "Google Fonts subinstellingen"
 
-#: options_blu.php:256
+#: options_divi.php:256
 msgid "This will enable Google Fonts for Non-English languages."
 msgstr "Dit schakelt Google Fonts in voor niet-Engelse talen."
 
-#: options_blu.php:259
+#: options_divi.php:259
 msgid "Back To Top Button"
 msgstr "Terug naar Boven Toets"
 
-#: options_blu.php:263
+#: options_divi.php:263
 msgid "Enable this option to display Back To Top Button while scrolling"
 msgstr ""
 "Schakel deze optie in om Terug naar Boven Toets te tonen tijdens het scrollen"
 
-#: options_blu.php:266
+#: options_divi.php:266
 msgid "Smooth Scrolling"
 msgstr "Gelijkmatig Scrollen"
 
-#: options_blu.php:270
+#: options_divi.php:270
 msgid "Enable this option to get the smooth scrolling effect with mouse wheel"
 msgstr "Schakel deze optie in om gelijkmatig te scrollen met het muiswiel"
 
-#: options_blu.php:273
+#: options_divi.php:273
 msgid "Disable Translations"
 msgstr "Vertalingen uitschakelen"
 
-#: options_blu.php:277
+#: options_divi.php:277
 msgid ""
 "Disable translations if you don't want to display translated theme strings "
 "on your site."
@@ -2160,33 +2160,33 @@ msgstr ""
 "Schakel vertalingen uit als u geen vertaalde themateksten op uw site wilt "
 "weergeven."
 
-#: options_blu.php:280
+#: options_divi.php:280
 msgid "Custom CSS"
 msgstr "Aangepaste CSS"
 
-#: options_blu.php:284
+#: options_divi.php:284
 msgid "Here you can add custom css to override or extend default styles."
 msgstr ""
 "Hier kunt u aangepaste CSS toevoegen om standaard stijlen te overschrijven "
 "of uit te breiden."
 
-#: options_blu.php:289
+#: options_divi.php:289
 msgid "Memory Limit Increase"
 msgstr "Geheugenlimiettoename"
 
-#: options_blu.php:291
+#: options_divi.php:291
 msgid "Here you can disable automatic memory limit increase."
 msgstr "Hier kunt u de automatische geheugenlimietverhoging uitschakelen."
 
-#: options_blu.php:311
+#: options_divi.php:311
 msgid "Pages"
 msgstr "Pagina's"
 
-#: options_blu.php:329
+#: options_divi.php:329
 msgid "Exclude pages from the navigation bar"
 msgstr "Sluit pagina's van de navigatiebar uit"
 
-#: options_blu.php:333
+#: options_divi.php:333
 msgid ""
 "Here you can choose to remove certain pages from the navigation menu. All "
 "pages marked with an X will not appear in your navigation bar. "
@@ -2194,11 +2194,11 @@ msgstr ""
 "Hier kunt u bepaalde pagina's verwijderen uit het navigatiemenu. Alle met "
 "een X gemarkeerde pagina's zullen niet in uw navigatiebar verschijnen."
 
-#: options_blu.php:337 options_blu.php:387
+#: options_divi.php:337 options_divi.php:387
 msgid "Show dropdown menus"
 msgstr "Toon dropdown menu's"
 
-#: options_blu.php:341
+#: options_divi.php:341
 msgid ""
 "If you would like to remove the dropdown menus from the pages navigation bar "
 "disable this feature."
@@ -2206,11 +2206,11 @@ msgstr ""
 "Als u de dropdown menu's wilt verwijderen uit de navigatiebar van de "
 "pagina's, schakel deze functie dan uit."
 
-#: options_blu.php:344
+#: options_divi.php:344
 msgid "Display Home link"
 msgstr "Toon Start link"
 
-#: options_blu.php:348
+#: options_divi.php:348
 msgid ""
 "By default the theme creates a Home link that, when clicked, leads back to "
 "your blog's homepage. If, however, you are using a static homepage and have "
@@ -2223,19 +2223,19 @@ msgstr ""
 "resulteert dit in een dubbele link. In dat geval dient u deze functie uit te "
 "schakelen om de link te verwijderen."
 
-#: options_blu.php:351
+#: options_divi.php:351
 msgid "Sort Pages Links"
 msgstr "Sorteer Pagina Links"
 
-#: options_blu.php:355
+#: options_divi.php:355
 msgid "Here you can choose to sort your pages links."
 msgstr "Hier kunt u kiezen om uw pagina's links te sorteren."
 
-#: options_blu.php:358
+#: options_divi.php:358
 msgid "Order Pages Links by Ascending/Descending"
 msgstr "Stel de Pagina-links in om naar boven/beneden te gaan."
 
-#: options_blu.php:362
+#: options_divi.php:362
 msgid ""
 "Here you can choose to reverse the order that your pages links are "
 "displayed. You can choose between ascending and descending."
@@ -2243,11 +2243,11 @@ msgstr ""
 "Hier kunt u de volgorde waarop uw pagina links getoond worden wijzigen. U "
 "kunt kiezen tussen naar boven oplopend of naar beneden aflopend."
 
-#: options_blu.php:365 options_blu.php:401
+#: options_divi.php:365 options_divi.php:401
 msgid "Number of dropdown tiers shown"
 msgstr "Aantal getoonde dropdown menu lagen"
 
-#: options_blu.php:369 options_blu.php:405
+#: options_divi.php:369 options_divi.php:405
 msgid ""
 "This options allows you to control how many teirs your pages dropdown menu "
 "has. Increasing the number allows for additional menu items to be shown."
@@ -2255,11 +2255,11 @@ msgstr ""
 "Met deze optie controleert u hoeveel lagen uw dropdown keuzemenu heeft. Het "
 "aantal verhogen geeft de mogelijkheid om aanvullende menu items te tonen."
 
-#: options_blu.php:379
+#: options_divi.php:379
 msgid "Exclude categories from the navigation bar"
 msgstr "Sluit categorieeen van de navigatiebar uit"
 
-#: options_blu.php:383
+#: options_divi.php:383
 msgid ""
 "Here you can choose to remove certain categories from the navigation menu. "
 "All categories marked with an X will not appear in your navigation bar. "
@@ -2267,7 +2267,7 @@ msgstr ""
 "Hier kunt u bepaalde categorieen van het navigatiemenu verwijderen. Alle met "
 "een X gemarkeerde categorieen zullen niet in uw navigatiebar verschijnen."
 
-#: options_blu.php:391
+#: options_divi.php:391
 msgid ""
 "If you would like to remove the dropdown menus from the categories "
 "navigation bar disable this feature."
@@ -2275,11 +2275,11 @@ msgstr ""
 "Als u de keuzemenu's wilt verwijderen uit de categorieen navigatiebar "
 "schakel deze functie uit."
 
-#: options_blu.php:394
+#: options_divi.php:394
 msgid "Hide empty categories"
 msgstr "Verberg lege categorieen"
 
-#: options_blu.php:398
+#: options_divi.php:398
 msgid ""
 "If you would like categories to be displayed in your navigationbar that "
 "don't have any posts in them then disable this option. By default empty "
@@ -2289,11 +2289,11 @@ msgstr ""
 "navigatiebar schakel deze optie dan uit. Lege categorieen zijn standaard "
 "verborgen."
 
-#: options_blu.php:409
+#: options_divi.php:409
 msgid "Sort Categories Links by Name/ID/Slug/Count/Term Group"
 msgstr "Sorteer Categorie Links op Name/ID/Slug/Count/Term Groep"
 
-#: options_blu.php:413
+#: options_divi.php:413
 msgid ""
 "By default pages are sorted by name. However if you would rather have them "
 "sorted by ID you can adjust this setting."
@@ -2301,11 +2301,11 @@ msgstr ""
 "Standaard worden pagina's op naam gesorteerd. Als u ze echter liever op ID "
 "gesorteerd wilt hebben, kunt u deze instelling aanpassen."
 
-#: options_blu.php:416
+#: options_divi.php:416
 msgid "Order Category Links by Ascending/Descending"
 msgstr "Categorie Links naar Boven of naar Beneden laten gaan"
 
-#: options_blu.php:420
+#: options_divi.php:420
 msgid ""
 "Here you can choose to reverse the order that your categories links are "
 "displayed. You can choose between ascending and descending."
@@ -2313,11 +2313,11 @@ msgstr ""
 "Hierkunt u de volgorde waarop uw categorie links getoond worden wijzigen. U "
 "kunt kiezen tussen naar boven of naar beneden aflopend."
 
-#: options_blu.php:429
+#: options_divi.php:429
 msgid "Disable top tier dropdown menu links"
 msgstr "Top tier keuze menu links uitschakelen"
 
-#: options_blu.php:433
+#: options_divi.php:433
 msgid ""
 "In some cases users will want to create parent categories or links as "
 "placeholders to hold a list of child links or categories. In this case it is "
@@ -2334,19 +2334,19 @@ msgstr ""
 "van alle pagina's/categorieen, zo dat ze nergens naar doorsturen als ze "
 "aangeklikt worden."
 
-#: options_blu.php:451
+#: options_divi.php:451
 msgid "Single Post Layout"
 msgstr "Enkele Post Layout"
 
-#: options_blu.php:456
+#: options_divi.php:456
 msgid "Single Page Layout"
 msgstr "Enkele Pagina Layout"
 
-#: options_blu.php:469
+#: options_divi.php:469
 msgid "Choose which items to display in the postinfo section"
 msgstr "Kies welke items getoond moeten worden in de post info sectie"
 
-#: options_blu.php:473
+#: options_divi.php:473
 msgid ""
 "Here you can choose which items appear in the postinfo section on single "
 "post pages. This is the area, usually below the post title, which displays "
@@ -2358,11 +2358,11 @@ msgstr ""
 "basisinformatie weergeeft over uw post. De gemarkeerde items hieronder "
 "zullen verschijnen."
 
-#: options_blu.php:477
+#: options_divi.php:477
 msgid "Show comments on posts"
 msgstr "Toon reacties op posts"
 
-#: options_blu.php:481
+#: options_divi.php:481
 msgid ""
 "You can disable this option if you want to remove the comments and comment "
 "form from single post pages. "
@@ -2370,11 +2370,11 @@ msgstr ""
 "U kunt deze optie uitschakelen als u de reacties en het reactieformulier van "
 "posts wilt verwijderen."
 
-#: options_blu.php:484
+#: options_divi.php:484
 msgid "Place Thumbs on Posts"
 msgstr "Plaats Miniatuur Afbeeldingen op Posts"
 
-#: options_blu.php:488
+#: options_divi.php:488
 msgid ""
 "By default thumbnails are placed at the beginning of your post on single "
 "post pages. If you would like to remove this initial thumbnail image to "
@@ -2384,11 +2384,11 @@ msgstr ""
 "pagina. Als u deze eerste miniatuur wilt verwijderen om dubbeling te "
 "voorkomen, schakel deze optie dan eenvoudigweg uit."
 
-#: options_blu.php:497
+#: options_divi.php:497
 msgid "Place Thumbs on Pages"
 msgstr "Plaats miniatuur afbeeldingen op Pagina's"
 
-#: options_blu.php:501
+#: options_divi.php:501
 msgid ""
 "By default thumbnails are not placed on pages (they are only used on posts). "
 "However, if you want to use thumbnails on pages you can! Just enable this "
@@ -2398,11 +2398,11 @@ msgstr ""
 "op posts gebruikt). Als u echter miniaturen op pagina’s wilt gebruiken, kan "
 "dat! Zet gewoon deze optie aan."
 
-#: options_blu.php:504
+#: options_divi.php:504
 msgid "Show comments on pages"
 msgstr "Toon reacties op pagina's"
 
-#: options_blu.php:508
+#: options_divi.php:508
 msgid ""
 "By default comments are not placed on pages, however, if you would like to "
 "allow people to comment on your pages simply enable this option. "
@@ -2410,11 +2410,11 @@ msgstr ""
 "Reacties worden standaard niet op pagina's geplaatst. Als u echter bezoekers "
 "in staat wilt stellen te reageren op uw pagina's, schakel dan deze optie in."
 
-#: options_blu.php:517
+#: options_divi.php:517
 msgid "Post info section"
 msgstr "Post info sectie"
 
-#: options_blu.php:521
+#: options_divi.php:521
 msgid ""
 "Here you can choose which items appear in the postinfo section on pages. "
 "This is the area, usually below the post title, which displays basic "
@@ -2425,31 +2425,31 @@ msgstr ""
 "informatie over uw post getoond wordt. De hieronder gemarkeerde artikelen "
 "zullen verschijnen."
 
-#: options_blu.php:524
+#: options_divi.php:524
 msgid "Show Thumbs on Index pages"
 msgstr "Toon Miniatuur Afbeeldingen op Index pagina's"
 
-#: options_blu.php:528
+#: options_divi.php:528
 msgid "Enable this option to show thumbnails on Index Pages."
 msgstr "Schakel deze optie in om miniaturen op Index Pagina's te tonen."
 
-#: options_blu.php:545
+#: options_divi.php:545
 msgid "Homepage SEO"
 msgstr "Startpagina SEO"
 
-#: options_blu.php:550
+#: options_divi.php:550
 msgid "Single Post Page SEO"
 msgstr "Enkele Post Pagina SEO"
 
-#: options_blu.php:555
+#: options_divi.php:555
 msgid "Index Page SEO"
 msgstr "Index Pagina SEO"
 
-#: options_blu.php:563
+#: options_divi.php:563
 msgid " Enable custom title "
 msgstr "Schakel aangepaste titel in"
 
-#: options_blu.php:567
+#: options_divi.php:567
 msgid ""
 "By default the theme uses a combination of your blog name and your blog "
 "description, as defined when you created your blog, to create your homepage "
@@ -2461,11 +2461,11 @@ msgstr ""
 "pagina aanmaakte. Als u echter een aangepaste titel wilt maken,schakel deze "
 "optie dan in en vul het veld in voor de aangepaste titel. "
 
-#: options_blu.php:570
+#: options_divi.php:570
 msgid " Enable meta description"
 msgstr "Schakel meta tag beschrijving in"
 
-#: options_blu.php:574
+#: options_divi.php:574
 msgid ""
 "By default the theme uses your blog description, as defined when you created "
 "your blog, to fill in the meta description field. If you would like to use a "
@@ -2477,11 +2477,11 @@ msgstr ""
 "Wilt u een andere beschrijving gebruiken, schakel dan deze optie dan in en "
 "vul het veld hieronder in met uw beschrijving."
 
-#: options_blu.php:577
+#: options_divi.php:577
 msgid " Enable meta keywords"
 msgstr "Schakel meta trefwoorden in"
 
-#: options_blu.php:581
+#: options_divi.php:581
 msgid ""
 "By default the theme does not add keywords to your header. Most search "
 "engines don't use keywords to rank your site anymore, but some people define "
@@ -2494,11 +2494,11 @@ msgstr ""
 "wilt toevoegen aan uw header, schakel deze optie dan in en vul het "
 "aangepaste trefwoorden veld hieronder in."
 
-#: options_blu.php:584 options_blu.php:711
+#: options_divi.php:584 options_divi.php:711
 msgid " Enable canonical URL's"
 msgstr "Schakel canonicale URL's in"
 
-#: options_blu.php:588 options_blu.php:662 options_blu.php:715
+#: options_divi.php:588 options_divi.php:662 options_divi.php:715
 msgid ""
 "Canonicalization helps to prevent the indexing of duplicate content by "
 "search engines, and as a result, may help avoid duplicate content penalties "
@@ -2524,11 +2524,11 @@ msgstr ""
 "URLsop uw koppelingen en de domeinnaam die is gedefinieerd in het "
 "instellingen tabblad van wp-admin."
 
-#: options_blu.php:591
+#: options_divi.php:591
 msgid "Homepage custom title (if enabled)"
 msgstr "Home-pagina aangepaste titel (indien ingeschakeld)"
 
-#: options_blu.php:595
+#: options_divi.php:595
 msgid ""
 "If you have enabled custom titles you can add your custom title here. "
 "Whatever you type here will be placed between the < title >< /title > tags "
@@ -2538,11 +2538,11 @@ msgstr ""
 "toevoegen. Wat u hier intikt wordt geplaatst tussen de < title >< /title > "
 "tags in header.php"
 
-#: options_blu.php:599
+#: options_divi.php:599
 msgid "Homepage meta description (if enabled)"
 msgstr "Home-pagina meta beschrijving (indien ingeschakeld)"
 
-#: options_blu.php:603
+#: options_divi.php:603
 msgid ""
 "If you have enabled meta descriptions you can add your custom description "
 "here."
@@ -2550,11 +2550,11 @@ msgstr ""
 "Indien u meta beschrijvingen heeft ingeschakeld kunt u hier uw eigen "
 "aangepaste beschrijving toevoegen."
 
-#: options_blu.php:607
+#: options_divi.php:607
 msgid "Homepage meta keywords (if enabled)"
 msgstr "Home-pagina meta trefwoorden (indien ingeschakeld)"
 
-#: options_blu.php:611
+#: options_divi.php:611
 msgid ""
 "If you have enabled meta keywords you can add your custom keywords here. "
 "Keywords should be separated by comas. For example: wordpress,themes,"
@@ -2564,13 +2564,13 @@ msgstr ""
 "toevoegen. Trefwoorden moeten door komma's gescheiden worden. Bijvoorbeeld: "
 "wordpress,thema's,sjablonen,elegant"
 
-#: options_blu.php:615 options_blu.php:689
+#: options_divi.php:615 options_divi.php:689
 msgid "If custom titles are disabled, choose autogeneration method"
 msgstr ""
 "Als aangepaste titels uitgeschakeld staat, kies dan automatische generatie "
 "methode"
 
-#: options_blu.php:620
+#: options_divi.php:620
 msgid ""
 "If you are not using cutsom post titles you can still have control over how "
 "your titles are generated. Here you can choose which order you would like "
@@ -2582,13 +2582,13 @@ msgstr ""
 "volgorde u uw post titel en blognaam wilt weergeven, of u kunt de blognaam "
 "geheel verwijderen van de titel."
 
-#: options_blu.php:623 options_blu.php:697 options_blu.php:733
+#: options_divi.php:623 options_divi.php:697 options_divi.php:733
 msgid "Define a character to separate BlogName and Post title"
 msgstr ""
 "Geef een teken aan om de naam van de website/blog en de Post titel te "
 "scheiden "
 
-#: options_blu.php:627 options_blu.php:701
+#: options_divi.php:627 options_divi.php:701
 msgid ""
 "Here you can change which character separates your blog title and post name "
 "when using autogenerated post titles. Common values are | or -"
@@ -2597,11 +2597,11 @@ msgstr ""
 "gebruik van automatisch gegenereerde post titels. Algemene Waarden zijn | of "
 "-"
 
-#: options_blu.php:637
+#: options_divi.php:637
 msgid "Enable custom titles"
 msgstr "Schakel aangepaste titels in"
 
-#: options_blu.php:641
+#: options_divi.php:641
 msgid ""
 "By default the theme creates post titles based on the title of your post and "
 "your blog name. If you would like to make your meta title different than "
@@ -2616,11 +2616,11 @@ msgstr ""
 "ingeschakeld zijn. U dient een aangepaste veldnaam te kiezen voor uw titel "
 "zoals onderstaand. "
 
-#: options_blu.php:644
+#: options_divi.php:644
 msgid "Enable custom description"
 msgstr "Schakel aangepaste beschrijving in"
 
-#: options_blu.php:648
+#: options_divi.php:648
 msgid ""
 "If you would like to add a meta description to your post you can do so using "
 "custom fields. This option must be enabled for descriptions to be displayed "
@@ -2633,11 +2633,11 @@ msgstr ""
 "aangepaste velden op basis van de aangepaste veldnaam die u hieronder "
 "aangeeft."
 
-#: options_blu.php:651
+#: options_divi.php:651
 msgid "Enable custom keywords"
 msgstr "Schakel aangepaste trefwoorden in"
 
-#: options_blu.php:655
+#: options_divi.php:655
 msgid ""
 "If you would like to add meta keywords to your post you can do so using "
 "custom fields. This option must be enabled for keywords to be displayed on "
@@ -2650,15 +2650,15 @@ msgstr ""
 "vanaangepaste velden op basis van de aangepaste veldnaam die u hieronder "
 "aangeeft."
 
-#: options_blu.php:658
+#: options_divi.php:658
 msgid "Enable canonical URL's"
 msgstr "Schakel canonicale URL's in"
 
-#: options_blu.php:665
+#: options_divi.php:665
 msgid "Custom field Name to be used for title"
 msgstr "Aangepaste veldnaam te gebruiken voor titel"
 
-#: options_blu.php:669
+#: options_divi.php:669
 msgid ""
 "When you define your title using custom fields you should use this value for "
 "the custom field Name. The Value of your custom field should be the custom "
@@ -2668,11 +2668,11 @@ msgstr ""
 "waarde gebruiken voor de aangepaste veldnaam. De waarde van uw  aangepaste "
 "veld dient de aangepaste titel te zijn die u zou willen gebruiken."
 
-#: options_blu.php:673
+#: options_divi.php:673
 msgid "Custom field Name to be used for description"
 msgstr "Aangepaste veldnaam te gebruiken voor de omschrijving"
 
-#: options_blu.php:677
+#: options_divi.php:677
 msgid ""
 "When you define your meta description using custom fields you should use "
 "this value for the custom field Name. The Value of your custom field should "
@@ -2683,11 +2683,11 @@ msgstr ""
 "aangepaste veld dient de aangepaste beschrijving te zijn die u zou willen "
 "gebruiken."
 
-#: options_blu.php:681
+#: options_divi.php:681
 msgid "Custom field Name to be used for keywords"
 msgstr "Aangepaste veldnaam te gebruiken voor trefwoorden"
 
-#: options_blu.php:685
+#: options_divi.php:685
 msgid ""
 "When you define your keywords using custom fields you should use this value "
 "for the custom field Name. The Value of your custom field should be the meta "
@@ -2698,7 +2698,7 @@ msgstr ""
 "aangepast veld dienen de meta trefwoorden te zijn die u zou willen "
 "gebruiken, gescheiden door komma's."
 
-#: options_blu.php:694
+#: options_divi.php:694
 msgid ""
 "If you are not using cutsom post titles you can still have control over hw "
 "your titles are generated. Here you can choose which order you would like "
@@ -2710,11 +2710,11 @@ msgstr ""
 "volgorde u uw  post titel en blognaam wilt tonen, of u kunt de blognaam "
 "geheel uit de titel verwijderen."
 
-#: options_blu.php:718
+#: options_divi.php:718
 msgid "Enable meta descriptions"
 msgstr "Schakel meta beschrijvingen in"
 
-#: options_blu.php:722
+#: options_divi.php:722
 msgid ""
 "Check this box if you want to display meta descriptions on category/archive "
 "pages. The description is based off the category description you choose when "
@@ -2725,11 +2725,11 @@ msgstr ""
 "beschrijving die u kiest bij het aanmaken/bewerken van uw categorie in wp-"
 "admin."
 
-#: options_blu.php:725
+#: options_divi.php:725
 msgid "Choose title autogeneration method"
 msgstr "Kies de titel generatie methode"
 
-#: options_blu.php:730
+#: options_divi.php:730
 msgid ""
 "Here you can choose how your titles on index pages are generated. You can "
 "change which order your blog name and index title are displayed, or you can "
@@ -2739,7 +2739,7 @@ msgstr ""
 "kunt wijzigen in welke volgorde uw blognaam en index titel getoond worden, "
 "of u kunt de blognaam geheel uit de titel verwijderen."
 
-#: options_blu.php:737
+#: options_divi.php:737
 msgid ""
 "Here you can change which character separates your blog title and index page "
 "name when using autogenerated post titles. Common values are | or -"
@@ -2748,15 +2748,15 @@ msgstr ""
 "als u automatisch gegenereerde post titels gebruikt. Algemene waardes zijn | "
 "of -"
 
-#: options_blu.php:756
+#: options_divi.php:756
 msgid "Code Integration"
 msgstr "Code Integratie"
 
-#: options_blu.php:764
+#: options_divi.php:764
 msgid "Enable header code"
 msgstr "Schakel header code in"
 
-#: options_blu.php:768
+#: options_divi.php:768
 msgid ""
 "Disabling this option will remove the header code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2765,11 +2765,11 @@ msgstr ""
 "verwijderen. Hierdoor kunt u de code verwijderen en voor later gebruik "
 "bewaren."
 
-#: options_blu.php:771
+#: options_divi.php:771
 msgid "Enable body code"
 msgstr "Schakel de body code in"
 
-#: options_blu.php:775
+#: options_divi.php:775
 msgid ""
 "Disabling this option will remove the body code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2778,11 +2778,11 @@ msgstr ""
 "verwijderen. Hiermee kunt u de code verwijderen en voor later gebruik "
 "bewaren."
 
-#: options_blu.php:778
+#: options_divi.php:778
 msgid "Enable single top code"
 msgstr "Schakel de enkele top code in"
 
-#: options_blu.php:782
+#: options_divi.php:782
 msgid ""
 "Disabling this option will remove the single top code below from your blog. "
 "This allows you to remove the code while saving it for later use."
@@ -2791,11 +2791,11 @@ msgstr ""
 "verwijderen. Hiermee kunt u de code verwijderen en voor later gebruik "
 "bewaren."
 
-#: options_blu.php:785
+#: options_divi.php:785
 msgid "Enable single bottom code"
 msgstr "Schakel de enkele bodem code in"
 
-#: options_blu.php:789
+#: options_divi.php:789
 msgid ""
 "Disabling this option will remove the single bottom code below from your "
 "blog. This allows you to remove the code while saving it for later use."
@@ -2804,11 +2804,11 @@ msgstr ""
 "verwijderen. Hierdoor kunt u de code verwijderen en voor later gebruik "
 "bewaren."
 
-#: options_blu.php:792
+#: options_divi.php:792
 msgid "Add code to the < head > of your blog"
 msgstr "Voeg code toe aan de < head > van uw blog"
 
-#: options_blu.php:796
+#: options_divi.php:796
 msgid ""
 "Any code you place here will appear in the head section of every page of "
 "your blog. This is useful when you need to add javascript or css to all "
@@ -2818,14 +2818,14 @@ msgstr ""
 "van uw blog. Dit is handig als u Javascript of CSS aan alle pagina's moet "
 "toevoegen."
 
-#: options_blu.php:799
+#: options_divi.php:799
 msgid ""
 "Add code to the < body > (good for tracking codes such as google analytics)"
 msgstr ""
 "Voeg code toe aan de < body > (goed voor het traceren van codes als Google "
 "Analytics)"
 
-#: options_blu.php:803
+#: options_divi.php:803
 msgid ""
 "Any code you place here will appear in body section of all pages of your "
 "blog. This is usefull if you need to input a tracking pixel for a state "
@@ -2835,11 +2835,11 @@ msgstr ""
 "van uw blog. Dit is handig als u een tracerende pixel moet invoeren voor een "
 "state counter als Google Analytics."
 
-#: options_blu.php:806
+#: options_divi.php:806
 msgid "Add code to the top of your posts"
 msgstr "Voeg code bovenaan uw posts toe"
 
-#: options_blu.php:810 options_blu.php:817
+#: options_divi.php:810 options_divi.php:817
 msgid ""
 "Any code you place here will be placed at the top of all single posts. This "
 "is useful if you are looking to integrating things such as social "
@@ -2849,19 +2849,19 @@ msgstr ""
 "posts. Dit is handig als u dingen wilt integreren, zoals social bookmark "
 "links."
 
-#: options_blu.php:813
+#: options_divi.php:813
 msgid "Add code to the bottom of your posts, before the comments"
 msgstr "Voeg code onderaan uw posts toe, geplaatst voor de reacties"
 
-#: options_blu.php:835
+#: options_divi.php:835
 msgid "Manage Un-widgetized Advertisements"
 msgstr "Beheer Reclames"
 
-#: options_blu.php:843
+#: options_divi.php:843
 msgid "Enable Single Post 468x60 banner"
 msgstr "Schakel Enkele Post 468x60 banner in"
 
-#: options_blu.php:847
+#: options_divi.php:847
 msgid ""
 "Enabling this option will display a 468x60 banner ad on the bottom of your "
 "post pages below the single post content. If enabled you must fill in the "
@@ -2871,27 +2871,27 @@ msgstr ""
 "onderaan uw post-pagina's onder de enkele post content. Indien ingeschakeld, "
 "moet u de onderstaande banner afbeelding en bestemmings-URL invullen."
 
-#: options_blu.php:850
+#: options_divi.php:850
 msgid "Input 468x60 advertisement banner image"
 msgstr "Voer 468x60 advertentie banner afbeelding in"
 
-#: options_blu.php:854
+#: options_divi.php:854
 msgid "Here you can provide 468x60 banner image url"
 msgstr "Hier kunt u een 468x60 banner afbeelding-URL invullen"
 
-#: options_blu.php:858
+#: options_divi.php:858
 msgid "Input 468x60 advertisement destination url"
 msgstr "Voer 468x60 advertentie bestemming-URL in"
 
-#: options_blu.php:862
+#: options_divi.php:862
 msgid "Here you can provide 468x60 banner destination url"
 msgstr "Hier kunt u 468x60 banner bestemming-URL indienen"
 
-#: options_blu.php:866
+#: options_divi.php:866
 msgid "Input 468x60 adsense code"
 msgstr "Voer 468x60 Google Adsense code in"
 
-#: options_blu.php:870
+#: options_divi.php:870
 msgid "Place your adsense code here."
 msgstr "Plaats uw Google Adsense code hier."
 

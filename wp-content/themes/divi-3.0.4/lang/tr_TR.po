@@ -95,7 +95,7 @@ msgstr "%s Tema Seçenekleri"
 msgid "Reset to Defaults"
 msgstr "Varsayılanlara Sıfırla"
 
-#: epanel/core_functions.php:160 options_blu.php:38
+#: epanel/core_functions.php:160 options_divi.php:38
 msgid "General"
 msgstr "Genel"
 
@@ -159,7 +159,7 @@ msgstr "Yazar"
 msgid "Date"
 msgstr "Tarih"
 
-#: epanel/core_functions.php:510 options_blu.php:316
+#: epanel/core_functions.php:510 options_divi.php:316
 msgid "Categories"
 msgstr "Kategoriler"
 
@@ -509,15 +509,15 @@ msgstr "Beceriler"
 msgid "Posted on"
 msgstr "Gönderildi"
 
-#: functions.php:293 options_blu.php:103
+#: functions.php:293 options_divi.php:103
 msgid "Right Sidebar"
 msgstr "Sağ Kenarçubuğu"
 
-#: functions.php:294 options_blu.php:104
+#: functions.php:294 options_divi.php:104
 msgid "Left Sidebar"
 msgstr "Sol Kenarçubuğu"
 
-#: functions.php:295 options_blu.php:105
+#: functions.php:295 options_divi.php:105
 msgid "Full Width"
 msgstr "Tam Genişlik"
 
@@ -587,7 +587,7 @@ msgstr "Proje Navigasyonu"
 msgid "you don't have sufficient permissions to access this page"
 msgstr "Bu sayfaya erişmek için yeterli izniniz yok"
 
-#: functions.php:586 options_blu.php:321 options_blu.php:461
+#: functions.php:586 options_divi.php:321 options_divi.php:461
 msgid "General Settings"
 msgstr "Genel Ayarlar"
 
@@ -1793,15 +1793,15 @@ msgstr "Adsense"
 msgid "Adsense Code"
 msgstr "Adsense Kodu"
 
-#: options_blu.php:45
+#: options_divi.php:45
 msgid "Logo"
 msgstr "Logo"
 
-#: options_blu.php:48
+#: options_divi.php:48
 msgid "Set As Logo"
 msgstr "Logo Olarak Ayarla"
 
-#: options_blu.php:50
+#: options_divi.php:50
 msgid ""
 "If you would like to use your own custom logo image click the Upload Image "
 "button."
@@ -1809,37 +1809,37 @@ msgstr ""
 "Kendi özel logo resminizi kullanmak isterseniz \"Resim Yükle\" düğmesine "
 "tıklayın."
 
-#: options_blu.php:53
+#: options_divi.php:53
 msgid "Favicon"
 msgstr "Favicon"
 
-#: options_blu.php:56
+#: options_divi.php:56
 msgid "Set As Favicon"
 msgstr "Favicon olarak ayarla"
 
-#: options_blu.php:58
+#: options_divi.php:58
 msgid ""
 "If you would like to use your own custom favicon image click the Upload "
 "Image button."
 msgstr ""
 "Kendi özel Favicon’u kullanmak isterseniz \"Resim Yükle\" düğmesine tıklayın."
 
-#: options_blu.php:61
+#: options_divi.php:61
 msgid "Fixed Navigation Bar"
 msgstr "Sabit Gezinti Çubuğu"
 
-#: options_blu.php:65
+#: options_divi.php:65
 msgid ""
 "By default the navigation bar stays on top of the screen at all times. We "
 "suggest to disable this option, if you need to use a logo taller than the "
 "default one."
 msgstr "Öntanımlı olarak gezinti çubuğu her zaman ekranın üst kısmında kalır."
 
-#: options_blu.php:68
+#: options_divi.php:68
 msgid "Enable Divi Gallery"
 msgstr "Etkinleştir Divi Galeriyi"
 
-#: options_blu.php:72
+#: options_divi.php:72
 msgid ""
 "Enable this if you want to replace the WordPress default gallery with the "
 "Divi-style gallery."
@@ -1847,20 +1847,20 @@ msgstr ""
 "WordPress’in varsayılan galerisini Divid galeri türü ile değiştirmek "
 "istiyorsanız bunu etkinleştirin."
 
-#: options_blu.php:75
+#: options_divi.php:75
 msgid "Color Pickers Default Palette"
 msgstr "Renk Poplayıcılar Varsayılan Palet"
 
-#: options_blu.php:80
+#: options_divi.php:80
 msgid "Define the default color palette for color pickers in the Divi Builder."
 msgstr ""
 "Renk toplayıcılar için varsayılan renk paletini Divi Builder’da tanımlayın."
 
-#: options_blu.php:85
+#: options_divi.php:85
 msgid "Grab the first post image"
 msgstr "İlk mesaj görüntüsünü tut"
 
-#: options_blu.php:89
+#: options_divi.php:89
 msgid ""
 "By default thumbnail images are created using custom fields. However, if you "
 "would rather use the images that are already in your post for your thumbnail "
@@ -1874,11 +1874,11 @@ msgstr ""
 "kez aktif edildiğinde, küçük resimler otomatik olarak mesajlrında ilk "
 "görüntü olarak oluşturulur."
 
-#: options_blu.php:92
+#: options_divi.php:92
 msgid "Blog Style Mode"
 msgstr "Blog Stil Modu"
 
-#: options_blu.php:96
+#: options_divi.php:96
 msgid ""
 "By default the theme truncates your posts on index/homepages automatically "
 "to create post previews. If you would rather show your posts in full on "
@@ -1888,21 +1888,21 @@ msgstr ""
 "mesaj alıntılarını keser. Eğer geleneksel olduğu gibi tam mesajlarınızı "
 "göstermek isterseniz, blog sonrasında bu özelliği etkinleştirebilirsiniz."
 
-#: options_blu.php:99
+#: options_divi.php:99
 msgid "Shop Page & Category Page Layout for WooCommerce"
 msgstr "WooCommerce Için Mağaza Sayfası &  Kategori Sayfa Düzeni"
 
-#: options_blu.php:108
+#: options_divi.php:108
 msgid "Here you can choose Shop Page & Category Page Layout for WooCommerce."
 msgstr ""
 "Burada WooCommerce Için Mağaza Sayfası &  Kategori Sayfa Düzeni "
 "seçebilirsiniz."
 
-#: options_blu.php:112
+#: options_divi.php:112
 msgid "MailChimp API Key"
 msgstr "MailChimp API Anahtarı"
 
-#: options_blu.php:117
+#: options_divi.php:117
 msgid ""
 "Enter your MailChimp API key. You can create an api key <a target=\"_blank\" "
 "href=\"%1$s\">here</a>"
@@ -1910,19 +1910,19 @@ msgstr ""
 "MailChimp API Anahtarınızı giriniz. Bir API anahtarı oluşturabilirsiniz <a "
 "target=\"_blank\" href=\"%1$s\">here</a>"
 
-#: options_blu.php:120
+#: options_divi.php:120
 msgid "Aweber Authorization"
 msgstr "Aweber Yetkisi"
 
-#: options_blu.php:122
+#: options_divi.php:122
 msgid "Authorize your Aweber account here."
 msgstr "Burada Aweber hesabınızı yetkilendirin."
 
-#: options_blu.php:126
+#: options_divi.php:126
 msgid "Regenerate MailChimp Lists"
 msgstr "MailChimp Listelerini Yeniden oluşturun"
 
-#: options_blu.php:130
+#: options_divi.php:130
 msgid ""
 "By default, MailChimp lists are cached for one day. If you added new list, "
 "but it doesn't appear within the Email Optin module settings, activate this "
@@ -1933,11 +1933,11 @@ msgstr ""
 "seçeneği etkinleştirin. Liste rejenere edildikten sonra devre dışı bırakmak "
 "unutmayın."
 
-#: options_blu.php:132
+#: options_divi.php:132
 msgid "Regenerate Aweber Lists"
 msgstr "Aweber Listelerini Yeniden oluşturun"
 
-#: options_blu.php:136
+#: options_divi.php:136
 msgid ""
 "By default, Aweber lists are cached for one day. If you added new list, but "
 "it doesn't appear within the Email Optin module settings, activate this "
@@ -1948,75 +1948,75 @@ msgstr ""
 "seçeneği etkinleştirin. Liste rejenere edildikten sonra devre dışı bırakmak "
 "unutmayın."
 
-#: options_blu.php:138
+#: options_divi.php:138
 msgid "Show Facebook Icon"
 msgstr "Facebook Simgesini Göster"
 
-#: options_blu.php:142
+#: options_divi.php:142
 msgid "Here you can choose to display the Facebook Icon on your homepage. "
 msgstr "Buradan ana sayfadaki Facebook simge görüntüsünü seçebilirsiniz."
 
-#: options_blu.php:144
+#: options_divi.php:144
 msgid "Show Twitter Icon"
 msgstr "Twitter Simgesini Göster"
 
-#: options_blu.php:148
+#: options_divi.php:148
 msgid "Here you can choose to display the Twitter Icon. "
 msgstr "Buradan ana sayfadaki Twitter simge görüntüsünü seçebilirsiniz. "
 
-#: options_blu.php:150
+#: options_divi.php:150
 msgid "Show Google+ Icon"
 msgstr "Google+ Simgesini Göster"
 
-#: options_blu.php:154
+#: options_divi.php:154
 msgid "Here you can choose to display the Google+ Icon on your homepage. "
 msgstr "Buradan ana sayfadaki Google+ simge görüntüsünü seçebilirsiniz. "
 
-#: options_blu.php:156
+#: options_divi.php:156
 msgid "Show RSS Icon"
 msgstr "RSS Simgesini Göster"
 
-#: options_blu.php:160
+#: options_divi.php:160
 msgid "Here you can choose to display the RSS Icon. "
 msgstr "Buradan ana sayfadaki RSS simge görüntüsünü seçebilirsiniz. "
 
-#: options_blu.php:162
+#: options_divi.php:162
 msgid "Facebook Profile Url"
 msgstr "Facebook Profil URL ‘si"
 
-#: options_blu.php:167
+#: options_divi.php:167
 msgid "Enter the URL of your Facebook Profile. "
 msgstr "Facebook Profilinizin URL ‘sini girin "
 
-#: options_blu.php:169
+#: options_divi.php:169
 msgid "Twitter Profile Url"
 msgstr "Twitter Profil URL ‘si"
 
-#: options_blu.php:174
+#: options_divi.php:174
 msgid "Enter the URL of your Twitter Profile."
 msgstr "Twitter Profilinizin URL ‘sini girin"
 
-#: options_blu.php:176
+#: options_divi.php:176
 msgid "Google+ Profile Url"
 msgstr "Google+ Profil URL ‘si"
 
-#: options_blu.php:181
+#: options_divi.php:181
 msgid "Enter the URL of your Google+ Profile. "
 msgstr "Google+ Profilinizin URL ‘sini girin "
 
-#: options_blu.php:183
+#: options_divi.php:183
 msgid "RSS Icon Url"
 msgstr "RSS Simge URL ‘si"
 
-#: options_blu.php:188
+#: options_divi.php:188
 msgid "Enter the URL of your RSS feed. "
 msgstr "RSS kaynağınızın URL ‘sini girin "
 
-#: options_blu.php:190
+#: options_divi.php:190
 msgid "Number of Products displayed on WooCommerce archive pages"
 msgstr "WooCommerce” arşiv sayfalarında görüntülenen sonuç sayısı"
 
-#: options_blu.php:194
+#: options_divi.php:194
 msgid ""
 "Here you can designate how many WooCommerce products are displayed on the "
 "archive page. This option works independently from the Settings > Reading "
@@ -2026,11 +2026,11 @@ msgstr ""
 "belirleyebilirsiniz. Bu seçenek wp-admin” içerisindeki Ayarlar > Okuma "
 "Seçenekleri’nden bağımsız çalışır."
 
-#: options_blu.php:198
+#: options_divi.php:198
 msgid "Number of Posts displayed on Category page"
 msgstr "Kategori Sayfalarında Görüntülenen Mesaj Sayısı"
 
-#: options_blu.php:202
+#: options_divi.php:202
 msgid ""
 "Here you can designate how many recent articles are displayed on the "
 "Category page. This option works independently from the Settings > Reading "
@@ -2040,11 +2040,11 @@ msgstr ""
 "belirleyebilirsiniz. Bu seçenek wp-admin okuma seçeneklerinden bağımsız "
 "olarak çalışır."
 
-#: options_blu.php:206
+#: options_divi.php:206
 msgid "Number of Posts displayed on Archive pages"
 msgstr "Arşiv Sayfalarında Görüntülenecek Mesaj Sayısı"
 
-#: options_blu.php:210
+#: options_divi.php:210
 msgid ""
 "Here you can designate how many recent articles are displayed on the Archive "
 "pages. This option works independently from the Settings > Reading options "
@@ -2054,11 +2054,11 @@ msgstr ""
 "belirleyebilirsiniz. Bu seçenek wp-admin okuma seçeneklerinden bağımsız "
 "olarak çalışır."
 
-#: options_blu.php:214
+#: options_divi.php:214
 msgid "Number of Posts displayed on Search pages"
 msgstr "Arama Sayfalarında Görüntülenecek Mesaj Sayısı"
 
-#: options_blu.php:218
+#: options_divi.php:218
 msgid ""
 "Here you can designate how many recent articles are displayed on the Search "
 "results pages. This option works independently from the Settings > Reading "
@@ -2068,11 +2068,11 @@ msgstr ""
 "belirleyebilirsiniz. Bu seçenek wp-admin okuma seçeneklerinden bağımsız "
 "olarak çalışır."
 
-#: options_blu.php:222
+#: options_divi.php:222
 msgid "Number of Posts displayed on Tag pages"
 msgstr "Etiket Sayfalarında Görüntülenecek Mesaj Sayısı"
 
-#: options_blu.php:226
+#: options_divi.php:226
 msgid ""
 "Here you can designate how many recent articles are displayed on the Tag "
 "pages. This option works independently from the Settings > Reading options "
@@ -2082,11 +2082,11 @@ msgstr ""
 "belirleyebilirsiniz. Bu seçenek wp-admin okuma seçeneklerinden bağımsız "
 "olarak çalışır."
 
-#: options_blu.php:230
+#: options_divi.php:230
 msgid "Date format"
 msgstr "Tarih biçimi"
 
-#: options_blu.php:234
+#: options_divi.php:234
 msgid ""
 "This option allows you to change how your dates are displayed. For more "
 "information please refer to the WordPress codex here:<a href='http://codex."
@@ -2098,59 +2098,59 @@ msgstr ""
 "codex.wordpress.org/Formatting_Date_and_Time' target='_blank'> Tarih ve Saat "
 "Biçimlendirme</a>"
 
-#: options_blu.php:238
+#: options_divi.php:238
 msgid "Use excerpts when defined"
 msgstr "Bu özellilk tanımlandığı zaman alıntılar kullanılır."
 
-#: options_blu.php:242
+#: options_divi.php:242
 msgid "This will enable the use of excerpts in posts or pages."
 msgstr ""
 "Bu özellik, mesaj ya da sayfalarında alıntılar kullanımını sağlayacaktır."
 
-#: options_blu.php:245
+#: options_divi.php:245
 msgid "Responsive shortcodes"
 msgstr "Duyarlı shortcodes"
 
-#: options_blu.php:249
+#: options_divi.php:249
 msgid "Enable this option to make shortcodes respond to various screen sizes"
 msgstr ""
 "Çeşitli ekran boyutlarına cevap shortcodes yapmak için bu seçeneği "
 "etkinleştirin."
 
-#: options_blu.php:252
+#: options_divi.php:252
 msgid "Google Fonts subsets"
 msgstr "Google Fonts Alt Kümeleri"
 
-#: options_blu.php:256
+#: options_divi.php:256
 msgid "This will enable Google Fonts for Non-English languages."
 msgstr ""
 "Bu özellik İngilizce olmayan diller için  Google Fontları  etkinleştirir."
 
-#: options_blu.php:259
+#: options_divi.php:259
 msgid "Back To Top Button"
 msgstr "Başa Dön Düğmesi"
 
-#: options_blu.php:263
+#: options_divi.php:263
 msgid "Enable this option to display Back To Top Button while scrolling"
 msgstr ""
 "Kaydırma yaparken Başa Dön Düğmesini görüntülemek için bu seçeneği "
 "etkinleştirin."
 
-#: options_blu.php:266
+#: options_divi.php:266
 msgid "Smooth Scrolling"
 msgstr "Düzgün Kaydırma"
 
-#: options_blu.php:270
+#: options_divi.php:270
 msgid "Enable this option to get the smooth scrolling effect with mouse wheel"
 msgstr ""
 "Bu seçeneği fare tekerleği ile pürüzsüz kaydırma efekti elde etmek için "
 "etkinleştirin."
 
-#: options_blu.php:273
+#: options_divi.php:273
 msgid "Disable Translations"
 msgstr "Çevirileri Devre Dışı Bırak"
 
-#: options_blu.php:277
+#: options_divi.php:277
 msgid ""
 "Disable translations if you don't want to display translated theme strings "
 "on your site."
@@ -2158,33 +2158,33 @@ msgstr ""
 "Sitenizde çevirisi yapılmış tema dizilerini görüntülemek istemiyorsanız "
 "çevirleri devre dışı bırakın."
 
-#: options_blu.php:280
+#: options_divi.php:280
 msgid "Custom CSS"
 msgstr "Özel CSS"
 
-#: options_blu.php:284
+#: options_divi.php:284
 msgid "Here you can add custom css to override or extend default styles."
 msgstr ""
 "Buradan geçersiz veya varsayılan stilleri genişletmek için özel CSS "
 "ekleyebilirsiniz."
 
-#: options_blu.php:289
+#: options_divi.php:289
 msgid "Memory Limit Increase"
 msgstr "Bellek Limit Artışı"
 
-#: options_blu.php:291
+#: options_divi.php:291
 msgid "Here you can disable automatic memory limit increase."
 msgstr "Burada otomatik bellek limit artışını devre dışı bırakabilirsiniz."
 
-#: options_blu.php:311
+#: options_divi.php:311
 msgid "Pages"
 msgstr "Sayfalar"
 
-#: options_blu.php:329
+#: options_divi.php:329
 msgid "Exclude pages from the navigation bar"
 msgstr "Gezinti çubuğu sayfaları hariç"
 
-#: options_blu.php:333
+#: options_divi.php:333
 msgid ""
 "Here you can choose to remove certain pages from the navigation menu. All "
 "pages marked with an X will not appear in your navigation bar. "
@@ -2193,11 +2193,11 @@ msgstr ""
 "seçebilirsiniz. X ile işaretlenmiş tüm sayfalar navigasyon çubuğunda "
 "görünmez. "
 
-#: options_blu.php:337 options_blu.php:387
+#: options_divi.php:337 options_divi.php:387
 msgid "Show dropdown menus"
 msgstr "Açılır menüleri göster"
 
-#: options_blu.php:341
+#: options_divi.php:341
 msgid ""
 "If you would like to remove the dropdown menus from the pages navigation bar "
 "disable this feature."
@@ -2205,11 +2205,11 @@ msgstr ""
 "Sayfaların gezinme çubuğunda açılan menüleri kaldırmak istiyorsanız, bu "
 "özelliği devre dışı bırakın."
 
-#: options_blu.php:344
+#: options_divi.php:344
 msgid "Display Home link"
 msgstr "Ana Ekran bağlantısı"
 
-#: options_blu.php:348
+#: options_divi.php:348
 msgid ""
 "By default the theme creates a Home link that, when clicked, leads back to "
 "your blog's homepage. If, however, you are using a static homepage and have "
@@ -2222,19 +2222,19 @@ msgstr ""
 "yinelenen bir bağlantıya neden olacaktır. Bu durumda bağlantıyı kaldırmak "
 "için bu özelliği devre dışı bırakmanız gerekir."
 
-#: options_blu.php:351
+#: options_divi.php:351
 msgid "Sort Pages Links"
 msgstr "Sıralama Sayfa Linkleri"
 
-#: options_blu.php:355
+#: options_divi.php:355
 msgid "Here you can choose to sort your pages links."
 msgstr "Buradan sayfa bağlantıları nasıl sıralanacağını seçebilirsiniz."
 
-#: options_blu.php:358
+#: options_divi.php:358
 msgid "Order Pages Links by Ascending/Descending"
 msgstr "Sayfa Linklerini Artan/Azalan Sırala"
 
-#: options_blu.php:362
+#: options_divi.php:362
 msgid ""
 "Here you can choose to reverse the order that your pages links are "
 "displayed. You can choose between ascending and descending."
@@ -2242,21 +2242,21 @@ msgstr ""
 "Burada sayfa bağlantılarının görüntülenme sırasını tersine çevirmeyi "
 "seçebilirsiniz. Artan veya azalan arasında seçim yapabilirsiniz."
 
-#: options_blu.php:365 options_blu.php:401
+#: options_divi.php:365 options_divi.php:401
 msgid "Number of dropdown tiers shown"
 msgstr "Açılır Katman sayısı gösterilir"
 
-#: options_blu.php:369 options_blu.php:405
+#: options_divi.php:369 options_divi.php:405
 msgid ""
 "This options allows you to control how many teirs your pages dropdown menu "
 "has. Increasing the number allows for additional menu items to be shown."
 msgstr "Bu seçenekler, kaç sayfa açılır menü olduğunu kontrol etmenizi sağlar."
 
-#: options_blu.php:379
+#: options_divi.php:379
 msgid "Exclude categories from the navigation bar"
 msgstr "Gezinme çubuğundaki kategorileri hariç tut."
 
-#: options_blu.php:383
+#: options_divi.php:383
 msgid ""
 "Here you can choose to remove certain categories from the navigation menu. "
 "All categories marked with an X will not appear in your navigation bar. "
@@ -2264,7 +2264,7 @@ msgstr ""
 "Gezinme menüsünden belirli kategorileri kaldırmayı seçebilirsiniz. X ile "
 "işaretlenmiş tüm kategoriler gezinme çubuğunuzda görünmez. "
 
-#: options_blu.php:391
+#: options_divi.php:391
 msgid ""
 "If you would like to remove the dropdown menus from the categories "
 "navigation bar disable this feature."
@@ -2272,11 +2272,11 @@ msgstr ""
 "Eğer bu kategorilerden gezinti çubuğunda açılan menüleri kaldırmak "
 "isterseniz, bu özelliği devre dışı bırakın."
 
-#: options_blu.php:394
+#: options_divi.php:394
 msgid "Hide empty categories"
 msgstr "Boş kategorileri gizle"
 
-#: options_blu.php:398
+#: options_divi.php:398
 msgid ""
 "If you would like categories to be displayed in your navigationbar that "
 "don't have any posts in them then disable this option. By default empty "
@@ -2286,11 +2286,11 @@ msgstr ""
 "olsun istiyorsanız bu seçeneği devre dışı bırakın. Varsayılan olarak boş "
 "kategoriler gizlidir."
 
-#: options_blu.php:409
+#: options_divi.php:409
 msgid "Sort Categories Links by Name/ID/Slug/Count/Term Group"
 msgstr "Kategori Linklerini Name/ID/Slug/Count/Term Grubuna Göre Sırala"
 
-#: options_blu.php:413
+#: options_divi.php:413
 msgid ""
 "By default pages are sorted by name. However if you would rather have them "
 "sorted by ID you can adjust this setting."
@@ -2298,11 +2298,11 @@ msgstr ""
 "Varsayılan olarak sayfalar isim sırasına göre sıralanmıştır. Ancak eğer "
 "onları ID sırasına göre sıralamak isterseniz bu ayarı düzenleyebilirsiniz."
 
-#: options_blu.php:416
+#: options_divi.php:416
 msgid "Order Category Links by Ascending/Descending"
 msgstr "Artan veya Azalan Kategori Linkleri Sıralama"
 
-#: options_blu.php:420
+#: options_divi.php:420
 msgid ""
 "Here you can choose to reverse the order that your categories links are "
 "displayed. You can choose between ascending and descending."
@@ -2310,11 +2310,11 @@ msgstr ""
 "Kategoriler bağlantılarının görüntülenme sırasını tersine çevirmeyi "
 "seçebilirsiniz. Artan ve azalan arasında seçim yapabilirsiniz."
 
-#: options_blu.php:429
+#: options_divi.php:429
 msgid "Disable top tier dropdown menu links"
 msgstr "Üst katman açılır menü bağlantıları devre dışı bırakma"
 
-#: options_blu.php:433
+#: options_divi.php:433
 msgid ""
 "In some cases users will want to create parent categories or links as "
 "placeholders to hold a list of child links or categories. In this case it is "
@@ -2330,19 +2330,19 @@ msgstr ""
 "tüm üst sayfaları/kategorileri bağlantıları kaldıracaktır çünkü "
 "tıklandığında herhangi bir yer açmaz."
 
-#: options_blu.php:451
+#: options_divi.php:451
 msgid "Single Post Layout"
 msgstr "Tekli Mesaj Düzeni"
 
-#: options_blu.php:456
+#: options_divi.php:456
 msgid "Single Page Layout"
 msgstr "Tekli Sayfa Düzeni"
 
-#: options_blu.php:469
+#: options_divi.php:469
 msgid "Choose which items to display in the postinfo section"
 msgstr "Mesaj bilgi bölümünde hangi öğenin görüntüleneceğini seçin"
 
-#: options_blu.php:473
+#: options_divi.php:473
 msgid ""
 "Here you can choose which items appear in the postinfo section on single "
 "post pages. This is the area, usually below the post title, which displays "
@@ -2353,11 +2353,11 @@ msgstr ""
 "Genellikle konu başlığı altındaki alanda posta ile ilgili temel bilgileri "
 "gösterir. Vurgulanmış öğeler aşağıda görünecektir. "
 
-#: options_blu.php:477
+#: options_divi.php:477
 msgid "Show comments on posts"
 msgstr "Yazılarda yorumları göster"
 
-#: options_blu.php:481
+#: options_divi.php:481
 msgid ""
 "You can disable this option if you want to remove the comments and comment "
 "form from single post pages. "
@@ -2365,11 +2365,11 @@ msgstr ""
 "Eğer mesaj yorumlarını ve yorum formlarını kaldırmak istiyorsanız, bu "
 "seçeneği devre dışı bırakabilirsiniz. "
 
-#: options_blu.php:484
+#: options_divi.php:484
 msgid "Place Thumbs on Posts"
 msgstr "Mesajların Üzerinde Küçük Resim yerleştirin"
 
-#: options_blu.php:488
+#: options_divi.php:488
 msgid ""
 "By default thumbnails are placed at the beginning of your post on single "
 "post pages. If you would like to remove this initial thumbnail image to "
@@ -2379,11 +2379,11 @@ msgstr ""
 "bulunur. Eğer bu ilk küçük resim tekrarlanmasını önlemek için kaldırmak "
 "istiyorsanız bu seçeneği devre dışı bırakın. "
 
-#: options_blu.php:497
+#: options_divi.php:497
 msgid "Place Thumbs on Pages"
 msgstr "Sayfalara Küçük Resim yerleştirin"
 
-#: options_blu.php:501
+#: options_divi.php:501
 msgid ""
 "By default thumbnails are not placed on pages (they are only used on posts). "
 "However, if you want to use thumbnails on pages you can! Just enable this "
@@ -2393,11 +2393,11 @@ msgstr ""
 "kullanýlýr). Ancak, sayfalarda küçük resimler kullanmak isterseniz "
 "kullanabilirsiniz! Sadece bu seçeneði etkinleþtirin."
 
-#: options_blu.php:504
+#: options_divi.php:504
 msgid "Show comments on pages"
 msgstr "Sayfalarda yorum göster"
 
-#: options_blu.php:508
+#: options_divi.php:508
 msgid ""
 "By default comments are not placed on pages, however, if you would like to "
 "allow people to comment on your pages simply enable this option. "
@@ -2405,11 +2405,11 @@ msgstr ""
 "Varsayılan olarak yorumlar sayfalarda bulunmazi ancak, sayfalarınızda yorum "
 "yapılmasına izin vermek istiyorsanız sadece bu seçeneği etkinleştirin. "
 
-#: options_blu.php:517
+#: options_divi.php:517
 msgid "Post info section"
 msgstr "Mesaj Bilgi Bölümü"
 
-#: options_blu.php:521
+#: options_divi.php:521
 msgid ""
 "Here you can choose which items appear in the postinfo section on pages. "
 "This is the area, usually below the post title, which displays basic "
@@ -2419,32 +2419,32 @@ msgstr ""
 "Genellikle konu başlığı altındaki alanda posta ile ilgili temel bilgileri "
 "gösterir. Vurgulanmış öğeler aşağıda görünecektir. "
 
-#: options_blu.php:524
+#: options_divi.php:524
 msgid "Show Thumbs on Index pages"
 msgstr "Dizin sayfalarında Küçük Fotoğrafları göster"
 
-#: options_blu.php:528
+#: options_divi.php:528
 msgid "Enable this option to show thumbnails on Index Pages."
 msgstr ""
 "Dizin Sayfalarında küçük resimleri göstermek için bu seçeneği etkinleştirin."
 
-#: options_blu.php:545
+#: options_divi.php:545
 msgid "Homepage SEO"
 msgstr "Ana Sayfa SEO"
 
-#: options_blu.php:550
+#: options_divi.php:550
 msgid "Single Post Page SEO"
 msgstr "Tekli Mesaj Sayfası SEO"
 
-#: options_blu.php:555
+#: options_divi.php:555
 msgid "Index Page SEO"
 msgstr "Dizin Sayfası SEO"
 
-#: options_blu.php:563
+#: options_divi.php:563
 msgid " Enable custom title "
 msgstr "Özel Başlıkları Etkinleştir "
 
-#: options_blu.php:567
+#: options_divi.php:567
 msgid ""
 "By default the theme uses a combination of your blog name and your blog "
 "description, as defined when you created your blog, to create your homepage "
@@ -2456,11 +2456,11 @@ msgstr ""
 "oluşturmak istiyorsanız, sadece bu seçeneği etkinleştirin ve aşağıdaki özel "
 "başlık alanını doldurun. "
 
-#: options_blu.php:570
+#: options_divi.php:570
 msgid " Enable meta description"
 msgstr "Meta etiketinin açıklamasını etkinleştirin"
 
-#: options_blu.php:574
+#: options_divi.php:574
 msgid ""
 "By default the theme uses your blog description, as defined when you created "
 "your blog, to fill in the meta description field. If you would like to use a "
@@ -2472,11 +2472,11 @@ msgstr ""
 "kullanmak istiyorsanız bu seçeneği etkinleştirin ve aşağıdaki özel açıklama "
 "alanını doldurun. "
 
-#: options_blu.php:577
+#: options_divi.php:577
 msgid " Enable meta keywords"
 msgstr "Meta anahtar kelimelerini etkinleştirin"
 
-#: options_blu.php:581
+#: options_divi.php:581
 msgid ""
 "By default the theme does not add keywords to your header. Most search "
 "engines don't use keywords to rank your site anymore, but some people define "
@@ -2489,11 +2489,11 @@ msgstr ""
 "meta anahtar kelimeler eklemek istiyorsanız bu seçeneği etkinleştirin ve "
 "aşağıda özel anahtar kelime alanını doldurun. "
 
-#: options_blu.php:584 options_blu.php:711
+#: options_divi.php:584 options_divi.php:711
 msgid " Enable canonical URL's"
 msgstr "Kanonik URL’s etkinleştir"
 
-#: options_blu.php:588 options_blu.php:662 options_blu.php:715
+#: options_divi.php:588 options_divi.php:662 options_divi.php:715
 msgid ""
 "Canonicalization helps to prevent the indexing of duplicate content by "
 "search engines, and as a result, may help avoid duplicate content penalties "
@@ -2517,11 +2517,11 @@ msgstr ""
 "istediðinizi söyler. Tema kuralsal URLsini linklerinizden ve wp-adminin "
 "ayarlar sekmesinde tanýmlanan domain adýndan uzaða konumlandýrýr."
 
-#: options_blu.php:591
+#: options_divi.php:591
 msgid "Homepage custom title (if enabled)"
 msgstr "Anasayfa Özel Başlığı (Etkinleştirilmişse)"
 
-#: options_blu.php:595
+#: options_divi.php:595
 msgid ""
 "If you have enabled custom titles you can add your custom title here. "
 "Whatever you type here will be placed between the < title >< /title > tags "
@@ -2531,21 +2531,21 @@ msgstr ""
 "Burada yazacaklarınız header.php etiketi ile  <title> </ title> arasına "
 "yerleştirilir."
 
-#: options_blu.php:599
+#: options_divi.php:599
 msgid "Homepage meta description (if enabled)"
 msgstr "Anasayfa Meta Açıklaması (Etkinleştirilmişse)"
 
-#: options_blu.php:603
+#: options_divi.php:603
 msgid ""
 "If you have enabled meta descriptions you can add your custom description "
 "here."
 msgstr "Meta açıklamaları etkinse özel açıklaması buraya ekleyebilirsiniz."
 
-#: options_blu.php:607
+#: options_divi.php:607
 msgid "Homepage meta keywords (if enabled)"
 msgstr "Anasayfa Meta Anahtar Kelimeleri (etkinleştirilmişse)"
 
-#: options_blu.php:611
+#: options_divi.php:611
 msgid ""
 "If you have enabled meta keywords you can add your custom keywords here. "
 "Keywords should be separated by comas. For example: wordpress,themes,"
@@ -2555,12 +2555,12 @@ msgstr ""
 "ekleyebilirsiniz. Anahtar kelimeler virgülle ayrılmalıdır. Örneğin: "
 "wordpress,themes,templates,elegant"
 
-#: options_blu.php:615 options_blu.php:689
+#: options_divi.php:615 options_divi.php:689
 msgid "If custom titles are disabled, choose autogeneration method"
 msgstr ""
 "Özel başlıklar devre dışı bırakılmışsa, otomatik üretim yöntemini seçin."
 
-#: options_blu.php:620
+#: options_divi.php:620
 msgid ""
 "If you are not using cutsom post titles you can still have control over how "
 "your titles are generated. Here you can choose which order you would like "
@@ -2572,11 +2572,11 @@ msgstr ""
 "görüntülenmesini istediğiniz gibi seçebilirsiniz, ya da başlıktan blog adını "
 "tamamen kaldırabilirsiniz."
 
-#: options_blu.php:623 options_blu.php:697 options_blu.php:733
+#: options_divi.php:623 options_divi.php:697 options_divi.php:733
 msgid "Define a character to separate BlogName and Post title"
 msgstr "Ayrı bir web sitesi adı için bir karakter veya yazı başlığı tanımlama"
 
-#: options_blu.php:627 options_blu.php:701
+#: options_divi.php:627 options_divi.php:701
 msgid ""
 "Here you can change which character separates your blog title and post name "
 "when using autogenerated post titles. Common values are | or -"
@@ -2584,11 +2584,11 @@ msgstr ""
 "Otomatik olarak oluşturulan yazı başlıkları kullanırken başlık ve yazı blog "
 "adınızın ayrılmasını değiştirebilirsiniz. Yaygın değerler | veya –"
 
-#: options_blu.php:637
+#: options_divi.php:637
 msgid "Enable custom titles"
 msgstr "Özel başlıkları etkinleştirin"
 
-#: options_blu.php:641
+#: options_divi.php:641
 msgid ""
 "By default the theme creates post titles based on the title of your post and "
 "your blog name. If you would like to make your meta title different than "
@@ -2603,11 +2603,11 @@ msgstr ""
 "etkinleştirilmiş olması gerekir, ve başlık için özel bir alan adı altında "
 "seçmeniz gerekir."
 
-#: options_blu.php:644
+#: options_divi.php:644
 msgid "Enable custom description"
 msgstr "Özel açıklamaları etkinleştirin"
 
-#: options_blu.php:648
+#: options_divi.php:648
 msgid ""
 "If you would like to add a meta description to your post you can do so using "
 "custom fields. This option must be enabled for descriptions to be displayed "
@@ -2619,11 +2619,11 @@ msgstr ""
 "etkinleştirilmiş olması gerekir. Meta açıklamalarınızı kapalı tabanlı özel "
 "alanları kullanarak aşağıda isim tanımlayarak ekleyebilirsiniz."
 
-#: options_blu.php:651
+#: options_divi.php:651
 msgid "Enable custom keywords"
 msgstr "Özel anahtar kelimelerini etkinleştirin"
 
-#: options_blu.php:655
+#: options_divi.php:655
 msgid ""
 "If you would like to add meta keywords to your post you can do so using "
 "custom fields. This option must be enabled for keywords to be displayed on "
@@ -2636,15 +2636,15 @@ msgstr ""
 "kelimelerinizi kapalı tabanlı özel alanları kullanarak aşağıda isim "
 "tanımlayarak ekleyebilirsiniz."
 
-#: options_blu.php:658
+#: options_divi.php:658
 msgid "Enable canonical URL's"
 msgstr "Kanonik URL’s etkinleştir"
 
-#: options_blu.php:665
+#: options_divi.php:665
 msgid "Custom field Name to be used for title"
 msgstr "Başlık için kullanılacak özel alan adı"
 
-#: options_blu.php:669
+#: options_divi.php:669
 msgid ""
 "When you define your title using custom fields you should use this value for "
 "the custom field Name. The Value of your custom field should be the custom "
@@ -2654,11 +2654,11 @@ msgstr ""
 "için bu değerin kullanılması gerekir. Özel alanın değeri, kullanmak "
 "istediğinizde özel başlığınız olmalıdır."
 
-#: options_blu.php:673
+#: options_divi.php:673
 msgid "Custom field Name to be used for description"
 msgstr "Özel alan tanımı için kullanılan isim"
 
-#: options_blu.php:677
+#: options_divi.php:677
 msgid ""
 "When you define your meta description using custom fields you should use "
 "this value for the custom field Name. The Value of your custom field should "
@@ -2668,11 +2668,11 @@ msgstr ""
 "adı için bu değerin kullanılması gerekir. Özel alanın değeri, kullanmak "
 "istediğinizde özel açıklamanız olmalıdır."
 
-#: options_blu.php:681
+#: options_divi.php:681
 msgid "Custom field Name to be used for keywords"
 msgstr "Anahtar kelimeler için kullanılan özel alan ismi"
 
-#: options_blu.php:685
+#: options_divi.php:685
 msgid ""
 "When you define your keywords using custom fields you should use this value "
 "for the custom field Name. The Value of your custom field should be the meta "
@@ -2682,7 +2682,7 @@ msgstr ""
 "alan adı için bu değerin kullanılması gerekir. Özel alanın değeri, kullanmak "
 "istediğinizde özel virgule ile ayrılan anahtar kelimeniz olmalıdır."
 
-#: options_blu.php:694
+#: options_divi.php:694
 msgid ""
 "If you are not using cutsom post titles you can still have control over hw "
 "your titles are generated. Here you can choose which order you would like "
@@ -2694,11 +2694,11 @@ msgstr ""
 "görüntülenmesini istediğiniz gibi seçebilirsiniz, ya da başlıktan blog adını "
 "tamamen kaldırabilirsiniz."
 
-#: options_blu.php:718
+#: options_divi.php:718
 msgid "Enable meta descriptions"
 msgstr "Meta açıklamalarını etkinleştir"
 
-#: options_blu.php:722
+#: options_divi.php:722
 msgid ""
 "Check this box if you want to display meta descriptions on category/archive "
 "pages. The description is based off the category description you choose when "
@@ -2708,11 +2708,11 @@ msgstr ""
 "bu kutuyu işaretleyin. Açıklama wp-admin’deki kategorinizi düzenleme/"
 "oluştururma  için seçtiğiniz kategori açıklamasını kapalı tutar."
 
-#: options_blu.php:725
+#: options_divi.php:725
 msgid "Choose title autogeneration method"
 msgstr "Başlık üretim yöntemini seçin"
 
-#: options_blu.php:730
+#: options_divi.php:730
 msgid ""
 "Here you can choose how your titles on index pages are generated. You can "
 "change which order your blog name and index title are displayed, or you can "
@@ -2722,7 +2722,7 @@ msgstr ""
 "seçebilirsiniz. Blogunuzun adını ve görünen dizin başlığını değiştirebilir, "
 "yada başlık blog adını tamamen kaldırabilirsiniz."
 
-#: options_blu.php:737
+#: options_divi.php:737
 msgid ""
 "Here you can change which character separates your blog title and index page "
 "name when using autogenerated post titles. Common values are | or -"
@@ -2730,15 +2730,15 @@ msgstr ""
 "Otomatik olarak oluşturulan yazı başlıkları kullanırken başlık ve dizin "
 "sayfa adınızın ayrılmasını değiştirebilirsiniz. Yaygın değerler | veya –"
 
-#: options_blu.php:756
+#: options_divi.php:756
 msgid "Code Integration"
 msgstr "Kod Entegrasyonu"
 
-#: options_blu.php:764
+#: options_divi.php:764
 msgid "Enable header code"
 msgstr "Başlık kodunu etkinleştir"
 
-#: options_blu.php:768
+#: options_divi.php:768
 msgid ""
 "Disabling this option will remove the header code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2747,11 +2747,11 @@ msgstr ""
 "kaldıracaktır. Bu size daha sonra kullanmak için tasarruf sağlarken kodu "
 "kaldırmak için izin verir."
 
-#: options_blu.php:771
+#: options_divi.php:771
 msgid "Enable body code"
 msgstr "< body > Kodunu etkinleştir"
 
-#: options_blu.php:775
+#: options_divi.php:775
 msgid ""
 "Disabling this option will remove the body code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2760,11 +2760,11 @@ msgstr ""
 "kaldıracaktır. Bu size daha sonra kullanmak için tasarruf sağlarken kodu "
 "kaldırmak için izin verir."
 
-#: options_blu.php:778
+#: options_divi.php:778
 msgid "Enable single top code"
 msgstr "Tekli üst kodunu etkinleştir"
 
-#: options_blu.php:782
+#: options_divi.php:782
 msgid ""
 "Disabling this option will remove the single top code below from your blog. "
 "This allows you to remove the code while saving it for later use."
@@ -2773,11 +2773,11 @@ msgstr ""
 "kaldıracaktır. Bu size daha sonra kullanmak için tasarruf sağlarken kodu "
 "kaldırmak için izin verir."
 
-#: options_blu.php:785
+#: options_divi.php:785
 msgid "Enable single bottom code"
 msgstr "Tekli alt kodunu etkinleştir"
 
-#: options_blu.php:789
+#: options_divi.php:789
 msgid ""
 "Disabling this option will remove the single bottom code below from your "
 "blog. This allows you to remove the code while saving it for later use."
@@ -2786,11 +2786,11 @@ msgstr ""
 "kaldıracaktır. Bu size daha sonra kullanmak için tasarruf sağlarken kodu "
 "kaldırmak için izin verir."
 
-#: options_blu.php:792
+#: options_divi.php:792
 msgid "Add code to the < head > of your blog"
 msgstr "Blogunuza < Head > kodunu ekleyin."
 
-#: options_blu.php:796
+#: options_divi.php:796
 msgid ""
 "Any code you place here will appear in the head section of every page of "
 "your blog. This is useful when you need to add javascript or css to all "
@@ -2800,12 +2800,12 @@ msgstr ""
 "bölümünde görünecektir. Bu özellik tüm sayfalar için Javascript ya CSS "
 "eklemek istediğinizde kullanışlıdır."
 
-#: options_blu.php:799
+#: options_divi.php:799
 msgid ""
 "Add code to the < body > (good for tracking codes such as google analytics)"
 msgstr "<Body> kodunu ekle (Google Analyticsgibi kod izlemeler için iyidir.)"
 
-#: options_blu.php:803
+#: options_divi.php:803
 msgid ""
 "Any code you place here will appear in body section of all pages of your "
 "blog. This is usefull if you need to input a tracking pixel for a state "
@@ -2815,11 +2815,11 @@ msgstr ""
 "görünecektir. Eğer Google Analytics gibi bir durum sayacı için girişi izleme "
 "pikseli gerekirse bu özellik faydalıdır."
 
-#: options_blu.php:806
+#: options_divi.php:806
 msgid "Add code to the top of your posts"
 msgstr "Mesajlarınızın üstüne kodu ekleyin"
 
-#: options_blu.php:810 options_blu.php:817
+#: options_divi.php:810 options_divi.php:817
 msgid ""
 "Any code you place here will be placed at the top of all single posts. This "
 "is useful if you are looking to integrating things such as social "
@@ -2829,19 +2829,19 @@ msgstr ""
 "görünecektir. Bu sosyal imleme bağlantıları gibi şeylerle entegre "
 "arıyorsanız yararlıdır."
 
-#: options_blu.php:813
+#: options_divi.php:813
 msgid "Add code to the bottom of your posts, before the comments"
 msgstr "Yorumlarınızdan önce yazılarınızın altına kodu ekleyin"
 
-#: options_blu.php:835
+#: options_divi.php:835
 msgid "Manage Un-widgetized Advertisements"
 msgstr "Reklamları yönetin"
 
-#: options_blu.php:843
+#: options_divi.php:843
 msgid "Enable Single Post 468x60 banner"
 msgstr "468x60 Tekli Posta başlığı"
 
-#: options_blu.php:847
+#: options_divi.php:847
 msgid ""
 "Enabling this option will display a 468x60 banner ad on the bottom of your "
 "post pages below the single post content. If enabled you must fill in the "
@@ -2851,27 +2851,27 @@ msgstr ""
 "içeriğinin sonrasında bir 468x60 başlık görüntüler. Eğer etkinleştirilirse "
 "başlık görüntüsünü ve hedefi URL altına girmelisiniz."
 
-#: options_blu.php:850
+#: options_divi.php:850
 msgid "Input 468x60 advertisement banner image"
 msgstr "468x60 reklam başlık resim girişi "
 
-#: options_blu.php:854
+#: options_divi.php:854
 msgid "Here you can provide 468x60 banner image url"
 msgstr "Buradan 468x60 başlık resmi URL 'si bulabilirsiniz."
 
-#: options_blu.php:858
+#: options_divi.php:858
 msgid "Input 468x60 advertisement destination url"
 msgstr "468x60 reklam hedef URL girişi "
 
-#: options_blu.php:862
+#: options_divi.php:862
 msgid "Here you can provide 468x60 banner destination url"
 msgstr "Buradan 468x60 başlık hedef URL 'si bulabilirsiniz. "
 
-#: options_blu.php:866
+#: options_divi.php:866
 msgid "Input 468x60 adsense code"
 msgstr "468x60 Google Adsense kod girişi "
 
-#: options_blu.php:870
+#: options_divi.php:870
 msgid "Place your adsense code here."
 msgstr "Google Adsense kodunu buraya yerleştirin. "
 

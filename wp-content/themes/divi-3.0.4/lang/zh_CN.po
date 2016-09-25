@@ -95,7 +95,7 @@ msgstr "%s 主题选项"
 msgid "Reset to Defaults"
 msgstr "重置为默认"
 
-#: epanel/core_functions.php:160 options_blu.php:38
+#: epanel/core_functions.php:160 options_divi.php:38
 msgid "General"
 msgstr "常规"
 
@@ -159,7 +159,7 @@ msgstr "作者"
 msgid "Date"
 msgstr "日期"
 
-#: epanel/core_functions.php:510 options_blu.php:316
+#: epanel/core_functions.php:510 options_divi.php:316
 msgid "Categories"
 msgstr "类别"
 
@@ -503,15 +503,15 @@ msgstr "技能"
 msgid "Posted on"
 msgstr "发布于"
 
-#: functions.php:293 options_blu.php:103
+#: functions.php:293 options_divi.php:103
 msgid "Right Sidebar"
 msgstr "右侧边栏"
 
-#: functions.php:294 options_blu.php:104
+#: functions.php:294 options_divi.php:104
 msgid "Left Sidebar"
 msgstr "左侧边栏"
 
-#: functions.php:295 options_blu.php:105
+#: functions.php:295 options_divi.php:105
 msgid "Full Width"
 msgstr "全宽"
 
@@ -581,7 +581,7 @@ msgstr "项目导航"
 msgid "you don't have sufficient permissions to access this page"
 msgstr "您没有足够的权限来访问此页"
 
-#: functions.php:586 options_blu.php:321 options_blu.php:461
+#: functions.php:586 options_divi.php:321 options_divi.php:461
 msgid "General Settings"
 msgstr "常规设置"
 
@@ -1783,39 +1783,39 @@ msgstr "Adsense"
 msgid "Adsense Code"
 msgstr "Adsense 代码"
 
-#: options_blu.php:45
+#: options_divi.php:45
 msgid "Logo"
 msgstr "标志"
 
-#: options_blu.php:48
+#: options_divi.php:48
 msgid "Set As Logo"
 msgstr "设置为徽标"
 
-#: options_blu.php:50
+#: options_divi.php:50
 msgid ""
 "If you would like to use your own custom logo image click the Upload Image "
 "button."
 msgstr "如果您想使用自己自定义的标志图像，请点击“上传图片”按钮。"
 
-#: options_blu.php:53
+#: options_divi.php:53
 msgid "Favicon"
 msgstr "Favicon"
 
-#: options_blu.php:56
+#: options_divi.php:56
 msgid "Set As Favicon"
 msgstr "设置为 Favicon"
 
-#: options_blu.php:58
+#: options_divi.php:58
 msgid ""
 "If you would like to use your own custom favicon image click the Upload "
 "Image button."
 msgstr "如果您想使用自己自定义的 Favicon 图像，请点击“上传图片”按钮。"
 
-#: options_blu.php:61
+#: options_divi.php:61
 msgid "Fixed Navigation Bar"
 msgstr "固定导航栏"
 
-#: options_blu.php:65
+#: options_divi.php:65
 msgid ""
 "By default the navigation bar stays on top of the screen at all times. We "
 "suggest to disable this option, if you need to use a logo taller than the "
@@ -1824,29 +1824,29 @@ msgstr ""
 "默认情况下导航栏始终停留在屏幕顶部。如果您需要使用一个大的标志图像，我们建议"
 "禁用此选项。"
 
-#: options_blu.php:68
+#: options_divi.php:68
 msgid "Enable Divi Gallery"
 msgstr "启用 Divi 画廊"
 
-#: options_blu.php:72
+#: options_divi.php:72
 msgid ""
 "Enable this if you want to replace the WordPress default gallery with the "
 "Divi-style gallery."
 msgstr "如果你想用 Divi 式画廊代替 WordPress 的默认画廊，启用此功能。"
 
-#: options_blu.php:75
+#: options_divi.php:75
 msgid "Color Pickers Default Palette"
 msgstr "颜色选取器默认调色板"
 
-#: options_blu.php:80
+#: options_divi.php:80
 msgid "Define the default color palette for color pickers in the Divi Builder."
 msgstr "在 Divi 生成器中定义颜色选取器的默认调色板。"
 
-#: options_blu.php:85
+#: options_divi.php:85
 msgid "Grab the first post image"
 msgstr "抓取文章第一个图像"
 
-#: options_blu.php:89
+#: options_divi.php:89
 msgid ""
 "By default thumbnail images are created using custom fields. However, if you "
 "would rather use the images that are already in your post for your thumbnail "
@@ -1858,11 +1858,11 @@ msgstr ""
 "为缩略图（并避开使用自定义字段），您可以激活此选项。一旦被激活，其将自动使用"
 "您文章中的第一个图像生成缩略图图像。该图像必须托管于您自己的服务器上。"
 
-#: options_blu.php:92
+#: options_divi.php:92
 msgid "Blog Style Mode"
 msgstr "博客风格模式"
 
-#: options_blu.php:96
+#: options_divi.php:96
 msgid ""
 "By default the theme truncates your posts on index/homepages automatically "
 "to create post previews. If you would rather show your posts in full on "
@@ -1871,19 +1871,19 @@ msgstr ""
 "默认情况下，该主题自动截断您文章的摘录来创造文章预览。如果您希望像传统博客那"
 "样全文显示您的文章，则您可以激活此功能。"
 
-#: options_blu.php:99
+#: options_divi.php:99
 msgid "Shop Page & Category Page Layout for WooCommerce"
 msgstr "WooCommerce 的店铺页面和类别页面布局"
 
-#: options_blu.php:108
+#: options_divi.php:108
 msgid "Here you can choose Shop Page & Category Page Layout for WooCommerce."
 msgstr "在这里，您可以选择 WooCommerce 的店铺页面和类别页面布局。"
 
-#: options_blu.php:112
+#: options_divi.php:112
 msgid "MailChimp API Key"
 msgstr "MailChimp API 密钥"
 
-#: options_blu.php:117
+#: options_divi.php:117
 msgid ""
 "Enter your MailChimp API key. You can create an api key <a target=\"_blank\" "
 "href=\"%1$s\">here</a>"
@@ -1891,19 +1891,19 @@ msgstr ""
 "输入您的 MailChimp API 密钥。您可以创建一个 API 密钥 <a target=\"_blank\" "
 "href=\"%1$s\">here</a>"
 
-#: options_blu.php:120
+#: options_divi.php:120
 msgid "Aweber Authorization"
 msgstr "Aweber 授权"
 
-#: options_blu.php:122
+#: options_divi.php:122
 msgid "Authorize your Aweber account here."
 msgstr "在此授权您的 Aweber 账户。"
 
-#: options_blu.php:126
+#: options_divi.php:126
 msgid "Regenerate MailChimp Lists"
 msgstr "重新生成 MailChimp 列表"
 
-#: options_blu.php:130
+#: options_divi.php:130
 msgid ""
 "By default, MailChimp lists are cached for one day. If you added new list, "
 "but it doesn't appear within the Email Optin module settings, activate this "
@@ -1912,11 +1912,11 @@ msgstr ""
 "缺省情况下，MailChimp列表被缓存一天。如果添加新的列表，但它并没有在电子邮件"
 "OPTIN模块设置显示，启用该选项。不要忘了关闭它，一旦名单已再生。"
 
-#: options_blu.php:132
+#: options_divi.php:132
 msgid "Regenerate Aweber Lists"
 msgstr "重新生成 Aweber 列表"
 
-#: options_blu.php:136
+#: options_divi.php:136
 msgid ""
 "By default, Aweber lists are cached for one day. If you added new list, but "
 "it doesn't appear within the Email Optin module settings, activate this "
@@ -1925,75 +1925,75 @@ msgstr ""
 "缺省情况下，Aweber列表被缓存一天。如果添加新的列表，但它并没有在电子邮件OPTIN"
 "模块设置显示，启用该选项。不要忘了关闭它，一旦名单已再生。"
 
-#: options_blu.php:138
+#: options_divi.php:138
 msgid "Show Facebook Icon"
 msgstr "显示 Facebook 图标"
 
-#: options_blu.php:142
+#: options_divi.php:142
 msgid "Here you can choose to display the Facebook Icon on your homepage. "
 msgstr "在这里，您可以选择在您的主页显示 Facebook 图标。 "
 
-#: options_blu.php:144
+#: options_divi.php:144
 msgid "Show Twitter Icon"
 msgstr "显示 Twitter 图标"
 
-#: options_blu.php:148
+#: options_divi.php:148
 msgid "Here you can choose to display the Twitter Icon. "
 msgstr "在这里，您可以选择显示 Twitter 图标。 "
 
-#: options_blu.php:150
+#: options_divi.php:150
 msgid "Show Google+ Icon"
 msgstr "显示 Google+ 图标"
 
-#: options_blu.php:154
+#: options_divi.php:154
 msgid "Here you can choose to display the Google+ Icon on your homepage. "
 msgstr "在这里，您可以选择在您的主页显示 Google+ 图标。 "
 
-#: options_blu.php:156
+#: options_divi.php:156
 msgid "Show RSS Icon"
 msgstr "显示 RSS 图标"
 
-#: options_blu.php:160
+#: options_divi.php:160
 msgid "Here you can choose to display the RSS Icon. "
 msgstr "在这里，您可以选择显示 RSS 图标。 "
 
-#: options_blu.php:162
+#: options_divi.php:162
 msgid "Facebook Profile Url"
 msgstr "Facebook 个人资料 URL"
 
-#: options_blu.php:167
+#: options_divi.php:167
 msgid "Enter the URL of your Facebook Profile. "
 msgstr "输入您的 Facebook 个人资料的 URL。 "
 
-#: options_blu.php:169
+#: options_divi.php:169
 msgid "Twitter Profile Url"
 msgstr "Twitter 个人资料 URL"
 
-#: options_blu.php:174
+#: options_divi.php:174
 msgid "Enter the URL of your Twitter Profile."
 msgstr "输入您的 Twitter 个人资料的 URL。"
 
-#: options_blu.php:176
+#: options_divi.php:176
 msgid "Google+ Profile Url"
 msgstr "Google+ 个人资料 URL"
 
-#: options_blu.php:181
+#: options_divi.php:181
 msgid "Enter the URL of your Google+ Profile. "
 msgstr "输入您的 Google+ 个人资料的 URL。 "
 
-#: options_blu.php:183
+#: options_divi.php:183
 msgid "RSS Icon Url"
 msgstr "RSS 图标 URL"
 
-#: options_blu.php:188
+#: options_divi.php:188
 msgid "Enter the URL of your RSS feed. "
 msgstr "输入您的 RSS 源的 URL。 "
 
-#: options_blu.php:190
+#: options_divi.php:190
 msgid "Number of Products displayed on WooCommerce archive pages"
 msgstr "在 WooCommerce 归档页面上显示的产品数量"
 
-#: options_blu.php:194
+#: options_divi.php:194
 msgid ""
 "Here you can designate how many WooCommerce products are displayed on the "
 "archive page. This option works independently from the Settings > Reading "
@@ -2002,11 +2002,11 @@ msgstr ""
 "你可以在此次指定显示在归档页面上的 WooCommerce 产品数量。此为独立选项，不依"
 "赖 wp-admin. 中的设置> 读取选项"
 
-#: options_blu.php:198
+#: options_divi.php:198
 msgid "Number of Posts displayed on Category page"
 msgstr "类别页面显示的文章数量"
 
-#: options_blu.php:202
+#: options_divi.php:202
 msgid ""
 "Here you can designate how many recent articles are displayed on the "
 "Category page. This option works independently from the Settings > Reading "
@@ -2015,11 +2015,11 @@ msgstr ""
 "在这里，您可以指定类别页面上显示多少近期的文章。在 wp-admin 中，此选项在阅读"
 "选项之外独立工作。"
 
-#: options_blu.php:206
+#: options_divi.php:206
 msgid "Number of Posts displayed on Archive pages"
 msgstr "存档页面显示的文章数量"
 
-#: options_blu.php:210
+#: options_divi.php:210
 msgid ""
 "Here you can designate how many recent articles are displayed on the Archive "
 "pages. This option works independently from the Settings > Reading options "
@@ -2028,11 +2028,11 @@ msgstr ""
 "在这里，您可以指定存档页面上显示多少近期的文章。在 wp-admin 中，此选项在阅读"
 "选项之外独立工作。"
 
-#: options_blu.php:214
+#: options_divi.php:214
 msgid "Number of Posts displayed on Search pages"
 msgstr "搜索页面显示的文章数量"
 
-#: options_blu.php:218
+#: options_divi.php:218
 msgid ""
 "Here you can designate how many recent articles are displayed on the Search "
 "results pages. This option works independently from the Settings > Reading "
@@ -2041,11 +2041,11 @@ msgstr ""
 "在这里，您可以指定搜索页面上显示多少近期的文章。在 wp-admin 中，此选项在阅读"
 "选项之外独立工作。"
 
-#: options_blu.php:222
+#: options_divi.php:222
 msgid "Number of Posts displayed on Tag pages"
 msgstr "标签页面显示的文章数量"
 
-#: options_blu.php:226
+#: options_divi.php:226
 msgid ""
 "Here you can designate how many recent articles are displayed on the Tag "
 "pages. This option works independently from the Settings > Reading options "
@@ -2054,11 +2054,11 @@ msgstr ""
 "在这里，您可以指定标签页面上显示多少近期的文章。在 wp-admin 中，此选项在阅读"
 "选项之外独立工作。"
 
-#: options_blu.php:230
+#: options_divi.php:230
 msgid "Date format"
 msgstr "日期格式"
 
-#: options_blu.php:234
+#: options_divi.php:234
 msgid ""
 "This option allows you to change how your dates are displayed. For more "
 "information please refer to the WordPress codex here:<a href='http://codex."
@@ -2069,81 +2069,81 @@ msgstr ""
 "href='http://codex.wordpress.org/Formatting_Date_and_Time' target='_blank'>日"
 "期和时间格式</a>"
 
-#: options_blu.php:238
+#: options_divi.php:238
 msgid "Use excerpts when defined"
 msgstr "定义时使用摘录"
 
-#: options_blu.php:242
+#: options_divi.php:242
 msgid "This will enable the use of excerpts in posts or pages."
 msgstr "这将允许使用文章或页面的摘录。"
 
-#: options_blu.php:245
+#: options_divi.php:245
 msgid "Responsive shortcodes"
 msgstr "响应式 shortcodes"
 
-#: options_blu.php:249
+#: options_divi.php:249
 msgid "Enable this option to make shortcodes respond to various screen sizes"
 msgstr "启用该选项，使 shortcodes 响应各种屏幕尺寸"
 
-#: options_blu.php:252
+#: options_divi.php:252
 msgid "Google Fonts subsets"
 msgstr "Google Fonts 子集"
 
-#: options_blu.php:256
+#: options_divi.php:256
 msgid "This will enable Google Fonts for Non-English languages."
 msgstr "这将为非英语语言启用 Google Fonts。"
 
-#: options_blu.php:259
+#: options_divi.php:259
 msgid "Back To Top Button"
 msgstr "返回顶部按钮"
 
-#: options_blu.php:263
+#: options_divi.php:263
 msgid "Enable this option to display Back To Top Button while scrolling"
 msgstr "启用该选项，在滚动时显示返回顶部按钮"
 
-#: options_blu.php:266
+#: options_divi.php:266
 msgid "Smooth Scrolling"
 msgstr "平滑滚动"
 
-#: options_blu.php:270
+#: options_divi.php:270
 msgid "Enable this option to get the smooth scrolling effect with mouse wheel"
 msgstr "启用该选项，获得鼠标滚轮的平滑滚动效果"
 
-#: options_blu.php:273
+#: options_divi.php:273
 msgid "Disable Translations"
 msgstr "禁用翻译"
 
-#: options_blu.php:277
+#: options_divi.php:277
 msgid ""
 "Disable translations if you don't want to display translated theme strings "
 "on your site."
 msgstr "如果你不想在你的网站上显示翻译过的主题字符串，可以禁用翻译。"
 
-#: options_blu.php:280
+#: options_divi.php:280
 msgid "Custom CSS"
 msgstr "自定义 CSS"
 
-#: options_blu.php:284
+#: options_divi.php:284
 msgid "Here you can add custom css to override or extend default styles."
 msgstr "在这里，您可以添加自定义的CSS来覆盖或扩展默认样式。"
 
-#: options_blu.php:289
+#: options_divi.php:289
 msgid "Memory Limit Increase"
 msgstr "内存限制增加"
 
-#: options_blu.php:291
+#: options_divi.php:291
 msgid "Here you can disable automatic memory limit increase."
 msgstr "在这里你可以禁用自动内存限制增加。"
 
-#: options_blu.php:311
+#: options_divi.php:311
 msgid "Pages"
 msgstr "页数"
 
-#: options_blu.php:329
+#: options_divi.php:329
 msgid "Exclude pages from the navigation bar"
 msgstr "从导航栏排除页面"
 
-#: options_blu.php:333
+#: options_divi.php:333
 msgid ""
 "Here you can choose to remove certain pages from the navigation menu. All "
 "pages marked with an X will not appear in your navigation bar. "
@@ -2151,21 +2151,21 @@ msgstr ""
 "在这里，您可以选择从导航菜单删除某些网页。标有X所有的页面将不会出现在您的导航"
 "栏中。 "
 
-#: options_blu.php:337 options_blu.php:387
+#: options_divi.php:337 options_divi.php:387
 msgid "Show dropdown menus"
 msgstr "显示下拉菜单"
 
-#: options_blu.php:341
+#: options_divi.php:341
 msgid ""
 "If you would like to remove the dropdown menus from the pages navigation bar "
 "disable this feature."
 msgstr "如果您想从页面导航栏中删除下拉菜单，禁用此功能。"
 
-#: options_blu.php:344
+#: options_divi.php:344
 msgid "Display Home link"
 msgstr "显示主页链接"
 
-#: options_blu.php:348
+#: options_divi.php:348
 msgid ""
 "By default the theme creates a Home link that, when clicked, leads back to "
 "your blog's homepage. If, however, you are using a static homepage and have "
@@ -2176,41 +2176,41 @@ msgstr ""
 "用的是静态主页并且已经创建了一个名为主页的网页，这将导致一个重复的链接。在这"
 "种情况下，您应该禁用此功能以删除该链接。"
 
-#: options_blu.php:351
+#: options_divi.php:351
 msgid "Sort Pages Links"
 msgstr "排序页面链接"
 
-#: options_blu.php:355
+#: options_divi.php:355
 msgid "Here you can choose to sort your pages links."
 msgstr "在这里，您可以选择如何将网页链接进行排序。"
 
-#: options_blu.php:358
+#: options_divi.php:358
 msgid "Order Pages Links by Ascending/Descending"
 msgstr "以升序/降序对页面链接排序"
 
-#: options_blu.php:362
+#: options_divi.php:362
 msgid ""
 "Here you can choose to reverse the order that your pages links are "
 "displayed. You can choose between ascending and descending."
 msgstr ""
 "在这里，您可以选择反转您的网页链接显示顺序。您可以在升序和降序之间进行选择。"
 
-#: options_blu.php:365 options_blu.php:401
+#: options_divi.php:365 options_divi.php:401
 msgid "Number of dropdown tiers shown"
 msgstr "显示的下拉菜单层级数"
 
-#: options_blu.php:369 options_blu.php:405
+#: options_divi.php:369 options_divi.php:405
 msgid ""
 "This options allows you to control how many teirs your pages dropdown menu "
 "has. Increasing the number allows for additional menu items to be shown."
 msgstr ""
 "此选项允许您控制您的页面下拉菜单有多少层级。增加数量将允许显示额外的菜单项。"
 
-#: options_blu.php:379
+#: options_divi.php:379
 msgid "Exclude categories from the navigation bar"
 msgstr "从导航栏排除类别"
 
-#: options_blu.php:383
+#: options_divi.php:383
 msgid ""
 "Here you can choose to remove certain categories from the navigation menu. "
 "All categories marked with an X will not appear in your navigation bar. "
@@ -2218,17 +2218,17 @@ msgstr ""
 "在这里，您可以选择从导航菜单删除某些类别。标有X所有的类别将不会出现在您的导航"
 "栏中。 "
 
-#: options_blu.php:391
+#: options_divi.php:391
 msgid ""
 "If you would like to remove the dropdown menus from the categories "
 "navigation bar disable this feature."
 msgstr "如果您想从类别导航栏中删除下拉菜单，请禁用该功能。"
 
-#: options_blu.php:394
+#: options_divi.php:394
 msgid "Hide empty categories"
 msgstr "隐藏空类别"
 
-#: options_blu.php:398
+#: options_divi.php:398
 msgid ""
 "If you would like categories to be displayed in your navigationbar that "
 "don't have any posts in them then disable this option. By default empty "
@@ -2237,11 +2237,11 @@ msgstr ""
 "如果您想要在导航栏中显示没有任何文章的类别，请禁用此选项。默认情况下空类别是"
 "隐藏的。"
 
-#: options_blu.php:409
+#: options_divi.php:409
 msgid "Sort Categories Links by Name/ID/Slug/Count/Term Group"
 msgstr "按 Name/ID/Slug/Count/Term 组排序类别链接"
 
-#: options_blu.php:413
+#: options_divi.php:413
 msgid ""
 "By default pages are sorted by name. However if you would rather have them "
 "sorted by ID you can adjust this setting."
@@ -2249,22 +2249,22 @@ msgstr ""
 "默认情况下，页面是按名称排序的。但是，如果您想要按ID对它们进行排序，您可以调"
 "整此设置。"
 
-#: options_blu.php:416
+#: options_divi.php:416
 msgid "Order Category Links by Ascending/Descending"
 msgstr "按升序或降序对类别链接排序"
 
-#: options_blu.php:420
+#: options_divi.php:420
 msgid ""
 "Here you can choose to reverse the order that your categories links are "
 "displayed. You can choose between ascending and descending."
 msgstr ""
 "在这里，您可以选择反转您的类别链接显示顺序。您可以在升序和降序之间进行选择。"
 
-#: options_blu.php:429
+#: options_divi.php:429
 msgid "Disable top tier dropdown menu links"
 msgstr "禁用顶级下拉菜单链接"
 
-#: options_blu.php:433
+#: options_divi.php:433
 msgid ""
 "In some cases users will want to create parent categories or links as "
 "placeholders to hold a list of child links or categories. In this case it is "
@@ -2277,19 +2277,19 @@ msgstr ""
 "这种情况下，用户不希望让父级链接指向任何位置，而是仅仅用于组织功能。启用该选"
 "项将从所有父级页面/类别中删除链接，使在点击它们时不会导致跳转到任何地方。"
 
-#: options_blu.php:451
+#: options_divi.php:451
 msgid "Single Post Layout"
 msgstr "单文章布局"
 
-#: options_blu.php:456
+#: options_divi.php:456
 msgid "Single Page Layout"
 msgstr "单页面布局"
 
-#: options_blu.php:469
+#: options_divi.php:469
 msgid "Choose which items to display in the postinfo section"
 msgstr "选择在文章信息部分显示的项目"
 
-#: options_blu.php:473
+#: options_divi.php:473
 msgid ""
 "Here you can choose which items appear in the postinfo section on single "
 "post pages. This is the area, usually below the post title, which displays "
@@ -2299,21 +2299,21 @@ msgstr ""
 "在这里，您可以选择单文章页面信息部分显示哪些项目。这个区域通常位于文章标题下"
 "方，它显示关于文章的基本信息。下面突出显示的项目将出现。 "
 
-#: options_blu.php:477
+#: options_divi.php:477
 msgid "Show comments on posts"
 msgstr "显示文章评论"
 
-#: options_blu.php:481
+#: options_divi.php:481
 msgid ""
 "You can disable this option if you want to remove the comments and comment "
 "form from single post pages. "
 msgstr "如果您想删除文章的评论和评论表单，您可以禁用这个选项。 "
 
-#: options_blu.php:484
+#: options_divi.php:484
 msgid "Place Thumbs on Posts"
 msgstr "放置文章缩略图图像"
 
-#: options_blu.php:488
+#: options_divi.php:488
 msgid ""
 "By default thumbnails are placed at the beginning of your post on single "
 "post pages. If you would like to remove this initial thumbnail image to "
@@ -2322,11 +2322,11 @@ msgstr ""
 "默认情况下，缩略图被放置在单页面文章的开始处。如果您想删除这个初始缩略图以避"
 "免重复，只需禁用这个选项即可。 "
 
-#: options_blu.php:497
+#: options_divi.php:497
 msgid "Place Thumbs on Pages"
 msgstr "放置页面缩略图图像"
 
-#: options_blu.php:501
+#: options_divi.php:501
 msgid ""
 "By default thumbnails are not placed on pages (they are only used on posts). "
 "However, if you want to use thumbnails on pages you can! Just enable this "
@@ -2335,11 +2335,11 @@ msgstr ""
 "默认情况下，不会在页面上放置缩略图（仅在博文中使用它们）。但是，如果要在页面"
 "上使用缩略图，也是可以的！启用此选项即可。"
 
-#: options_blu.php:504
+#: options_divi.php:504
 msgid "Show comments on pages"
 msgstr "显示页面上的评论"
 
-#: options_blu.php:508
+#: options_divi.php:508
 msgid ""
 "By default comments are not placed on pages, however, if you would like to "
 "allow people to comment on your pages simply enable this option. "
@@ -2347,11 +2347,11 @@ msgstr ""
 "默认情况下，页面上不会放置评论。但是，如果您想让人们对您的页面进行评论，只需"
 "启用该选项。 "
 
-#: options_blu.php:517
+#: options_divi.php:517
 msgid "Post info section"
 msgstr "文章信息部分"
 
-#: options_blu.php:521
+#: options_divi.php:521
 msgid ""
 "Here you can choose which items appear in the postinfo section on pages. "
 "This is the area, usually below the post title, which displays basic "
@@ -2360,31 +2360,31 @@ msgstr ""
 "在这里，您可以选择页面上文章信息部分显示哪些项目。这个区域通常位于文章标题下"
 "方，它显示关于文章的基本信息。下面突出显示的项目将出现。 "
 
-#: options_blu.php:524
+#: options_divi.php:524
 msgid "Show Thumbs on Index pages"
 msgstr "显示索引页上的缩略图图片"
 
-#: options_blu.php:528
+#: options_divi.php:528
 msgid "Enable this option to show thumbnails on Index Pages."
 msgstr "启用该选项，显示索引页上的缩略图图片。"
 
-#: options_blu.php:545
+#: options_divi.php:545
 msgid "Homepage SEO"
 msgstr "主页 SEO"
 
-#: options_blu.php:550
+#: options_divi.php:550
 msgid "Single Post Page SEO"
 msgstr "单个文章页 SEO"
 
-#: options_blu.php:555
+#: options_divi.php:555
 msgid "Index Page SEO"
 msgstr "索引页 SEO"
 
-#: options_blu.php:563
+#: options_divi.php:563
 msgid " Enable custom title "
 msgstr "启用自定义标题 "
 
-#: options_blu.php:567
+#: options_divi.php:567
 msgid ""
 "By default the theme uses a combination of your blog name and your blog "
 "description, as defined when you created your blog, to create your homepage "
@@ -2395,11 +2395,11 @@ msgstr ""
 "来创建您的主页标题。但是，如果您想创建一个自定义标题，那么只需启用这个选项并"
 "填写下方的自定义标题字段。 "
 
-#: options_blu.php:570
+#: options_divi.php:570
 msgid " Enable meta description"
 msgstr "启用 meta 标签说明"
 
-#: options_blu.php:574
+#: options_divi.php:574
 msgid ""
 "By default the theme uses your blog description, as defined when you created "
 "your blog, to fill in the meta description field. If you would like to use a "
@@ -2410,11 +2410,11 @@ msgstr ""
 "description 字段。如果您想使用不同的描述，那么启用该选项并填写以下自定义描述"
 "字段。 "
 
-#: options_blu.php:577
+#: options_divi.php:577
 msgid " Enable meta keywords"
 msgstr "启用 meta keywords"
 
-#: options_blu.php:581
+#: options_divi.php:581
 msgid ""
 "By default the theme does not add keywords to your header. Most search "
 "engines don't use keywords to rank your site anymore, but some people define "
@@ -2425,11 +2425,11 @@ msgstr ""
 "站进行排名，但是有些人以防万一还是定义了它们。如果您想将 meta keywords 添加到"
 "您的页眉，那么启用该选项并填写以下自定义关键字字段。 "
 
-#: options_blu.php:584 options_blu.php:711
+#: options_divi.php:584 options_divi.php:711
 msgid " Enable canonical URL's"
 msgstr "启用规范的 URL's"
 
-#: options_blu.php:588 options_blu.php:662 options_blu.php:715
+#: options_divi.php:588 options_divi.php:662 options_divi.php:715
 msgid ""
 "Canonicalization helps to prevent the indexing of duplicate content by "
 "search engines, and as a result, may help avoid duplicate content penalties "
@@ -2449,11 +2449,11 @@ msgstr ""
 "而不是视为一个目标。定义规范的 URL 可以让搜索引擎知道哪个是要正式使用的 URL。"
 "主题的规范 URLs 基于链接以及在 wp-admin 的设置选项卡中定义的域名。"
 
-#: options_blu.php:591
+#: options_divi.php:591
 msgid "Homepage custom title (if enabled)"
 msgstr "主页自定义标题（如果启用）"
 
-#: options_blu.php:595
+#: options_divi.php:595
 msgid ""
 "If you have enabled custom titles you can add your custom title here. "
 "Whatever you type here will be placed between the < title >< /title > tags "
@@ -2462,21 +2462,21 @@ msgstr ""
 "如果您已启用自定义标题，您可以在这里添加您的自定义标题。无论您在此处键入什么"
 "内容，它们都将被放置于 header.php 上 < title >< /title > 标签之间。"
 
-#: options_blu.php:599
+#: options_divi.php:599
 msgid "Homepage meta description (if enabled)"
 msgstr "主页 meta description（如果启用）"
 
-#: options_blu.php:603
+#: options_divi.php:603
 msgid ""
 "If you have enabled meta descriptions you can add your custom description "
 "here."
 msgstr "如果您启用了 meta description，您可以在这里添加自定义说明。"
 
-#: options_blu.php:607
+#: options_divi.php:607
 msgid "Homepage meta keywords (if enabled)"
 msgstr "主页 meta keywords（如果启用）"
 
-#: options_blu.php:611
+#: options_divi.php:611
 msgid ""
 "If you have enabled meta keywords you can add your custom keywords here. "
 "Keywords should be separated by comas. For example: wordpress,themes,"
@@ -2485,11 +2485,11 @@ msgstr ""
 "如果您启用了 meta keywords，您可以在这里添加自定义关键字。关键字应该用逗号分"
 "隔。例如：wordpress,themes,templates,elegant"
 
-#: options_blu.php:615 options_blu.php:689
+#: options_divi.php:615 options_divi.php:689
 msgid "If custom titles are disabled, choose autogeneration method"
 msgstr "如果禁用了自定义标题，选择自动生成方法"
 
-#: options_blu.php:620
+#: options_divi.php:620
 msgid ""
 "If you are not using cutsom post titles you can still have control over how "
 "your titles are generated. Here you can choose which order you would like "
@@ -2499,11 +2499,11 @@ msgstr ""
 "如果您没有使用自定义文章标题，您仍然可以控制如何生成标题。在这里，您可以选择"
 "您的文章标题和博客名称显示顺序，或者也可以从标题中彻底删除博客名称。"
 
-#: options_blu.php:623 options_blu.php:697 options_blu.php:733
+#: options_divi.php:623 options_divi.php:697 options_divi.php:733
 msgid "Define a character to separate BlogName and Post title"
 msgstr "定义一个字符来分隔网站名称和文章标题"
 
-#: options_blu.php:627 options_blu.php:701
+#: options_divi.php:627 options_divi.php:701
 msgid ""
 "Here you can change which character separates your blog title and post name "
 "when using autogenerated post titles. Common values are | or -"
@@ -2511,11 +2511,11 @@ msgstr ""
 "在这里，您可以更改在使用自动生成文章标题时分隔您的博客标题和文章名称的字符。"
 "一般是 | 或-"
 
-#: options_blu.php:637
+#: options_divi.php:637
 msgid "Enable custom titles"
 msgstr "启用自定义标题"
 
-#: options_blu.php:641
+#: options_divi.php:641
 msgid ""
 "By default the theme creates post titles based on the title of your post and "
 "your blog name. If you would like to make your meta title different than "
@@ -2528,11 +2528,11 @@ msgstr ""
 "定义标题。必须启用此选项才能保证自定义标题正常工作，而且您必须为下方您的标题"
 "选择一个自定义字段名称。"
 
-#: options_blu.php:644
+#: options_divi.php:644
 msgid "Enable custom description"
 msgstr "启用自定义说明"
 
-#: options_blu.php:648
+#: options_divi.php:648
 msgid ""
 "If you would like to add a meta description to your post you can do so using "
 "custom fields. This option must be enabled for descriptions to be displayed "
@@ -2543,11 +2543,11 @@ msgstr ""
 "启用此选项才能保证文章页面显示说明。您可以使用基于下方定义了名称的自定义字段"
 "来添加 meta description。"
 
-#: options_blu.php:651
+#: options_divi.php:651
 msgid "Enable custom keywords"
 msgstr "启用自定义关键字"
 
-#: options_blu.php:655
+#: options_divi.php:655
 msgid ""
 "If you would like to add meta keywords to your post you can do so using "
 "custom fields. This option must be enabled for keywords to be displayed on "
@@ -2558,15 +2558,15 @@ msgstr ""
 "用此选项才能保证文章页面显示关键字。您可以使用基于下方定义了名称的自定义字段"
 "来添加 meta keywords。"
 
-#: options_blu.php:658
+#: options_divi.php:658
 msgid "Enable canonical URL's"
 msgstr "启用规范的 URL's"
 
-#: options_blu.php:665
+#: options_divi.php:665
 msgid "Custom field Name to be used for title"
 msgstr "用于标题的自定义字段名称"
 
-#: options_blu.php:669
+#: options_divi.php:669
 msgid ""
 "When you define your title using custom fields you should use this value for "
 "the custom field Name. The Value of your custom field should be the custom "
@@ -2575,11 +2575,11 @@ msgstr ""
 "当您使用自定义字段定义您的标题时，您应该将这个值用于自定义字段名称。您的自定"
 "义字段的值应该是您想要使用的自定义标题。"
 
-#: options_blu.php:673
+#: options_divi.php:673
 msgid "Custom field Name to be used for description"
 msgstr "用于说明的自定义字段名称"
 
-#: options_blu.php:677
+#: options_divi.php:677
 msgid ""
 "When you define your meta description using custom fields you should use "
 "this value for the custom field Name. The Value of your custom field should "
@@ -2588,11 +2588,11 @@ msgstr ""
 "当您使用自定义字段定义您的 meta description 时，您应该将这个值用于自定义字段"
 "名称。您的自定义字段的值应该是您想要使用的自定义说明。"
 
-#: options_blu.php:681
+#: options_divi.php:681
 msgid "Custom field Name to be used for keywords"
 msgstr "用于关键字的自定义字段名称"
 
-#: options_blu.php:685
+#: options_divi.php:685
 msgid ""
 "When you define your keywords using custom fields you should use this value "
 "for the custom field Name. The Value of your custom field should be the meta "
@@ -2601,7 +2601,7 @@ msgstr ""
 "当您使用自定义字段定义您的关键字时，您应该将这个值用于自定义字段名称。您的自"
 "定义字段的值应该是您想要使用的 meta keywords，由逗号分隔。"
 
-#: options_blu.php:694
+#: options_divi.php:694
 msgid ""
 "If you are not using cutsom post titles you can still have control over hw "
 "your titles are generated. Here you can choose which order you would like "
@@ -2611,11 +2611,11 @@ msgstr ""
 "如果您没有使用自定义文章标题，您仍然可以控制如何生成标题。在这里，您可以选择"
 "您的文章标题和博客名称显示顺序，或者也可以从标题中彻底删除博客名称。"
 
-#: options_blu.php:718
+#: options_divi.php:718
 msgid "Enable meta descriptions"
 msgstr "启用 meta descriptions"
 
-#: options_blu.php:722
+#: options_divi.php:722
 msgid ""
 "Check this box if you want to display meta descriptions on category/archive "
 "pages. The description is based off the category description you choose when "
@@ -2624,11 +2624,11 @@ msgstr ""
 "如果您想在类别/归档页面显示 meta description，请选中此复选框。该说明是基于在 "
 "wp-admin 创建/编辑类别时您选择的类别说明。"
 
-#: options_blu.php:725
+#: options_divi.php:725
 msgid "Choose title autogeneration method"
 msgstr "选择标题生成方法"
 
-#: options_blu.php:730
+#: options_divi.php:730
 msgid ""
 "Here you can choose how your titles on index pages are generated. You can "
 "change which order your blog name and index title are displayed, or you can "
@@ -2637,7 +2637,7 @@ msgstr ""
 "在这里，您可以选择如何生成索引页上的标题。您可以更改您的博客名称和索引标题显"
 "示顺序，也可以从标题中彻底删除博客名称。"
 
-#: options_blu.php:737
+#: options_divi.php:737
 msgid ""
 "Here you can change which character separates your blog title and index page "
 "name when using autogenerated post titles. Common values are | or -"
@@ -2645,15 +2645,15 @@ msgstr ""
 "在这里，您可以更改在使用自动生成文章标题时分隔您的博客标题和索引页面名称的字"
 "符。一般是 | 或-"
 
-#: options_blu.php:756
+#: options_divi.php:756
 msgid "Code Integration"
 msgstr "代码集成"
 
-#: options_blu.php:764
+#: options_divi.php:764
 msgid "Enable header code"
 msgstr "启用页眉代码"
 
-#: options_blu.php:768
+#: options_divi.php:768
 msgid ""
 "Disabling this option will remove the header code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2661,11 +2661,11 @@ msgstr ""
 "禁用此选项会从您的博客中删除下面的页眉代码。这允许您删除代码，同时将其保存以"
 "备后用。"
 
-#: options_blu.php:771
+#: options_divi.php:771
 msgid "Enable body code"
 msgstr "启用 < body > 代码"
 
-#: options_blu.php:775
+#: options_divi.php:775
 msgid ""
 "Disabling this option will remove the body code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2673,11 +2673,11 @@ msgstr ""
 "禁用此选项会从您的博客中删除下面的主体代码。这允许您删除代码，同时将其保存以"
 "备后用。"
 
-#: options_blu.php:778
+#: options_divi.php:778
 msgid "Enable single top code"
 msgstr "启用单个顶部代码"
 
-#: options_blu.php:782
+#: options_divi.php:782
 msgid ""
 "Disabling this option will remove the single top code below from your blog. "
 "This allows you to remove the code while saving it for later use."
@@ -2685,11 +2685,11 @@ msgstr ""
 "禁用此选项会从您的博客中删除下面的单个顶部代码。这允许您删除代码，同时将其保"
 "存以备后用。"
 
-#: options_blu.php:785
+#: options_divi.php:785
 msgid "Enable single bottom code"
 msgstr "启用单个底部代码"
 
-#: options_blu.php:789
+#: options_divi.php:789
 msgid ""
 "Disabling this option will remove the single bottom code below from your "
 "blog. This allows you to remove the code while saving it for later use."
@@ -2697,11 +2697,11 @@ msgstr ""
 "禁用此选项会从您的博客中删除下面的单个底部代码。这允许您删除代码，同时将其保"
 "存以备后用。"
 
-#: options_blu.php:792
+#: options_divi.php:792
 msgid "Add code to the < head > of your blog"
 msgstr "将代码添加到您博客 < head >"
 
-#: options_blu.php:796
+#: options_divi.php:796
 msgid ""
 "Any code you place here will appear in the head section of every page of "
 "your blog. This is useful when you need to add javascript or css to all "
@@ -2710,12 +2710,12 @@ msgstr ""
 "您在这里放置的任何代码，都将出现在您博客每个页面的头部分。当您需要添加 "
 "Javascript 或 CSS 到所有页面时，这很有帮助。"
 
-#: options_blu.php:799
+#: options_divi.php:799
 msgid ""
 "Add code to the < body > (good for tracking codes such as google analytics)"
 msgstr "将代码添加到 < body >（适用于跟踪代码，如Google Analytics）"
 
-#: options_blu.php:803
+#: options_divi.php:803
 msgid ""
 "Any code you place here will appear in body section of all pages of your "
 "blog. This is usefull if you need to input a tracking pixel for a state "
@@ -2724,11 +2724,11 @@ msgstr ""
 "您在这里放置的任何代码，都将出现在您的博客中所有页面的主体部分。如果您需要为"
 "状态计数器如 Google Analytics 输入跟踪像素，这很有帮助。"
 
-#: options_blu.php:806
+#: options_divi.php:806
 msgid "Add code to the top of your posts"
 msgstr "将代码添加到您的文章顶端"
 
-#: options_blu.php:810 options_blu.php:817
+#: options_divi.php:810 options_divi.php:817
 msgid ""
 "Any code you place here will be placed at the top of all single posts. This "
 "is useful if you are looking to integrating things such as social "
@@ -2737,19 +2737,19 @@ msgstr ""
 "您在这里放置的任何代码，都将被放置在所有文章的顶端。如果您正在寻求整合东西如"
 "社交书签链接，这很有帮助。"
 
-#: options_blu.php:813
+#: options_divi.php:813
 msgid "Add code to the bottom of your posts, before the comments"
 msgstr "将代码添加到您的文章底部，在评论之前，"
 
-#: options_blu.php:835
+#: options_divi.php:835
 msgid "Manage Un-widgetized Advertisements"
 msgstr "广告管理"
 
-#: options_blu.php:843
+#: options_divi.php:843
 msgid "Enable Single Post 468x60 banner"
 msgstr "启用单个文章 468x60 的横幅"
 
-#: options_blu.php:847
+#: options_divi.php:847
 msgid ""
 "Enabling this option will display a 468x60 banner ad on the bottom of your "
 "post pages below the single post content. If enabled you must fill in the "
@@ -2758,27 +2758,27 @@ msgstr ""
 "启用该选项将在文章底部文章内容下方显示一个 468x60 横幅广告。如果启用，您必须"
 "填充下方的横幅图像和目标 URL。"
 
-#: options_blu.php:850
+#: options_divi.php:850
 msgid "Input 468x60 advertisement banner image"
 msgstr "输入 468x60 广告横幅图像"
 
-#: options_blu.php:854
+#: options_divi.php:854
 msgid "Here you can provide 468x60 banner image url"
 msgstr "在这里，您可以提供 468x60 横幅图像 URL"
 
-#: options_blu.php:858
+#: options_divi.php:858
 msgid "Input 468x60 advertisement destination url"
 msgstr "输入 468x60 广告目标 URL"
 
-#: options_blu.php:862
+#: options_divi.php:862
 msgid "Here you can provide 468x60 banner destination url"
 msgstr "在这里，您可以提供 468x60 横幅目标 URL"
 
-#: options_blu.php:866
+#: options_divi.php:866
 msgid "Input 468x60 adsense code"
 msgstr "输入 468x60 Google Adsense 代码"
 
-#: options_blu.php:870
+#: options_divi.php:870
 msgid "Place your adsense code here."
 msgstr "在这里放置您的 Google Adsense 代码。"
 

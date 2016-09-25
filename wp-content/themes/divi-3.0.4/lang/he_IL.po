@@ -95,7 +95,7 @@ msgstr "אפשרויות נושא %s"
 msgid "Reset to Defaults"
 msgstr "אתחול לברירת מחחדל"
 
-#: epanel/core_functions.php:160 options_blu.php:38
+#: epanel/core_functions.php:160 options_divi.php:38
 msgid "General"
 msgstr "כללי"
 
@@ -159,7 +159,7 @@ msgstr "כותב"
 msgid "Date"
 msgstr "תאריך"
 
-#: epanel/core_functions.php:510 options_blu.php:316
+#: epanel/core_functions.php:510 options_divi.php:316
 msgid "Categories"
 msgstr "קטגוריות"
 
@@ -504,15 +504,15 @@ msgstr "כישורים"
 msgid "Posted on"
 msgstr "פורסם ב"
 
-#: functions.php:293 options_blu.php:103
+#: functions.php:293 options_divi.php:103
 msgid "Right Sidebar"
 msgstr "סרגל ימני"
 
-#: functions.php:294 options_blu.php:104
+#: functions.php:294 options_divi.php:104
 msgid "Left Sidebar"
 msgstr "סרגל שמאלי"
 
-#: functions.php:295 options_blu.php:105
+#: functions.php:295 options_divi.php:105
 msgid "Full Width"
 msgstr "רוחב מלא"
 
@@ -582,7 +582,7 @@ msgstr "ניווט בפרוייקט"
 msgid "you don't have sufficient permissions to access this page"
 msgstr "אין לך הרשאות מספיקות כדי לגשת לדף זה"
 
-#: functions.php:586 options_blu.php:321 options_blu.php:461
+#: functions.php:586 options_divi.php:321 options_divi.php:461
 msgid "General Settings"
 msgstr "הגדרות כלליות"
 
@@ -1787,39 +1787,39 @@ msgstr "‏Adsense"
 msgid "Adsense Code"
 msgstr "קוד  Adsense"
 
-#: options_blu.php:45
+#: options_divi.php:45
 msgid "Logo"
 msgstr "לוגו"
 
-#: options_blu.php:48
+#: options_divi.php:48
 msgid "Set As Logo"
 msgstr "קבע כלוגו"
 
-#: options_blu.php:50
+#: options_divi.php:50
 msgid ""
 "If you would like to use your own custom logo image click the Upload Image "
 "button."
 msgstr "אם תרצו לשהתמש בתמונת לוגו מואמת אישית, לחצו על כפתור \"העלאת תמונה\"."
 
-#: options_blu.php:53
+#: options_divi.php:53
 msgid "Favicon"
 msgstr "‏Favicon"
 
-#: options_blu.php:56
+#: options_divi.php:56
 msgid "Set As Favicon"
 msgstr "קבע כ-  Favicon"
 
-#: options_blu.php:58
+#: options_divi.php:58
 msgid ""
 "If you would like to use your own custom favicon image click the Upload "
 "Image button."
 msgstr "אם תרצו לשהתמש ב favicon מואמם אישית, לחצו על כפתור \"העלאת תמונה\"."
 
-#: options_blu.php:61
+#: options_divi.php:61
 msgid "Fixed Navigation Bar"
 msgstr "סרגל ניווט נעול"
 
-#: options_blu.php:65
+#: options_divi.php:65
 msgid ""
 "By default the navigation bar stays on top of the screen at all times. We "
 "suggest to disable this option, if you need to use a logo taller than the "
@@ -1828,11 +1828,11 @@ msgstr ""
 "סרגל הניווט נשאר, כברירת מחדל, בקצה העליון של המסך כל הזמן. אנו מציעים לבטל "
 "זאת אם עליכם להשתמש בתמונת לוגו גדולה."
 
-#: options_blu.php:68
+#: options_divi.php:68
 msgid "Enable Divi Gallery"
 msgstr "אפשר גלריית Divi"
 
-#: options_blu.php:72
+#: options_divi.php:72
 msgid ""
 "Enable this if you want to replace the WordPress default gallery with the "
 "Divi-style gallery."
@@ -1840,19 +1840,19 @@ msgstr ""
 "אפשר זאת אם ברצונך להחליף את גלריית ברירת המחדל בסגנון וורדפרס, בגלרייה "
 "בסגנון Divi."
 
-#: options_blu.php:75
+#: options_divi.php:75
 msgid "Color Pickers Default Palette"
 msgstr "לוח ברירת המחדל של בחירת צבעים"
 
-#: options_blu.php:80
+#: options_divi.php:80
 msgid "Define the default color palette for color pickers in the Divi Builder."
 msgstr "הגדר את לוח ברירת המחדל לבחירת צבעים ב- Divi Builder"
 
-#: options_blu.php:85
+#: options_divi.php:85
 msgid "Grab the first post image"
 msgstr "קחו תמונה של הפוסט הראשון"
 
-#: options_blu.php:89
+#: options_divi.php:89
 msgid ""
 "By default thumbnail images are created using custom fields. However, if you "
 "would rather use the images that are already in your post for your thumbnail "
@@ -1865,11 +1865,11 @@ msgstr ""
 "אישית) אתם יכולים להדליק את האופציה הזו. ברגע שהדלקתם זאת, תמונות הסימניה "
 "יווצרו אוטומטית בעזרת התמונה הראשונה של הפוסט. על התמונות להיות בשרת שלכם."
 
-#: options_blu.php:92
+#: options_divi.php:92
 msgid "Blog Style Mode"
 msgstr "מצב בלוג"
 
-#: options_blu.php:96
+#: options_divi.php:96
 msgid ""
 "By default the theme truncates your posts on index/homepages automatically "
 "to create post previews. If you would rather show your posts in full on "
@@ -1879,19 +1879,19 @@ msgstr ""
 "תצוגות מקדימות לפוסט. אם תרצו בכל זאת להראות את כל הפוסט באופן מלא, כמו "
 "בבלוגים מסורתיים, אתם יכולים להפעיל את האופציה הזו."
 
-#: options_blu.php:99
+#: options_divi.php:99
 msgid "Shop Page & Category Page Layout for WooCommerce"
 msgstr "תבניות עמודי קניות וקטגוריות ל WooCommerce"
 
-#: options_blu.php:108
+#: options_divi.php:108
 msgid "Here you can choose Shop Page & Category Page Layout for WooCommerce."
 msgstr "כאן אתם יכולים לבחור תבניות עמודי קניות וקטגוריות ל WooCommerce."
 
-#: options_blu.php:112
+#: options_divi.php:112
 msgid "MailChimp API Key"
 msgstr "מפתח API MailChimp"
 
-#: options_blu.php:117
+#: options_divi.php:117
 msgid ""
 "Enter your MailChimp API key. You can create an api key <a target=\"_blank\" "
 "href=\"%1$s\">here</a>"
@@ -1899,19 +1899,19 @@ msgstr ""
 "הכניסו את מפתח הAPI של MailChimp. אתם יכולים ליצור מפצח API <a target="
 "\"_blank\" href=\"%1$s\">here</a>"
 
-#: options_blu.php:120
+#: options_divi.php:120
 msgid "Aweber Authorization"
 msgstr "אישור Aweber"
 
-#: options_blu.php:122
+#: options_divi.php:122
 msgid "Authorize your Aweber account here."
 msgstr "אשרו את חשבון ה Aweber כאן."
 
-#: options_blu.php:126
+#: options_divi.php:126
 msgid "Regenerate MailChimp Lists"
 msgstr "צרו מחדש רשימות MailChimp"
 
-#: options_blu.php:130
+#: options_divi.php:130
 msgid ""
 "By default, MailChimp lists are cached for one day. If you added new list, "
 "but it doesn't appear within the Email Optin module settings, activate this "
@@ -1921,11 +1921,11 @@ msgstr ""
 "לא מופיע בהגדרות מודול OptIn דוא\"ל, להפעיל אפשרות זו. אל תשכח לבטל את זה "
 "פעם אחת ברשימה כבר מחדש."
 
-#: options_blu.php:132
+#: options_divi.php:132
 msgid "Regenerate Aweber Lists"
 msgstr "צרו מחדש רשימות Aweber"
 
-#: options_blu.php:136
+#: options_divi.php:136
 msgid ""
 "By default, Aweber lists are cached for one day. If you added new list, but "
 "it doesn't appear within the Email Optin module settings, activate this "
@@ -1935,75 +1935,75 @@ msgstr ""
 "מופיע בהגדרות מודול OptIn דוא\"ל, להפעיל אפשרות זו. אל תשכח לבטל את זה פעם "
 "אחת ברשימה כבר מחדש."
 
-#: options_blu.php:138
+#: options_divi.php:138
 msgid "Show Facebook Icon"
 msgstr "הצג אייקון Facebook"
 
-#: options_blu.php:142
+#: options_divi.php:142
 msgid "Here you can choose to display the Facebook Icon on your homepage. "
 msgstr "כאן ניתן להציג את אייקון ה Facebook בדף הבית. "
 
-#: options_blu.php:144
+#: options_divi.php:144
 msgid "Show Twitter Icon"
 msgstr "הצג אייקון Twitter"
 
-#: options_blu.php:148
+#: options_divi.php:148
 msgid "Here you can choose to display the Twitter Icon. "
 msgstr "כאן ניתן להציג את אייקון ה Twitter. "
 
-#: options_blu.php:150
+#: options_divi.php:150
 msgid "Show Google+ Icon"
 msgstr "הצג אייקון Google+"
 
-#: options_blu.php:154
+#: options_divi.php:154
 msgid "Here you can choose to display the Google+ Icon on your homepage. "
 msgstr "כאן ניתן להציג את אייקון ה Google+ בדף הבית. "
 
-#: options_blu.php:156
+#: options_divi.php:156
 msgid "Show RSS Icon"
 msgstr "הצג אייקון RSS"
 
-#: options_blu.php:160
+#: options_divi.php:160
 msgid "Here you can choose to display the RSS Icon. "
 msgstr "כאן ניתן להציג את אייקון ה RSS. "
 
-#: options_blu.php:162
+#: options_divi.php:162
 msgid "Facebook Profile Url"
 msgstr "‏URL לפרופיל Facebook"
 
-#: options_blu.php:167
+#: options_divi.php:167
 msgid "Enter the URL of your Facebook Profile. "
 msgstr "הכניסו את ה URL לפרופיל ה Facebook שלכם. "
 
-#: options_blu.php:169
+#: options_divi.php:169
 msgid "Twitter Profile Url"
 msgstr "‏URL לפרופיל Twitter"
 
-#: options_blu.php:174
+#: options_divi.php:174
 msgid "Enter the URL of your Twitter Profile."
 msgstr "הכניסו את ה URL לפרופיל ה Twitter שלכם"
 
-#: options_blu.php:176
+#: options_divi.php:176
 msgid "Google+ Profile Url"
 msgstr "‏URL לפרופיל Google+"
 
-#: options_blu.php:181
+#: options_divi.php:181
 msgid "Enter the URL of your Google+ Profile. "
 msgstr "הכניסו את ה URL לפרופיל ה Google+ שלכם "
 
-#: options_blu.php:183
+#: options_divi.php:183
 msgid "RSS Icon Url"
 msgstr "‏URL לפרופיל RSS"
 
-#: options_blu.php:188
+#: options_divi.php:188
 msgid "Enter the URL of your RSS feed. "
 msgstr "הכניסו את ה URL לפיד ה RSS שלכם "
 
-#: options_blu.php:190
+#: options_divi.php:190
 msgid "Number of Products displayed on WooCommerce archive pages"
 msgstr "מספר המוצרים המוצגים בעמודי ארכיון של WooCommerce"
 
-#: options_blu.php:194
+#: options_divi.php:194
 msgid ""
 "Here you can designate how many WooCommerce products are displayed on the "
 "archive page. This option works independently from the Settings > Reading "
@@ -2012,11 +2012,11 @@ msgstr ""
 "כאן תוכל לציין כמה מוצרי WooCommerce יוצגו בעמוד הארכיון. אפשרות זו פועלת "
 "באופן עצמאי דרך הגדרות > אפשרויות קריאה בתוך wp-admin"
 
-#: options_blu.php:198
+#: options_divi.php:198
 msgid "Number of Posts displayed on Category page"
 msgstr "מספר הפוסטים המוצגים בעמוד הקטגוריה"
 
-#: options_blu.php:202
+#: options_divi.php:202
 msgid ""
 "Here you can designate how many recent articles are displayed on the "
 "Category page. This option works independently from the Settings > Reading "
@@ -2025,11 +2025,11 @@ msgstr ""
 "כאן אתם יכולים לציין כמה כתבות אחרונות תוצגנה בעמוד הקטגוריה. האופציה הזו "
 "עובדת באופן עצמאי מאופציות הקריאה של wp-admin."
 
-#: options_blu.php:206
+#: options_divi.php:206
 msgid "Number of Posts displayed on Archive pages"
 msgstr "מספר הפוסטים המוצגים בעמודים מאוחסנים"
 
-#: options_blu.php:210
+#: options_divi.php:210
 msgid ""
 "Here you can designate how many recent articles are displayed on the Archive "
 "pages. This option works independently from the Settings > Reading options "
@@ -2038,11 +2038,11 @@ msgstr ""
 "כאן אתם יכולים לציין כמה כתבות אחרונות תוצגנה בעמודים המאוחסנים. האופציה הזו "
 "עובדת באופן עצמאי מאופציות הקריאה של wp-admin."
 
-#: options_blu.php:214
+#: options_divi.php:214
 msgid "Number of Posts displayed on Search pages"
 msgstr "מספר הפוסטים המוצגים בעמודי החיפוש"
 
-#: options_blu.php:218
+#: options_divi.php:218
 msgid ""
 "Here you can designate how many recent articles are displayed on the Search "
 "results pages. This option works independently from the Settings > Reading "
@@ -2051,11 +2051,11 @@ msgstr ""
 "כאן אתם יכולים לציין כמה כתבות אחרונות תוצגנה בעמודי החיפוש. האופציה הזו "
 "עובדת באופן עצמאי מאופציות הקריאה של wp-admin."
 
-#: options_blu.php:222
+#: options_divi.php:222
 msgid "Number of Posts displayed on Tag pages"
 msgstr "מספר הפוסטים המוצגים בעמודים מתויגים"
 
-#: options_blu.php:226
+#: options_divi.php:226
 msgid ""
 "Here you can designate how many recent articles are displayed on the Tag "
 "pages. This option works independently from the Settings > Reading options "
@@ -2064,11 +2064,11 @@ msgstr ""
 "כאן אתם יכולים לציין כמה כתבות אחרונות תוצגנה בעמודים מתויגים. האופציה הזו "
 "עובדת באופן עצמאי מאופציות הקריאה של wp-admin."
 
-#: options_blu.php:230
+#: options_divi.php:230
 msgid "Date format"
 msgstr "פורמט תאריכים"
 
-#: options_blu.php:234
+#: options_divi.php:234
 msgid ""
 "This option allows you to change how your dates are displayed. For more "
 "information please refer to the WordPress codex here:<a href='http://codex."
@@ -2079,81 +2079,81 @@ msgstr ""
 "למידעון Wordpress: <a href='http://codex.wordpress.org/"
 "Formatting_Date_and_Time' target='_blank'> פירמוט זמן ותאריך </a>"
 
-#: options_blu.php:238
+#: options_divi.php:238
 msgid "Use excerpts when defined"
 msgstr "השתמש בתמצות כאשר זה מוגדר"
 
-#: options_blu.php:242
+#: options_divi.php:242
 msgid "This will enable the use of excerpts in posts or pages."
 msgstr "אפשרות זו תאפשר שימוש בתמצות בפוסטים או בעמודים"
 
-#: options_blu.php:245
+#: options_divi.php:245
 msgid "Responsive shortcodes"
 msgstr "‏shortocdes מותאמים אוטומטית"
 
-#: options_blu.php:249
+#: options_divi.php:249
 msgid "Enable this option to make shortcodes respond to various screen sizes"
 msgstr "אפשרו אופתיה זו כדי לאפשר ל shortcodes להתאים עצמם לגדלי מסך שונים"
 
-#: options_blu.php:252
+#: options_divi.php:252
 msgid "Google Fonts subsets"
 msgstr "חלקי Google Forts"
 
-#: options_blu.php:256
+#: options_divi.php:256
 msgid "This will enable Google Fonts for Non-English languages."
 msgstr "אופציה זו תאפשר Google Fonts לשפות שאינן אנגלית."
 
-#: options_blu.php:259
+#: options_divi.php:259
 msgid "Back To Top Button"
 msgstr "כפתור חזרה למעלה"
 
-#: options_blu.php:263
+#: options_divi.php:263
 msgid "Enable this option to display Back To Top Button while scrolling"
 msgstr "אפשרו אופציה זו כדי להציג כפתור חזרה למעלה כאשר גוללים."
 
-#: options_blu.php:266
+#: options_divi.php:266
 msgid "Smooth Scrolling"
 msgstr "גלילה חלקה"
 
-#: options_blu.php:270
+#: options_divi.php:270
 msgid "Enable this option to get the smooth scrolling effect with mouse wheel"
 msgstr "אפשרו אופציה זו כדי להפעיל אפקט גלילה חלקה עם גלגלת העכבר"
 
-#: options_blu.php:273
+#: options_divi.php:273
 msgid "Disable Translations"
 msgstr "כבה תרגומים"
 
-#: options_blu.php:277
+#: options_divi.php:277
 msgid ""
 "Disable translations if you don't want to display translated theme strings "
 "on your site."
 msgstr "כבה תרגומים אם אינך מעוניין להציג שורות נושא מתורגמות באתרך."
 
-#: options_blu.php:280
+#: options_divi.php:280
 msgid "Custom CSS"
 msgstr "‏CSS מותאם אישית"
 
-#: options_blu.php:284
+#: options_divi.php:284
 msgid "Here you can add custom css to override or extend default styles."
 msgstr "כאן ניתן להוסיף CSS מותאם אישית כדי לעקוף את סגנון ברירת המחדל."
 
-#: options_blu.php:289
+#: options_divi.php:289
 msgid "Memory Limit Increase"
 msgstr "הגדלת מגבלת זיכרון"
 
-#: options_blu.php:291
+#: options_divi.php:291
 msgid "Here you can disable automatic memory limit increase."
 msgstr "כאן אפשר להשבית את הגדלת מגבלת הזיכרון האוטומטית."
 
-#: options_blu.php:311
+#: options_divi.php:311
 msgid "Pages"
 msgstr "דפים"
 
-#: options_blu.php:329
+#: options_divi.php:329
 msgid "Exclude pages from the navigation bar"
 msgstr "הסירו דפים מסרגל הניווט"
 
-#: options_blu.php:333
+#: options_divi.php:333
 msgid ""
 "Here you can choose to remove certain pages from the navigation menu. All "
 "pages marked with an X will not appear in your navigation bar. "
@@ -2161,22 +2161,22 @@ msgstr ""
 "כאן ניתן לבחור להסיר דפים מתפריט הניווט. דפים שלידם X לא יופיעו בסרגל "
 "הניווט. "
 
-#: options_blu.php:337 options_blu.php:387
+#: options_divi.php:337 options_divi.php:387
 msgid "Show dropdown menus"
 msgstr "הראה תפריטים נפרשים"
 
-#: options_blu.php:341
+#: options_divi.php:341
 msgid ""
 "If you would like to remove the dropdown menus from the pages navigation bar "
 "disable this feature."
 msgstr ""
 "אם תרצו להסיר את פרישת התפריטים מסרגל הניווט של העמודים, בטלו את האופציה הזו."
 
-#: options_blu.php:344
+#: options_divi.php:344
 msgid "Display Home link"
 msgstr "הציגו לינק בית"
 
-#: options_blu.php:348
+#: options_divi.php:348
 msgid ""
 "By default the theme creates a Home link that, when clicked, leads back to "
 "your blog's homepage. If, however, you are using a static homepage and have "
@@ -2187,30 +2187,30 @@ msgstr ""
 "לעמודת הבית של הבלוג. אולם אם כבר יצרתם עמוד בית סטטי משלכם, זה יצור לינק "
 "כפול. במקרה זה בטלו אפשרות זו כדי להסיר את הלינק."
 
-#: options_blu.php:351
+#: options_divi.php:351
 msgid "Sort Pages Links"
 msgstr "מיון לינקים לעמודים"
 
-#: options_blu.php:355
+#: options_divi.php:355
 msgid "Here you can choose to sort your pages links."
 msgstr "כאן ניתו לבחור איך למיין את הלינקים לעמודים."
 
-#: options_blu.php:358
+#: options_divi.php:358
 msgid "Order Pages Links by Ascending/Descending"
 msgstr "סדר הצגת לינקים לעמודים עולה/יורד"
 
-#: options_blu.php:362
+#: options_divi.php:362
 msgid ""
 "Here you can choose to reverse the order that your pages links are "
 "displayed. You can choose between ascending and descending."
 msgstr ""
 "כאן ניתן להפוך את סדר הצגת הלינקים לעמודים. האפשרויות הן סדר עולה או יורד."
 
-#: options_blu.php:365 options_blu.php:401
+#: options_divi.php:365 options_divi.php:401
 msgid "Number of dropdown tiers shown"
 msgstr "מספר חלקי תפריט נפרש המוצגים"
 
-#: options_blu.php:369 options_blu.php:405
+#: options_divi.php:369 options_divi.php:405
 msgid ""
 "This options allows you to control how many teirs your pages dropdown menu "
 "has. Increasing the number allows for additional menu items to be shown."
@@ -2218,11 +2218,11 @@ msgstr ""
 "אפוציה זו בוררת כמה חלקים יוצגו כאשר התפריטים נפרשים. הגדלת המספר תציג יותר "
 "חלקים מהתפריט."
 
-#: options_blu.php:379
+#: options_divi.php:379
 msgid "Exclude categories from the navigation bar"
 msgstr "הספר קטגוריות מסרגל הניווט"
 
-#: options_blu.php:383
+#: options_divi.php:383
 msgid ""
 "Here you can choose to remove certain categories from the navigation menu. "
 "All categories marked with an X will not appear in your navigation bar. "
@@ -2230,7 +2230,7 @@ msgstr ""
 "כאן ניתן לבחור להסיר קטגוריות מתפריט הניווט. קטגוריות שלידן X לא יופיעו "
 "בסרגל הניווט. "
 
-#: options_blu.php:391
+#: options_divi.php:391
 msgid ""
 "If you would like to remove the dropdown menus from the categories "
 "navigation bar disable this feature."
@@ -2238,11 +2238,11 @@ msgstr ""
 "אם תרצו להסיר את פרישת התפריטים מסרגל הניווט של הקטגוריות, בטלו את האופציה "
 "הזו."
 
-#: options_blu.php:394
+#: options_divi.php:394
 msgid "Hide empty categories"
 msgstr "החבא קטגוריות ריקות"
 
-#: options_blu.php:398
+#: options_divi.php:398
 msgid ""
 "If you would like categories to be displayed in your navigationbar that "
 "don't have any posts in them then disable this option. By default empty "
@@ -2251,11 +2251,11 @@ msgstr ""
 "אם תרצו להציג בסרגל הניווט קטגוריות שאין בהן פוסטים בטלו אפשרות זו. כברירת "
 "מחדל, קטגוריות ריקות מוחבאות."
 
-#: options_blu.php:409
+#: options_divi.php:409
 msgid "Sort Categories Links by Name/ID/Slug/Count/Term Group"
 msgstr "מיין קטגוריות לפי קבוצות Name/ID/Slug/Count/Term"
 
-#: options_blu.php:413
+#: options_divi.php:413
 msgid ""
 "By default pages are sorted by name. However if you would rather have them "
 "sorted by ID you can adjust this setting."
@@ -2263,22 +2263,22 @@ msgstr ""
 "כברירת מחדל, עמודים ממוינים לפי שם. אם תרצו לשנות זאת ל ID תוכלו לשנות זאת "
 "כאן."
 
-#: options_blu.php:416
+#: options_divi.php:416
 msgid "Order Category Links by Ascending/Descending"
 msgstr "סדר הצגת לינקים לקטגוריות עולה/יורד"
 
-#: options_blu.php:420
+#: options_divi.php:420
 msgid ""
 "Here you can choose to reverse the order that your categories links are "
 "displayed. You can choose between ascending and descending."
 msgstr ""
 "אן ניתן להפוך את סדר הצגת הלינקים לקטגוריות. האפשרויות הן סדר עולה או יורד."
 
-#: options_blu.php:429
+#: options_divi.php:429
 msgid "Disable top tier dropdown menu links"
 msgstr "בטל לינקים מועדפים ביותר בתפריטים נפרשים"
 
-#: options_blu.php:433
+#: options_divi.php:433
 msgid ""
 "In some cases users will want to create parent categories or links as "
 "placeholders to hold a list of child links or categories. In this case it is "
@@ -2292,19 +2292,19 @@ msgstr ""
 "מקום אלא ישמש רק ככלי ארגוני. הפעלת האפשרות הזו תסיר את הלינקים מכל "
 "עמודי/קטגוריות העל כדי שלא יובילו לשום מקום."
 
-#: options_blu.php:451
+#: options_divi.php:451
 msgid "Single Post Layout"
 msgstr "תבנית פוסט יחיד"
 
-#: options_blu.php:456
+#: options_divi.php:456
 msgid "Single Page Layout"
 msgstr "תבנית עמוד יחיד"
 
-#: options_blu.php:469
+#: options_divi.php:469
 msgid "Choose which items to display in the postinfo section"
 msgstr "בחרו אילו דברים להציג בחלק המידע של הפוסט"
 
-#: options_blu.php:473
+#: options_divi.php:473
 msgid ""
 "Here you can choose which items appear in the postinfo section on single "
 "post pages. This is the area, usually below the post title, which displays "
@@ -2315,22 +2315,22 @@ msgstr ""
 "שבדרך כלל מתחת לכותרת הפוסט, שמציג מידע בסיסי על הפוסט. החלקים המודגשים "
 "המוצגים למטה גם יופיעו. "
 
-#: options_blu.php:477
+#: options_divi.php:477
 msgid "Show comments on posts"
 msgstr "הצג תגובות בפוסטים"
 
-#: options_blu.php:481
+#: options_divi.php:481
 msgid ""
 "You can disable this option if you want to remove the comments and comment "
 "form from single post pages. "
 msgstr ""
 "ניתן לבטל אפשרות זו אם אתם רוצים להסיר תגובות ואת טופס שליחת תגובה מפוסטים. "
 
-#: options_blu.php:484
+#: options_divi.php:484
 msgid "Place Thumbs on Posts"
 msgstr "הוסף תמונות סימניה על פוסטים"
 
-#: options_blu.php:488
+#: options_divi.php:488
 msgid ""
 "By default thumbnails are placed at the beginning of your post on single "
 "post pages. If you would like to remove this initial thumbnail image to "
@@ -2339,11 +2339,11 @@ msgstr ""
 "באופן ברירת מחדל, סימניות מוספות לפוסטים שלכם בעמודי פוסט יחידים. אם אתם "
 "רוצים להסיר את תמונת הסימניה התחילת כדי להימנע מכפולות אנא בטלו אפשרות זו. "
 
-#: options_blu.php:497
+#: options_divi.php:497
 msgid "Place Thumbs on Pages"
 msgstr "הוסף תמונות סימניה על עמודים."
 
-#: options_blu.php:501
+#: options_divi.php:501
 msgid ""
 "By default thumbnails are not placed on pages (they are only used on posts). "
 "However, if you want to use thumbnails on pages you can! Just enable this "
@@ -2353,11 +2353,11 @@ msgstr ""
 "עם זאת, אם אתה רוצה להשתמש בתמונות ממוזערות בדפים, אתה יכול! פשוט אפשר "
 "אפשרות זאת"
 
-#: options_blu.php:504
+#: options_divi.php:504
 msgid "Show comments on pages"
 msgstr "הצג תבוגות בדפים"
 
-#: options_blu.php:508
+#: options_divi.php:508
 msgid ""
 "By default comments are not placed on pages, however, if you would like to "
 "allow people to comment on your pages simply enable this option. "
@@ -2365,11 +2365,11 @@ msgstr ""
 "כברירת מחדל, תגובות לא מוספות לדפים. אולם, אם אתם רוצים לאפשר לאנשים להגיב "
 "לדפים שלכם, אנא סמנו אופציה זו. "
 
-#: options_blu.php:517
+#: options_divi.php:517
 msgid "Post info section"
 msgstr "חלק המידע של פוסט"
 
-#: options_blu.php:521
+#: options_divi.php:521
 msgid ""
 "Here you can choose which items appear in the postinfo section on pages. "
 "This is the area, usually below the post title, which displays basic "
@@ -2379,31 +2379,31 @@ msgstr ""
 "שבדרך כלל מתחת לכותרת הפוסט, שמציג מידע בסיסי על הפוסט. החלקים המודגשים "
 "המוצגים למטה גם יופיעו. "
 
-#: options_blu.php:524
+#: options_divi.php:524
 msgid "Show Thumbs on Index pages"
 msgstr "הצג תמונות סימניה בעמודי אינדקס"
 
-#: options_blu.php:528
+#: options_divi.php:528
 msgid "Enable this option to show thumbnails on Index Pages."
 msgstr "סמנו אפשרות זו כדי להציג סימניות בעמודי אינדקס."
 
-#: options_blu.php:545
+#: options_divi.php:545
 msgid "Homepage SEO"
 msgstr "‏SEO של עמוד הבית"
 
-#: options_blu.php:550
+#: options_divi.php:550
 msgid "Single Post Page SEO"
 msgstr "‏SEO של עמוד פוסט יחיד"
 
-#: options_blu.php:555
+#: options_divi.php:555
 msgid "Index Page SEO"
 msgstr "‏SEO של עמוד אינדקס"
 
-#: options_blu.php:563
+#: options_divi.php:563
 msgid " Enable custom title "
 msgstr "אפשרו כותרת מותאמת אישית "
 
-#: options_blu.php:567
+#: options_divi.php:567
 msgid ""
 "By default the theme uses a combination of your blog name and your blog "
 "description, as defined when you created your blog, to create your homepage "
@@ -2414,11 +2414,11 @@ msgstr ""
 "שהוגדרו בעת יצירת הבלוג, כדי ליצור את כותרת עמוד הבית. אם אתם רוצים ליצור "
 "כברת מותאמת אישית, סמנו אפשרות זו ומלאו את שדה הכותרת למטה. "
 
-#: options_blu.php:570
+#: options_divi.php:570
 msgid " Enable meta description"
 msgstr "אפשרו תיאור תגית מטא"
 
-#: options_blu.php:574
+#: options_divi.php:574
 msgid ""
 "By default the theme uses your blog description, as defined when you created "
 "your blog, to fill in the meta description field. If you would like to use a "
@@ -2429,11 +2429,11 @@ msgstr ""
 "הבלוג, כדי למלא את שדה תיאור המטא. אם תרצו תיאור אחר, אנא סמו אפשרות זו "
 "ומלאו את שדה התיאור למטה. "
 
-#: options_blu.php:577
+#: options_divi.php:577
 msgid " Enable meta keywords"
 msgstr "אפשר מילות מפתח מטא"
 
-#: options_blu.php:581
+#: options_divi.php:581
 msgid ""
 "By default the theme does not add keywords to your header. Most search "
 "engines don't use keywords to rank your site anymore, but some people define "
@@ -2445,11 +2445,11 @@ msgstr ""
 "אותן בכל מקרה. אם תרצו להוסיף מילות מפתח מטא לחלק העילי אנא סמנו אפשרות זו "
 "ומלאו את שדה מילות המפתח למטה. "
 
-#: options_blu.php:584 options_blu.php:711
+#: options_divi.php:584 options_divi.php:711
 msgid " Enable canonical URL's"
 msgstr "אפשרו URL's קנונים"
 
-#: options_blu.php:588 options_blu.php:662 options_blu.php:715
+#: options_divi.php:588 options_divi.php:662 options_divi.php:715
 msgid ""
 "Canonicalization helps to prevent the indexing of duplicate content by "
 "search engines, and as a result, may help avoid duplicate content penalties "
@@ -2472,11 +2472,11 @@ msgstr ""
 "התמה מבססת את ה- URLs הקנוני שלה מחוץ לקישורים שלך ושם הדומיין מוגדר "
 "בכרטיסיית ההגדרות של  wp-admin."
 
-#: options_blu.php:591
+#: options_divi.php:591
 msgid "Homepage custom title (if enabled)"
 msgstr "כותרת עמוד בית מואמת אישית (אם מופעל)"
 
-#: options_blu.php:595
+#: options_divi.php:595
 msgid ""
 "If you have enabled custom titles you can add your custom title here. "
 "Whatever you type here will be placed between the < title >< /title > tags "
@@ -2485,21 +2485,21 @@ msgstr ""
 "אם הדלקתם כותרות מותאמות אישית אתם יכולים להוסיף אותן כאן. מה שתשימו כאן "
 "יושם בין תגיות < title >< /title > ב header.php"
 
-#: options_blu.php:599
+#: options_divi.php:599
 msgid "Homepage meta description (if enabled)"
 msgstr "תיאור מטא של עמוד הבית (אם מופעל)"
 
-#: options_blu.php:603
+#: options_divi.php:603
 msgid ""
 "If you have enabled meta descriptions you can add your custom description "
 "here."
 msgstr "אם הפעלתם תיאורי מטא מותאמים אישית תוכלו להוסיף אותם כאן."
 
-#: options_blu.php:607
+#: options_divi.php:607
 msgid "Homepage meta keywords (if enabled)"
 msgstr "מילות מפתח מטא לעמוד הבית (אם מופעל)"
 
-#: options_blu.php:611
+#: options_divi.php:611
 msgid ""
 "If you have enabled meta keywords you can add your custom keywords here. "
 "Keywords should be separated by comas. For example: wordpress,themes,"
@@ -2508,11 +2508,11 @@ msgstr ""
 "אם הדלקתם מילות מפתח מטא מותאמות אישית אתם יכולים להוסיף אותן כאן. על מילות "
 "המפתח להיות מופרדות עם פסיקים. לדוגמא: wordpress,themes,templates,elegant"
 
-#: options_blu.php:615 options_blu.php:689
+#: options_divi.php:615 options_divi.php:689
 msgid "If custom titles are disabled, choose autogeneration method"
 msgstr "אם כותרות מותאמות אישית מופעלות, אנא בחרו ביצירה אוטומטית"
 
-#: options_blu.php:620
+#: options_divi.php:620
 msgid ""
 "If you are not using cutsom post titles you can still have control over how "
 "your titles are generated. Here you can choose which order you would like "
@@ -2523,11 +2523,11 @@ msgstr ""
 "נוצרות הכותרות שלכם. כאן ניתן לבחור באיזה סדר יופיעו כותרת הפוסט ושם הבלוג "
 "או שניתן בכלל להסיר את שם הבלוג."
 
-#: options_blu.php:623 options_blu.php:697 options_blu.php:733
+#: options_divi.php:623 options_divi.php:697 options_divi.php:733
 msgid "Define a character to separate BlogName and Post title"
 msgstr "הגדירו תו כדי להפריד את שם האתר מכותרת הפוסט"
 
-#: options_blu.php:627 options_blu.php:701
+#: options_divi.php:627 options_divi.php:701
 msgid ""
 "Here you can change which character separates your blog title and post name "
 "when using autogenerated post titles. Common values are | or -"
@@ -2535,11 +2535,11 @@ msgstr ""
 "כאן ניתן לשנות את התו אשר מפריד בין שם הבלוג לכותרת הפוסט כאשר משתמשים "
 "בכותרות פוסט אוטומטיות. תווים נפוצים הם | או -"
 
-#: options_blu.php:637
+#: options_divi.php:637
 msgid "Enable custom titles"
 msgstr "אשפר כותרות מותאמות אישית"
 
-#: options_blu.php:641
+#: options_divi.php:641
 msgid ""
 "By default the theme creates post titles based on the title of your post and "
 "your blog name. If you would like to make your meta title different than "
@@ -2553,11 +2553,11 @@ msgstr ""
 "להיו מופעלת לכותרות מואמות אישית כדי לעבוד ועליכם לבחור שם דה מותאם אישית "
 "לכותרת שלכם למטה."
 
-#: options_blu.php:644
+#: options_divi.php:644
 msgid "Enable custom description"
 msgstr "אפשרו תיאור מותאם אישית"
 
-#: options_blu.php:648
+#: options_divi.php:648
 msgid ""
 "If you would like to add a meta description to your post you can do so using "
 "custom fields. This option must be enabled for descriptions to be displayed "
@@ -2569,11 +2569,11 @@ msgstr ""
 "אתם יכולים להוסיף את תיאור המטא בעזרת השדות המותאמים אישית שמבוססים על שם "
 "השדות המותאמים אישית שתגדירו למטה."
 
-#: options_blu.php:651
+#: options_divi.php:651
 msgid "Enable custom keywords"
 msgstr "אפשר מילות מפתח מואמות אישית"
 
-#: options_blu.php:655
+#: options_divi.php:655
 msgid ""
 "If you would like to add meta keywords to your post you can do so using "
 "custom fields. This option must be enabled for keywords to be displayed on "
@@ -2585,15 +2585,15 @@ msgstr ""
 "בעמודי הפוסטים. אתם יכולים להוסיף את מילות מפתח המטא בעזרת השדות המותאמים "
 "אישית שמבוססים על שם השדות המותאמים אישית שתגדירו למטה."
 
-#: options_blu.php:658
+#: options_divi.php:658
 msgid "Enable canonical URL's"
 msgstr "אפשרו URL's קנונים"
 
-#: options_blu.php:665
+#: options_divi.php:665
 msgid "Custom field Name to be used for title"
 msgstr "שם שדה מותאם אישית שיושמש ככותרת"
 
-#: options_blu.php:669
+#: options_divi.php:669
 msgid ""
 "When you define your title using custom fields you should use this value for "
 "the custom field Name. The Value of your custom field should be the custom "
@@ -2603,11 +2603,11 @@ msgstr ""
 "זה עבור שם השדות הללו. על ערך השדות המותאמים אישית להיות הכותרת המותאמת "
 "אישית שבה תרצו להשתמש."
 
-#: options_blu.php:673
+#: options_divi.php:673
 msgid "Custom field Name to be used for description"
 msgstr "שם שדה מותאם אישית שיושמש כתיאור"
 
-#: options_blu.php:677
+#: options_divi.php:677
 msgid ""
 "When you define your meta description using custom fields you should use "
 "this value for the custom field Name. The Value of your custom field should "
@@ -2617,11 +2617,11 @@ msgstr ""
 "בערך זה עבור שם השדות הללו. על ערך השדות המותאמים אישית להיות התיאור המותאם "
 "אישית שבו תרצו להשתמש."
 
-#: options_blu.php:681
+#: options_divi.php:681
 msgid "Custom field Name to be used for keywords"
 msgstr "שם שדה מותאם אישית שיושמש כמילות מפתח"
 
-#: options_blu.php:685
+#: options_divi.php:685
 msgid ""
 "When you define your keywords using custom fields you should use this value "
 "for the custom field Name. The Value of your custom field should be the meta "
@@ -2631,7 +2631,7 @@ msgstr ""
 "בערך זה עבור שם השדות הללו. על ערך השדות המותאמים אישית להיות מילות מפתח "
 "המטא המותאמות אישית שבהן תרצו להשתמש, מופרדות בפסיקים."
 
-#: options_blu.php:694
+#: options_divi.php:694
 msgid ""
 "If you are not using cutsom post titles you can still have control over hw "
 "your titles are generated. Here you can choose which order you would like "
@@ -2642,11 +2642,11 @@ msgstr ""
 "נוצרות הכותרות שלכם. כאן ניתן לבחור באיזה סדר יופיעו כותרת הפוסט ושם הבלוג "
 "או שניתן בכלל להסיר את שם הבלוג לחלוטין."
 
-#: options_blu.php:718
+#: options_divi.php:718
 msgid "Enable meta descriptions"
 msgstr "אפשרו מטא תיאורים"
 
-#: options_blu.php:722
+#: options_divi.php:722
 msgid ""
 "Check this box if you want to display meta descriptions on category/archive "
 "pages. The description is based off the category description you choose when "
@@ -2656,11 +2656,11 @@ msgstr ""
 "מבוסס על תיאור הקטגוריותש אתם בוחרים כאשר יוצאים/עורכים את הקטגוריות שלכם ב "
 "wp-admin."
 
-#: options_blu.php:725
+#: options_divi.php:725
 msgid "Choose title autogeneration method"
 msgstr "בחרו שיטת יצירת כותרת"
 
-#: options_blu.php:730
+#: options_divi.php:730
 msgid ""
 "Here you can choose how your titles on index pages are generated. You can "
 "change which order your blog name and index title are displayed, or you can "
@@ -2669,7 +2669,7 @@ msgstr ""
 "כאן ניתן לבחור כיצד נוצרות הכותרות או עמודי האינדקסים. ניתן לבחור באיזה סדר "
 "יופיעו כותרת האינדקס ושם הבלוג או שניתן בכלל להסיר את שם הבלוג לחלוטין."
 
-#: options_blu.php:737
+#: options_divi.php:737
 msgid ""
 "Here you can change which character separates your blog title and index page "
 "name when using autogenerated post titles. Common values are | or -"
@@ -2677,15 +2677,15 @@ msgstr ""
 "כאן ניתן לשנות את התו אשר מפריד בין שם הבלוג לשם עמוד האינדקס כאשר משתמשים "
 "בכותרות פוסט אוטומטיות. תווים נפוצים הם | או -"
 
-#: options_blu.php:756
+#: options_divi.php:756
 msgid "Code Integration"
 msgstr "יצירת קוד"
 
-#: options_blu.php:764
+#: options_divi.php:764
 msgid "Enable header code"
 msgstr "אפשר קוד עילי"
 
-#: options_blu.php:768
+#: options_divi.php:768
 msgid ""
 "Disabling this option will remove the header code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2693,11 +2693,11 @@ msgstr ""
 "ביטול אפשרות זו יסיר את הקוד העילי שמוצג למטה מהבלוג שלכם. זה מאפשר לכם "
 "להסיר אותו אולם שומר אותו לשימוש עתידי."
 
-#: options_blu.php:771
+#: options_divi.php:771
 msgid "Enable body code"
 msgstr "אפשר קוד < body >"
 
-#: options_blu.php:775
+#: options_divi.php:775
 msgid ""
 "Disabling this option will remove the body code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2705,11 +2705,11 @@ msgstr ""
 "ביטול אפשרות זו יסיר את הקוד הגוף שמוצג למטה מהבלוג שלכם. זה מאפשר לכם להסיר "
 "אותו אולם שומר אותו לשימוש עתידי."
 
-#: options_blu.php:778
+#: options_divi.php:778
 msgid "Enable single top code"
 msgstr "אפשר קוד עליון יחיד"
 
-#: options_blu.php:782
+#: options_divi.php:782
 msgid ""
 "Disabling this option will remove the single top code below from your blog. "
 "This allows you to remove the code while saving it for later use."
@@ -2717,11 +2717,11 @@ msgstr ""
 "ביטול אפשרות זו יסיר את הקוד העליון היחיד שמוצג למטה מהבלוג שלכם. זה מאפשר "
 "לכם להסיר אותו אולם שומר אותו לשימוש עתידי."
 
-#: options_blu.php:785
+#: options_divi.php:785
 msgid "Enable single bottom code"
 msgstr "אפשר קוד תחתון יחיד"
 
-#: options_blu.php:789
+#: options_divi.php:789
 msgid ""
 "Disabling this option will remove the single bottom code below from your "
 "blog. This allows you to remove the code while saving it for later use."
@@ -2729,11 +2729,11 @@ msgstr ""
 "ביטול אפשרות זו יסיר את הקוד התחתון היחיד שמוצג למטה מהבלוג שלכם. זה מאפשר "
 "לכם להסיר אותו אולם שומר אותו לשימוש עתידי."
 
-#: options_blu.php:792
+#: options_divi.php:792
 msgid "Add code to the < head > of your blog"
 msgstr "הוסיפו קוד < head > לבלוג שלכם"
 
-#: options_blu.php:796
+#: options_divi.php:796
 msgid ""
 "Any code you place here will appear in the head section of every page of "
 "your blog. This is useful when you need to add javascript or css to all "
@@ -2742,12 +2742,12 @@ msgstr ""
 "כל קוד שתשימו כאן יופיע בחלק הראש של כל עמוד בבלוג שלכם. זה שימושי כאשר צריך "
 "להוסיף Javascript או CSS לכל העמודים."
 
-#: options_blu.php:799
+#: options_divi.php:799
 msgid ""
 "Add code to the < body > (good for tracking codes such as google analytics)"
 msgstr "הוסיפו קוד < head > (טוב לקודי עקיבה כגון Google Analytics)"
 
-#: options_blu.php:803
+#: options_divi.php:803
 msgid ""
 "Any code you place here will appear in body section of all pages of your "
 "blog. This is usefull if you need to input a tracking pixel for a state "
@@ -2756,11 +2756,11 @@ msgstr ""
 "כל קוד שתשימו כאן יופיע בחלק הראש של כל עמוד בבלוג שלכם. זה שימושי כאשר צריך "
 "להוסיף פיקסל עקיבה למונה מצב כגון Google Analytics."
 
-#: options_blu.php:806
+#: options_divi.php:806
 msgid "Add code to the top of your posts"
 msgstr "הוסף קוד לחלק העליון של הפוסט שלכם"
 
-#: options_blu.php:810 options_blu.php:817
+#: options_divi.php:810 options_divi.php:817
 msgid ""
 "Any code you place here will be placed at the top of all single posts. This "
 "is useful if you are looking to integrating things such as social "
@@ -2769,19 +2769,19 @@ msgstr ""
 "כל קוד שתשימו כאן יופיע בחלק הראש של כל הפוסטים. זה שימושי כאשר רוצים להוסיף "
 "דברים כגון לימקים של סימניות חברתיות."
 
-#: options_blu.php:813
+#: options_divi.php:813
 msgid "Add code to the bottom of your posts, before the comments"
 msgstr "הוסף קוד לתחתי הפוסטים, לפני התגובות"
 
-#: options_blu.php:835
+#: options_divi.php:835
 msgid "Manage Un-widgetized Advertisements"
 msgstr "ניהול פרסומות"
 
-#: options_blu.php:843
+#: options_divi.php:843
 msgid "Enable Single Post 468x60 banner"
 msgstr "אפשר כותרת פוסט יחיד 468x60"
 
-#: options_blu.php:847
+#: options_divi.php:847
 msgid ""
 "Enabling this option will display a 468x60 banner ad on the bottom of your "
 "post pages below the single post content. If enabled you must fill in the "
@@ -2790,27 +2790,27 @@ msgstr ""
 "הפעלת האפשרות הזו תוסיף כותרת פרסומת  לתחתית עמודי הפוסטים שלכם מתחת לתוכן "
 "הפוסט היחיד. אם מופעל עליכם למלא את מנות הכותרת ואת URL היעד למטה."
 
-#: options_blu.php:850
+#: options_divi.php:850
 msgid "Input 468x60 advertisement banner image"
 msgstr "הכנס תמונת פרסומת לכותרת 468x60 "
 
-#: options_blu.php:854
+#: options_divi.php:854
 msgid "Here you can provide 468x60 banner image url"
 msgstr "כאן ניתן לספק URL לתמונת כותרת 468x60"
 
-#: options_blu.php:858
+#: options_divi.php:858
 msgid "Input 468x60 advertisement destination url"
 msgstr "הכניסו יעד URL לפרסומת 468x60"
 
-#: options_blu.php:862
+#: options_divi.php:862
 msgid "Here you can provide 468x60 banner destination url"
 msgstr "כאן ניתן לספק את URL היעד לכותרת 468x60"
 
-#: options_blu.php:866
+#: options_divi.php:866
 msgid "Input 468x60 adsense code"
 msgstr "הכניסו קוד 468x60 של Google Adsense"
 
-#: options_blu.php:870
+#: options_divi.php:870
 msgid "Place your adsense code here."
 msgstr "הכניסו את קוד הGoogle Adsense כאן."
 

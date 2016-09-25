@@ -96,7 +96,7 @@ msgstr "%s 테마 옵션"
 msgid "Reset to Defaults"
 msgstr "기본값으로 재설정"
 
-#: epanel/core_functions.php:160 options_blu.php:38
+#: epanel/core_functions.php:160 options_divi.php:38
 msgid "General"
 msgstr "일반"
 
@@ -160,7 +160,7 @@ msgstr "저작자"
 msgid "Date"
 msgstr "날짜"
 
-#: epanel/core_functions.php:510 options_blu.php:316
+#: epanel/core_functions.php:510 options_divi.php:316
 msgid "Categories"
 msgstr "카테고리"
 
@@ -508,15 +508,15 @@ msgstr "특기"
 msgid "Posted on"
 msgstr "에 포스트 됨"
 
-#: functions.php:293 options_blu.php:103
+#: functions.php:293 options_divi.php:103
 msgid "Right Sidebar"
 msgstr "오른쪽 사이드바"
 
-#: functions.php:294 options_blu.php:104
+#: functions.php:294 options_divi.php:104
 msgid "Left Sidebar"
 msgstr "왼쪽 사이드바"
 
-#: functions.php:295 options_blu.php:105
+#: functions.php:295 options_divi.php:105
 msgid "Full Width"
 msgstr "전체 너비"
 
@@ -586,7 +586,7 @@ msgstr "프로젝트 탐색"
 msgid "you don't have sufficient permissions to access this page"
 msgstr "이 페이지에 액세스 할 수있는 권한이 없습니다"
 
-#: functions.php:586 options_blu.php:321 options_blu.php:461
+#: functions.php:586 options_divi.php:321 options_divi.php:461
 msgid "General Settings"
 msgstr "일반 설정"
 
@@ -1790,15 +1790,15 @@ msgstr "Adsense"
 msgid "Adsense Code"
 msgstr "Adsense 코드"
 
-#: options_blu.php:45
+#: options_divi.php:45
 msgid "Logo"
 msgstr "로고"
 
-#: options_blu.php:48
+#: options_divi.php:48
 msgid "Set As Logo"
 msgstr "로고로 설정하기"
 
-#: options_blu.php:50
+#: options_divi.php:50
 msgid ""
 "If you would like to use your own custom logo image click the Upload Image "
 "button."
@@ -1806,15 +1806,15 @@ msgstr ""
 "사용자 맞춤 로고 이미지를 사용하기 원하시면 “이미지 업로드” 버튼을 클릭하십시"
 "오."
 
-#: options_blu.php:53
+#: options_divi.php:53
 msgid "Favicon"
 msgstr "Favicon"
 
-#: options_blu.php:56
+#: options_divi.php:56
 msgid "Set As Favicon"
 msgstr "Favicon으로 설정하기"
 
-#: options_blu.php:58
+#: options_divi.php:58
 msgid ""
 "If you would like to use your own custom favicon image click the Upload "
 "Image button."
@@ -1822,11 +1822,11 @@ msgstr ""
 "사용자 맞춤 favicon 이미지를 사용하기 원하시면 이미지 업로드 버튼을 클릭하십"
 "시오."
 
-#: options_blu.php:61
+#: options_divi.php:61
 msgid "Fixed Navigation Bar"
 msgstr "고정 네비게이션 바"
 
-#: options_blu.php:65
+#: options_divi.php:65
 msgid ""
 "By default the navigation bar stays on top of the screen at all times. We "
 "suggest to disable this option, if you need to use a logo taller than the "
@@ -1835,30 +1835,30 @@ msgstr ""
 "기본적으로 네이게이션 바는 항상 화면의 상단에 놓여 있습니다. 커다란 로고 이미"
 "지를 사용하셔야 한다면 이 옵션을 비활성화 하시기를 바랍니다."
 
-#: options_blu.php:68
+#: options_divi.php:68
 msgid "Enable Divi Gallery"
 msgstr "Divi 갤러리 사용"
 
-#: options_blu.php:72
+#: options_divi.php:72
 msgid ""
 "Enable this if you want to replace the WordPress default gallery with the "
 "Divi-style gallery."
 msgstr ""
 "WordPress 기본 갤러리를 Divi 스타일의 갤러리와 교체하려는 경우 사용합니다."
 
-#: options_blu.php:75
+#: options_divi.php:75
 msgid "Color Pickers Default Palette"
 msgstr "기본 색상 선텍 팔레트"
 
-#: options_blu.php:80
+#: options_divi.php:80
 msgid "Define the default color palette for color pickers in the Divi Builder."
 msgstr "Divi 빌더에서 사용할 색상 선택을 위해 기본 색상 팔레트를 구성하세요."
 
-#: options_blu.php:85
+#: options_divi.php:85
 msgid "Grab the first post image"
 msgstr "첫번째 포스트 이미지 사용"
 
-#: options_blu.php:89
+#: options_divi.php:89
 msgid ""
 "By default thumbnail images are created using custom fields. However, if you "
 "would rather use the images that are already in your post for your thumbnail "
@@ -1872,11 +1872,11 @@ msgstr ""
 "네일 이미지가 당신의 포스트의 첫번째 이미지를 사용하여 자동으로 생성될 것입니"
 "다. 이미지는 당신의 서버에서 관리되어야 합니다."
 
-#: options_blu.php:92
+#: options_divi.php:92
 msgid "Blog Style Mode"
 msgstr "블로그 스타일 모드"
 
-#: options_blu.php:96
+#: options_divi.php:96
 msgid ""
 "By default the theme truncates your posts on index/homepages automatically "
 "to create post previews. If you would rather show your posts in full on "
@@ -1886,21 +1886,21 @@ msgstr ""
 "니다. 포스트가 기존의 전체 크기로 보이기를 원한다면 블로그한 후에 이 기능을 "
 "활성화할 수 있습니다."
 
-#: options_blu.php:99
+#: options_divi.php:99
 msgid "Shop Page & Category Page Layout for WooCommerce"
 msgstr "WooCommerce 을/를 위한 쇼핑 페이지 & 카테고리 페이지 레이아웃"
 
-#: options_blu.php:108
+#: options_divi.php:108
 msgid "Here you can choose Shop Page & Category Page Layout for WooCommerce."
 msgstr ""
 "여기서 WooCommerce 을/를 위한 쇼핑 페이지 & 카테고리 페이지 레이아웃을 선택"
 "할 수 있습니다."
 
-#: options_blu.php:112
+#: options_divi.php:112
 msgid "MailChimp API Key"
 msgstr "MailChimp API 키"
 
-#: options_blu.php:117
+#: options_divi.php:117
 msgid ""
 "Enter your MailChimp API key. You can create an api key <a target=\"_blank\" "
 "href=\"%1$s\">here</a>"
@@ -1908,19 +1908,19 @@ msgstr ""
 "당신의 MailChimp API 키를 입력하세요. 당신은 api 키를 만들 수 있습니다 <a "
 "target=\"_blank\" href=\"%1$s\">here</a>"
 
-#: options_blu.php:120
+#: options_divi.php:120
 msgid "Aweber Authorization"
 msgstr "Aweber 인증"
 
-#: options_blu.php:122
+#: options_divi.php:122
 msgid "Authorize your Aweber account here."
 msgstr "당신의 Aweber 계정을 여기서 인증하세요."
 
-#: options_blu.php:126
+#: options_divi.php:126
 msgid "Regenerate MailChimp Lists"
 msgstr "MailChimp 목록 재생성"
 
-#: options_blu.php:130
+#: options_divi.php:130
 msgid ""
 "By default, MailChimp lists are cached for one day. If you added new list, "
 "but it doesn't appear within the Email Optin module settings, activate this "
@@ -1930,11 +1930,11 @@ msgstr ""
 "이메일 별 수신 모듈 설정에서 표시되지 않는 경우,이 옵션을 활성화합니다. 목록"
 "이 재생 된 후 사용하지 않도록 설정하는 것을 잊지 마십시오."
 
-#: options_blu.php:132
+#: options_divi.php:132
 msgid "Regenerate Aweber Lists"
 msgstr "Aweber 목록 재생성"
 
-#: options_blu.php:136
+#: options_divi.php:136
 msgid ""
 "By default, Aweber lists are cached for one day. If you added new list, but "
 "it doesn't appear within the Email Optin module settings, activate this "
@@ -1944,75 +1944,75 @@ msgstr ""
 "메일 별 수신 모듈 설정에서 표시되지 않는 경우,이 옵션을 활성화합니다. 목록이 "
 "재생 된 후 사용하지 않도록 설정하는 것을 잊지 마십시오."
 
-#: options_blu.php:138
+#: options_divi.php:138
 msgid "Show Facebook Icon"
 msgstr "Facebook 아이콘 보이기"
 
-#: options_blu.php:142
+#: options_divi.php:142
 msgid "Here you can choose to display the Facebook Icon on your homepage. "
 msgstr "당신의 홈페이지에 Facebook 아이콘이 보여지도록 선택할 수 있습니다. "
 
-#: options_blu.php:144
+#: options_divi.php:144
 msgid "Show Twitter Icon"
 msgstr "Twitter 아이콘 보이기"
 
-#: options_blu.php:148
+#: options_divi.php:148
 msgid "Here you can choose to display the Twitter Icon. "
 msgstr "당신의 홈페이지에 Twitter 아이콘이 보여지도록 선택할 수 있습니다. "
 
-#: options_blu.php:150
+#: options_divi.php:150
 msgid "Show Google+ Icon"
 msgstr "Google+ 아이콘 보이기"
 
-#: options_blu.php:154
+#: options_divi.php:154
 msgid "Here you can choose to display the Google+ Icon on your homepage. "
 msgstr "당신의 홈페이지에 Google+ 아이콘이 보여지도록 선택할 수 있습니다. "
 
-#: options_blu.php:156
+#: options_divi.php:156
 msgid "Show RSS Icon"
 msgstr "RSS 아이콘 보이기"
 
-#: options_blu.php:160
+#: options_divi.php:160
 msgid "Here you can choose to display the RSS Icon. "
 msgstr "당신의 홈페이지에 RSS 아이콘이 보여지도록 선택할 수 있습니다."
 
-#: options_blu.php:162
+#: options_divi.php:162
 msgid "Facebook Profile Url"
 msgstr "Facebook 프로필 URL"
 
-#: options_blu.php:167
+#: options_divi.php:167
 msgid "Enter the URL of your Facebook Profile. "
 msgstr "Facebook 프로필 URL 을 입력하십시오. "
 
-#: options_blu.php:169
+#: options_divi.php:169
 msgid "Twitter Profile Url"
 msgstr "Twitter 프로필 URL"
 
-#: options_blu.php:174
+#: options_divi.php:174
 msgid "Enter the URL of your Twitter Profile."
 msgstr "Twitter 프로필 URL 을 입력하십시오."
 
-#: options_blu.php:176
+#: options_divi.php:176
 msgid "Google+ Profile Url"
 msgstr "Google+ 프로필 URL"
 
-#: options_blu.php:181
+#: options_divi.php:181
 msgid "Enter the URL of your Google+ Profile. "
 msgstr "Google+ 프로필 URL 을 입력하십시오. "
 
-#: options_blu.php:183
+#: options_divi.php:183
 msgid "RSS Icon Url"
 msgstr "RSS 아이콘 URL"
 
-#: options_blu.php:188
+#: options_divi.php:188
 msgid "Enter the URL of your RSS feed. "
 msgstr "RSS 피드 URL 을 입력하십시오. "
 
-#: options_blu.php:190
+#: options_divi.php:190
 msgid "Number of Products displayed on WooCommerce archive pages"
 msgstr "WooCommerce 보관 페이지에 제품 수 표시"
 
-#: options_blu.php:194
+#: options_divi.php:194
 msgid ""
 "Here you can designate how many WooCommerce products are displayed on the "
 "archive page. This option works independently from the Settings > Reading "
@@ -2021,11 +2021,11 @@ msgstr ""
 "여기에서 얼마나 많은 WooCommerce 제품을 표시할 것인지 지정할 수 있습니다. 이 "
 "옵션은 wp-admin에서 설정 > 읽기 옵션과는 독립적으로 작동합니다."
 
-#: options_blu.php:198
+#: options_divi.php:198
 msgid "Number of Posts displayed on Category page"
 msgstr "포스트 수가 카테고리 페이지에 표시됩니다"
 
-#: options_blu.php:202
+#: options_divi.php:202
 msgid ""
 "Here you can designate how many recent articles are displayed on the "
 "Category page. This option works independently from the Settings > Reading "
@@ -2034,11 +2034,11 @@ msgstr ""
 "최근 글이 몇 개나 카테고리 페이지에 표시될 지 여기에서 정할 수 있습니다. 이 "
 "옵션은 wp-admin 의 읽기 옵션과는 따로 작동합니다."
 
-#: options_blu.php:206
+#: options_divi.php:206
 msgid "Number of Posts displayed on Archive pages"
 msgstr "포스트 수가 아카이브 페이지에 표시됩니다"
 
-#: options_blu.php:210
+#: options_divi.php:210
 msgid ""
 "Here you can designate how many recent articles are displayed on the Archive "
 "pages. This option works independently from the Settings > Reading options "
@@ -2047,11 +2047,11 @@ msgstr ""
 "최근 글이 몇 개나 아카이브 페이지에 표시될 지 여기에서 정할 수 있습니다. 이 "
 "옵션은 wp-admin 의 읽기 옵션과는 따로 작동합니다."
 
-#: options_blu.php:214
+#: options_divi.php:214
 msgid "Number of Posts displayed on Search pages"
 msgstr "검색 페이지에서 표시되는 포스트 수"
 
-#: options_blu.php:218
+#: options_divi.php:218
 msgid ""
 "Here you can designate how many recent articles are displayed on the Search "
 "results pages. This option works independently from the Settings > Reading "
@@ -2060,11 +2060,11 @@ msgstr ""
 "최근 글이 몇 개나 검색 결과 페이지에 표시될 지 여기에서 정할 수 있습니다. 이 "
 "옵션은 wp-admin 의 읽기 옵션과는 따로 작동합니다."
 
-#: options_blu.php:222
+#: options_divi.php:222
 msgid "Number of Posts displayed on Tag pages"
 msgstr "태그 페이지에서 표시되는 포스트 수"
 
-#: options_blu.php:226
+#: options_divi.php:226
 msgid ""
 "Here you can designate how many recent articles are displayed on the Tag "
 "pages. This option works independently from the Settings > Reading options "
@@ -2073,11 +2073,11 @@ msgstr ""
 "최근 글이 몇 개나 태그 페이지에 표시될 지 여기에서 정할 수 있습니다. 이 옵션"
 "은 wp-admin 의 읽기 옵션과는 따로 작동합니다."
 
-#: options_blu.php:230
+#: options_divi.php:230
 msgid "Date format"
 msgstr "날짜 포맷"
 
-#: options_blu.php:234
+#: options_divi.php:234
 msgid ""
 "This option allows you to change how your dates are displayed. For more "
 "information please refer to the WordPress codex here:<a href='http://codex."
@@ -2088,86 +2088,86 @@ msgstr ""
 "원하시면 WordPress 사본을 여기에서 참고하시기 바랍니다:<a href='http://codex."
 "wordpress.org/Formatting_Date_and_Time' target='_blank'>포맷 날짜와 시간</a>"
 
-#: options_blu.php:238
+#: options_divi.php:238
 msgid "Use excerpts when defined"
 msgstr "정의될 때 발췌 사용"
 
-#: options_blu.php:242
+#: options_divi.php:242
 msgid "This will enable the use of excerpts in posts or pages."
 msgstr "이것은 포스트나 페이지에서 발췌를 사용할 수 있게 해줍니다."
 
-#: options_blu.php:245
+#: options_divi.php:245
 msgid "Responsive shortcodes"
 msgstr "반응하는 shortcodes"
 
-#: options_blu.php:249
+#: options_divi.php:249
 msgid "Enable this option to make shortcodes respond to various screen sizes"
 msgstr ""
 "shortcodes 이/가 여러 가지의 화면 크기로 응답하게 하려면 이 옵션을 활성화시키"
 "세요"
 
-#: options_blu.php:252
+#: options_divi.php:252
 msgid "Google Fonts subsets"
 msgstr "Google Fonts 서브세트"
 
-#: options_blu.php:256
+#: options_divi.php:256
 msgid "This will enable Google Fonts for Non-English languages."
 msgstr "이것은 영어 이외의 언어를 위한 Google Fonts 을/를 활성화 합니다."
 
-#: options_blu.php:259
+#: options_divi.php:259
 msgid "Back To Top Button"
 msgstr "탑 버튼으로 돌아가기"
 
-#: options_blu.php:263
+#: options_divi.php:263
 msgid "Enable this option to display Back To Top Button while scrolling"
 msgstr ""
 "스크롤 하는 동안 탑 버튼으로 돌아가기를 표시하려면 이 옵션을 활성화시키세요"
 
-#: options_blu.php:266
+#: options_divi.php:266
 msgid "Smooth Scrolling"
 msgstr "매끄러운 스크롤"
 
-#: options_blu.php:270
+#: options_divi.php:270
 msgid "Enable this option to get the smooth scrolling effect with mouse wheel"
 msgstr "마우스 휠로 매끄러운 스크롤 효과를 얻으려면 이 옵션을 활성화시키세요"
 
-#: options_blu.php:273
+#: options_divi.php:273
 msgid "Disable Translations"
 msgstr "번역 사용 안 함"
 
-#: options_blu.php:277
+#: options_divi.php:277
 msgid ""
 "Disable translations if you don't want to display translated theme strings "
 "on your site."
 msgstr "사이트에서 번역된 테마 문자열을 표시하지 않으려면 사용하지 않습니다."
 
-#: options_blu.php:280
+#: options_divi.php:280
 msgid "Custom CSS"
 msgstr "사용자 맞춤 CSS"
 
-#: options_blu.php:284
+#: options_divi.php:284
 msgid "Here you can add custom css to override or extend default styles."
 msgstr ""
 "기본 스타일을 덮어쓰거나 확장할 수 있는 사용자 맞춤 CSS 를 여기에서 추가할 "
 "수 있습니다."
 
-#: options_blu.php:289
+#: options_divi.php:289
 msgid "Memory Limit Increase"
 msgstr "메모리 용량 증가"
 
-#: options_blu.php:291
+#: options_divi.php:291
 msgid "Here you can disable automatic memory limit increase."
 msgstr "여기에서 메모리 용량이 자동으로 증가하는 것을 막을 수 있습니다."
 
-#: options_blu.php:311
+#: options_divi.php:311
 msgid "Pages"
 msgstr "페이지"
 
-#: options_blu.php:329
+#: options_divi.php:329
 msgid "Exclude pages from the navigation bar"
 msgstr "네비게이션 바에서 페이지 제외"
 
-#: options_blu.php:333
+#: options_divi.php:333
 msgid ""
 "Here you can choose to remove certain pages from the navigation menu. All "
 "pages marked with an X will not appear in your navigation bar. "
@@ -2175,22 +2175,22 @@ msgstr ""
 "네비게이션 메뉴에서 특정 페이지를 삭제하는 선택을 여기에서 할 수 있습니다. X "
 "표시가 된 페이지는 네비게이션 바에 나타나지 않습니다. "
 
-#: options_blu.php:337 options_blu.php:387
+#: options_divi.php:337 options_divi.php:387
 msgid "Show dropdown menus"
 msgstr "드롭다운 메뉴 보여주기"
 
-#: options_blu.php:341
+#: options_divi.php:341
 msgid ""
 "If you would like to remove the dropdown menus from the pages navigation bar "
 "disable this feature."
 msgstr ""
 "네비게이션 바에서 드롭다운 메뉴를 삭제하려면 이 기능을 비활성화 해주십시오."
 
-#: options_blu.php:344
+#: options_divi.php:344
 msgid "Display Home link"
 msgstr "홈 링크 표시"
 
-#: options_blu.php:348
+#: options_divi.php:348
 msgid ""
 "By default the theme creates a Home link that, when clicked, leads back to "
 "your blog's homepage. If, however, you are using a static homepage and have "
@@ -2202,19 +2202,19 @@ msgstr ""
 "고 홈이라고 명명된 페이지를 이미 만들었다면, 이것은 반복된 링크를 만들게 됩니"
 "다. 이럴 경우 링크를 삭제하기 위해서 이 기능을 비활성화 하십시오."
 
-#: options_blu.php:351
+#: options_divi.php:351
 msgid "Sort Pages Links"
 msgstr "페이지 링크 분류"
 
-#: options_blu.php:355
+#: options_divi.php:355
 msgid "Here you can choose to sort your pages links."
 msgstr "페이지 링크를 분류하는 법을 여기서 선택할 수 있습니다."
 
-#: options_blu.php:358
+#: options_divi.php:358
 msgid "Order Pages Links by Ascending/Descending"
 msgstr "올림차순/ 내림차순으로 페이지 링크 순서 정하기"
 
-#: options_blu.php:362
+#: options_divi.php:362
 msgid ""
 "Here you can choose to reverse the order that your pages links are "
 "displayed. You can choose between ascending and descending."
@@ -2222,11 +2222,11 @@ msgstr ""
 "당신의 페이지 링크가 표시되는 순서를 바꾸는 선택을 여기서 할 수 있습니다. 올"
 "림차순과 내림차순 사이에서 선택할 수 있습니다."
 
-#: options_blu.php:365 options_blu.php:401
+#: options_divi.php:365 options_divi.php:401
 msgid "Number of dropdown tiers shown"
 msgstr "보여지는 드롭다운 계층 수"
 
-#: options_blu.php:369 options_blu.php:405
+#: options_divi.php:369 options_divi.php:405
 msgid ""
 "This options allows you to control how many teirs your pages dropdown menu "
 "has. Increasing the number allows for additional menu items to be shown."
@@ -2234,11 +2234,11 @@ msgstr ""
 "이 옵션은 당신의 페이지 드롭다운 메뉴의 계층 수를 관리하게 해 줍니다. 숫자를 "
 "늘리면 추가 메뉴 아이템을 보여주게 합니다."
 
-#: options_blu.php:379
+#: options_divi.php:379
 msgid "Exclude categories from the navigation bar"
 msgstr "네비게이션 바에서 카테고리 제외하기"
 
-#: options_blu.php:383
+#: options_divi.php:383
 msgid ""
 "Here you can choose to remove certain categories from the navigation menu. "
 "All categories marked with an X will not appear in your navigation bar. "
@@ -2246,7 +2246,7 @@ msgstr ""
 "네비게이션 메뉴에서 특정 카테고리를 삭제하는 선택을 여기에서 할 수 있습니다. "
 "X 표시가 된 카테고리는 네비게이션 바에 나타나지 않습니다. "
 
-#: options_blu.php:391
+#: options_divi.php:391
 msgid ""
 "If you would like to remove the dropdown menus from the categories "
 "navigation bar disable this feature."
@@ -2254,11 +2254,11 @@ msgstr ""
 "카테고리 네비게이션 바에서 드롭다운 메뉴를 삭제하시려면 이 기능을 비활성화 하"
 "십시오."
 
-#: options_blu.php:394
+#: options_divi.php:394
 msgid "Hide empty categories"
 msgstr "비어 있는 카테고리 숨기기"
 
-#: options_blu.php:398
+#: options_divi.php:398
 msgid ""
 "If you would like categories to be displayed in your navigationbar that "
 "don't have any posts in them then disable this option. By default empty "
@@ -2267,11 +2267,11 @@ msgstr ""
 "포스트가 없는 네비게이션 바에서 카테고리가 표시되길 원한다면 이 옵션을 비활성"
 "화 하십시오. 기본적으로 비어 있는 카테고리는 숨겨집니다."
 
-#: options_blu.php:409
+#: options_divi.php:409
 msgid "Sort Categories Links by Name/ID/Slug/Count/Term Group"
 msgstr "Name/ID/Slug/Count/Term 그룹으로 카테고리 링크 분류"
 
-#: options_blu.php:413
+#: options_divi.php:413
 msgid ""
 "By default pages are sorted by name. However if you would rather have them "
 "sorted by ID you can adjust this setting."
@@ -2279,11 +2279,11 @@ msgstr ""
 "기본적으로 페이지는 이름으로 분류됩니다. 하지만 ID 로 분류하기 원한다면 이러"
 "한 설정으로 조정할 수 있습니다."
 
-#: options_blu.php:416
+#: options_divi.php:416
 msgid "Order Category Links by Ascending/Descending"
 msgstr "오름차순 혹은 내림차순으로 카테고리 링크 순서 정하기"
 
-#: options_blu.php:420
+#: options_divi.php:420
 msgid ""
 "Here you can choose to reverse the order that your categories links are "
 "displayed. You can choose between ascending and descending."
@@ -2291,11 +2291,11 @@ msgstr ""
 "당신의 카테고리 링크가 표시되는 순서를 바꾸는 선택을 여기서 할 수 있습니다. "
 "올림차순과 내림차순 사이에서 선택할 수 있습니다."
 
-#: options_blu.php:429
+#: options_divi.php:429
 msgid "Disable top tier dropdown menu links"
 msgstr "탑 계층 드롭다운 메뉴 링크 비활성화 하기"
 
-#: options_blu.php:433
+#: options_divi.php:433
 msgid ""
 "In some cases users will want to create parent categories or links as "
 "placeholders to hold a list of child links or categories. In this case it is "
@@ -2310,19 +2310,19 @@ msgstr ""
 "다. 이 기능을 활성화 시키면 모든 상위 페이지/카테고리에서 링크가 삭제되어 클"
 "릭해도 어느 곳으로도 이끌지 않게 됩니다."
 
-#: options_blu.php:451
+#: options_divi.php:451
 msgid "Single Post Layout"
 msgstr "개별 포스트 레이아웃"
 
-#: options_blu.php:456
+#: options_divi.php:456
 msgid "Single Page Layout"
 msgstr "개별 페이지 레이아웃"
 
-#: options_blu.php:469
+#: options_divi.php:469
 msgid "Choose which items to display in the postinfo section"
 msgstr "포스트 정보 섹션에 어떤 항목이 표시될지 선택"
 
-#: options_blu.php:473
+#: options_divi.php:473
 msgid ""
 "Here you can choose which items appear in the postinfo section on single "
 "post pages. This is the area, usually below the post title, which displays "
@@ -2333,11 +2333,11 @@ msgstr ""
 "할 수 있습니다. 이것은 당신의 포스트에 대한 기본 정보가 표시되는 영역으로 보"
 "통 포스트 제목 아래에 있습니다. 아래에 하이라이트된 항목이 나타날 것입니다. "
 
-#: options_blu.php:477
+#: options_divi.php:477
 msgid "Show comments on posts"
 msgstr "포스트에 코멘트 보여주기"
 
-#: options_blu.php:481
+#: options_divi.php:481
 msgid ""
 "You can disable this option if you want to remove the comments and comment "
 "form from single post pages. "
@@ -2345,11 +2345,11 @@ msgstr ""
 "코멘트나 포스트에서의 코멘트 양식을 삭제하기 원하면 이 옵션을 비활성화 하십시"
 "오. "
 
-#: options_blu.php:484
+#: options_divi.php:484
 msgid "Place Thumbs on Posts"
 msgstr "포스트에 썸네일 이미지 넣기"
 
-#: options_blu.php:488
+#: options_divi.php:488
 msgid ""
 "By default thumbnails are placed at the beginning of your post on single "
 "post pages. If you would like to remove this initial thumbnail image to "
@@ -2358,11 +2358,11 @@ msgstr ""
 "기본적으로 개별 포스트 페이지의 처음에 썸네일이 배치됩니다. 반복을 피하기 위"
 "해 이 썸네일 이미지를 삭제하고 싶다면 이 옵션을 비활성화 하십시오. "
 
-#: options_blu.php:497
+#: options_divi.php:497
 msgid "Place Thumbs on Pages"
 msgstr "페이지에 썸네일 이미지 넣기"
 
-#: options_blu.php:501
+#: options_divi.php:501
 msgid ""
 "By default thumbnails are not placed on pages (they are only used on posts). "
 "However, if you want to use thumbnails on pages you can! Just enable this "
@@ -2372,11 +2372,11 @@ msgstr ""
 "지만, 페에지에 썸네일들을 배치하기 원하시면 하실 수 있습니다! 이 옵션을 켜십"
 "시오."
 
-#: options_blu.php:504
+#: options_divi.php:504
 msgid "Show comments on pages"
 msgstr "페이지에서 코멘트 보여주기"
 
-#: options_blu.php:508
+#: options_divi.php:508
 msgid ""
 "By default comments are not placed on pages, however, if you would like to "
 "allow people to comment on your pages simply enable this option. "
@@ -2384,11 +2384,11 @@ msgstr ""
 "기본적으로 코멘트는 페이지에 들어가지 않습니다. 하지만, 당신의 페이지에 사람"
 "들이 코멘트를 할 수 있도록 허락하길 원한다면 이 옵션을 활성화 해 주세요. "
 
-#: options_blu.php:517
+#: options_divi.php:517
 msgid "Post info section"
 msgstr "포스트 정보 섹션"
 
-#: options_blu.php:521
+#: options_divi.php:521
 msgid ""
 "Here you can choose which items appear in the postinfo section on pages. "
 "This is the area, usually below the post title, which displays basic "
@@ -2398,31 +2398,31 @@ msgstr ""
 "것은 당신의 포스트에 대한 기본 정보가 표시되는 영역으로 보통 포스트 제목 아래"
 "에 있습니다. 아래 에 하이라이트된 항목이 나타날 것입니다. "
 
-#: options_blu.php:524
+#: options_divi.php:524
 msgid "Show Thumbs on Index pages"
 msgstr "색인 페이지에서 썸네일 이미지 보여주기"
 
-#: options_blu.php:528
+#: options_divi.php:528
 msgid "Enable this option to show thumbnails on Index Pages."
 msgstr "색인 페이지에서 썸네일을 보여주려면 이 옵션을 활성화 하십시오."
 
-#: options_blu.php:545
+#: options_divi.php:545
 msgid "Homepage SEO"
 msgstr "홈페이지 SEO"
 
-#: options_blu.php:550
+#: options_divi.php:550
 msgid "Single Post Page SEO"
 msgstr "개별 포스트 페이지 SEO"
 
-#: options_blu.php:555
+#: options_divi.php:555
 msgid "Index Page SEO"
 msgstr "색인 페이지 SEO"
 
-#: options_blu.php:563
+#: options_divi.php:563
 msgid " Enable custom title "
 msgstr "사용자 맞춤 제목 활성화 "
 
-#: options_blu.php:567
+#: options_divi.php:567
 msgid ""
 "By default the theme uses a combination of your blog name and your blog "
 "description, as defined when you created your blog, to create your homepage "
@@ -2434,11 +2434,11 @@ msgstr ""
 "만 사용자 맞춤 제목을 만들고 싶다면 이 기능을 활성화 해서 아래에 사용자 맞춤 "
 "제목 필드를 채우면 됩니다. "
 
-#: options_blu.php:570
+#: options_divi.php:570
 msgid " Enable meta description"
 msgstr "메타 태그 설명 활성화"
 
-#: options_blu.php:574
+#: options_divi.php:574
 msgid ""
 "By default the theme uses your blog description, as defined when you created "
 "your blog, to fill in the meta description field. If you would like to use a "
@@ -2449,11 +2449,11 @@ msgstr ""
 "기 위해서 테마는 당신의 블로그 설명을 사용합니다. 다른 설명을 사용하고 싶다"
 "면 이 기능을 활성화 해서 아래에 사용자 맞춤 설명 필드를 채우면 됩니다. "
 
-#: options_blu.php:577
+#: options_divi.php:577
 msgid " Enable meta keywords"
 msgstr "메타 키워드 활성화"
 
-#: options_blu.php:581
+#: options_divi.php:581
 msgid ""
 "By default the theme does not add keywords to your header. Most search "
 "engines don't use keywords to rank your site anymore, but some people define "
@@ -2466,11 +2466,11 @@ msgstr ""
 "가하고 싶으면 이 기능을 활성화 해서 아래에 사용자 맞춤 설명 필드를 채우면 됩"
 "니다. "
 
-#: options_blu.php:584 options_blu.php:711
+#: options_divi.php:584 options_divi.php:711
 msgid " Enable canonical URL's"
 msgstr "표준 URL's 활성화"
 
-#: options_blu.php:588 options_blu.php:662 options_blu.php:715
+#: options_divi.php:588 options_divi.php:662 options_divi.php:715
 msgid ""
 "Canonicalization helps to prevent the indexing of duplicate content by "
 "search engines, and as a result, may help avoid duplicate content penalties "
@@ -2493,11 +2493,11 @@ msgstr ""
 "테마는 표준 URL들을 당신의 링크들과 설정 탭의 wp-admin에 정의되어 있는 도메"
 "인 이름에 바탕을 두고 있습니다."
 
-#: options_blu.php:591
+#: options_divi.php:591
 msgid "Homepage custom title (if enabled)"
 msgstr "홈페이지 사용자 맞춤 제목 (활성화 된다면)"
 
-#: options_blu.php:595
+#: options_divi.php:595
 msgid ""
 "If you have enabled custom titles you can add your custom title here. "
 "Whatever you type here will be placed between the < title >< /title > tags "
@@ -2507,22 +2507,22 @@ msgstr ""
 "니다. 여기에 무엇을 입력하든지 header.php 의 < title >< /title > 태그 사이에 "
 "놓이게 됩니다."
 
-#: options_blu.php:599
+#: options_divi.php:599
 msgid "Homepage meta description (if enabled)"
 msgstr "홈페이지 메타 설명 (활성화 된다면)"
 
-#: options_blu.php:603
+#: options_divi.php:603
 msgid ""
 "If you have enabled meta descriptions you can add your custom description "
 "here."
 msgstr ""
 "메타 설명을 활성화 한다면, 여기에서 사용자 맞춤 설명을 추가할 수 있습니다."
 
-#: options_blu.php:607
+#: options_divi.php:607
 msgid "Homepage meta keywords (if enabled)"
 msgstr "홈페이지 메타 키워드 (활성화 된다면)"
 
-#: options_blu.php:611
+#: options_divi.php:611
 msgid ""
 "If you have enabled meta keywords you can add your custom keywords here. "
 "Keywords should be separated by comas. For example: wordpress,themes,"
@@ -2532,11 +2532,11 @@ msgstr ""
 "다. 키워드는 콤마로 분리 되어야 합니다. 예를 들면, wordpress,themes,"
 "templates,elegant"
 
-#: options_blu.php:615 options_blu.php:689
+#: options_divi.php:615 options_divi.php:689
 msgid "If custom titles are disabled, choose autogeneration method"
 msgstr "사용자 맞춤 제목이 비활성화 되면, 자동 생성 방법을 선택하세요"
 
-#: options_blu.php:620
+#: options_divi.php:620
 msgid ""
 "If you are not using cutsom post titles you can still have control over how "
 "your titles are generated. Here you can choose which order you would like "
@@ -2548,11 +2548,11 @@ msgstr ""
 "는 순서를 정할 수 있고 제목으로부터 블로그 이름을 완전히 삭제할 수도 있습니"
 "다."
 
-#: options_blu.php:623 options_blu.php:697 options_blu.php:733
+#: options_divi.php:623 options_divi.php:697 options_divi.php:733
 msgid "Define a character to separate BlogName and Post title"
 msgstr "웹사이트 이름과 포스트 제목을 분리하는 특징 정의"
 
-#: options_blu.php:627 options_blu.php:701
+#: options_divi.php:627 options_divi.php:701
 msgid ""
 "Here you can change which character separates your blog title and post name "
 "when using autogenerated post titles. Common values are | or -"
@@ -2560,11 +2560,11 @@ msgstr ""
 "여기서, 자동 생성 포스트 제목을 사용할 때 어떤 캐릭터가 블로그 제목과 포스트 "
 "이름을 분리할 지 변경할 수 있습니다. 일반 값은 | 혹은  ? 입니다."
 
-#: options_blu.php:637
+#: options_divi.php:637
 msgid "Enable custom titles"
 msgstr "사용자 맞춤 제목 활성화"
 
-#: options_blu.php:641
+#: options_divi.php:641
 msgid ""
 "By default the theme creates post titles based on the title of your post and "
 "your blog name. If you would like to make your meta title different than "
@@ -2578,11 +2578,11 @@ msgstr ""
 "이 옵션은 사용자 맞춤 제목이 작동하도록 활성화 되어야 합니다. 그리고 아래에 "
 "당신의 제목을 위한 사용자 맞춤 필드 이름을 선택해야 합니다."
 
-#: options_blu.php:644
+#: options_divi.php:644
 msgid "Enable custom description"
 msgstr "사용자 맞춤 설명 활성화"
 
-#: options_blu.php:648
+#: options_divi.php:648
 msgid ""
 "If you would like to add a meta description to your post you can do so using "
 "custom fields. This option must be enabled for descriptions to be displayed "
@@ -2594,11 +2594,11 @@ msgstr ""
 "합니다. 당신이 아래에서 정의한 사용자 맞춤 필드 이름을 기반으로 하는 사용자 "
 "맞춤 필드를 사용해서 메타 설명을 추가할 수 있습니다."
 
-#: options_blu.php:651
+#: options_divi.php:651
 msgid "Enable custom keywords"
 msgstr "사용자 키워드 활성화"
 
-#: options_blu.php:655
+#: options_divi.php:655
 msgid ""
 "If you would like to add meta keywords to your post you can do so using "
 "custom fields. This option must be enabled for keywords to be displayed on "
@@ -2610,15 +2610,15 @@ msgstr ""
 "지정하신 사용자 필드 이름에 기반한 사용자 필드를 이용해서 메타 키워드를 추가"
 "할 수 있습니다."
 
-#: options_blu.php:658
+#: options_divi.php:658
 msgid "Enable canonical URL's"
 msgstr "표준 URL's 활성화"
 
-#: options_blu.php:665
+#: options_divi.php:665
 msgid "Custom field Name to be used for title"
 msgstr "타이틀을 위하여 사용자 필드 이름 사용"
 
-#: options_blu.php:669
+#: options_divi.php:669
 msgid ""
 "When you define your title using custom fields you should use this value for "
 "the custom field Name. The Value of your custom field should be the custom "
@@ -2628,11 +2628,11 @@ msgstr ""
 "위해 이 값을 사용해야 합니다. 당신의 사용자 맞춤 필드 값은 당신이 사용하기 원"
 "하는 사용자 맞춤 제목이 되어야 합니다."
 
-#: options_blu.php:673
+#: options_divi.php:673
 msgid "Custom field Name to be used for description"
 msgstr "설명으로 사용되는 사용자 맞춤 필드 이름"
 
-#: options_blu.php:677
+#: options_divi.php:677
 msgid ""
 "When you define your meta description using custom fields you should use "
 "this value for the custom field Name. The Value of your custom field should "
@@ -2642,11 +2642,11 @@ msgstr ""
 "름을 위해 이 값을 사용해야 합니다. 당신의 사용자 필드 값은 당신이 사용하길 원"
 "하는 사용자 맞춤 설명이 되어야 합니다."
 
-#: options_blu.php:681
+#: options_divi.php:681
 msgid "Custom field Name to be used for keywords"
 msgstr "키워드로 사용되는 사용자 맞춤 필드 이름"
 
-#: options_blu.php:685
+#: options_divi.php:685
 msgid ""
 "When you define your keywords using custom fields you should use this value "
 "for the custom field Name. The Value of your custom field should be the meta "
@@ -2656,7 +2656,7 @@ msgstr ""
 "으로 사용해야 합니다. 당신의 사용자 맞춤 필드 값은 콤마로 분리된 당신이 사용"
 "하길 원하는 메타 키워드여야 합니다."
 
-#: options_blu.php:694
+#: options_divi.php:694
 msgid ""
 "If you are not using cutsom post titles you can still have control over hw "
 "your titles are generated. Here you can choose which order you would like "
@@ -2668,11 +2668,11 @@ msgstr ""
 "이 보여질 것인지 선택하거나 블로그 이름을 제목에서 완전히 삭제할 수도 있습니"
 "다."
 
-#: options_blu.php:718
+#: options_divi.php:718
 msgid "Enable meta descriptions"
 msgstr "메타 설명 활성화"
 
-#: options_blu.php:722
+#: options_divi.php:722
 msgid ""
 "Check this box if you want to display meta descriptions on category/archive "
 "pages. The description is based off the category description you choose when "
@@ -2682,11 +2682,11 @@ msgstr ""
 "오. 설명은 당신이 wp-admin. 에서 카테고리를 생성/편집할 때 선택한 카테고리 설"
 "명에 기반하고 있습니다."
 
-#: options_blu.php:725
+#: options_divi.php:725
 msgid "Choose title autogeneration method"
 msgstr "제목 생성 방법 선택"
 
-#: options_blu.php:730
+#: options_divi.php:730
 msgid ""
 "Here you can choose how your titles on index pages are generated. You can "
 "change which order your blog name and index title are displayed, or you can "
@@ -2696,7 +2696,7 @@ msgstr ""
 "다. 당신의 블로그 이름과 색인 제목이 어떤 순서로 보여질 것인지 변경할 수 있"
 "고 혹은 제목에서 블로그 이름을 제목에서 완전히 삭제할 수 있습니다."
 
-#: options_blu.php:737
+#: options_divi.php:737
 msgid ""
 "Here you can change which character separates your blog title and index page "
 "name when using autogenerated post titles. Common values are | or -"
@@ -2705,15 +2705,15 @@ msgstr ""
 "과 인덱스 페이지를 구분할 것인지 반경할 수 있습니다. 보통 값은 | 혹은  ? 입니"
 "다"
 
-#: options_blu.php:756
+#: options_divi.php:756
 msgid "Code Integration"
 msgstr "코드 통합"
 
-#: options_blu.php:764
+#: options_divi.php:764
 msgid "Enable header code"
 msgstr "헤더 코드 활성화"
 
-#: options_blu.php:768
+#: options_divi.php:768
 msgid ""
 "Disabling this option will remove the header code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2721,11 +2721,11 @@ msgstr ""
 "이 옵션의 비활성화는 당신의 블로그로부터 아래 헤더 코드를 삭제할 것입니다. 향"
 "후 사용을 위해 저장 중에 당신이 코드를 삭제할 수 있도록 할 것입니다."
 
-#: options_blu.php:771
+#: options_divi.php:771
 msgid "Enable body code"
 msgstr "< body > 코드 활성화"
 
-#: options_blu.php:775
+#: options_divi.php:775
 msgid ""
 "Disabling this option will remove the body code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2733,11 +2733,11 @@ msgstr ""
 "이 옵션의 비활성화는 당신의 블로그로부터 아래 바디 코드를 삭제할 것입니다. 향"
 "후 사용을 위해 저장 중에 당신이 코드를 삭제할 수 있도록 할 것입니다."
 
-#: options_blu.php:778
+#: options_divi.php:778
 msgid "Enable single top code"
 msgstr "싱글 상단 코드 활성화"
 
-#: options_blu.php:782
+#: options_divi.php:782
 msgid ""
 "Disabling this option will remove the single top code below from your blog. "
 "This allows you to remove the code while saving it for later use."
@@ -2745,11 +2745,11 @@ msgstr ""
 "이 옵션의 비활성화는 당신의 블로그로부터 아래 싱글 상단 코드를 삭제할 것입니"
 "다. 향후 사용을 위해 저장 중에 당신이 코드를 삭제할 수 있도록 할 것입니다."
 
-#: options_blu.php:785
+#: options_divi.php:785
 msgid "Enable single bottom code"
 msgstr "싱글 하단 코드 활성화"
 
-#: options_blu.php:789
+#: options_divi.php:789
 msgid ""
 "Disabling this option will remove the single bottom code below from your "
 "blog. This allows you to remove the code while saving it for later use."
@@ -2757,11 +2757,11 @@ msgstr ""
 "이 옵션의 비활성화는 당신의 블로그로부터 아래 싱글 하단 코드를 삭제할 것입니"
 "다. 향후 사용을 위해 저장 중에 당신이 코드를 삭제할 수 있도록 할 것입니다."
 
-#: options_blu.php:792
+#: options_divi.php:792
 msgid "Add code to the < head > of your blog"
 msgstr "당신의 블로그의 < head > 에 코드 추가"
 
-#: options_blu.php:796
+#: options_divi.php:796
 msgid ""
 "Any code you place here will appear in the head section of every page of "
 "your blog. This is useful when you need to add javascript or css to all "
@@ -2770,12 +2770,12 @@ msgstr ""
 "당신이 여기 추가하는 코드는 당신의 블로그의 모든 페이지 헤드 섹션에 나타납니"
 "다. 이 기능은 모든 페이지에 Javascript 혹은 CSS 를 추가할 때 유용합니다."
 
-#: options_blu.php:799
+#: options_divi.php:799
 msgid ""
 "Add code to the < body > (good for tracking codes such as google analytics)"
 msgstr "< body > 에 코드 추가 (Google Analytics 같은 코드로서 추적하기 좋음)"
 
-#: options_blu.php:803
+#: options_divi.php:803
 msgid ""
 "Any code you place here will appear in body section of all pages of your "
 "blog. This is usefull if you need to input a tracking pixel for a state "
@@ -2785,11 +2785,11 @@ msgstr ""
 "다. 이 기능은 당신이  Google Analytics 같은 상태 카운터를 위한 추적 픽셀을 입"
 "력할 때 유용합니다."
 
-#: options_blu.php:806
+#: options_divi.php:806
 msgid "Add code to the top of your posts"
 msgstr "당신의 포스트 상단에 코드 추가"
 
-#: options_blu.php:810 options_blu.php:817
+#: options_divi.php:810 options_divi.php:817
 msgid ""
 "Any code you place here will be placed at the top of all single posts. This "
 "is useful if you are looking to integrating things such as social "
@@ -2798,19 +2798,19 @@ msgstr ""
 "당신이 여기 추가하는 코드는 모든 포스트 상단에 나타납니다. 이 기능은 당신이 "
 "소셜 즐겨찾기 링크와 같은 통합된 것들을 볼 때 유용합니다."
 
-#: options_blu.php:813
+#: options_divi.php:813
 msgid "Add code to the bottom of your posts, before the comments"
 msgstr "코멘트 전 당신의 포스트 하단에 코드 추가"
 
-#: options_blu.php:835
+#: options_divi.php:835
 msgid "Manage Un-widgetized Advertisements"
 msgstr "광고 관리"
 
-#: options_blu.php:843
+#: options_divi.php:843
 msgid "Enable Single Post 468x60 banner"
 msgstr "개별 푸스트 468x60 배너 활성화"
 
-#: options_blu.php:847
+#: options_divi.php:847
 msgid ""
 "Enabling this option will display a 468x60 banner ad on the bottom of your "
 "post pages below the single post content. If enabled you must fill in the "
@@ -2819,27 +2819,27 @@ msgstr ""
 "이 옵션을 활성화 하면 포스트 내용 밑의 포스트 페이지 마지막에 468x60 배너가 "
 "보여집니다. 활성화 되면 배너 이미지와 관련 URL을 입력해야 합니다."
 
-#: options_blu.php:850
+#: options_divi.php:850
 msgid "Input 468x60 advertisement banner image"
 msgstr "468x60 광고 배너 이미지 입력"
 
-#: options_blu.php:854
+#: options_divi.php:854
 msgid "Here you can provide 468x60 banner image url"
 msgstr "여기에 468x60 배너 이미지 URL을 넣을 수 있습니다."
 
-#: options_blu.php:858
+#: options_divi.php:858
 msgid "Input 468x60 advertisement destination url"
 msgstr "468x60 광고 목적지 URL 입력"
 
-#: options_blu.php:862
+#: options_divi.php:862
 msgid "Here you can provide 468x60 banner destination url"
 msgstr "여기에 468x60 배너 이미지 목적지 URL 을 넣을 수 있습니다."
 
-#: options_blu.php:866
+#: options_divi.php:866
 msgid "Input 468x60 adsense code"
 msgstr "468x60 Google Adsense 코드 입력"
 
-#: options_blu.php:870
+#: options_divi.php:870
 msgid "Place your adsense code here."
 msgstr "Google Adsense 코드를 이곳에 넣으십시오."
 

@@ -97,7 +97,7 @@ msgstr "%s Mga Opsyon ng Theme"
 msgid "Reset to Defaults"
 msgstr "Ibalik sa Default"
 
-#: epanel/core_functions.php:160 options_blu.php:38
+#: epanel/core_functions.php:160 options_divi.php:38
 msgid "General"
 msgstr "Pangkalahatan"
 
@@ -161,7 +161,7 @@ msgstr "May-akda"
 msgid "Date"
 msgstr "Petsa"
 
-#: epanel/core_functions.php:510 options_blu.php:316
+#: epanel/core_functions.php:510 options_divi.php:316
 msgid "Categories"
 msgstr "Mga Kategorya"
 
@@ -515,15 +515,15 @@ msgstr "Mga Skill"
 msgid "Posted on"
 msgstr "Nai-post noong"
 
-#: functions.php:293 options_blu.php:103
+#: functions.php:293 options_divi.php:103
 msgid "Right Sidebar"
 msgstr "Kanang Sidebar"
 
-#: functions.php:294 options_blu.php:104
+#: functions.php:294 options_divi.php:104
 msgid "Left Sidebar"
 msgstr "Kaliwang Sidebar"
 
-#: functions.php:295 options_blu.php:105
+#: functions.php:295 options_divi.php:105
 msgid "Full Width"
 msgstr "Buong Width"
 
@@ -593,7 +593,7 @@ msgstr "Nabigasyon sa Proyekto"
 msgid "you don't have sufficient permissions to access this page"
 msgstr "wala kang sapat na mga pahintulot upang ma-access ang pahinang ito"
 
-#: functions.php:586 options_blu.php:321 options_blu.php:461
+#: functions.php:586 options_divi.php:321 options_divi.php:461
 msgid "General Settings"
 msgstr "Mga Pangkalahatang Setting"
 
@@ -1802,15 +1802,15 @@ msgstr "Adsense"
 msgid "Adsense Code"
 msgstr "Code ng Adsense "
 
-#: options_blu.php:45
+#: options_divi.php:45
 msgid "Logo"
 msgstr "Logo"
 
-#: options_blu.php:48
+#: options_divi.php:48
 msgid "Set As Logo"
 msgstr "I-set bilang Logo"
 
-#: options_blu.php:50
+#: options_divi.php:50
 msgid ""
 "If you would like to use your own custom logo image click the Upload Image "
 "button."
@@ -1818,15 +1818,15 @@ msgstr ""
 "Kung sakaling gusto mong gamiting ang sarili mong custom na larawan ng logo, "
 "i-click ang button na \"I-upload ang Larawan.\""
 
-#: options_blu.php:53
+#: options_divi.php:53
 msgid "Favicon"
 msgstr "Favicon"
 
-#: options_blu.php:56
+#: options_divi.php:56
 msgid "Set As Favicon"
 msgstr "I-set bilang Favicon"
 
-#: options_blu.php:58
+#: options_divi.php:58
 msgid ""
 "If you would like to use your own custom favicon image click the Upload "
 "Image button."
@@ -1834,11 +1834,11 @@ msgstr ""
 "Kung sakaling gusto mong gamiting ang sarili mong custom na larawan ng "
 "favicon, i-click ang button na I-upload ang Larawan."
 
-#: options_blu.php:61
+#: options_divi.php:61
 msgid "Fixed Navigation Bar"
 msgstr "Naka-fix na Bar ng Navigation"
 
-#: options_blu.php:65
+#: options_divi.php:65
 msgid ""
 "By default the navigation bar stays on top of the screen at all times. We "
 "suggest to disable this option, if you need to use a logo taller than the "
@@ -1848,11 +1848,11 @@ msgstr ""
 "panahon. Iminumungkahi namin na i-disable ang opsyong ito kung kailangan "
 "mong gumamit ng malaking larawan ng logo."
 
-#: options_blu.php:68
+#: options_divi.php:68
 msgid "Enable Divi Gallery"
 msgstr "I-enable ang Divi Gallery"
 
-#: options_blu.php:72
+#: options_divi.php:72
 msgid ""
 "Enable this if you want to replace the WordPress default gallery with the "
 "Divi-style gallery."
@@ -1860,21 +1860,21 @@ msgstr ""
 "I-enable ito kung gusto mong palitan ang default gallery mo sa Wordpress ng "
 "gallery na istilong Divi."
 
-#: options_blu.php:75
+#: options_divi.php:75
 msgid "Color Pickers Default Palette"
 msgstr "Default na Paleta ng mga Pangpili ng Kulay"
 
-#: options_blu.php:80
+#: options_divi.php:80
 msgid "Define the default color palette for color pickers in the Divi Builder."
 msgstr ""
 "Itakda ang default na paleta ng kulay para sa mga pangpili ng kulay sa Divi "
 "Builder."
 
-#: options_blu.php:85
+#: options_divi.php:85
 msgid "Grab the first post image"
 msgstr "Kunin ang larawan ng unang post"
 
-#: options_blu.php:89
+#: options_divi.php:89
 msgid ""
 "By default thumbnail images are created using custom fields. However, if you "
 "would rather use the images that are already in your post for your thumbnail "
@@ -1889,11 +1889,11 @@ msgstr ""
 "awtomatikong mabubuo ang mga larawan sa thumbnail gamit ang unang larawan sa "
 "iyong post. Dapat na naka-host ang larawan sa sarili mong server."
 
-#: options_blu.php:92
+#: options_divi.php:92
 msgid "Blog Style Mode"
 msgstr "Mode na Estilo ng Blog"
 
-#: options_blu.php:96
+#: options_divi.php:96
 msgid ""
 "By default the theme truncates your posts on index/homepages automatically "
 "to create post previews. If you would rather show your posts in full on "
@@ -1904,21 +1904,21 @@ msgstr ""
 "ang iyong mga post gaya ng sa tradisyonal na blog, kung ganoon, maaari mong "
 "i-activate ang feature na ito."
 
-#: options_blu.php:99
+#: options_divi.php:99
 msgid "Shop Page & Category Page Layout for WooCommerce"
 msgstr "Layout ng Page sa Pagbili at Page ng Kategorya para sa WooCommerce"
 
-#: options_blu.php:108
+#: options_divi.php:108
 msgid "Here you can choose Shop Page & Category Page Layout for WooCommerce."
 msgstr ""
 "Saan ka makakapili ng Layout ng Page sa Pagbili at Page ng Kategorya para sa "
 "WooCommerce."
 
-#: options_blu.php:112
+#: options_divi.php:112
 msgid "MailChimp API Key"
 msgstr "Key ng API ng MailChimp"
 
-#: options_blu.php:117
+#: options_divi.php:117
 msgid ""
 "Enter your MailChimp API key. You can create an api key <a target=\"_blank\" "
 "href=\"%1$s\">here</a>"
@@ -1926,19 +1926,19 @@ msgstr ""
 "Ilagay ang key ng API ng iyong MailChimp. Makakagawa ka ng isang key ng api "
 "<a target=\"_blank\" href=\"%1$s\">dito</a>"
 
-#: options_blu.php:120
+#: options_divi.php:120
 msgid "Aweber Authorization"
 msgstr "Awtorisasyon ng Aweber"
 
-#: options_blu.php:122
+#: options_divi.php:122
 msgid "Authorize your Aweber account here."
 msgstr "Bigyan ng awtorisasyon ang iyong Aweber account dito."
 
-#: options_blu.php:126
+#: options_divi.php:126
 msgid "Regenerate MailChimp Lists"
 msgstr "Muling Buuin ang mga Listahan ng MailChimp"
 
-#: options_blu.php:130
+#: options_divi.php:130
 msgid ""
 "By default, MailChimp lists are cached for one day. If you added new list, "
 "but it doesn't appear within the Email Optin module settings, activate this "
@@ -1950,11 +1950,11 @@ msgstr ""
 "pagpipiliang ito. Huwag kalimutan na i-disable ito sa sandaling ang listahan "
 "ay tinanggal nang muli."
 
-#: options_blu.php:132
+#: options_divi.php:132
 msgid "Regenerate Aweber Lists"
 msgstr "Muling Buuin ang mga Listahan ng Aweber"
 
-#: options_blu.php:136
+#: options_divi.php:136
 msgid ""
 "By default, Aweber lists are cached for one day. If you added new list, but "
 "it doesn't appear within the Email Optin module settings, activate this "
@@ -1966,77 +1966,77 @@ msgstr ""
 "pagpipiliang ito. Huwag kalimutan na i-disable ito sa sandaling ang listahan "
 "ay tinanggal nang muli."
 
-#: options_blu.php:138
+#: options_divi.php:138
 msgid "Show Facebook Icon"
 msgstr "Ipakita ang Icon ng Facebook"
 
-#: options_blu.php:142
+#: options_divi.php:142
 msgid "Here you can choose to display the Facebook Icon on your homepage. "
 msgstr ""
 "Dito, maaari mong piliing ipakita ang Icon ng Facebook sa iyong homepage. "
 
-#: options_blu.php:144
+#: options_divi.php:144
 msgid "Show Twitter Icon"
 msgstr "Ipakita ang Icon ng Twitter"
 
-#: options_blu.php:148
+#: options_divi.php:148
 msgid "Here you can choose to display the Twitter Icon. "
 msgstr "Dito, maaari mong piliing ipakita ang Icon ng Twitter. "
 
-#: options_blu.php:150
+#: options_divi.php:150
 msgid "Show Google+ Icon"
 msgstr "Ipakita ang Icon ng Google+"
 
-#: options_blu.php:154
+#: options_divi.php:154
 msgid "Here you can choose to display the Google+ Icon on your homepage. "
 msgstr ""
 "Dito, maaari mong piliing ipakita ang Icon ng Google+ sa iyong homepage. "
 
-#: options_blu.php:156
+#: options_divi.php:156
 msgid "Show RSS Icon"
 msgstr "Ipakita ang Icon ng RSS"
 
-#: options_blu.php:160
+#: options_divi.php:160
 msgid "Here you can choose to display the RSS Icon. "
 msgstr "Dito, maaari mong piliing ipakita ang Icon ng RSS. "
 
-#: options_blu.php:162
+#: options_divi.php:162
 msgid "Facebook Profile Url"
 msgstr "URL ng Profile sa Facebook"
 
-#: options_blu.php:167
+#: options_divi.php:167
 msgid "Enter the URL of your Facebook Profile. "
 msgstr "Ilagay ang URL ng iyong Profile ng Facebook. "
 
-#: options_blu.php:169
+#: options_divi.php:169
 msgid "Twitter Profile Url"
 msgstr "URL ng Profile sa Twitter"
 
-#: options_blu.php:174
+#: options_divi.php:174
 msgid "Enter the URL of your Twitter Profile."
 msgstr "Ilagay ang URL ng iyong Profile ng Twitter."
 
-#: options_blu.php:176
+#: options_divi.php:176
 msgid "Google+ Profile Url"
 msgstr "URL ng Profile sa Google+"
 
-#: options_blu.php:181
+#: options_divi.php:181
 msgid "Enter the URL of your Google+ Profile. "
 msgstr "Ilagay ang URL ng iyong Profile ng Google+. "
 
-#: options_blu.php:183
+#: options_divi.php:183
 msgid "RSS Icon Url"
 msgstr "URL ng Icon ng RSS"
 
-#: options_blu.php:188
+#: options_divi.php:188
 msgid "Enter the URL of your RSS feed. "
 msgstr "Ilagay ang URL ng iyong RSS feed. "
 
-#: options_blu.php:190
+#: options_divi.php:190
 msgid "Number of Products displayed on WooCommerce archive pages"
 msgstr "Dami ng Mga Produktong nakadisplay sa pahina ng archive ng WooCommerce"
 
-#: options_blu.php:194
+#: options_divi.php:194
 msgid ""
 "Here you can designate how many WooCommerce products are displayed on the "
 "archive page. This option works independently from the Settings > Reading "
@@ -2046,11 +2046,11 @@ msgstr ""
 "dapat nakadisplay sa pahina ng archive. Ang opsyon na ito ay mag-isang "
 "gumagana mula sa Mga Setting > Mga opsyon sa pagbabasa sa wp-admin."
 
-#: options_blu.php:198
+#: options_divi.php:198
 msgid "Number of Posts displayed on Category page"
 msgstr "Bilang ng mga Post na ipinapakita sa page ng Kategorya"
 
-#: options_blu.php:202
+#: options_divi.php:202
 msgid ""
 "Here you can designate how many recent articles are displayed on the "
 "Category page. This option works independently from the Settings > Reading "
@@ -2060,11 +2060,11 @@ msgstr ""
 "sa page ng Kategorya. Gumagana ang opsyong ito nang hindi nakadepende sa mga "
 "opsyon ng Pagbabasa sa wp-admin."
 
-#: options_blu.php:206
+#: options_divi.php:206
 msgid "Number of Posts displayed on Archive pages"
 msgstr "Bilang ng mga Post na ipinapakita sa mga page ng Archive"
 
-#: options_blu.php:210
+#: options_divi.php:210
 msgid ""
 "Here you can designate how many recent articles are displayed on the Archive "
 "pages. This option works independently from the Settings > Reading options "
@@ -2074,11 +2074,11 @@ msgstr ""
 "sa mga page ng Archive. Gumagana ang opsyong ito nang hindi nakadepende sa "
 "mga opsyon ng Pagbabasa sa wp-admin."
 
-#: options_blu.php:214
+#: options_divi.php:214
 msgid "Number of Posts displayed on Search pages"
 msgstr "Bilang ng mga Post na ipinapakita sa mga page ng Paghahanap"
 
-#: options_blu.php:218
+#: options_divi.php:218
 msgid ""
 "Here you can designate how many recent articles are displayed on the Search "
 "results pages. This option works independently from the Settings > Reading "
@@ -2088,11 +2088,11 @@ msgstr ""
 "sa mga page ng mga resulta ng Paghahanap. Gumagana ang opsyong ito nang "
 "hindi nakadepende sa mga opsyon ng Pagbabasa sa wp-admin."
 
-#: options_blu.php:222
+#: options_divi.php:222
 msgid "Number of Posts displayed on Tag pages"
 msgstr "Bilang ng mga Post na ipinapakita sa mga page ng Tag"
 
-#: options_blu.php:226
+#: options_divi.php:226
 msgid ""
 "Here you can designate how many recent articles are displayed on the Tag "
 "pages. This option works independently from the Settings > Reading options "
@@ -2102,11 +2102,11 @@ msgstr ""
 "sa mga page ng Tag. Gumagana ang opsyong ito nang hindi nakadepende sa mga "
 "opsyon ng Pagbabasa sa wp-admin."
 
-#: options_blu.php:230
+#: options_divi.php:230
 msgid "Date format"
 msgstr "Format ng petsa"
 
-#: options_blu.php:234
+#: options_divi.php:234
 msgid ""
 "This option allows you to change how your dates are displayed. For more "
 "information please refer to the WordPress codex here:<a href='http://codex."
@@ -2118,58 +2118,58 @@ msgstr ""
 "dito:<a href='http://codex.wordpress.org/Formatting_Date_and_Time' "
 "target='_blank'>Pagfo-format ng Petsa at Oras</a>"
 
-#: options_blu.php:238
+#: options_divi.php:238
 msgid "Use excerpts when defined"
 msgstr "Gamitin ang mga sipi kapag tinukoy"
 
-#: options_blu.php:242
+#: options_divi.php:242
 msgid "This will enable the use of excerpts in posts or pages."
 msgstr ""
 "Gagawin nitong posible ang paggamit ng mga sipi sa mga post o mga page."
 
-#: options_blu.php:245
+#: options_divi.php:245
 msgid "Responsive shortcodes"
 msgstr "Tumutugong shortcodes"
 
-#: options_blu.php:249
+#: options_divi.php:249
 msgid "Enable this option to make shortcodes respond to various screen sizes"
 msgstr ""
 "I-enable ang opsyong ito upang gawing tumutugon ang shortcodes sa iba't "
 "ibang mga laki ng screen"
 
-#: options_blu.php:252
+#: options_divi.php:252
 msgid "Google Fonts subsets"
 msgstr "Mga subset ng Google Fonts"
 
-#: options_blu.php:256
+#: options_divi.php:256
 msgid "This will enable Google Fonts for Non-English languages."
 msgstr "Ie-enable nito ang Google Fonts para sa mga wikang hindi Ingles."
 
-#: options_blu.php:259
+#: options_divi.php:259
 msgid "Back To Top Button"
 msgstr "Button na Bumalik sa Itaas"
 
-#: options_blu.php:263
+#: options_divi.php:263
 msgid "Enable this option to display Back To Top Button while scrolling"
 msgstr ""
 "I-enable ang opsyong ito upang ipakita ang Button na Bumalik Sa Itaas habang "
 "nag-e-scroll"
 
-#: options_blu.php:266
+#: options_divi.php:266
 msgid "Smooth Scrolling"
 msgstr "Mahusay na Pag-e-scroll"
 
-#: options_blu.php:270
+#: options_divi.php:270
 msgid "Enable this option to get the smooth scrolling effect with mouse wheel"
 msgstr ""
 "I-enable ang opsyong ito upang magkaroon ng effect ng mahusay na pag-e-"
 "scroll gamit ang wheel ng mouse"
 
-#: options_blu.php:273
+#: options_divi.php:273
 msgid "Disable Translations"
 msgstr "I-disable ang Pagsasaling-wika"
 
-#: options_blu.php:277
+#: options_divi.php:277
 msgid ""
 "Disable translations if you don't want to display translated theme strings "
 "on your site."
@@ -2177,34 +2177,34 @@ msgstr ""
 "I-disable ang pagsasaling-wika kung hindi mo gustong i-display ang mga theme "
 "string na isinaling-wika sa iyong site."
 
-#: options_blu.php:280
+#: options_divi.php:280
 msgid "Custom CSS"
 msgstr "Custom na CSS"
 
-#: options_blu.php:284
+#: options_divi.php:284
 msgid "Here you can add custom css to override or extend default styles."
 msgstr ""
 "Maaari mong idagdag dito ang custom na CSS upang i-override o i-extend ang "
 "mga default na estilo."
 
-#: options_blu.php:289
+#: options_divi.php:289
 msgid "Memory Limit Increase"
 msgstr "Pagtaas ng Limitasyon ng Memorya"
 
-#: options_blu.php:291
+#: options_divi.php:291
 msgid "Here you can disable automatic memory limit increase."
 msgstr ""
 "Dito maaari mong idisable ang awtomatikong pagtaas ng limitasyon ng memorya."
 
-#: options_blu.php:311
+#: options_divi.php:311
 msgid "Pages"
 msgstr "Mga Page"
 
-#: options_blu.php:329
+#: options_divi.php:329
 msgid "Exclude pages from the navigation bar"
 msgstr "Ibukod ang mga page mula sa navigation bar"
 
-#: options_blu.php:333
+#: options_divi.php:333
 msgid ""
 "Here you can choose to remove certain pages from the navigation menu. All "
 "pages marked with an X will not appear in your navigation bar. "
@@ -2213,11 +2213,11 @@ msgstr ""
 "Ang lahat ng page na minarkahan ng X ay hindi lalabas sa iyong navigation "
 "bar. "
 
-#: options_blu.php:337 options_blu.php:387
+#: options_divi.php:337 options_divi.php:387
 msgid "Show dropdown menus"
 msgstr "Ipakita ang mga dropdown na menu"
 
-#: options_blu.php:341
+#: options_divi.php:341
 msgid ""
 "If you would like to remove the dropdown menus from the pages navigation bar "
 "disable this feature."
@@ -2225,11 +2225,11 @@ msgstr ""
 "Kung gugustuhin mong alisin ang mga dropdown na menu mula sa navigation bar "
 "ng mga page, i-disable ang feature na ito."
 
-#: options_blu.php:344
+#: options_divi.php:344
 msgid "Display Home link"
 msgstr "Ipakita ang link ng Home"
 
-#: options_blu.php:348
+#: options_divi.php:348
 msgid ""
 "By default the theme creates a Home link that, when clicked, leads back to "
 "your blog's homepage. If, however, you are using a static homepage and have "
@@ -2242,20 +2242,20 @@ msgstr ""
 "tinatawag na Home, magreresulta ito sa duplicate na link. Sa ganitong "
 "sitwasyon, dapat mong i-disable ang feature na ito para maalis ang link."
 
-#: options_blu.php:351
+#: options_divi.php:351
 msgid "Sort Pages Links"
 msgstr "Pag-uuri ng Link ng mga Page"
 
-#: options_blu.php:355
+#: options_divi.php:355
 msgid "Here you can choose to sort your pages links."
 msgstr ""
 "Maaari mong piliin dito kung paano pag-uuriin ang mga link ng iyong mga page."
 
-#: options_blu.php:358
+#: options_divi.php:358
 msgid "Order Pages Links by Ascending/Descending"
 msgstr "Ayusin ang mga Link ng mga Page nang Pataas/Pababa"
 
-#: options_blu.php:362
+#: options_divi.php:362
 msgid ""
 "Here you can choose to reverse the order that your pages links are "
 "displayed. You can choose between ascending and descending."
@@ -2264,11 +2264,11 @@ msgstr ""
 "mga link ng iyong mga page. Maaari mong piliin sa pagitan ng pataas at "
 "pababang ayos."
 
-#: options_blu.php:365 options_blu.php:401
+#: options_divi.php:365 options_divi.php:401
 msgid "Number of dropdown tiers shown"
 msgstr "Ipinapakita ang bilang ng mga tier ng dropdown"
 
-#: options_blu.php:369 options_blu.php:405
+#: options_divi.php:369 options_divi.php:405
 msgid ""
 "This options allows you to control how many teirs your pages dropdown menu "
 "has. Increasing the number allows for additional menu items to be shown."
@@ -2277,11 +2277,11 @@ msgstr ""
 "dropdown na menu ng iyong mga page. Sa pamamagitan ng pagpapataas ng bilang, "
 "maaaring maipakita ang dagdag na mga item ng menu."
 
-#: options_blu.php:379
+#: options_divi.php:379
 msgid "Exclude categories from the navigation bar"
 msgstr "Ibukod ang mga kategorya mula sa navigation bar"
 
-#: options_blu.php:383
+#: options_divi.php:383
 msgid ""
 "Here you can choose to remove certain categories from the navigation menu. "
 "All categories marked with an X will not appear in your navigation bar. "
@@ -2290,7 +2290,7 @@ msgstr ""
 "navigation. Ang lahat ng kategorya na minarkahan ng X ay hindi lalabas sa "
 "iyong navigation bar. "
 
-#: options_blu.php:391
+#: options_divi.php:391
 msgid ""
 "If you would like to remove the dropdown menus from the categories "
 "navigation bar disable this feature."
@@ -2298,11 +2298,11 @@ msgstr ""
 "Kung gugustuhin mong alisin ang mga dropdown na menu mula sa navigation bar "
 "ng mga kategorya, i-disable ang feature na ito."
 
-#: options_blu.php:394
+#: options_divi.php:394
 msgid "Hide empty categories"
 msgstr "Itago ang walang lamang kategorya"
 
-#: options_blu.php:398
+#: options_divi.php:398
 msgid ""
 "If you would like categories to be displayed in your navigationbar that "
 "don't have any posts in them then disable this option. By default empty "
@@ -2312,13 +2312,13 @@ msgstr ""
 "walang anumang mga post sa mga ito, kung gayon, i-disable ang opsyong ito. "
 "Bilang default, ang mga kategoryang walang laman ay hindi ipinapakita."
 
-#: options_blu.php:409
+#: options_divi.php:409
 msgid "Sort Categories Links by Name/ID/Slug/Count/Term Group"
 msgstr ""
 "Pag-uriin ang mga Link ng mga Kategorya ayon sa Pangkat ng Name/ID/Slug/"
 "Count/Term"
 
-#: options_blu.php:413
+#: options_divi.php:413
 msgid ""
 "By default pages are sorted by name. However if you would rather have them "
 "sorted by ID you can adjust this setting."
@@ -2327,11 +2327,11 @@ msgstr ""
 "gusto mong mapag-uri-uri ang mga ito ayon sa ID, maaari mong isaayos ang "
 "setting na ito."
 
-#: options_blu.php:416
+#: options_divi.php:416
 msgid "Order Category Links by Ascending/Descending"
 msgstr "Ayusin ang mga Link ng mga Kategorya nang Pataas/Pababa"
 
-#: options_blu.php:420
+#: options_divi.php:420
 msgid ""
 "Here you can choose to reverse the order that your categories links are "
 "displayed. You can choose between ascending and descending."
@@ -2340,11 +2340,11 @@ msgstr ""
 "mga link ng iyong mga kategorya. Maaari mong piliin sa pagitan ng pataas at "
 "pababang ayos."
 
-#: options_blu.php:429
+#: options_divi.php:429
 msgid "Disable top tier dropdown menu links"
 msgstr "I-disable ang mga link ng nauunang tier ng dropdown na menu"
 
-#: options_blu.php:433
+#: options_divi.php:433
 msgid ""
 "In some cases users will want to create parent categories or links as "
 "placeholders to hold a list of child links or categories. In this case it is "
@@ -2361,21 +2361,21 @@ msgstr ""
 "link mula sa lahat ng parent na page/kategorya upang hindi ito humantonng sa "
 "kung saan kapag na-click."
 
-#: options_blu.php:451
+#: options_divi.php:451
 msgid "Single Post Layout"
 msgstr "Layout na May Iisang Post"
 
-#: options_blu.php:456
+#: options_divi.php:456
 msgid "Single Page Layout"
 msgstr "Layout na May Iisang Page"
 
-#: options_blu.php:469
+#: options_divi.php:469
 msgid "Choose which items to display in the postinfo section"
 msgstr ""
 "Piliin kung aling mga item ang ipapakita sa seksyon ng impormasyon tungkol "
 "sa post"
 
-#: options_blu.php:473
+#: options_divi.php:473
 msgid ""
 "Here you can choose which items appear in the postinfo section on single "
 "post pages. This is the area, usually below the post title, which displays "
@@ -2388,11 +2388,11 @@ msgstr ""
 "impormasyon tungkol sa iyong post. Lalabas ang mga naka-highlight na item na "
 "ipinapakita sa ibaba. "
 
-#: options_blu.php:477
+#: options_divi.php:477
 msgid "Show comments on posts"
 msgstr "Ipakita ang mga komento sa mga post"
 
-#: options_blu.php:481
+#: options_divi.php:481
 msgid ""
 "You can disable this option if you want to remove the comments and comment "
 "form from single post pages. "
@@ -2400,11 +2400,11 @@ msgstr ""
 "Maaari mong i-disable ang opsyong ito kung gusto mong alisin ang mga komento "
 "at ang form ng komento mula sa iyong mga post. "
 
-#: options_blu.php:484
+#: options_divi.php:484
 msgid "Place Thumbs on Posts"
 msgstr "Ilagay ang mga Larawan ng Thumbnail sa mga Post"
 
-#: options_blu.php:488
+#: options_divi.php:488
 msgid ""
 "By default thumbnails are placed at the beginning of your post on single "
 "post pages. If you would like to remove this initial thumbnail image to "
@@ -2414,11 +2414,11 @@ msgstr ""
 "ng iisang post. Kung gugustuhin mong alisin ang inisyal na larawan ng "
 "thumbnail upang maiwasan ang pag-uulit, i-disable lang ang opsyong ito. "
 
-#: options_blu.php:497
+#: options_divi.php:497
 msgid "Place Thumbs on Pages"
 msgstr "Ilagay ang mga Larawan ng Thumbnail sa mga Page"
 
-#: options_blu.php:501
+#: options_divi.php:501
 msgid ""
 "By default thumbnails are not placed on pages (they are only used on posts). "
 "However, if you want to use thumbnails on pages you can! Just enable this "
@@ -2428,11 +2428,11 @@ msgstr ""
 "lang ang mga ito sa mga post). Ngunit, kung gusto mong gumamit ng mga "
 "thumbnail sa mga page, pwede! I-enable lang ang opsyong ito."
 
-#: options_blu.php:504
+#: options_divi.php:504
 msgid "Show comments on pages"
 msgstr "Ipakita ang mga komento sa mga page"
 
-#: options_blu.php:508
+#: options_divi.php:508
 msgid ""
 "By default comments are not placed on pages, however, if you would like to "
 "allow people to comment on your pages simply enable this option. "
@@ -2441,11 +2441,11 @@ msgstr ""
 "kung gusto mong hayaan ang mga taong magkomento sa iyong mga page, i-enable "
 "lang ang opsyong ito. "
 
-#: options_blu.php:517
+#: options_divi.php:517
 msgid "Post info section"
 msgstr "Seksyon ng impormasyon ng post"
 
-#: options_blu.php:521
+#: options_divi.php:521
 msgid ""
 "Here you can choose which items appear in the postinfo section on pages. "
 "This is the area, usually below the post title, which displays basic "
@@ -2457,33 +2457,33 @@ msgstr ""
 "sa iyong post. Lalabas ang mga naka-highlight na item na ipinapakita sa "
 "ibaba. "
 
-#: options_blu.php:524
+#: options_divi.php:524
 msgid "Show Thumbs on Index pages"
 msgstr "Ipakita ang mga Larawan ng Thumbnail sa mga Index na page"
 
-#: options_blu.php:528
+#: options_divi.php:528
 msgid "Enable this option to show thumbnails on Index Pages."
 msgstr ""
 "I-enable ang opsyong ito upang ipakita ang mga thumbnail sa mga Index na "
 "Page."
 
-#: options_blu.php:545
+#: options_divi.php:545
 msgid "Homepage SEO"
 msgstr "SEO sa Homepage"
 
-#: options_blu.php:550
+#: options_divi.php:550
 msgid "Single Post Page SEO"
 msgstr "SEO ng Page ng Iisang Post"
 
-#: options_blu.php:555
+#: options_divi.php:555
 msgid "Index Page SEO"
 msgstr "SEO ng Index na Page"
 
-#: options_blu.php:563
+#: options_divi.php:563
 msgid " Enable custom title "
 msgstr "I-enable ang custom na pamagat "
 
-#: options_blu.php:567
+#: options_divi.php:567
 msgid ""
 "By default the theme uses a combination of your blog name and your blog "
 "description, as defined when you created your blog, to create your homepage "
@@ -2496,11 +2496,11 @@ msgstr ""
 "gusto mong gumawa ng isang custom na pamagat, kung gayon, i-enable lang ang "
 "opsyong ito at punan ang field sa ibaba para sa custom na pamagat. "
 
-#: options_blu.php:570
+#: options_divi.php:570
 msgid " Enable meta description"
 msgstr "I-enable ang paglalarawan ng  meta na tag"
 
-#: options_blu.php:574
+#: options_divi.php:574
 msgid ""
 "By default the theme uses your blog description, as defined when you created "
 "your blog, to fill in the meta description field. If you would like to use a "
@@ -2513,11 +2513,11 @@ msgstr ""
 "gayon, i-enable ang opsyong ito at punan ang field na nasa ibaba para sa "
 "custom na paglalarawan. "
 
-#: options_blu.php:577
+#: options_divi.php:577
 msgid " Enable meta keywords"
 msgstr "I-enable ang mga meta na keyword"
 
-#: options_blu.php:581
+#: options_divi.php:581
 msgid ""
 "By default the theme does not add keywords to your header. Most search "
 "engines don't use keywords to rank your site anymore, but some people define "
@@ -2531,11 +2531,11 @@ msgstr ""
 "na keyword sa iyong header, kung gayon, i-enable ang opsyong ito at punan "
 "ang field na nasa ibaba para sa custom na mga keyword. "
 
-#: options_blu.php:584 options_blu.php:711
+#: options_divi.php:584 options_divi.php:711
 msgid " Enable canonical URL's"
 msgstr "I-enable ang canonical na URL's"
 
-#: options_blu.php:588 options_blu.php:662 options_blu.php:715
+#: options_divi.php:588 options_divi.php:662 options_divi.php:715
 msgid ""
 "Canonicalization helps to prevent the indexing of duplicate content by "
 "search engines, and as a result, may help avoid duplicate content penalties "
@@ -2562,11 +2562,11 @@ msgstr ""
 "theme ang mga canonical na URL nito sa iyong mga link at sa domain name na "
 "tinukoy sa mga tab ng setting na wp-admin."
 
-#: options_blu.php:591
+#: options_divi.php:591
 msgid "Homepage custom title (if enabled)"
 msgstr "Custom na pamagat ng homepage (kung naka-enable)"
 
-#: options_blu.php:595
+#: options_divi.php:595
 msgid ""
 "If you have enabled custom titles you can add your custom title here. "
 "Whatever you type here will be placed between the < title >< /title > tags "
@@ -2576,11 +2576,11 @@ msgstr ""
 "iyong custom na pamagat. Anuman ang iyong i-type dito ay ilalagay sa pagitan "
 "ng mga tag ng < title >< /title > sa header.php"
 
-#: options_blu.php:599
+#: options_divi.php:599
 msgid "Homepage meta description (if enabled)"
 msgstr "Paglalarawan na meta ng homepage (kung naka-enable)"
 
-#: options_blu.php:603
+#: options_divi.php:603
 msgid ""
 "If you have enabled meta descriptions you can add your custom description "
 "here."
@@ -2588,11 +2588,11 @@ msgstr ""
 "Kung nai-enable mo ang mga paglalarawan na meta, maaari mong idagdag dito "
 "ang iyong custom na paglalarawan."
 
-#: options_blu.php:607
+#: options_divi.php:607
 msgid "Homepage meta keywords (if enabled)"
 msgstr "Mga keyword na meta ng homepage (kung naka-enable)"
 
-#: options_blu.php:611
+#: options_divi.php:611
 msgid ""
 "If you have enabled meta keywords you can add your custom keywords here. "
 "Keywords should be separated by comas. For example: wordpress,themes,"
@@ -2602,13 +2602,13 @@ msgstr ""
 "iyong mga custom na keyword. Ang mga keyword ay dapat na pinaghihiwalay ng "
 "mga kuwit. Halimbawa: wordpress,themes,templates,elegant"
 
-#: options_blu.php:615 options_blu.php:689
+#: options_divi.php:615 options_divi.php:689
 msgid "If custom titles are disabled, choose autogeneration method"
 msgstr ""
 "Kung naka-disable ang mga custom na pamagat, pumili ng awtomatikong paraan "
 "ng pagbuo"
 
-#: options_blu.php:620
+#: options_divi.php:620
 msgid ""
 "If you are not using cutsom post titles you can still have control over how "
 "your titles are generated. Here you can choose which order you would like "
@@ -2621,13 +2621,13 @@ msgstr ""
 "at ang pangalan ng blog mo, o maaari mong alisin nang lubusan ang pangalan "
 "ng blog mula sa pamagat."
 
-#: options_blu.php:623 options_blu.php:697 options_blu.php:733
+#: options_divi.php:623 options_divi.php:697 options_divi.php:733
 msgid "Define a character to separate BlogName and Post title"
 msgstr ""
 "Tukuyin ang isang character upang ihiwalay ang Pangalan ng Website at "
 "Pamagat ng Post"
 
-#: options_blu.php:627 options_blu.php:701
+#: options_divi.php:627 options_divi.php:701
 msgid ""
 "Here you can change which character separates your blog title and post name "
 "when using autogenerated post titles. Common values are | or -"
@@ -2636,11 +2636,11 @@ msgstr ""
 "ang iyong pamagat ng blog at pangalan ng post kapag bumagamit ng mga pamagat "
 "ng post na awtomatikong binuo. Ang mga karaniwang value ay | o -"
 
-#: options_blu.php:637
+#: options_divi.php:637
 msgid "Enable custom titles"
 msgstr "I-enable ang mga custom na pamagat"
 
-#: options_blu.php:641
+#: options_divi.php:641
 msgid ""
 "By default the theme creates post titles based on the title of your post and "
 "your blog name. If you would like to make your meta title different than "
@@ -2656,11 +2656,11 @@ msgstr ""
 "gumana, at dapat kang pumili sa ibaba ng custom na pangalan ng field para sa "
 "iyong pamagat."
 
-#: options_blu.php:644
+#: options_divi.php:644
 msgid "Enable custom description"
 msgstr "I-enable ang custom na paglalarawan"
 
-#: options_blu.php:648
+#: options_divi.php:648
 msgid ""
 "If you would like to add a meta description to your post you can do so using "
 "custom fields. This option must be enabled for descriptions to be displayed "
@@ -2673,11 +2673,11 @@ msgstr ""
 "post. Maaari mong idagdag ang iyong meta na paglalarawan gamit ang mga "
 "custom na field batay sa pangalan ng custon na field na tinukoy o sa ibaba."
 
-#: options_blu.php:651
+#: options_divi.php:651
 msgid "Enable custom keywords"
 msgstr "I-enable ang mga custom na keyword"
 
-#: options_blu.php:655
+#: options_divi.php:655
 msgid ""
 "If you would like to add meta keywords to your post you can do so using "
 "custom fields. This option must be enabled for keywords to be displayed on "
@@ -2690,15 +2690,15 @@ msgstr ""
 "idagdag ang iyong meta na keyword gamit ang mga custom na field batay sa "
 "pangalan ng custon na field na tinukoy o sa ibaba."
 
-#: options_blu.php:658
+#: options_divi.php:658
 msgid "Enable canonical URL's"
 msgstr "I-enable ang canonical na URL's"
 
-#: options_blu.php:665
+#: options_divi.php:665
 msgid "Custom field Name to be used for title"
 msgstr "Pangalan ng custom na field na gagamitin para sa pamagat"
 
-#: options_blu.php:669
+#: options_divi.php:669
 msgid ""
 "When you define your title using custom fields you should use this value for "
 "the custom field Name. The Value of your custom field should be the custom "
@@ -2709,11 +2709,11 @@ msgstr ""
 "iyong custom na field ay dapat na ang custom na pamagat na gusto mong "
 "gamitin."
 
-#: options_blu.php:673
+#: options_divi.php:673
 msgid "Custom field Name to be used for description"
 msgstr "Pangalan ng custom na field na gagamitin para sa paglalarawan"
 
-#: options_blu.php:677
+#: options_divi.php:677
 msgid ""
 "When you define your meta description using custom fields you should use "
 "this value for the custom field Name. The Value of your custom field should "
@@ -2724,11 +2724,11 @@ msgstr ""
 "field. Ang Value ng iyong custom na field ay dapat na ang custom na "
 "paglalarawan na gusto mong gamitin."
 
-#: options_blu.php:681
+#: options_divi.php:681
 msgid "Custom field Name to be used for keywords"
 msgstr "Pangalan ng custom na field na gagamitin para sa mga keyword"
 
-#: options_blu.php:685
+#: options_divi.php:685
 msgid ""
 "When you define your keywords using custom fields you should use this value "
 "for the custom field Name. The Value of your custom field should be the meta "
@@ -2739,7 +2739,7 @@ msgstr ""
 "ng iyong custom na field ay dapat na ang mga meta na keyword na gusto mong "
 "gamitin, nang pinaghihiwalay ng mga kuwit."
 
-#: options_blu.php:694
+#: options_divi.php:694
 msgid ""
 "If you are not using cutsom post titles you can still have control over hw "
 "your titles are generated. Here you can choose which order you would like "
@@ -2752,11 +2752,11 @@ msgstr ""
 "at ang pangalan ng blog mo, o maaari mong alisin nang lubusan ang pangalan "
 "ng blog mula sa pamagat."
 
-#: options_blu.php:718
+#: options_divi.php:718
 msgid "Enable meta descriptions"
 msgstr "I-enable ang mga meta na paglalarawan"
 
-#: options_blu.php:722
+#: options_divi.php:722
 msgid ""
 "Check this box if you want to display meta descriptions on category/archive "
 "pages. The description is based off the category description you choose when "
@@ -2767,11 +2767,11 @@ msgstr ""
 "paglalarawan ng kategorya na pinili mo nang gumagawa/nag-e-edit ng iyong "
 "kategorya sa wp-admin."
 
-#: options_blu.php:725
+#: options_divi.php:725
 msgid "Choose title autogeneration method"
 msgstr "Pumili ng paraan ng pagbuo ng pamagat"
 
-#: options_blu.php:730
+#: options_divi.php:730
 msgid ""
 "Here you can choose how your titles on index pages are generated. You can "
 "change which order your blog name and index title are displayed, or you can "
@@ -2782,7 +2782,7 @@ msgstr ""
 "pangalan ng blog at index na pamagat, o maaari mong alisin nang lubusan ang "
 "pangalan ng blog mula sa pamagat."
 
-#: options_blu.php:737
+#: options_divi.php:737
 msgid ""
 "Here you can change which character separates your blog title and index page "
 "name when using autogenerated post titles. Common values are | or -"
@@ -2791,15 +2791,15 @@ msgstr ""
 "ang iyong pamagat ng blog at pangalan ng index na page kapag bumagamit ng "
 "mga pamagat ng post na awtomatikong binuo. Ang mga karaniwang value ay | o -"
 
-#: options_blu.php:756
+#: options_divi.php:756
 msgid "Code Integration"
 msgstr "Pagsasama-sama ng Code"
 
-#: options_blu.php:764
+#: options_divi.php:764
 msgid "Enable header code"
 msgstr "I-enable ang code ng header"
 
-#: options_blu.php:768
+#: options_divi.php:768
 msgid ""
 "Disabling this option will remove the header code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2808,11 +2808,11 @@ msgstr ""
 "mula sa iyong blog. Hinahayaan ka nitong alisin ang code habang sine-save "
 "ito para magamit sa ibang pagkakataon."
 
-#: options_blu.php:771
+#: options_divi.php:771
 msgid "Enable body code"
 msgstr "I-enable ang code ng < body >"
 
-#: options_blu.php:775
+#: options_divi.php:775
 msgid ""
 "Disabling this option will remove the body code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2821,11 +2821,11 @@ msgstr ""
 "mula sa iyong blog. Hinahayaan ka nitong alisin ang code habang sine-save "
 "ito para magamit sa ibang pagkakataon."
 
-#: options_blu.php:778
+#: options_divi.php:778
 msgid "Enable single top code"
 msgstr "I-enable ang iisang itaas na code"
 
-#: options_blu.php:782
+#: options_divi.php:782
 msgid ""
 "Disabling this option will remove the single top code below from your blog. "
 "This allows you to remove the code while saving it for later use."
@@ -2834,11 +2834,11 @@ msgstr ""
 "ibaba mula sa iyong blog. Hinahayaan ka nitong alisin ang code habang sine-"
 "save ito para magamit sa ibang pagkakataon."
 
-#: options_blu.php:785
+#: options_divi.php:785
 msgid "Enable single bottom code"
 msgstr "I-enable ang iisang code sa ibaba"
 
-#: options_blu.php:789
+#: options_divi.php:789
 msgid ""
 "Disabling this option will remove the single bottom code below from your "
 "blog. This allows you to remove the code while saving it for later use."
@@ -2847,11 +2847,11 @@ msgstr ""
 "ibaba mula sa iyong blog. Hinahayaan ka nitong alisin ang code habang sine-"
 "save ito para magamit sa ibang pagkakataon."
 
-#: options_blu.php:792
+#: options_divi.php:792
 msgid "Add code to the < head > of your blog"
 msgstr "Magdagdag ng code sa < head > ng iyong blog"
 
-#: options_blu.php:796
+#: options_divi.php:796
 msgid ""
 "Any code you place here will appear in the head section of every page of "
 "your blog. This is useful when you need to add javascript or css to all "
@@ -2861,14 +2861,14 @@ msgstr ""
 "ng iyong blog. Kapaki-pakinabang ito kapag kailangan mong magdagdag ng "
 "Javascript o CSS sa lahat ng page."
 
-#: options_blu.php:799
+#: options_divi.php:799
 msgid ""
 "Add code to the < body > (good for tracking codes such as google analytics)"
 msgstr ""
 "Magdagdag ng code sa < body > (mabuti para sa pagta-track ng mga code gaya "
 "ng Google Analytics)"
 
-#: options_blu.php:803
+#: options_divi.php:803
 msgid ""
 "Any code you place here will appear in body section of all pages of your "
 "blog. This is usefull if you need to input a tracking pixel for a state "
@@ -2879,11 +2879,11 @@ msgstr ""
 "isang pixel sa pagta-track para sa counter ng katayuan gaya ng Google "
 "Analytics."
 
-#: options_blu.php:806
+#: options_divi.php:806
 msgid "Add code to the top of your posts"
 msgstr "Magdagdag ng code sa itaas ng iyong mga post"
 
-#: options_blu.php:810 options_blu.php:817
+#: options_divi.php:810 options_divi.php:817
 msgid ""
 "Any code you place here will be placed at the top of all single posts. This "
 "is useful if you are looking to integrating things such as social "
@@ -2893,19 +2893,19 @@ msgstr ""
 "Kapaki-pakinabang ito kapag pinaplano mong isama ang mga bagay gaya ng mga "
 "link ng social bookmarking."
 
-#: options_blu.php:813
+#: options_divi.php:813
 msgid "Add code to the bottom of your posts, before the comments"
 msgstr "Magdagdag ng code sa ibaba ng iyong mga post, bago ang mga koment"
 
-#: options_blu.php:835
+#: options_divi.php:835
 msgid "Manage Un-widgetized Advertisements"
 msgstr "Pamahalaan ang mga Advertisement"
 
-#: options_blu.php:843
+#: options_divi.php:843
 msgid "Enable Single Post 468x60 banner"
 msgstr "I-enable ang Iisang Post na banner na 468x60"
 
-#: options_blu.php:847
+#: options_divi.php:847
 msgid ""
 "Enabling this option will display a 468x60 banner ad on the bottom of your "
 "post pages below the single post content. If enabled you must fill in the "
@@ -2916,27 +2916,27 @@ msgstr ""
 "Kung in-enable, daat mong punan ang larawan ng banner at URL ng patutunguhan "
 "sa ibaba."
 
-#: options_blu.php:850
+#: options_divi.php:850
 msgid "Input 468x60 advertisement banner image"
 msgstr "I-input ang 468x60 na larawan ng advertisement banner"
 
-#: options_blu.php:854
+#: options_divi.php:854
 msgid "Here you can provide 468x60 banner image url"
 msgstr "Maaari mong ibigay dito ang URL ng 468x60 na larawan ng banner"
 
-#: options_blu.php:858
+#: options_divi.php:858
 msgid "Input 468x60 advertisement destination url"
 msgstr "I-input ang 468x60 na URL ng patutunguhan ng advertisement"
 
-#: options_blu.php:862
+#: options_divi.php:862
 msgid "Here you can provide 468x60 banner destination url"
 msgstr "Maaari mong ibigay dito ang URL ng patutunguhan ng 468x60 na banner"
 
-#: options_blu.php:866
+#: options_divi.php:866
 msgid "Input 468x60 adsense code"
 msgstr "Code ng input na 468x60 sa Google Adsense"
 
-#: options_blu.php:870
+#: options_divi.php:870
 msgid "Place your adsense code here."
 msgstr "Ilagay ang iyong code para sa Google Adsense dito."
 

@@ -97,7 +97,7 @@ msgstr "%s Tuỳ chọn Chủ đề"
 msgid "Reset to Defaults"
 msgstr "Đặt lại Mặc định"
 
-#: epanel/core_functions.php:160 options_blu.php:38
+#: epanel/core_functions.php:160 options_divi.php:38
 msgid "General"
 msgstr "Chung"
 
@@ -161,7 +161,7 @@ msgstr "Tác giả"
 msgid "Date"
 msgstr "Ngày tháng"
 
-#: epanel/core_functions.php:510 options_blu.php:316
+#: epanel/core_functions.php:510 options_divi.php:316
 msgid "Categories"
 msgstr "Mục"
 
@@ -507,15 +507,15 @@ msgstr "Kĩ năng"
 msgid "Posted on"
 msgstr "Đăng vào"
 
-#: functions.php:293 options_blu.php:103
+#: functions.php:293 options_divi.php:103
 msgid "Right Sidebar"
 msgstr "Thanh lề Phải"
 
-#: functions.php:294 options_blu.php:104
+#: functions.php:294 options_divi.php:104
 msgid "Left Sidebar"
 msgstr "Thanh lề Trái"
 
-#: functions.php:295 options_blu.php:105
+#: functions.php:295 options_divi.php:105
 msgid "Full Width"
 msgstr "Toàn Chiều rộng"
 
@@ -585,7 +585,7 @@ msgstr "Điều hướng Dự án"
 msgid "you don't have sufficient permissions to access this page"
 msgstr "bạn không có đủ quyền truy cập trang này"
 
-#: functions.php:586 options_blu.php:321 options_blu.php:461
+#: functions.php:586 options_divi.php:321 options_divi.php:461
 msgid "General Settings"
 msgstr "Thiết đặt Chung"
 
@@ -1792,39 +1792,39 @@ msgstr "Adsense"
 msgid "Adsense Code"
 msgstr "Mã Adsense"
 
-#: options_blu.php:45
+#: options_divi.php:45
 msgid "Logo"
 msgstr "Biểu trưng"
 
-#: options_blu.php:48
+#: options_divi.php:48
 msgid "Set As Logo"
 msgstr "Thiết Lập Làm Logo"
 
-#: options_blu.php:50
+#: options_divi.php:50
 msgid ""
 "If you would like to use your own custom logo image click the Upload Image "
 "button."
 msgstr "Nếu muốn dùng ảnh biểu trưng tuỳ biến, hãy nhấp nút \"Tải Ảnh Lên\"."
 
-#: options_blu.php:53
+#: options_divi.php:53
 msgid "Favicon"
 msgstr "Favicon"
 
-#: options_blu.php:56
+#: options_divi.php:56
 msgid "Set As Favicon"
 msgstr "Thiết Lập Làm Favicon"
 
-#: options_blu.php:58
+#: options_divi.php:58
 msgid ""
 "If you would like to use your own custom favicon image click the Upload "
 "Image button."
 msgstr "Nếu muốn dùng ảnh favicon tuỳ biến, hãy nhấp nút Tải Ảnh Lên."
 
-#: options_blu.php:61
+#: options_divi.php:61
 msgid "Fixed Navigation Bar"
 msgstr "Thanh Điều hướng Cố định"
 
-#: options_blu.php:65
+#: options_divi.php:65
 msgid ""
 "By default the navigation bar stays on top of the screen at all times. We "
 "suggest to disable this option, if you need to use a logo taller than the "
@@ -1833,11 +1833,11 @@ msgstr ""
 "Mặc định, thanh điều hướng sẽ luôn nằm trên cùng màn hình. Chúng tôi đề nghị "
 "tắt tuỳ chọn này nếu bạn muốn dùng ảnh biểu trưng lớn."
 
-#: options_blu.php:68
+#: options_divi.php:68
 msgid "Enable Divi Gallery"
 msgstr "Bật Phòng trưng bày Divi"
 
-#: options_blu.php:72
+#: options_divi.php:72
 msgid ""
 "Enable this if you want to replace the WordPress default gallery with the "
 "Divi-style gallery."
@@ -1845,19 +1845,19 @@ msgstr ""
 "Bật tính năng này nếu bạn muốn thay thế phòng trưng bày mặc định của "
 "WordPress với phòng tranh kiểu Divi."
 
-#: options_blu.php:75
+#: options_divi.php:75
 msgid "Color Pickers Default Palette"
 msgstr "Bảng chọn màu mặc định"
 
-#: options_blu.php:80
+#: options_divi.php:80
 msgid "Define the default color palette for color pickers in the Divi Builder."
 msgstr "Xác định bảng màu mặc định để chọn màu trong Divi Builder."
 
-#: options_blu.php:85
+#: options_divi.php:85
 msgid "Grab the first post image"
 msgstr "Lấy về ảnh đăng đầu tiên"
 
-#: options_blu.php:89
+#: options_divi.php:89
 msgid ""
 "By default thumbnail images are created using custom fields. However, if you "
 "would rather use the images that are already in your post for your thumbnail "
@@ -1871,11 +1871,11 @@ msgstr ""
 "đầu tiên trong bài đăng của bạn. Ảnh phải được lưu trữ trên máy chủ riêng "
 "của bạn."
 
-#: options_blu.php:92
+#: options_divi.php:92
 msgid "Blog Style Mode"
 msgstr "Chế độ Kiểu Blog"
 
-#: options_blu.php:96
+#: options_divi.php:96
 msgid ""
 "By default the theme truncates your posts on index/homepages automatically "
 "to create post previews. If you would rather show your posts in full on "
@@ -1885,20 +1885,20 @@ msgstr ""
 "trước. Nếu bạn muốn hiện toàn bộ bài đăng theo kiểu blog truyền thống, bạn "
 "có thể bật tính năng này."
 
-#: options_blu.php:99
+#: options_divi.php:99
 msgid "Shop Page & Category Page Layout for WooCommerce"
 msgstr "Bố trí Trang Cửa hàng & Trang Mục cho WooCommerce"
 
-#: options_blu.php:108
+#: options_divi.php:108
 msgid "Here you can choose Shop Page & Category Page Layout for WooCommerce."
 msgstr ""
 "Ở đây bạn có thể chọn Bố trí Trang Cửa hàng & Trang Mục cho WooCommerce."
 
-#: options_blu.php:112
+#: options_divi.php:112
 msgid "MailChimp API Key"
 msgstr "Khoá API MailChimp"
 
-#: options_blu.php:117
+#: options_divi.php:117
 msgid ""
 "Enter your MailChimp API key. You can create an api key <a target=\"_blank\" "
 "href=\"%1$s\">here</a>"
@@ -1906,19 +1906,19 @@ msgstr ""
 "Hãy nhập khoá API MailChimp của bạn. Bạn có thể tạo khoá api <a target="
 "\"_blank\" href=\"%1$s\">ở đây</a>"
 
-#: options_blu.php:120
+#: options_divi.php:120
 msgid "Aweber Authorization"
 msgstr "Uỷ quyền Aweber"
 
-#: options_blu.php:122
+#: options_divi.php:122
 msgid "Authorize your Aweber account here."
 msgstr "Uỷ quyền tài khoản Aweber của bạn ở đây."
 
-#: options_blu.php:126
+#: options_divi.php:126
 msgid "Regenerate MailChimp Lists"
 msgstr "Tạo lại Các danh sách MailChimp"
 
-#: options_blu.php:130
+#: options_divi.php:130
 msgid ""
 "By default, MailChimp lists are cached for one day. If you added new list, "
 "but it doesn't appear within the Email Optin module settings, activate this "
@@ -1929,11 +1929,11 @@ msgstr ""
 "Email Optin, kích hoạt tùy chọn này. Đừng quên để vô hiệu hóa nó một lần "
 "danh sách đã được tái sinh."
 
-#: options_blu.php:132
+#: options_divi.php:132
 msgid "Regenerate Aweber Lists"
 msgstr "Tạo lại Các danh sách Aweber"
 
-#: options_blu.php:136
+#: options_divi.php:136
 msgid ""
 "By default, Aweber lists are cached for one day. If you added new list, but "
 "it doesn't appear within the Email Optin module settings, activate this "
@@ -1944,75 +1944,75 @@ msgstr ""
 "Optin, kích hoạt tùy chọn này. Đừng quên để vô hiệu hóa nó một lần danh sách "
 "đã được tái sinh."
 
-#: options_blu.php:138
+#: options_divi.php:138
 msgid "Show Facebook Icon"
 msgstr "Hiện Biểu tượng Facebook"
 
-#: options_blu.php:142
+#: options_divi.php:142
 msgid "Here you can choose to display the Facebook Icon on your homepage. "
 msgstr "Ở đây bạn có thể chọn để hiện biểu tượng Facebook trên trang chủ. "
 
-#: options_blu.php:144
+#: options_divi.php:144
 msgid "Show Twitter Icon"
 msgstr "Hiện Biểu tượng Twitter"
 
-#: options_blu.php:148
+#: options_divi.php:148
 msgid "Here you can choose to display the Twitter Icon. "
 msgstr "Ở đây bạn có thể chọn để hiện biểu tượng Twitter. "
 
-#: options_blu.php:150
+#: options_divi.php:150
 msgid "Show Google+ Icon"
 msgstr "Hiện Biểu tượng Google+"
 
-#: options_blu.php:154
+#: options_divi.php:154
 msgid "Here you can choose to display the Google+ Icon on your homepage. "
 msgstr "Ở đây bạn có thể chọn để hiện biểu tượng Google+ trên trang chủ. "
 
-#: options_blu.php:156
+#: options_divi.php:156
 msgid "Show RSS Icon"
 msgstr "Hiện Biểu tượng RSS"
 
-#: options_blu.php:160
+#: options_divi.php:160
 msgid "Here you can choose to display the RSS Icon. "
 msgstr "Ở đây bạn có thể chọn để hiện biểu tượng RSS. "
 
-#: options_blu.php:162
+#: options_divi.php:162
 msgid "Facebook Profile Url"
 msgstr "URL Hồ sơ Facebook"
 
-#: options_blu.php:167
+#: options_divi.php:167
 msgid "Enter the URL of your Facebook Profile. "
 msgstr "Nhập URL hồ sơ Facebook của bạn. "
 
-#: options_blu.php:169
+#: options_divi.php:169
 msgid "Twitter Profile Url"
 msgstr "URL Hồ sơ Twitter"
 
-#: options_blu.php:174
+#: options_divi.php:174
 msgid "Enter the URL of your Twitter Profile."
 msgstr "Nhập URL hồ sơ Twitter của bạn."
 
-#: options_blu.php:176
+#: options_divi.php:176
 msgid "Google+ Profile Url"
 msgstr "URL Hồ sơ Google+"
 
-#: options_blu.php:181
+#: options_divi.php:181
 msgid "Enter the URL of your Google+ Profile. "
 msgstr "Nhập URL hồ sơ Google+ của bạn. "
 
-#: options_blu.php:183
+#: options_divi.php:183
 msgid "RSS Icon Url"
 msgstr "URL RSS feed"
 
-#: options_blu.php:188
+#: options_divi.php:188
 msgid "Enter the URL of your RSS feed. "
 msgstr "Nhập URL RSS feed của bạn. "
 
-#: options_blu.php:190
+#: options_divi.php:190
 msgid "Number of Products displayed on WooCommerce archive pages"
 msgstr "Số Sản phẩm hiển thị trên trang lưu trữ WooCommerce"
 
-#: options_blu.php:194
+#: options_divi.php:194
 msgid ""
 "Here you can designate how many WooCommerce products are displayed on the "
 "archive page. This option works independently from the Settings > Reading "
@@ -2022,11 +2022,11 @@ msgstr ""
 "trữ. Tuỳ chọn này hoạt động độc lập với tuỳ chọn Thiết đặt > Đọc trong wp-"
 "admin."
 
-#: options_blu.php:198
+#: options_divi.php:198
 msgid "Number of Posts displayed on Category page"
 msgstr "Số Bài đăng hiển thị ở trang Mục"
 
-#: options_blu.php:202
+#: options_divi.php:202
 msgid ""
 "Here you can designate how many recent articles are displayed on the "
 "Category page. This option works independently from the Settings > Reading "
@@ -2035,11 +2035,11 @@ msgstr ""
 "Ở đây bạn có thể chỉ định số bài hiển thị gần đây ở trang Mục. Tuỳ chọn này "
 "độc lập với tuỳ chọn Đọc trong wp-admin."
 
-#: options_blu.php:206
+#: options_divi.php:206
 msgid "Number of Posts displayed on Archive pages"
 msgstr "Số Bài đăng hiển thị ở trang Lưu trữ"
 
-#: options_blu.php:210
+#: options_divi.php:210
 msgid ""
 "Here you can designate how many recent articles are displayed on the Archive "
 "pages. This option works independently from the Settings > Reading options "
@@ -2048,11 +2048,11 @@ msgstr ""
 "Ở đây bạn có thể chỉ định số bài hiển thị gần đây ở trang Lưu trữ. Tuỳ chọn "
 "này độc lập với tuỳ chọn Đọc trong wp-admin."
 
-#: options_blu.php:214
+#: options_divi.php:214
 msgid "Number of Posts displayed on Search pages"
 msgstr "Số Bài đăng hiển thị ở trang Tìm kiếm"
 
-#: options_blu.php:218
+#: options_divi.php:218
 msgid ""
 "Here you can designate how many recent articles are displayed on the Search "
 "results pages. This option works independently from the Settings > Reading "
@@ -2061,11 +2061,11 @@ msgstr ""
 "Ở đây bạn có thể chỉ định số bài hiển thị gần đây ở trang Kết quả tìm kiếm. "
 "Tuỳ chọn này độc lập với tuỳ chọn Đọc trong wp-admin."
 
-#: options_blu.php:222
+#: options_divi.php:222
 msgid "Number of Posts displayed on Tag pages"
 msgstr "Số Bài đăng hiển thị ở trang Nhãn"
 
-#: options_blu.php:226
+#: options_divi.php:226
 msgid ""
 "Here you can designate how many recent articles are displayed on the Tag "
 "pages. This option works independently from the Settings > Reading options "
@@ -2074,11 +2074,11 @@ msgstr ""
 "Ở đây bạn có thể chỉ định số bài hiển thị gần đây ở trang Nhãn. Tuỳ chọn này "
 "độc lập với tuỳ chọn Đọc trong wp-admin."
 
-#: options_blu.php:230
+#: options_divi.php:230
 msgid "Date format"
 msgstr "Định dạng ngày"
 
-#: options_blu.php:234
+#: options_divi.php:234
 msgid ""
 "This option allows you to change how your dates are displayed. For more "
 "information please refer to the WordPress codex here:<a href='http://codex."
@@ -2089,53 +2089,53 @@ msgstr ""
 "tham khảo thêm WordPress ở đây:<a href='http://codex.wordpress.org/"
 "Formatting_Date_and_Time' target='_blank'>Định dạng Ngày và Giờ</a>"
 
-#: options_blu.php:238
+#: options_divi.php:238
 msgid "Use excerpts when defined"
 msgstr "Dùng đoạn trích khi được định nghĩa"
 
-#: options_blu.php:242
+#: options_divi.php:242
 msgid "This will enable the use of excerpts in posts or pages."
 msgstr "Cho phép dùng đoạn trích trong bài đăng hoặc trang."
 
-#: options_blu.php:245
+#: options_divi.php:245
 msgid "Responsive shortcodes"
 msgstr "shortcodes hồi đáp"
 
-#: options_blu.php:249
+#: options_divi.php:249
 msgid "Enable this option to make shortcodes respond to various screen sizes"
 msgstr ""
 "Bật tuỳ chọn này để tạo shortcodes hồi đáp với nhiều kích thước màn hình "
 "khác nhau"
 
-#: options_blu.php:252
+#: options_divi.php:252
 msgid "Google Fonts subsets"
 msgstr "Tập con Google Fonts"
 
-#: options_blu.php:256
+#: options_divi.php:256
 msgid "This will enable Google Fonts for Non-English languages."
 msgstr "Cho phép dùng Google Fonts cho các ngôn ngữ ngoài tiếng Anh."
 
-#: options_blu.php:259
+#: options_divi.php:259
 msgid "Back To Top Button"
 msgstr "Nút Về Đầu Trang"
 
-#: options_blu.php:263
+#: options_divi.php:263
 msgid "Enable this option to display Back To Top Button while scrolling"
 msgstr "Bật tuỳ chọn này để hiện Nút Về Đầu Trang khi cuộn"
 
-#: options_blu.php:266
+#: options_divi.php:266
 msgid "Smooth Scrolling"
 msgstr "Cuộn Mượt"
 
-#: options_blu.php:270
+#: options_divi.php:270
 msgid "Enable this option to get the smooth scrolling effect with mouse wheel"
 msgstr "Bật tuỳ chọn này để có hiệu ứng cuộn trang mượt khi lăn chuột."
 
-#: options_blu.php:273
+#: options_divi.php:273
 msgid "Disable Translations"
 msgstr "Tắt bản dịch"
 
-#: options_blu.php:277
+#: options_divi.php:277
 msgid ""
 "Disable translations if you don't want to display translated theme strings "
 "on your site."
@@ -2143,33 +2143,33 @@ msgstr ""
 "Tắt bản dịch nếu bạn không muốn hiển thị chuỗi chủ đề được dịch trên trang "
 "của mình."
 
-#: options_blu.php:280
+#: options_divi.php:280
 msgid "Custom CSS"
 msgstr "CSS tuỳ biến"
 
-#: options_blu.php:284
+#: options_divi.php:284
 msgid "Here you can add custom css to override or extend default styles."
 msgstr ""
 "Ở đây bạn có thể thêm CSS tuỳ biến để chồng lên hoặc mở rộng kiểu dáng mặc "
 "định."
 
-#: options_blu.php:289
+#: options_divi.php:289
 msgid "Memory Limit Increase"
 msgstr "Tăng giới hạn bộ nhớ"
 
-#: options_blu.php:291
+#: options_divi.php:291
 msgid "Here you can disable automatic memory limit increase."
 msgstr "Ở đây bạn có thể vô hiệu hóa việc tự động tăng giới hạn bộ nhớ."
 
-#: options_blu.php:311
+#: options_divi.php:311
 msgid "Pages"
 msgstr "Trang"
 
-#: options_blu.php:329
+#: options_divi.php:329
 msgid "Exclude pages from the navigation bar"
 msgstr "Loại trừ trang khỏi thanh điều hướng"
 
-#: options_blu.php:333
+#: options_divi.php:333
 msgid ""
 "Here you can choose to remove certain pages from the navigation menu. All "
 "pages marked with an X will not appear in your navigation bar. "
@@ -2177,11 +2177,11 @@ msgstr ""
 "Ở đây bạn có thể chọn để bỏ ra những trang nhất định khỏi trình đơn điều "
 "hướng. Tất cả trang đánh dấu X sẽ không hiện trên thanh điều hướng của bạn. "
 
-#: options_blu.php:337 options_blu.php:387
+#: options_divi.php:337 options_divi.php:387
 msgid "Show dropdown menus"
 msgstr "Hiện trình đơn thả xuống"
 
-#: options_blu.php:341
+#: options_divi.php:341
 msgid ""
 "If you would like to remove the dropdown menus from the pages navigation bar "
 "disable this feature."
@@ -2189,11 +2189,11 @@ msgstr ""
 "Nếu muốn loại bỏ trình đơn thả xuống khỏi thanh điều hướng trang, hãy tắt "
 "tính năng này."
 
-#: options_blu.php:344
+#: options_divi.php:344
 msgid "Display Home link"
 msgstr "Hiện Liên kết Trang chủ"
 
-#: options_blu.php:348
+#: options_divi.php:348
 msgid ""
 "By default the theme creates a Home link that, when clicked, leads back to "
 "your blog's homepage. If, however, you are using a static homepage and have "
@@ -2205,19 +2205,19 @@ msgstr ""
 "Chủ để dùng thì nó sẽ tạo liên kết trùng. Trong trường hợp này bạn nên tắt "
 "tính năng này để bỏ liên kết."
 
-#: options_blu.php:351
+#: options_divi.php:351
 msgid "Sort Pages Links"
 msgstr "Sắp xếp Liên kết Trang"
 
-#: options_blu.php:355
+#: options_divi.php:355
 msgid "Here you can choose to sort your pages links."
 msgstr "Ở đây bạn có thể chọn cách thức sắp xếp liên kết trang."
 
-#: options_blu.php:358
+#: options_divi.php:358
 msgid "Order Pages Links by Ascending/Descending"
 msgstr "Sắp xếp Liên kết Trang Tăng dần/Giảm dần"
 
-#: options_blu.php:362
+#: options_divi.php:362
 msgid ""
 "Here you can choose to reverse the order that your pages links are "
 "displayed. You can choose between ascending and descending."
@@ -2225,11 +2225,11 @@ msgstr ""
 "Ở đây bạn có thể chọn đảo ngược thứ tự hiển thị liên kết trang. Bạn có thể "
 "chọn tăng dần hay giảm dần."
 
-#: options_blu.php:365 options_blu.php:401
+#: options_divi.php:365 options_divi.php:401
 msgid "Number of dropdown tiers shown"
 msgstr "Số bậc thả xuống hiển thị"
 
-#: options_blu.php:369 options_blu.php:405
+#: options_divi.php:369 options_divi.php:405
 msgid ""
 "This options allows you to control how many teirs your pages dropdown menu "
 "has. Increasing the number allows for additional menu items to be shown."
@@ -2237,11 +2237,11 @@ msgstr ""
 "Tuỳ chọn này cho bạn kiểm soát số bậc trình đơn thả xuống trang của bạn có. "
 "Tăng số này để hiện thêm mục trình đơn."
 
-#: options_blu.php:379
+#: options_divi.php:379
 msgid "Exclude categories from the navigation bar"
 msgstr "Loại trừ mục khỏi thanh điều hướng."
 
-#: options_blu.php:383
+#: options_divi.php:383
 msgid ""
 "Here you can choose to remove certain categories from the navigation menu. "
 "All categories marked with an X will not appear in your navigation bar. "
@@ -2249,7 +2249,7 @@ msgstr ""
 "Ở đây bạn có thể chọn để bỏ ra những mục nhất định khỏi trình đơn điều "
 "hướng. Tất cả mục  đánh dấu X sẽ không hiện trên thanh điều hướng của bạn. "
 
-#: options_blu.php:391
+#: options_divi.php:391
 msgid ""
 "If you would like to remove the dropdown menus from the categories "
 "navigation bar disable this feature."
@@ -2257,11 +2257,11 @@ msgstr ""
 "Nếu muốn loại bỏ trình đơn thả xuống khỏi thanh điều hướng mục thì tắt tính "
 "năng này."
 
-#: options_blu.php:394
+#: options_divi.php:394
 msgid "Hide empty categories"
 msgstr "Ẩn mục rỗng"
 
-#: options_blu.php:398
+#: options_divi.php:398
 msgid ""
 "If you would like categories to be displayed in your navigationbar that "
 "don't have any posts in them then disable this option. By default empty "
@@ -2270,11 +2270,11 @@ msgstr ""
 "Nếu bạn muốn cho những mục không có bài đăng hiện trên thanh điều hướng thì "
 "hãy tắt tùy chọn này. Mặc định các mục rỗng sẽ bị ẩn."
 
-#: options_blu.php:409
+#: options_divi.php:409
 msgid "Sort Categories Links by Name/ID/Slug/Count/Term Group"
 msgstr "Sắp xếp Liên kết Mục theo Nhóm Name/ID/Slug/Count/Term"
 
-#: options_blu.php:413
+#: options_divi.php:413
 msgid ""
 "By default pages are sorted by name. However if you would rather have them "
 "sorted by ID you can adjust this setting."
@@ -2282,11 +2282,11 @@ msgstr ""
 "Mặc định các trang được sắp xếp theo tên. Nhưng nếu muốn xếp theo ID thì bạn "
 "có thể chỉnh thiết đặt này."
 
-#: options_blu.php:416
+#: options_divi.php:416
 msgid "Order Category Links by Ascending/Descending"
 msgstr "Sắp xếp Liên kết Mục Tăng dần hay Giảm dần"
 
-#: options_blu.php:420
+#: options_divi.php:420
 msgid ""
 "Here you can choose to reverse the order that your categories links are "
 "displayed. You can choose between ascending and descending."
@@ -2294,11 +2294,11 @@ msgstr ""
 "Ở đây bạn có thể chọn đảo ngược thứ tự hiển thị liên kết mục. Bạn có thể "
 "chọn tăng dần hay giảm dần."
 
-#: options_blu.php:429
+#: options_divi.php:429
 msgid "Disable top tier dropdown menu links"
 msgstr "Tắt liên kết trình đơn thả xuống cấp trên cùng"
 
-#: options_blu.php:433
+#: options_divi.php:433
 msgid ""
 "In some cases users will want to create parent categories or links as "
 "placeholders to hold a list of child links or categories. In this case it is "
@@ -2313,19 +2313,19 @@ msgstr ""
 "Bật tùy chọn này sẽ loại bỏ liên kết khỏi tất cả trang/mục cấp trên để chúng "
 "không chuyển đi khi nhấp vào."
 
-#: options_blu.php:451
+#: options_divi.php:451
 msgid "Single Post Layout"
 msgstr "Bố trí Bài đăng Đơn"
 
-#: options_blu.php:456
+#: options_divi.php:456
 msgid "Single Page Layout"
 msgstr "Bố trí Trang Đơn"
 
-#: options_blu.php:469
+#: options_divi.php:469
 msgid "Choose which items to display in the postinfo section"
 msgstr "Chọn mục hiển thị trong phần thông tin bài đăng"
 
-#: options_blu.php:473
+#: options_divi.php:473
 msgid ""
 "Here you can choose which items appear in the postinfo section on single "
 "post pages. This is the area, usually below the post title, which displays "
@@ -2337,11 +2337,11 @@ msgstr ""
 "thông tin cơ bản về bài đăng của bạn. Các mục được chọn bên dưới sẽ hiển "
 "thị. "
 
-#: options_blu.php:477
+#: options_divi.php:477
 msgid "Show comments on posts"
 msgstr "Hiện lời bình trên bài đăng"
 
-#: options_blu.php:481
+#: options_divi.php:481
 msgid ""
 "You can disable this option if you want to remove the comments and comment "
 "form from single post pages. "
@@ -2349,11 +2349,11 @@ msgstr ""
 "Bạn có thể tắt tùy chọn này nếu muốn loại bỏ các lời bình và mẫu lời bình "
 "khỏi bài đăng. "
 
-#: options_blu.php:484
+#: options_divi.php:484
 msgid "Place Thumbs on Posts"
 msgstr "Đặt Ảnh Thu nhỏ vào Bài đăng"
 
-#: options_blu.php:488
+#: options_divi.php:488
 msgid ""
 "By default thumbnails are placed at the beginning of your post on single "
 "post pages. If you would like to remove this initial thumbnail image to "
@@ -2362,11 +2362,11 @@ msgstr ""
 "Mặc định, ảnh thu nhỏ được đặt ở đầu bài đăng ở các bài đăng đơn. Nếu muốn "
 "bỏ ảnh thu nhỏ ban đầu này để tránh trùng lặp, đơn giản là tắt tùy chọn này. "
 
-#: options_blu.php:497
+#: options_divi.php:497
 msgid "Place Thumbs on Pages"
 msgstr "Đặt Ảnh Thu nhỏ vào Trang"
 
-#: options_blu.php:501
+#: options_divi.php:501
 msgid ""
 "By default thumbnails are not placed on pages (they are only used on posts). "
 "However, if you want to use thumbnails on pages you can! Just enable this "
@@ -2376,11 +2376,11 @@ msgstr ""
 "dụng trên bài viết). Tuy nhiên, nếu bạn muốn sử dụng ảnh thu nhỏ trên trang, "
 "bạn có thể làm được! Chỉ cần kích hoạt tùy chọn này."
 
-#: options_blu.php:504
+#: options_divi.php:504
 msgid "Show comments on pages"
 msgstr "Hiện lời bình trên trang"
 
-#: options_blu.php:508
+#: options_divi.php:508
 msgid ""
 "By default comments are not placed on pages, however, if you would like to "
 "allow people to comment on your pages simply enable this option. "
@@ -2388,11 +2388,11 @@ msgstr ""
 "Mặc định, lời bình không được đưa vào trang, nhưng nếu bạn muốn cho mọi "
 "người bình luận vào trang thì chỉ cần bật tùy chọn này. "
 
-#: options_blu.php:517
+#: options_divi.php:517
 msgid "Post info section"
 msgstr "Phần thông tin bài đăng"
 
-#: options_blu.php:521
+#: options_divi.php:521
 msgid ""
 "Here you can choose which items appear in the postinfo section on pages. "
 "This is the area, usually below the post title, which displays basic "
@@ -2402,31 +2402,31 @@ msgstr ""
 "trang. Vùng này, thường nằm dưới tiêu đề bài đăng, hiển thị thông tin cơ bản "
 "về bài đăng của bạn. Các mục được chọn bên dưới sẽ hiển thị. "
 
-#: options_blu.php:524
+#: options_divi.php:524
 msgid "Show Thumbs on Index pages"
 msgstr "Hiện Ảnh Thu nhỏ trên Trang chỉ mục"
 
-#: options_blu.php:528
+#: options_divi.php:528
 msgid "Enable this option to show thumbnails on Index Pages."
 msgstr "Bật tùy chọn này để hiện ảnh thu nhỏ trên Trang Chỉ mục."
 
-#: options_blu.php:545
+#: options_divi.php:545
 msgid "Homepage SEO"
 msgstr "Trang chủ SEO"
 
-#: options_blu.php:550
+#: options_divi.php:550
 msgid "Single Post Page SEO"
 msgstr "Trang Bài đăng Đơn SEO"
 
-#: options_blu.php:555
+#: options_divi.php:555
 msgid "Index Page SEO"
 msgstr "Trang Chỉ mục SEO"
 
-#: options_blu.php:563
+#: options_divi.php:563
 msgid " Enable custom title "
 msgstr "Bật tiêu đề tùy biến "
 
-#: options_blu.php:567
+#: options_divi.php:567
 msgid ""
 "By default the theme uses a combination of your blog name and your blog "
 "description, as defined when you created your blog, to create your homepage "
@@ -2437,11 +2437,11 @@ msgstr ""
 "tạo blog, để tạo tiêu đề trang chủ. Nhưng nếu bạn muốn tạo tiêu đề tùy biến "
 "thì chỉ cần bật tùy chọn này và điền vào trường tiêu đề tùy biến bên dưới. "
 
-#: options_blu.php:570
+#: options_divi.php:570
 msgid " Enable meta description"
 msgstr "Bật mô tả thẻ meta"
 
-#: options_blu.php:574
+#: options_divi.php:574
 msgid ""
 "By default the theme uses your blog description, as defined when you created "
 "your blog, to fill in the meta description field. If you would like to use a "
@@ -2452,11 +2452,11 @@ msgstr ""
 "điền vào trường mô tả meta. Nếu bạn muốn dùng mô tả khác thì hãy bật tùy "
 "chọn này và điền vào trường mô tả tùy biến bên dưới. "
 
-#: options_blu.php:577
+#: options_divi.php:577
 msgid " Enable meta keywords"
 msgstr "Bật từ khóa meta"
 
-#: options_blu.php:581
+#: options_divi.php:581
 msgid ""
 "By default the theme does not add keywords to your header. Most search "
 "engines don't use keywords to rank your site anymore, but some people define "
@@ -2468,11 +2468,11 @@ msgstr ""
 "định nghĩa cho đầy đủ. Nếu bạn muốn thêm khóa meta vào đầu trang của bạn thì "
 "hãy bật tùy chọn này và điền vào trường từ khóa tùy biến bên dưới. "
 
-#: options_blu.php:584 options_blu.php:711
+#: options_divi.php:584 options_divi.php:711
 msgid " Enable canonical URL's"
 msgstr "Bật URL's chính tắc"
 
-#: options_blu.php:588 options_blu.php:662 options_blu.php:715
+#: options_divi.php:588 options_divi.php:662 options_divi.php:715
 msgid ""
 "Canonicalization helps to prevent the indexing of duplicate content by "
 "search engines, and as a result, may help avoid duplicate content penalties "
@@ -2496,11 +2496,11 @@ msgstr ""
 "thức. Chủ đề căn cứ vào URL chính thức trên liên kết và tên miền của bạn "
 "được định nghĩa trong thẻ thiết lập wp-admin."
 
-#: options_blu.php:591
+#: options_divi.php:591
 msgid "Homepage custom title (if enabled)"
 msgstr "Tiêu đề trang chủ tùy biến (nếu bật)"
 
-#: options_blu.php:595
+#: options_divi.php:595
 msgid ""
 "If you have enabled custom titles you can add your custom title here. "
 "Whatever you type here will be placed between the < title >< /title > tags "
@@ -2510,21 +2510,21 @@ msgstr ""
 "Những gì bạn gõ ở đây sẽ được đặt giữa cặp thẻ < title >< /title > trong "
 "header.php"
 
-#: options_blu.php:599
+#: options_divi.php:599
 msgid "Homepage meta description (if enabled)"
 msgstr "Mô tả meta trang chủ (nếu bật)"
 
-#: options_blu.php:603
+#: options_divi.php:603
 msgid ""
 "If you have enabled meta descriptions you can add your custom description "
 "here."
 msgstr "Nếu bạn đã bật mô tả meta thì có thể thêm mô tả tùy biến ở đây."
 
-#: options_blu.php:607
+#: options_divi.php:607
 msgid "Homepage meta keywords (if enabled)"
 msgstr "Từ khóa meta trang chủ (nếu bật)"
 
-#: options_blu.php:611
+#: options_divi.php:611
 msgid ""
 "If you have enabled meta keywords you can add your custom keywords here. "
 "Keywords should be separated by comas. For example: wordpress,themes,"
@@ -2534,11 +2534,11 @@ msgstr ""
 "cách giữa các từ khóa bằng dấu phẩy. Ví dụ: wordpress,themes,templates,"
 "elegant"
 
-#: options_blu.php:615 options_blu.php:689
+#: options_divi.php:615 options_divi.php:689
 msgid "If custom titles are disabled, choose autogeneration method"
 msgstr "Nếu tiêu đề tùy biến bị tắt, hãy chọn phương thức tạo tự động."
 
-#: options_blu.php:620
+#: options_divi.php:620
 msgid ""
 "If you are not using cutsom post titles you can still have control over how "
 "your titles are generated. Here you can choose which order you would like "
@@ -2549,11 +2549,11 @@ msgstr ""
 "sinh tiêu đề. Ở đây bạn có thể chọn thứ tự hiển thị tiêu đề bài đăng và tên "
 "blog để hiển thị, hoặc là bỏ hẳn tên blog khỏi tiêu đề."
 
-#: options_blu.php:623 options_blu.php:697 options_blu.php:733
+#: options_divi.php:623 options_divi.php:697 options_divi.php:733
 msgid "Define a character to separate BlogName and Post title"
 msgstr "Định nghĩa ký tự phân cách Tên Web và Tiêu đề Bài đăng"
 
-#: options_blu.php:627 options_blu.php:701
+#: options_divi.php:627 options_divi.php:701
 msgid ""
 "Here you can change which character separates your blog title and post name "
 "when using autogenerated post titles. Common values are | or -"
@@ -2561,11 +2561,11 @@ msgstr ""
 "Ở đây bạn có thể định nghĩa ký tự phân cách tiêu đề blog và tên bài đăng khi "
 "cho phát sinh tiêu đề bài đăng tự động. Giá trị phổ biến là | hoặc -"
 
-#: options_blu.php:637
+#: options_divi.php:637
 msgid "Enable custom titles"
 msgstr "Bật tiêu đề tùy biến"
 
-#: options_blu.php:641
+#: options_divi.php:641
 msgid ""
 "By default the theme creates post titles based on the title of your post and "
 "your blog name. If you would like to make your meta title different than "
@@ -2579,11 +2579,11 @@ msgstr ""
 "này phải được bật thì tiêu đề tùy biến mới hoạt động, và bạn phải chọn một "
 "tên trường tùy biến làm tiêu đề bên dưới."
 
-#: options_blu.php:644
+#: options_divi.php:644
 msgid "Enable custom description"
 msgstr "Bật mô tả tùy biến"
 
-#: options_blu.php:648
+#: options_divi.php:648
 msgid ""
 "If you would like to add a meta description to your post you can do so using "
 "custom fields. This option must be enabled for descriptions to be displayed "
@@ -2595,11 +2595,11 @@ msgstr ""
 "thể thêm mô tả meta dùng trường tùy biến dựa trên tên trường tùy biến định "
 "nghĩa bên dưới."
 
-#: options_blu.php:651
+#: options_divi.php:651
 msgid "Enable custom keywords"
 msgstr "Bật từ khóa tùy biến"
 
-#: options_blu.php:655
+#: options_divi.php:655
 msgid ""
 "If you would like to add meta keywords to your post you can do so using "
 "custom fields. This option must be enabled for keywords to be displayed on "
@@ -2611,15 +2611,15 @@ msgstr ""
 "có thể thêm từ khóa meta dùng trường tùy biến dựa trên tên trường tùy biến "
 "định nghĩa bên dưới."
 
-#: options_blu.php:658
+#: options_divi.php:658
 msgid "Enable canonical URL's"
 msgstr "Bật URL's chính tắc"
 
-#: options_blu.php:665
+#: options_divi.php:665
 msgid "Custom field Name to be used for title"
 msgstr "Tên trường Tùy biến dùng làm tiêu đề"
 
-#: options_blu.php:669
+#: options_divi.php:669
 msgid ""
 "When you define your title using custom fields you should use this value for "
 "the custom field Name. The Value of your custom field should be the custom "
@@ -2629,11 +2629,11 @@ msgstr ""
 "trường tùy biến. Giá trị của trường tùy biến của bạn nên là tiêu đề tùy biến "
 "bạn muốn dùng."
 
-#: options_blu.php:673
+#: options_divi.php:673
 msgid "Custom field Name to be used for description"
 msgstr "Tên trường Tùy biến dùng làm mô tả"
 
-#: options_blu.php:677
+#: options_divi.php:677
 msgid ""
 "When you define your meta description using custom fields you should use "
 "this value for the custom field Name. The Value of your custom field should "
@@ -2643,11 +2643,11 @@ msgstr ""
 "Tên trường tùy biến. Giá trị của trường tùy biến của bạn nên là mô tả tùy "
 "biến bạn muốn dùng."
 
-#: options_blu.php:681
+#: options_divi.php:681
 msgid "Custom field Name to be used for keywords"
 msgstr "Tên trường Tùy biến dùng làm từ khóa"
 
-#: options_blu.php:685
+#: options_divi.php:685
 msgid ""
 "When you define your keywords using custom fields you should use this value "
 "for the custom field Name. The Value of your custom field should be the meta "
@@ -2657,7 +2657,7 @@ msgstr ""
 "cho Tên trường tùy biến. Giá trị của trường tùy biến của bạn nên là từ khóa "
 "meta bạn muốn dùng, phân cách bằng dấu phẩy."
 
-#: options_blu.php:694
+#: options_divi.php:694
 msgid ""
 "If you are not using cutsom post titles you can still have control over hw "
 "your titles are generated. Here you can choose which order you would like "
@@ -2668,11 +2668,11 @@ msgstr ""
 "sinh tiêu đề. Ở đây bạn có thể chọn thứ tự hiển thị tiêu đề bài đăng và tên "
 "blog để hiển thị, hoặc là bỏ hẳn tên blog khỏi tiêu đề."
 
-#: options_blu.php:718
+#: options_divi.php:718
 msgid "Enable meta descriptions"
 msgstr "Bật mô tả meta"
 
-#: options_blu.php:722
+#: options_divi.php:722
 msgid ""
 "Check this box if you want to display meta descriptions on category/archive "
 "pages. The description is based off the category description you choose when "
@@ -2681,11 +2681,11 @@ msgstr ""
 "Đánh dấu vào đây nếu bạn muốn hiển thị mô tả meta trên trang mục/lưu trữ. Mô "
 "tả là dựa trên mô tả mục bạn chọn khi tạo/sửa mục trong wp-admin\"."
 
-#: options_blu.php:725
+#: options_divi.php:725
 msgid "Choose title autogeneration method"
 msgstr "Chọn cách phát sinh tiêu đề"
 
-#: options_blu.php:730
+#: options_divi.php:730
 msgid ""
 "Here you can choose how your titles on index pages are generated. You can "
 "change which order your blog name and index title are displayed, or you can "
@@ -2695,7 +2695,7 @@ msgstr ""
 "chọn thứ tự hiển thị tên blog và tiêu đề chỉ mục để hiển thị, hoặc là bỏ hẳn "
 "tên blog khỏi tiêu đề."
 
-#: options_blu.php:737
+#: options_divi.php:737
 msgid ""
 "Here you can change which character separates your blog title and index page "
 "name when using autogenerated post titles. Common values are | or -"
@@ -2703,15 +2703,15 @@ msgstr ""
 "Ở đây bạn có thể thay đổi ký tự phân cách tiêu đề blog và tên trang chỉ mục "
 "khi cho phát sinh tiêu đề bài đăng tự động. Giá trị phổ biến là | hoặc -"
 
-#: options_blu.php:756
+#: options_divi.php:756
 msgid "Code Integration"
 msgstr "Tích hoạt Mã"
 
-#: options_blu.php:764
+#: options_divi.php:764
 msgid "Enable header code"
 msgstr "Bật mã header"
 
-#: options_blu.php:768
+#: options_divi.php:768
 msgid ""
 "Disabling this option will remove the header code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2719,11 +2719,11 @@ msgstr ""
 "Tắt tùy chọn này sẽ loại bỏ mã header bên dưới khỏi blog của bạn. Cho phép "
 "bạn loại bỏ mã nhưng vẫn lưu giữ lại để dùng sau."
 
-#: options_blu.php:771
+#: options_divi.php:771
 msgid "Enable body code"
 msgstr "Bật mã < body >"
 
-#: options_blu.php:775
+#: options_divi.php:775
 msgid ""
 "Disabling this option will remove the body code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2731,11 +2731,11 @@ msgstr ""
 "Tắt tùy chọn này sẽ loại bỏ mã body bên dưới khỏi blog của bạn. Cho phép bạn "
 "loại bỏ mã nhưng vẫn lưu giữ lại để dùng sau."
 
-#: options_blu.php:778
+#: options_divi.php:778
 msgid "Enable single top code"
 msgstr "Bật mã trên đơn"
 
-#: options_blu.php:782
+#: options_divi.php:782
 msgid ""
 "Disabling this option will remove the single top code below from your blog. "
 "This allows you to remove the code while saving it for later use."
@@ -2743,11 +2743,11 @@ msgstr ""
 "Tắt tùy chọn này sẽ loại bỏ mã trên đơn bên dưới khỏi blog của bạn. Cho phép "
 "bạn loại bỏ mã nhưng vẫn lưu giữ lại để dùng sau."
 
-#: options_blu.php:785
+#: options_divi.php:785
 msgid "Enable single bottom code"
 msgstr "Bật mã dưới đơn"
 
-#: options_blu.php:789
+#: options_divi.php:789
 msgid ""
 "Disabling this option will remove the single bottom code below from your "
 "blog. This allows you to remove the code while saving it for later use."
@@ -2755,11 +2755,11 @@ msgstr ""
 "Tắt tùy chọn này sẽ loại bỏ mã dưới đơn bên dưới khỏi blog của bạn. Cho phép "
 "bạn loại bỏ mã nhưng vẫn lưu giữ lại để dùng sau."
 
-#: options_blu.php:792
+#: options_divi.php:792
 msgid "Add code to the < head > of your blog"
 msgstr "Thêm mã vào phần < head > của blog"
 
-#: options_blu.php:796
+#: options_divi.php:796
 msgid ""
 "Any code you place here will appear in the head section of every page of "
 "your blog. This is useful when you need to add javascript or css to all "
@@ -2768,13 +2768,13 @@ msgstr ""
 "Mã bạn nhập ở đây sẽ hiện ở phần head của mọi trang blog của bạn. Hữu ích "
 "khi cần thêm Javascript hay CSS vào tất cả các trang."
 
-#: options_blu.php:799
+#: options_divi.php:799
 msgid ""
 "Add code to the < body > (good for tracking codes such as google analytics)"
 msgstr ""
 "Thêm mã vào phần < body > (cho các loại mã truy vết như Google Analytics)"
 
-#: options_blu.php:803
+#: options_divi.php:803
 msgid ""
 "Any code you place here will appear in body section of all pages of your "
 "blog. This is usefull if you need to input a tracking pixel for a state "
@@ -2783,11 +2783,11 @@ msgstr ""
 "Mã bạn nhập ở đây sẽ hiện ở phần body của mọi trang blog của bạn. Hữu ích "
 "khi cần thêm tracking pixel cho bộ đếm trạng thái như là Google Analytics."
 
-#: options_blu.php:806
+#: options_divi.php:806
 msgid "Add code to the top of your posts"
 msgstr "Thêm mã vào trên cùng bài đăng"
 
-#: options_blu.php:810 options_blu.php:817
+#: options_divi.php:810 options_divi.php:817
 msgid ""
 "Any code you place here will be placed at the top of all single posts. This "
 "is useful if you are looking to integrating things such as social "
@@ -2796,19 +2796,19 @@ msgstr ""
 "Mã bạn nhập ở đây sẽ hiện ở trên cùng của mọi trang blog của bạn. Hữu ích "
 "khi cần tích hợp các thứ như liên kết đánh dấu trang mạng xã hội."
 
-#: options_blu.php:813
+#: options_divi.php:813
 msgid "Add code to the bottom of your posts, before the comments"
 msgstr "Thêm mã vào dưới cùng bày đăng, trước phần lời bình"
 
-#: options_blu.php:835
+#: options_divi.php:835
 msgid "Manage Un-widgetized Advertisements"
 msgstr "Quản lý Quảng cáo"
 
-#: options_blu.php:843
+#: options_divi.php:843
 msgid "Enable Single Post 468x60 banner"
 msgstr "Bật băng rôn 468x60 bài đăng đơn"
 
-#: options_blu.php:847
+#: options_divi.php:847
 msgid ""
 "Enabling this option will display a 468x60 banner ad on the bottom of your "
 "post pages below the single post content. If enabled you must fill in the "
@@ -2818,27 +2818,27 @@ msgstr ""
 "của bạn dưới nội dung bài đăng đơn. Nếu bật, bạn phải điền ảnh và băng rôn "
 "và URL đích đến bên dưới."
 
-#: options_blu.php:850
+#: options_divi.php:850
 msgid "Input 468x60 advertisement banner image"
 msgstr "Nhập ảnh băng rôn quảng cáo 468x60"
 
-#: options_blu.php:854
+#: options_divi.php:854
 msgid "Here you can provide 468x60 banner image url"
 msgstr "Ở đây bạn có thể cung cấp URL ảnh băng rôn 468x60"
 
-#: options_blu.php:858
+#: options_divi.php:858
 msgid "Input 468x60 advertisement destination url"
 msgstr "Nhập URL đích đến quảng cáo 468x60"
 
-#: options_blu.php:862
+#: options_divi.php:862
 msgid "Here you can provide 468x60 banner destination url"
 msgstr "Ở đây bạn có thể cung cấp URL đích đến băng rôn 468x60"
 
-#: options_blu.php:866
+#: options_divi.php:866
 msgid "Input 468x60 adsense code"
 msgstr "Nhập mã Google Adsense 468x60"
 
-#: options_blu.php:870
+#: options_divi.php:870
 msgid "Place your adsense code here."
 msgstr "Nhập mã Google Adsense 468x60 của bạn ở đây."
 

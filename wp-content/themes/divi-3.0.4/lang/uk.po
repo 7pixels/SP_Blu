@@ -96,7 +96,7 @@ msgstr "Параметри теми %s"
 msgid "Reset to Defaults"
 msgstr "Скинути до за замовчуванням"
 
-#: epanel/core_functions.php:160 options_blu.php:38
+#: epanel/core_functions.php:160 options_divi.php:38
 msgid "General"
 msgstr "Загальні"
 
@@ -160,7 +160,7 @@ msgstr "Автор"
 msgid "Date"
 msgstr "Дата"
 
-#: epanel/core_functions.php:510 options_blu.php:316
+#: epanel/core_functions.php:510 options_divi.php:316
 msgid "Categories"
 msgstr "Рубрики"
 
@@ -510,15 +510,15 @@ msgstr "Навички"
 msgid "Posted on"
 msgstr "Опубліковано"
 
-#: functions.php:293 options_blu.php:103
+#: functions.php:293 options_divi.php:103
 msgid "Right Sidebar"
 msgstr "Права бокова панель"
 
-#: functions.php:294 options_blu.php:104
+#: functions.php:294 options_divi.php:104
 msgid "Left Sidebar"
 msgstr "Ліва бокова панель"
 
-#: functions.php:295 options_blu.php:105
+#: functions.php:295 options_divi.php:105
 msgid "Full Width"
 msgstr "Відкрити на повну ширину"
 
@@ -588,7 +588,7 @@ msgstr "Навігація проекту"
 msgid "you don't have sufficient permissions to access this page"
 msgstr "Ви не маєте достатньо прав для доступу до цієї сторінки"
 
-#: functions.php:586 options_blu.php:321 options_blu.php:461
+#: functions.php:586 options_divi.php:321 options_divi.php:461
 msgid "General Settings"
 msgstr "Загальні налаштування"
 
@@ -1797,15 +1797,15 @@ msgstr "Adsense"
 msgid "Adsense Code"
 msgstr "Код Adsense"
 
-#: options_blu.php:45
+#: options_divi.php:45
 msgid "Logo"
 msgstr "Логотип"
 
-#: options_blu.php:48
+#: options_divi.php:48
 msgid "Set As Logo"
 msgstr "Встановити Як Логотип"
 
-#: options_blu.php:50
+#: options_divi.php:50
 msgid ""
 "If you would like to use your own custom logo image click the Upload Image "
 "button."
@@ -1813,15 +1813,15 @@ msgstr ""
 "Якщо бажаєте користуватись власним логотипом, натисніть кнопку «Завантажити "
 "зображення»."
 
-#: options_blu.php:53
+#: options_divi.php:53
 msgid "Favicon"
 msgstr "Favicon"
 
-#: options_blu.php:56
+#: options_divi.php:56
 msgid "Set As Favicon"
 msgstr "Встановити Як Favicon"
 
-#: options_blu.php:58
+#: options_divi.php:58
 msgid ""
 "If you would like to use your own custom favicon image click the Upload "
 "Image button."
@@ -1829,11 +1829,11 @@ msgstr ""
 "Якщо бажаєте користуватись власним favicon зображенням, натисніть кнопку "
 "Завантажити зображення."
 
-#: options_blu.php:61
+#: options_divi.php:61
 msgid "Fixed Navigation Bar"
 msgstr "Фіксована навігаційна панель"
 
-#: options_blu.php:65
+#: options_divi.php:65
 msgid ""
 "By default the navigation bar stays on top of the screen at all times. We "
 "suggest to disable this option, if you need to use a logo taller than the "
@@ -1843,11 +1843,11 @@ msgstr ""
 "Радимо вимкнути цю опцію, якщо Вам потрібно користуватись логотипом великого "
 "розміру."
 
-#: options_blu.php:68
+#: options_divi.php:68
 msgid "Enable Divi Gallery"
 msgstr "Активувати галерею Divi"
 
-#: options_blu.php:72
+#: options_divi.php:72
 msgid ""
 "Enable this if you want to replace the WordPress default gallery with the "
 "Divi-style gallery."
@@ -1855,21 +1855,21 @@ msgstr ""
 "Активуйте, якщо хочете замінити галерею за замовчуванням WordPress на "
 "галерею в стилі Divi."
 
-#: options_blu.php:75
+#: options_divi.php:75
 msgid "Color Pickers Default Palette"
 msgstr "Палітра вибору кольору за замовчуванням"
 
-#: options_blu.php:80
+#: options_divi.php:80
 msgid "Define the default color palette for color pickers in the Divi Builder."
 msgstr ""
 "Визначити кольорову палітру за замовчуванням для вибору кольору в Divi "
 "Builder."
 
-#: options_blu.php:85
+#: options_divi.php:85
 msgid "Grab the first post image"
 msgstr "Знайти зображення першого посту"
 
-#: options_blu.php:89
+#: options_divi.php:89
 msgid ""
 "By default thumbnail images are created using custom fields. However, if you "
 "would rather use the images that are already in your post for your thumbnail "
@@ -1884,11 +1884,11 @@ msgstr ""
 "мініатюри почнуть автоматично створюватись на основі першого зображення у "
 "Вашому пості.  Зображення має знаходитись на Вашому власному сервері."
 
-#: options_blu.php:92
+#: options_divi.php:92
 msgid "Blog Style Mode"
 msgstr "Формат блогу"
 
-#: options_blu.php:96
+#: options_divi.php:96
 msgid ""
 "By default the theme truncates your posts on index/homepages automatically "
 "to create post previews. If you would rather show your posts in full on "
@@ -1898,22 +1898,22 @@ msgstr ""
 "перегляду. Якщо Ви бажаєте, щоб Ваші пости відображались повністю, як в "
 "традиційному блозі, то активуйте цю функцію."
 
-#: options_blu.php:99
+#: options_divi.php:99
 msgid "Shop Page & Category Page Layout for WooCommerce"
 msgstr ""
 "Макет сторінки для магазину та макет сторінки з рубриками для WooCommerce"
 
-#: options_blu.php:108
+#: options_divi.php:108
 msgid "Here you can choose Shop Page & Category Page Layout for WooCommerce."
 msgstr ""
 "Тут Ви можете обрати макет сторінки для магазину та макет сторінки з "
 "рубриками для WooCommerce."
 
-#: options_blu.php:112
+#: options_divi.php:112
 msgid "MailChimp API Key"
 msgstr "MailChimp API ключ"
 
-#: options_blu.php:117
+#: options_divi.php:117
 msgid ""
 "Enter your MailChimp API key. You can create an api key <a target=\"_blank\" "
 "href=\"%1$s\">here</a>"
@@ -1921,19 +1921,19 @@ msgstr ""
 "Введіть Ваш MailChimp API ключ. Ви можете створити api ключ <a target="
 "\"_blank\" href=\"%1$s\">тут</a>"
 
-#: options_blu.php:120
+#: options_divi.php:120
 msgid "Aweber Authorization"
 msgstr "Aweber авторизація"
 
-#: options_blu.php:122
+#: options_divi.php:122
 msgid "Authorize your Aweber account here."
 msgstr "Авторизуйте Ваш Aweber аккаунт тут."
 
-#: options_blu.php:126
+#: options_divi.php:126
 msgid "Regenerate MailChimp Lists"
 msgstr "Регенерувати MailChimp списки"
 
-#: options_blu.php:130
+#: options_divi.php:130
 msgid ""
 "By default, MailChimp lists are cached for one day. If you added new list, "
 "but it doesn't appear within the Email Optin module settings, activate this "
@@ -1944,11 +1944,11 @@ msgstr ""
 "включіть цю опцію. Не забудьте відключити його, як тільки список був "
 "регенерувати."
 
-#: options_blu.php:132
+#: options_divi.php:132
 msgid "Regenerate Aweber Lists"
 msgstr "Регенерувати Aweber списки"
 
-#: options_blu.php:136
+#: options_divi.php:136
 msgid ""
 "By default, Aweber lists are cached for one day. If you added new list, but "
 "it doesn't appear within the Email Optin module settings, activate this "
@@ -1958,79 +1958,79 @@ msgstr ""
 "список, але він не з'являється в настройках E-mail Optin модуля, включіть цю "
 "опцію. Не забудьте відключити його, як тільки список був регенерувати."
 
-#: options_blu.php:138
+#: options_divi.php:138
 msgid "Show Facebook Icon"
 msgstr "Показати значок Facebook"
 
-#: options_blu.php:142
+#: options_divi.php:142
 msgid "Here you can choose to display the Facebook Icon on your homepage. "
 msgstr ""
 "Тут Ви можете активувати функцію відображення значка Facebook на Вашій "
 "домашній сторінці. "
 
-#: options_blu.php:144
+#: options_divi.php:144
 msgid "Show Twitter Icon"
 msgstr "Показати значок Twitter"
 
-#: options_blu.php:148
+#: options_divi.php:148
 msgid "Here you can choose to display the Twitter Icon. "
 msgstr "Тут Ви можете активувати функцію відображення значка Twitter. "
 
-#: options_blu.php:150
+#: options_divi.php:150
 msgid "Show Google+ Icon"
 msgstr "Показати значок Google+"
 
-#: options_blu.php:154
+#: options_divi.php:154
 msgid "Here you can choose to display the Google+ Icon on your homepage. "
 msgstr ""
 "Тут Ви можете активувати функцію відображення значка Google+ на Вашій "
 "домашній сторінці. "
 
-#: options_blu.php:156
+#: options_divi.php:156
 msgid "Show RSS Icon"
 msgstr "Показати значок RSS"
 
-#: options_blu.php:160
+#: options_divi.php:160
 msgid "Here you can choose to display the RSS Icon. "
 msgstr "Тут Ви можете активувати функцію відображення значка RSS. "
 
-#: options_blu.php:162
+#: options_divi.php:162
 msgid "Facebook Profile Url"
 msgstr "URL профілю в Facebook"
 
-#: options_blu.php:167
+#: options_divi.php:167
 msgid "Enter the URL of your Facebook Profile. "
 msgstr "Ввести URL Вашого профілю в Facebook. "
 
-#: options_blu.php:169
+#: options_divi.php:169
 msgid "Twitter Profile Url"
 msgstr "URL профілю в Twitter"
 
-#: options_blu.php:174
+#: options_divi.php:174
 msgid "Enter the URL of your Twitter Profile."
 msgstr "Ввести URL Вашого профілю в Twitter."
 
-#: options_blu.php:176
+#: options_divi.php:176
 msgid "Google+ Profile Url"
 msgstr "URL профілю в Google+"
 
-#: options_blu.php:181
+#: options_divi.php:181
 msgid "Enter the URL of your Google+ Profile. "
 msgstr "Ввести URL Вашого профілю в Google+. "
 
-#: options_blu.php:183
+#: options_divi.php:183
 msgid "RSS Icon Url"
 msgstr "URL значка RSS"
 
-#: options_blu.php:188
+#: options_divi.php:188
 msgid "Enter the URL of your RSS feed. "
 msgstr "Ввести URL Ваших RSS оновлень. "
 
-#: options_blu.php:190
+#: options_divi.php:190
 msgid "Number of Products displayed on WooCommerce archive pages"
 msgstr "Кількість товарів, показаних на сторінках архіву WooCommerce"
 
-#: options_blu.php:194
+#: options_divi.php:194
 msgid ""
 "Here you can designate how many WooCommerce products are displayed on the "
 "archive page. This option works independently from the Settings > Reading "
@@ -2040,11 +2040,11 @@ msgstr ""
 "сторінці архіву. Цей параметр працює незалежно від Налаштування> Параметри "
 "читання у wp-admin."
 
-#: options_blu.php:198
+#: options_divi.php:198
 msgid "Number of Posts displayed on Category page"
 msgstr "Кількість постів на сторінці з рубриками"
 
-#: options_blu.php:202
+#: options_divi.php:202
 msgid ""
 "Here you can designate how many recent articles are displayed on the "
 "Category page. This option works independently from the Settings > Reading "
@@ -2053,11 +2053,11 @@ msgstr ""
 "Тут Ви може визначити, скільки останніх статей буде показано на сторінці з "
 "рубриками. Ця опція працює незалежно від опцій читання в wp-admin."
 
-#: options_blu.php:206
+#: options_divi.php:206
 msgid "Number of Posts displayed on Archive pages"
 msgstr "Кількість постів, що містяться в архіві"
 
-#: options_blu.php:210
+#: options_divi.php:210
 msgid ""
 "Here you can designate how many recent articles are displayed on the Archive "
 "pages. This option works independently from the Settings > Reading options "
@@ -2066,11 +2066,11 @@ msgstr ""
 "Тут Ви може визначити, скільки останніх статей буде знаходитись в архіві. Це "
 "опція працює незалежно від опцій читання в wp-admin."
 
-#: options_blu.php:214
+#: options_divi.php:214
 msgid "Number of Posts displayed on Search pages"
 msgstr "Кількість постів, що будуть показані в результаті пошуку"
 
-#: options_blu.php:218
+#: options_divi.php:218
 msgid ""
 "Here you can designate how many recent articles are displayed on the Search "
 "results pages. This option works independently from the Settings > Reading "
@@ -2079,11 +2079,11 @@ msgstr ""
 "Тут Ви може визначити, скільки останніх статей буде показано в результаті "
 "пошуку. Це опція працює незалежно від налаштувань читання в wp-admin."
 
-#: options_blu.php:222
+#: options_divi.php:222
 msgid "Number of Posts displayed on Tag pages"
 msgstr "Кількість постів в тегах"
 
-#: options_blu.php:226
+#: options_divi.php:226
 msgid ""
 "Here you can designate how many recent articles are displayed on the Tag "
 "pages. This option works independently from the Settings > Reading options "
@@ -2092,11 +2092,11 @@ msgstr ""
 "Тут Ви може визначити, скільки останніх статей буде показано в тегах. Це "
 "опція працює незалежно від опцій читання в wp-admin."
 
-#: options_blu.php:230
+#: options_divi.php:230
 msgid "Date format"
 msgstr "Формат дати"
 
-#: options_blu.php:234
+#: options_divi.php:234
 msgid ""
 "This option allows you to change how your dates are displayed. For more "
 "information please refer to the WordPress codex here:<a href='http://codex."
@@ -2108,51 +2108,51 @@ msgstr ""
 "codex.wordpress.org/Formatting_Date_and_Time' target='_blank'>Форматування "
 "дати та часу</a>"
 
-#: options_blu.php:238
+#: options_divi.php:238
 msgid "Use excerpts when defined"
 msgstr "Використовувати уривки постів у разі позначення"
 
-#: options_blu.php:242
+#: options_divi.php:242
 msgid "This will enable the use of excerpts in posts or pages."
 msgstr "Активувати використання уривків в постах чи на сторінках."
 
-#: options_blu.php:245
+#: options_divi.php:245
 msgid "Responsive shortcodes"
 msgstr "Відповідно реагуючі shortcodes"
 
-#: options_blu.php:249
+#: options_divi.php:249
 msgid "Enable this option to make shortcodes respond to various screen sizes"
 msgstr "Активувати цю опцію, щоб shortcodes реагували на зміни розміру екрану"
 
-#: options_blu.php:252
+#: options_divi.php:252
 msgid "Google Fonts subsets"
 msgstr "Google Fonts підмножини"
 
-#: options_blu.php:256
+#: options_divi.php:256
 msgid "This will enable Google Fonts for Non-English languages."
 msgstr "Активувати Google Fonts для інших мов, окрім англійської мови."
 
-#: options_blu.php:259
+#: options_divi.php:259
 msgid "Back To Top Button"
 msgstr "Кнопка Вверх"
 
-#: options_blu.php:263
+#: options_divi.php:263
 msgid "Enable this option to display Back To Top Button while scrolling"
 msgstr "Увімкнути опцію відображення кнопки Вверх під час прокручування"
 
-#: options_blu.php:266
+#: options_divi.php:266
 msgid "Smooth Scrolling"
 msgstr "Плавне прокручування"
 
-#: options_blu.php:270
+#: options_divi.php:270
 msgid "Enable this option to get the smooth scrolling effect with mouse wheel"
 msgstr "Увімкнути опцію плавного прокручування за допомогою коліща мишки"
 
-#: options_blu.php:273
+#: options_divi.php:273
 msgid "Disable Translations"
 msgstr "Вимкнути переклади"
 
-#: options_blu.php:277
+#: options_divi.php:277
 msgid ""
 "Disable translations if you don't want to display translated theme strings "
 "on your site."
@@ -2160,33 +2160,33 @@ msgstr ""
 "Вимкніть переклади, якщо ви не хочете, щоб на сайті відображалися "
 "перекладені рядки теми."
 
-#: options_blu.php:280
+#: options_divi.php:280
 msgid "Custom CSS"
 msgstr "Власний CSS"
 
-#: options_blu.php:284
+#: options_divi.php:284
 msgid "Here you can add custom css to override or extend default styles."
 msgstr ""
 "Тут Ви можете додати власний CSS, щоб видаляти чи покращувати стилі за "
 "замовчуванням."
 
-#: options_blu.php:289
+#: options_divi.php:289
 msgid "Memory Limit Increase"
 msgstr "Збільшення ліміту пам'яті"
 
-#: options_blu.php:291
+#: options_divi.php:291
 msgid "Here you can disable automatic memory limit increase."
 msgstr "Тут ви можете виключити автоматичне збільшення ліміту пам'яті."
 
-#: options_blu.php:311
+#: options_divi.php:311
 msgid "Pages"
 msgstr "Сторінки"
 
-#: options_blu.php:329
+#: options_divi.php:329
 msgid "Exclude pages from the navigation bar"
 msgstr "Видалити сторінки з навігаційної панелі"
 
-#: options_blu.php:333
+#: options_divi.php:333
 msgid ""
 "Here you can choose to remove certain pages from the navigation menu. All "
 "pages marked with an X will not appear in your navigation bar. "
@@ -2194,11 +2194,11 @@ msgstr ""
 "Тут Ви можете обрати, які саме сторінки видалити з навігаційного меню . Всі "
 "сторінки, позначені X, не будуть відображені у Вашій навігаційній панелі. "
 
-#: options_blu.php:337 options_blu.php:387
+#: options_divi.php:337 options_divi.php:387
 msgid "Show dropdown menus"
 msgstr "Показати меню, що випадають"
 
-#: options_blu.php:341
+#: options_divi.php:341
 msgid ""
 "If you would like to remove the dropdown menus from the pages navigation bar "
 "disable this feature."
@@ -2206,11 +2206,11 @@ msgstr ""
 "Якщо Ви бажаєте видалити меню, що випадають, з навігаційної панелі сторінок, "
 "вимкніть цю функцію."
 
-#: options_blu.php:344
+#: options_divi.php:344
 msgid "Display Home link"
 msgstr "Показати посилання на головну сторінку"
 
-#: options_blu.php:348
+#: options_divi.php:348
 msgid ""
 "By default the theme creates a Home link that, when clicked, leads back to "
 "your blog's homepage. If, however, you are using a static homepage and have "
@@ -2223,20 +2223,20 @@ msgstr ""
 "до дублювання посилань.  У цьому зв’язку Вам слід вимкнути цю функцію, щоб "
 "видалити посилання."
 
-#: options_blu.php:351
+#: options_divi.php:351
 msgid "Sort Pages Links"
 msgstr "Упорядкувати посилання на сторінки"
 
-#: options_blu.php:355
+#: options_divi.php:355
 msgid "Here you can choose to sort your pages links."
 msgstr "Тут Ви можете обрати спосіб упорядкування посилань на сторінки."
 
-#: options_blu.php:358
+#: options_divi.php:358
 msgid "Order Pages Links by Ascending/Descending"
 msgstr ""
 "Упорядкувати посилань на сторінки за допомогою Висхідного/Низхідного способу"
 
-#: options_blu.php:362
+#: options_divi.php:362
 msgid ""
 "Here you can choose to reverse the order that your pages links are "
 "displayed. You can choose between ascending and descending."
@@ -2244,11 +2244,11 @@ msgstr ""
 "Тут Ви можете змінювати порядок відображення Ваших посилань на сторінки. Ви "
 "можете обрати або висхідний, або низхідний порядок."
 
-#: options_blu.php:365 options_blu.php:401
+#: options_divi.php:365 options_divi.php:401
 msgid "Number of dropdown tiers shown"
 msgstr "Кількість рядків в меню, що випадає"
 
-#: options_blu.php:369 options_blu.php:405
+#: options_divi.php:369 options_divi.php:405
 msgid ""
 "This options allows you to control how many teirs your pages dropdown menu "
 "has. Increasing the number allows for additional menu items to be shown."
@@ -2257,11 +2257,11 @@ msgstr ""
 "Ваших сторінках. При збільшенні їх кількості в меню з’являться додаткові "
 "елементи."
 
-#: options_blu.php:379
+#: options_divi.php:379
 msgid "Exclude categories from the navigation bar"
 msgstr "Видалити з навігаційної панелі рубрики"
 
-#: options_blu.php:383
+#: options_divi.php:383
 msgid ""
 "Here you can choose to remove certain categories from the navigation menu. "
 "All categories marked with an X will not appear in your navigation bar. "
@@ -2270,7 +2270,7 @@ msgstr ""
 "Всі рубрики, що позначені X, не будуть відображені у Вашій навігаційній "
 "панелі. "
 
-#: options_blu.php:391
+#: options_divi.php:391
 msgid ""
 "If you would like to remove the dropdown menus from the categories "
 "navigation bar disable this feature."
@@ -2278,11 +2278,11 @@ msgstr ""
 "Якщо Ви хочете видалити меню, що випадають, з навігаційної панелі рубрик, "
 "вимкніть цю функцію."
 
-#: options_blu.php:394
+#: options_divi.php:394
 msgid "Hide empty categories"
 msgstr "Сховати пусті рубрики"
 
-#: options_blu.php:398
+#: options_divi.php:398
 msgid ""
 "If you would like categories to be displayed in your navigationbar that "
 "don't have any posts in them then disable this option. By default empty "
@@ -2292,11 +2292,11 @@ msgstr ""
 "яких відсутні пости, вимкніть цю опцію. За замовчуванням пусті рубрики не "
 "видно."
 
-#: options_blu.php:409
+#: options_divi.php:409
 msgid "Sort Categories Links by Name/ID/Slug/Count/Term Group"
 msgstr "Розподілити посилання на рубрики за групою по Name/ID/Slug/Count/Term"
 
-#: options_blu.php:413
+#: options_divi.php:413
 msgid ""
 "By default pages are sorted by name. However if you would rather have them "
 "sorted by ID you can adjust this setting."
@@ -2305,11 +2305,11 @@ msgstr ""
 "вони були упорядковані в залежності від ID, Ви можете увімкнути таке "
 "налаштування."
 
-#: options_blu.php:416
+#: options_divi.php:416
 msgid "Order Category Links by Ascending/Descending"
 msgstr "Впорядкувати посилання на рубрики в висхідному чи низхідному порядку"
 
-#: options_blu.php:420
+#: options_divi.php:420
 msgid ""
 "Here you can choose to reverse the order that your categories links are "
 "displayed. You can choose between ascending and descending."
@@ -2317,12 +2317,12 @@ msgstr ""
 "Тут ви можете змінювати порядок, в якому відображаються Ваші посилання на "
 "рубрики. Ви можете обрати або висхідний, або низхідний порядок."
 
-#: options_blu.php:429
+#: options_divi.php:429
 msgid "Disable top tier dropdown menu links"
 msgstr ""
 "Деактивувати посилання, що містяться в верхньому рядку меню, що випадає"
 
-#: options_blu.php:433
+#: options_divi.php:433
 msgid ""
 "In some cases users will want to create parent categories or links as "
 "placeholders to hold a list of child links or categories. In this case it is "
@@ -2338,19 +2338,19 @@ msgstr ""
 "ці опції, з усіх головних сторінок/рубрик будуть видалені посилання і не "
 "можна буде здійснити перехід, натиснувши на них."
 
-#: options_blu.php:451
+#: options_divi.php:451
 msgid "Single Post Layout"
 msgstr "Макет посту"
 
-#: options_blu.php:456
+#: options_divi.php:456
 msgid "Single Page Layout"
 msgstr "Макет сторінки"
 
-#: options_blu.php:469
+#: options_divi.php:469
 msgid "Choose which items to display in the postinfo section"
 msgstr "Оберіть елементи, які будуть показані в полі інформації про пост"
 
-#: options_blu.php:473
+#: options_divi.php:473
 msgid ""
 "Here you can choose which items appear in the postinfo section on single "
 "post pages. This is the area, usually below the post title, which displays "
@@ -2362,11 +2362,11 @@ msgstr ""
 "заголовком посту та містить основну інформацію про Ваш пост. З’являтимуться "
 "виділені елементи, що знаходяться нижче. "
 
-#: options_blu.php:477
+#: options_divi.php:477
 msgid "Show comments on posts"
 msgstr "Показати коментарі стосовно постів"
 
-#: options_blu.php:481
+#: options_divi.php:481
 msgid ""
 "You can disable this option if you want to remove the comments and comment "
 "form from single post pages. "
@@ -2374,11 +2374,11 @@ msgstr ""
 "Ви можете вимкнути цю функцію, якщо хочете видалити коментарі та поле для "
 "коментарів з постів. "
 
-#: options_blu.php:484
+#: options_divi.php:484
 msgid "Place Thumbs on Posts"
 msgstr "Розмістити зображення-мініатюри біля постів"
 
-#: options_blu.php:488
+#: options_divi.php:488
 msgid ""
 "By default thumbnails are placed at the beginning of your post on single "
 "post pages. If you would like to remove this initial thumbnail image to "
@@ -2388,11 +2388,11 @@ msgstr ""
 "з одним постом. Якщо Ви бажаєте видалити це первинне зображення-мініатюру, "
 "щоб уникнути повторень, просто вимкніть цю функцію."
 
-#: options_blu.php:497
+#: options_divi.php:497
 msgid "Place Thumbs on Pages"
 msgstr "Розмістити зображення-мініатюри на сторінках"
 
-#: options_blu.php:501
+#: options_divi.php:501
 msgid ""
 "By default thumbnails are not placed on pages (they are only used on posts). "
 "However, if you want to use thumbnails on pages you can! Just enable this "
@@ -2402,11 +2402,11 @@ msgstr ""
 "використовуються лише для публікацій). Однак, за бажанням ви можете "
 "використати мініатюри і для сторінок! Просто ввімкніть цю опцію."
 
-#: options_blu.php:504
+#: options_divi.php:504
 msgid "Show comments on pages"
 msgstr "Показувати коментарі на сторінках"
 
-#: options_blu.php:508
+#: options_divi.php:508
 msgid ""
 "By default comments are not placed on pages, however, if you would like to "
 "allow people to comment on your pages simply enable this option. "
@@ -2415,11 +2415,11 @@ msgstr ""
 "бажаєте, щоб на Ваших сторінках залишали коментарі, просто активуйте цю "
 "опцію. "
 
-#: options_blu.php:517
+#: options_divi.php:517
 msgid "Post info section"
 msgstr "Поле інформації про пост"
 
-#: options_blu.php:521
+#: options_divi.php:521
 msgid ""
 "Here you can choose which items appear in the postinfo section on pages. "
 "This is the area, usually below the post title, which displays basic "
@@ -2430,33 +2430,33 @@ msgstr ""
 "містить основну інформацію про Ваш пост. З’являтимуться виділені елементи, "
 "що знаходяться нижче. "
 
-#: options_blu.php:524
+#: options_divi.php:524
 msgid "Show Thumbs on Index pages"
 msgstr "Показати зображення-мініатюри на індексних сторінках"
 
-#: options_blu.php:528
+#: options_divi.php:528
 msgid "Enable this option to show thumbnails on Index Pages."
 msgstr ""
 "Активувати цю опцію, щоб розміщати зображення-мініатюри на індексних "
 "сторінках."
 
-#: options_blu.php:545
+#: options_divi.php:545
 msgid "Homepage SEO"
 msgstr "Домашня сторінка SEO"
 
-#: options_blu.php:550
+#: options_divi.php:550
 msgid "Single Post Page SEO"
 msgstr "Сторінка з одним постом SEO"
 
-#: options_blu.php:555
+#: options_divi.php:555
 msgid "Index Page SEO"
 msgstr "Індексна сторінка SEO"
 
-#: options_blu.php:563
+#: options_divi.php:563
 msgid " Enable custom title "
 msgstr "Створити довільний заголовок "
 
-#: options_blu.php:567
+#: options_divi.php:567
 msgid ""
 "By default the theme uses a combination of your blog name and your blog "
 "description, as defined when you created your blog, to create your homepage "
@@ -2469,11 +2469,11 @@ msgstr ""
 "заголовок, то просто активуйте цю опцію та заповніть поле для довільного "
 "заголовка, що знаходиться нижче. "
 
-#: options_blu.php:570
+#: options_divi.php:570
 msgid " Enable meta description"
 msgstr "Увімкнути мета-тег опису"
 
-#: options_blu.php:574
+#: options_divi.php:574
 msgid ""
 "By default the theme uses your blog description, as defined when you created "
 "your blog, to fill in the meta description field. If you would like to use a "
@@ -2485,11 +2485,11 @@ msgstr ""
 "використовувався інший опис, то активуйте цю опцію та заповніть поле для "
 "довільного опису, що знаходиться нижче. "
 
-#: options_blu.php:577
+#: options_divi.php:577
 msgid " Enable meta keywords"
 msgstr "Активувати мета-тег ключових слів"
 
-#: options_blu.php:581
+#: options_divi.php:581
 msgid ""
 "By default the theme does not add keywords to your header. Most search "
 "engines don't use keywords to rank your site anymore, but some people define "
@@ -2503,11 +2503,11 @@ msgstr ""
 "активуйте цю опцію та заповніть поле для довільних ключових слів, що "
 "знаходиться нижче. "
 
-#: options_blu.php:584 options_blu.php:711
+#: options_divi.php:584 options_divi.php:711
 msgid " Enable canonical URL's"
 msgstr "Активувати канонічні URL's"
 
-#: options_blu.php:588 options_blu.php:662 options_blu.php:715
+#: options_divi.php:588 options_divi.php:662 options_divi.php:715
 msgid ""
 "Canonicalization helps to prevent the indexing of duplicate content by "
 "search engines, and as a result, may help avoid duplicate content penalties "
@@ -2531,11 +2531,11 @@ msgstr ""
 "URL ви хочете використовувати. Тема створює канонічні URLs від ваших "
 "посилань і доменне ім'я визначається на вкладці Налаштування wp-admin."
 
-#: options_blu.php:591
+#: options_divi.php:591
 msgid "Homepage custom title (if enabled)"
 msgstr "Довільний заголовок домашньої сторінки (якщо ця функція активована)"
 
-#: options_blu.php:595
+#: options_divi.php:595
 msgid ""
 "If you have enabled custom titles you can add your custom title here. "
 "Whatever you type here will be placed between the < title >< /title > tags "
@@ -2545,11 +2545,11 @@ msgstr ""
 "довільний заголовок. Все, що Ви тут надрукуєте, буде знаходитись між < title "
 ">< /title > тегами в header.php"
 
-#: options_blu.php:599
+#: options_divi.php:599
 msgid "Homepage meta description (if enabled)"
 msgstr "Короткий опис домашньої сторінки (якщо ця функція активована)"
 
-#: options_blu.php:603
+#: options_divi.php:603
 msgid ""
 "If you have enabled meta descriptions you can add your custom description "
 "here."
@@ -2557,11 +2557,11 @@ msgstr ""
 "Якщо Ви активували функцію коротких описів, Ви можете тут додати довільний "
 "опис."
 
-#: options_blu.php:607
+#: options_divi.php:607
 msgid "Homepage meta keywords (if enabled)"
 msgstr "Ключові слова домашньої сторінки (якщо ця функція активована)"
 
-#: options_blu.php:611
+#: options_divi.php:611
 msgid ""
 "If you have enabled meta keywords you can add your custom keywords here. "
 "Keywords should be separated by comas. For example: wordpress,themes,"
@@ -2571,13 +2571,13 @@ msgstr ""
 "ключові слова. Ключові слова слід розділяти комами. Наприклад: wordpress,"
 "themes,templates,elegant"
 
-#: options_blu.php:615 options_blu.php:689
+#: options_divi.php:615 options_divi.php:689
 msgid "If custom titles are disabled, choose autogeneration method"
 msgstr ""
 "Якщо функцію створення довільних заголовків не активовано, оберіть їх "
 "автоматичне створення"
 
-#: options_blu.php:620
+#: options_divi.php:620
 msgid ""
 "If you are not using cutsom post titles you can still have control over how "
 "your titles are generated. Here you can choose which order you would like "
@@ -2589,11 +2589,11 @@ msgstr ""
 "відображення заголовку посту та назви блогу чи взагалі видалити назву блогу "
 "із заголовка."
 
-#: options_blu.php:623 options_blu.php:697 options_blu.php:733
+#: options_divi.php:623 options_divi.php:697 options_divi.php:733
 msgid "Define a character to separate BlogName and Post title"
 msgstr "Визначити знак для відокремлення назви веб-сайту від заголовка посту"
 
-#: options_blu.php:627 options_blu.php:701
+#: options_divi.php:627 options_divi.php:701
 msgid ""
 "Here you can change which character separates your blog title and post name "
 "when using autogenerated post titles. Common values are | or -"
@@ -2602,11 +2602,11 @@ msgstr ""
 "при автоматичному створенні заголовків постів. Зазвичай використовується | "
 "or –"
 
-#: options_blu.php:637
+#: options_divi.php:637
 msgid "Enable custom titles"
 msgstr "Увімкнути функцію довільних заголовків"
 
-#: options_blu.php:641
+#: options_divi.php:641
 msgid ""
 "By default the theme creates post titles based on the title of your post and "
 "your blog name. If you would like to make your meta title different than "
@@ -2621,11 +2621,11 @@ msgstr ""
 "заголовки працювали, потрібно активувати цю функцію. Вам також потрібно "
 "обрати назву довільного поля для Вашого заголовка, що знаходиться нижче."
 
-#: options_blu.php:644
+#: options_divi.php:644
 msgid "Enable custom description"
 msgstr "Активувати функцію довільного опису"
 
-#: options_blu.php:648
+#: options_divi.php:648
 msgid ""
 "If you would like to add a meta description to your post you can do so using "
 "custom fields. This option must be enabled for descriptions to be displayed "
@@ -2638,11 +2638,11 @@ msgstr ""
 "довільними полями та враховуючи назву довільного поля, яку Ви визначите "
 "нижче."
 
-#: options_blu.php:651
+#: options_divi.php:651
 msgid "Enable custom keywords"
 msgstr "Активувати функцію довільних ключових слів"
 
-#: options_blu.php:655
+#: options_divi.php:655
 msgid ""
 "If you would like to add meta keywords to your post you can do so using "
 "custom fields. This option must be enabled for keywords to be displayed on "
@@ -2655,15 +2655,15 @@ msgstr ""
 "ключові слова, скориставшись довільними полями та враховуючи назву "
 "довільного поля, яку Ви визначите нижче."
 
-#: options_blu.php:658
+#: options_divi.php:658
 msgid "Enable canonical URL's"
 msgstr "Активувати функцію канонічних URL's"
 
-#: options_blu.php:665
+#: options_divi.php:665
 msgid "Custom field Name to be used for title"
 msgstr "Назва довільного поля, що буде використовуватись для заголовка"
 
-#: options_blu.php:669
+#: options_divi.php:669
 msgid ""
 "When you define your title using custom fields you should use this value for "
 "the custom field Name. The Value of your custom field should be the custom "
@@ -2674,11 +2674,11 @@ msgstr ""
 "довільного поля повинне бути довільним заголовком, який Ви хочете "
 "використовувати."
 
-#: options_blu.php:673
+#: options_divi.php:673
 msgid "Custom field Name to be used for description"
 msgstr "Назва довільного поля, що буде використана для опису"
 
-#: options_blu.php:677
+#: options_divi.php:677
 msgid ""
 "When you define your meta description using custom fields you should use "
 "this value for the custom field Name. The Value of your custom field should "
@@ -2689,11 +2689,11 @@ msgstr ""
 "довільного поля повинне бути довільним описом, який Ви б хотіли "
 "використовувати."
 
-#: options_blu.php:681
+#: options_divi.php:681
 msgid "Custom field Name to be used for keywords"
 msgstr "Назва довільного поля, що буде використана для ключових слів"
 
-#: options_blu.php:685
+#: options_divi.php:685
 msgid ""
 "When you define your keywords using custom fields you should use this value "
 "for the custom field Name. The Value of your custom field should be the meta "
@@ -2704,7 +2704,7 @@ msgstr ""
 "довільного поля повинне бути мета-ключовими словами, які б Ви хотіли "
 "використовувати. Ключові слова повинні бути відокремлені між собою комами."
 
-#: options_blu.php:694
+#: options_divi.php:694
 msgid ""
 "If you are not using cutsom post titles you can still have control over hw "
 "your titles are generated. Here you can choose which order you would like "
@@ -2716,11 +2716,11 @@ msgstr ""
 "порядок, відповідно до якого Ви б хотіли, щоб Ваші заголовок поста та назва "
 "блогу відображались. Ви також можете зовсім видалити назву блогу з заголовка."
 
-#: options_blu.php:718
+#: options_divi.php:718
 msgid "Enable meta descriptions"
 msgstr "Активувати мета-описи"
 
-#: options_blu.php:722
+#: options_divi.php:722
 msgid ""
 "Check this box if you want to display meta descriptions on category/archive "
 "pages. The description is based off the category description you choose when "
@@ -2730,11 +2730,11 @@ msgstr ""
 "мета-описи. Опис створюється на основі опису рубрики, який Ви обрали при "
 "створенні/редагуванні Вашої рубрики в wp-admin."
 
-#: options_blu.php:725
+#: options_divi.php:725
 msgid "Choose title autogeneration method"
 msgstr "Обрати метод створення заголовків"
 
-#: options_blu.php:730
+#: options_divi.php:730
 msgid ""
 "Here you can choose how your titles on index pages are generated. You can "
 "change which order your blog name and index title are displayed, or you can "
@@ -2745,7 +2745,7 @@ msgstr ""
 "Ваші назва блогу та індексний заголовок. Ви також можете зовсім видалити "
 "назву блогу з заголовка."
 
-#: options_blu.php:737
+#: options_divi.php:737
 msgid ""
 "Here you can change which character separates your blog title and index page "
 "name when using autogenerated post titles. Common values are | or -"
@@ -2754,15 +2754,15 @@ msgstr ""
 "назви індексної сторінки при автоматичному створенні заголовків постів. "
 "Зазвичай використовується | or -"
 
-#: options_blu.php:756
+#: options_divi.php:756
 msgid "Code Integration"
 msgstr "Інтеграція коду"
 
-#: options_blu.php:764
+#: options_divi.php:764
 msgid "Enable header code"
 msgstr "Увімкнути код верхнього колонтитула"
 
-#: options_blu.php:768
+#: options_divi.php:768
 msgid ""
 "Disabling this option will remove the header code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2771,11 +2771,11 @@ msgstr ""
 "блогу. Це дозволяє Вам видалити код і при цьому зберегти його для подальшого "
 "використання."
 
-#: options_blu.php:771
+#: options_divi.php:771
 msgid "Enable body code"
 msgstr "Активувати < body > код"
 
-#: options_blu.php:775
+#: options_divi.php:775
 msgid ""
 "Disabling this option will remove the body code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2784,11 +2784,11 @@ msgstr ""
 "Це дозволяє Вам видалити код і при цьому зберегти його для подальшого "
 "використання."
 
-#: options_blu.php:778
+#: options_divi.php:778
 msgid "Enable single top code"
 msgstr "Активувати single top код"
 
-#: options_blu.php:782
+#: options_divi.php:782
 msgid ""
 "Disabling this option will remove the single top code below from your blog. "
 "This allows you to remove the code while saving it for later use."
@@ -2797,11 +2797,11 @@ msgstr ""
 "дозволяє Вам видалити код і при цьому зберегти його для подальшого "
 "використання."
 
-#: options_blu.php:785
+#: options_divi.php:785
 msgid "Enable single bottom code"
 msgstr "Активувати single bottom код"
 
-#: options_blu.php:789
+#: options_divi.php:789
 msgid ""
 "Disabling this option will remove the single bottom code below from your "
 "blog. This allows you to remove the code while saving it for later use."
@@ -2810,11 +2810,11 @@ msgstr ""
 "дозволяє Вам видалити код і при цьому зберегти його для подальшого "
 "використання."
 
-#: options_blu.php:792
+#: options_divi.php:792
 msgid "Add code to the < head > of your blog"
 msgstr "Додати код до < head > Вашого блогу"
 
-#: options_blu.php:796
+#: options_divi.php:796
 msgid ""
 "Any code you place here will appear in the head section of every page of "
 "your blog. This is useful when you need to add javascript or css to all "
@@ -2824,14 +2824,14 @@ msgstr ""
 "кожної сторінки Вашого блогу. Це зручно, коли Вам потрібно додати Javascript "
 "чи CSS на всі сторінки."
 
-#: options_blu.php:799
+#: options_divi.php:799
 msgid ""
 "Add code to the < body > (good for tracking codes such as google analytics)"
 msgstr ""
 "Додати код до < body > (зручно для таких кодів для відстеження як Google "
 "Analytics)"
 
-#: options_blu.php:803
+#: options_divi.php:803
 msgid ""
 "Any code you place here will appear in body section of all pages of your "
 "blog. This is usefull if you need to input a tracking pixel for a state "
@@ -2841,11 +2841,11 @@ msgstr ""
 "кожної сторінки Вашого блогу. Це зручно, коли Вам потрібно ввести трекинг "
 "піксель в такий регістр стану як Google Analytics."
 
-#: options_blu.php:806
+#: options_divi.php:806
 msgid "Add code to the top of your posts"
 msgstr "Додати код у верхню частину Ваших постів"
 
-#: options_blu.php:810 options_blu.php:817
+#: options_divi.php:810 options_divi.php:817
 msgid ""
 "Any code you place here will be placed at the top of all single posts. This "
 "is useful if you are looking to integrating things such as social "
@@ -2855,19 +2855,19 @@ msgstr ""
 "всіх постів. Це зручно, якщо Вам потрібно інтегрувати такі речі як посилання "
 "на соціальні закладки."
 
-#: options_blu.php:813
+#: options_divi.php:813
 msgid "Add code to the bottom of your posts, before the comments"
 msgstr "Додати код в нижню частину Ваших постів, перед коментарями"
 
-#: options_blu.php:835
+#: options_divi.php:835
 msgid "Manage Un-widgetized Advertisements"
 msgstr "Управління рекламою"
 
-#: options_blu.php:843
+#: options_divi.php:843
 msgid "Enable Single Post 468x60 banner"
 msgstr "Увімкнути банер для одного посту з роздільною здатністю 468x60"
 
-#: options_blu.php:847
+#: options_divi.php:847
 msgid ""
 "Enabling this option will display a 468x60 banner ad on the bottom of your "
 "post pages below the single post content. If enabled you must fill in the "
@@ -2878,28 +2878,28 @@ msgstr ""
 "468x60. Якщо Ви активували цю функцію, то Ви повинні додати зображення "
 "банера та URL нижче."
 
-#: options_blu.php:850
+#: options_divi.php:850
 msgid "Input 468x60 advertisement banner image"
 msgstr "Додати зображення рекламного банера з роздільною здатністю 468x60"
 
-#: options_blu.php:854
+#: options_divi.php:854
 msgid "Here you can provide 468x60 banner image url"
 msgstr ""
 "Тут Ви можете розмістити URL зображення банера з роздільною здатністю 468x60"
 
-#: options_blu.php:858
+#: options_divi.php:858
 msgid "Input 468x60 advertisement destination url"
 msgstr "Ввести адресу URL реклами з роздільною здатністю 468x60"
 
-#: options_blu.php:862
+#: options_divi.php:862
 msgid "Here you can provide 468x60 banner destination url"
 msgstr "Тут Ви можете ввести адресу URL банера з роздільною здатністю 468x60"
 
-#: options_blu.php:866
+#: options_divi.php:866
 msgid "Input 468x60 adsense code"
 msgstr "Ввести 468x60 Google Adsense код"
 
-#: options_blu.php:870
+#: options_divi.php:870
 msgid "Place your adsense code here."
 msgstr "Розмістити Ваш Google Adsense код тут."
 

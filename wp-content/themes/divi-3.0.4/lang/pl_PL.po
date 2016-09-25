@@ -96,7 +96,7 @@ msgstr "Opcje motywu%s"
 msgid "Reset to Defaults"
 msgstr "Zresetuj do ustawień domyślnych"
 
-#: epanel/core_functions.php:160 options_blu.php:38
+#: epanel/core_functions.php:160 options_divi.php:38
 msgid "General"
 msgstr "Ogólne"
 
@@ -160,7 +160,7 @@ msgstr "Autor"
 msgid "Date"
 msgstr "Data"
 
-#: epanel/core_functions.php:510 options_blu.php:316
+#: epanel/core_functions.php:510 options_divi.php:316
 msgid "Categories"
 msgstr "Kategorie"
 
@@ -511,15 +511,15 @@ msgstr "Umiejętności"
 msgid "Posted on"
 msgstr "Opublikowano w dniu"
 
-#: functions.php:293 options_blu.php:103
+#: functions.php:293 options_divi.php:103
 msgid "Right Sidebar"
 msgstr "Prawy panel boczny"
 
-#: functions.php:294 options_blu.php:104
+#: functions.php:294 options_divi.php:104
 msgid "Left Sidebar"
 msgstr "Lewy panel boczny"
 
-#: functions.php:295 options_blu.php:105
+#: functions.php:295 options_divi.php:105
 msgid "Full Width"
 msgstr "Pełna szerokość"
 
@@ -589,7 +589,7 @@ msgstr "Nawigacja projektu"
 msgid "you don't have sufficient permissions to access this page"
 msgstr "nie masz wystarczających uprawnień do dostępu do tej strony"
 
-#: functions.php:586 options_blu.php:321 options_blu.php:461
+#: functions.php:586 options_divi.php:321 options_divi.php:461
 msgid "General Settings"
 msgstr "Ustawienia ogólne"
 
@@ -1799,15 +1799,15 @@ msgstr "Adsense"
 msgid "Adsense Code"
 msgstr "Kod Adsense"
 
-#: options_blu.php:45
+#: options_divi.php:45
 msgid "Logo"
 msgstr "Logo"
 
-#: options_blu.php:48
+#: options_divi.php:48
 msgid "Set As Logo"
 msgstr "Ustaw jako logo"
 
-#: options_blu.php:50
+#: options_divi.php:50
 msgid ""
 "If you would like to use your own custom logo image click the Upload Image "
 "button."
@@ -1815,15 +1815,15 @@ msgstr ""
 "Jeśli chcesz używać swojego własnego, niestandardwoego logo, kliknij "
 "przycisk „Wczytaj obrazek”."
 
-#: options_blu.php:53
+#: options_divi.php:53
 msgid "Favicon"
 msgstr "Favicon"
 
-#: options_blu.php:56
+#: options_divi.php:56
 msgid "Set As Favicon"
 msgstr "Ustaw jako favicon"
 
-#: options_blu.php:58
+#: options_divi.php:58
 msgid ""
 "If you would like to use your own custom favicon image click the Upload "
 "Image button."
@@ -1831,11 +1831,11 @@ msgstr ""
 "Jeśli chcesz używać swojego własnego, niestandardwoego obrazka favicon, "
 "kliknij przycisk „Wczytaj obrazek”."
 
-#: options_blu.php:61
+#: options_divi.php:61
 msgid "Fixed Navigation Bar"
 msgstr "Zablokowany pasek nawigacji"
 
-#: options_blu.php:65
+#: options_divi.php:65
 msgid ""
 "By default the navigation bar stays on top of the screen at all times. We "
 "suggest to disable this option, if you need to use a logo taller than the "
@@ -1844,11 +1844,11 @@ msgstr ""
 "Domyślnie, pasek nawigacji zostaje przez cały czas na górze ekranu. Jeśli "
 "chcesz użyć dużego obrazka logo proponujemy wyłącznie tej opcji."
 
-#: options_blu.php:68
+#: options_divi.php:68
 msgid "Enable Divi Gallery"
 msgstr "Włącz galerię Divi"
 
-#: options_blu.php:72
+#: options_divi.php:72
 msgid ""
 "Enable this if you want to replace the WordPress default gallery with the "
 "Divi-style gallery."
@@ -1856,21 +1856,21 @@ msgstr ""
 "Włącz tę opcję, jeżeli chcesz zastąpić domyślną galerię WordPress galerią w "
 "stylu Divi."
 
-#: options_blu.php:75
+#: options_divi.php:75
 msgid "Color Pickers Default Palette"
 msgstr "Domyślna paleta narzędzia wyboru kolorów"
 
-#: options_blu.php:80
+#: options_divi.php:80
 msgid "Define the default color palette for color pickers in the Divi Builder."
 msgstr ""
 "Zdefiniuj domyślną paletę kolorów dla narzędzia wyboru kolorów w programie "
 "Divi Builder."
 
-#: options_blu.php:85
+#: options_divi.php:85
 msgid "Grab the first post image"
 msgstr "Pobierz pierwszy obrazek wpisu"
 
-#: options_blu.php:89
+#: options_divi.php:89
 msgid ""
 "By default thumbnail images are created using custom fields. However, if you "
 "would rather use the images that are already in your post for your thumbnail "
@@ -1884,11 +1884,11 @@ msgstr ""
 "obrazków będą tworzone automatycznie, przy użyciu pierwszego obrazka we "
 "wpisie. Obrazek musi znajdować się na Twoim serwerze."
 
-#: options_blu.php:92
+#: options_divi.php:92
 msgid "Blog Style Mode"
 msgstr "Tryb stylu blogowego"
 
-#: options_blu.php:96
+#: options_divi.php:96
 msgid ""
 "By default the theme truncates your posts on index/homepages automatically "
 "to create post previews. If you would rather show your posts in full on "
@@ -1898,21 +1898,21 @@ msgstr ""
 "podglądy wpisów. Jeśli wolisz, by Twoje wpisy były wyświetlane w całości, "
 "jak w tradycyjnym blogu, możesz aktywować tę funkcję."
 
-#: options_blu.php:99
+#: options_divi.php:99
 msgid "Shop Page & Category Page Layout for WooCommerce"
 msgstr "Układ graficzny strony sklepu i strony kategorii do WooCommerce"
 
-#: options_blu.php:108
+#: options_divi.php:108
 msgid "Here you can choose Shop Page & Category Page Layout for WooCommerce."
 msgstr ""
 "Tutaj możesz wybrać układ graficzny strony sklepu i strony kategorii do "
 "WooCommerce."
 
-#: options_blu.php:112
+#: options_divi.php:112
 msgid "MailChimp API Key"
 msgstr "Klucz API do programu MailChimp"
 
-#: options_blu.php:117
+#: options_divi.php:117
 msgid ""
 "Enter your MailChimp API key. You can create an api key <a target=\"_blank\" "
 "href=\"%1$s\">here</a>"
@@ -1920,19 +1920,19 @@ msgstr ""
 "Wpisz swój klucz API do programu MailChimp. Możesz utworzyć klucz API <a "
 "target=\"_blank\" href=\"%1$s\">tutaj</a>"
 
-#: options_blu.php:120
+#: options_divi.php:120
 msgid "Aweber Authorization"
 msgstr "Uwierzytelnienie do aplikacji Aweber"
 
-#: options_blu.php:122
+#: options_divi.php:122
 msgid "Authorize your Aweber account here."
 msgstr "Tutaj uwierzytelnij swoje konto Aweber."
 
-#: options_blu.php:126
+#: options_divi.php:126
 msgid "Regenerate MailChimp Lists"
 msgstr "Odnów listy programu MailChimp"
 
-#: options_blu.php:130
+#: options_divi.php:130
 msgid ""
 "By default, MailChimp lists are cached for one day. If you added new list, "
 "but it doesn't appear within the Email Optin module settings, activate this "
@@ -1942,11 +1942,11 @@ msgstr ""
 "nową listę, ale nie pojawiają się w ustawieniach modułu e-mail OptIn włączyć "
 "tę opcję. Nie zapomnij, aby go wyłączyć, gdy lista została zregenerowana."
 
-#: options_blu.php:132
+#: options_divi.php:132
 msgid "Regenerate Aweber Lists"
 msgstr "Odnów listy programu Aweber"
 
-#: options_blu.php:136
+#: options_divi.php:136
 msgid ""
 "By default, Aweber lists are cached for one day. If you added new list, but "
 "it doesn't appear within the Email Optin module settings, activate this "
@@ -1956,79 +1956,79 @@ msgstr ""
 "listę, ale nie pojawiają się w ustawieniach modułu e-mail OptIn włączyć tę "
 "opcję. Nie zapomnij, aby go wyłączyć, gdy lista została zregenerowana."
 
-#: options_blu.php:138
+#: options_divi.php:138
 msgid "Show Facebook Icon"
 msgstr "Pokaż ikonę portalu Facebook"
 
-#: options_blu.php:142
+#: options_divi.php:142
 msgid "Here you can choose to display the Facebook Icon on your homepage. "
 msgstr ""
 "Tutaj możesz włączyć wyświetlanie ikony portalu Facebook na swojej stronie "
 "głównej. "
 
-#: options_blu.php:144
+#: options_divi.php:144
 msgid "Show Twitter Icon"
 msgstr "Pokaż ikonę portalu Twitter"
 
-#: options_blu.php:148
+#: options_divi.php:148
 msgid "Here you can choose to display the Twitter Icon. "
 msgstr "Tutaj możesz włączyć wyświetlanie ikony portalu Twitter. "
 
-#: options_blu.php:150
+#: options_divi.php:150
 msgid "Show Google+ Icon"
 msgstr "Pokaż ikonę portalu Google+"
 
-#: options_blu.php:154
+#: options_divi.php:154
 msgid "Here you can choose to display the Google+ Icon on your homepage. "
 msgstr ""
 "Tutaj możesz włączyć wyświetlanie ikony portalu Google+ na swojej stronie "
 "głównej. "
 
-#: options_blu.php:156
+#: options_divi.php:156
 msgid "Show RSS Icon"
 msgstr "Pokaż ikonę kanałów RSS"
 
-#: options_blu.php:160
+#: options_divi.php:160
 msgid "Here you can choose to display the RSS Icon. "
 msgstr "Tutaj możesz włączyć wyświetlanie ikony kanałów RSS. "
 
-#: options_blu.php:162
+#: options_divi.php:162
 msgid "Facebook Profile Url"
 msgstr "Adres URL profilu w portalu Facebook"
 
-#: options_blu.php:167
+#: options_divi.php:167
 msgid "Enter the URL of your Facebook Profile. "
 msgstr "Wpisz adres URL swojego profilu w portalu Facebook. "
 
-#: options_blu.php:169
+#: options_divi.php:169
 msgid "Twitter Profile Url"
 msgstr "Adres URL profilu w portalu Twitter"
 
-#: options_blu.php:174
+#: options_divi.php:174
 msgid "Enter the URL of your Twitter Profile."
 msgstr "Wpisz adres URL swojego profilu w portalu Twitter."
 
-#: options_blu.php:176
+#: options_divi.php:176
 msgid "Google+ Profile Url"
 msgstr "Adres URL profilu w portalu Google+"
 
-#: options_blu.php:181
+#: options_divi.php:181
 msgid "Enter the URL of your Google+ Profile. "
 msgstr "Wpisz adres URL swojego profilu w portalu Google+. "
 
-#: options_blu.php:183
+#: options_divi.php:183
 msgid "RSS Icon Url"
 msgstr "Adres URL ikony kanałów RSS"
 
-#: options_blu.php:188
+#: options_divi.php:188
 msgid "Enter the URL of your RSS feed. "
 msgstr "Wpisz adres URL swoich kanałów RSS. "
 
-#: options_blu.php:190
+#: options_divi.php:190
 msgid "Number of Products displayed on WooCommerce archive pages"
 msgstr "Ilość produktów pokazywanych na stronach archiwum WooCommerce"
 
-#: options_blu.php:194
+#: options_divi.php:194
 msgid ""
 "Here you can designate how many WooCommerce products are displayed on the "
 "archive page. This option works independently from the Settings > Reading "
@@ -2038,11 +2038,11 @@ msgstr ""
 "stronie archiwum. Ta opcja działa niezależnie od Ustawienia > Opcje czytania "
 "w wp-admin."
 
-#: options_blu.php:198
+#: options_divi.php:198
 msgid "Number of Posts displayed on Category page"
 msgstr "Liczba wpisów wyświetlanych na stronie kategorii"
 
-#: options_blu.php:202
+#: options_divi.php:202
 msgid ""
 "Here you can designate how many recent articles are displayed on the "
 "Category page. This option works independently from the Settings > Reading "
@@ -2052,11 +2052,11 @@ msgstr ""
 "stronie kategorii. Ta opcja działa niezależnie od opcji odczytywania w "
 "zakładce wp-admin."
 
-#: options_blu.php:206
+#: options_divi.php:206
 msgid "Number of Posts displayed on Archive pages"
 msgstr "Liczba wpisów wyświetlanych na stronie archiwum"
 
-#: options_blu.php:210
+#: options_divi.php:210
 msgid ""
 "Here you can designate how many recent articles are displayed on the Archive "
 "pages. This option works independently from the Settings > Reading options "
@@ -2066,11 +2066,11 @@ msgstr ""
 "stronach archiwum. Ta opcja działa niezależnie od opcji odczytywania w "
 "zakładce wp-admin."
 
-#: options_blu.php:214
+#: options_divi.php:214
 msgid "Number of Posts displayed on Search pages"
 msgstr "Liczba wpisów wyświetlanych na stronach wyszukiwania"
 
-#: options_blu.php:218
+#: options_divi.php:218
 msgid ""
 "Here you can designate how many recent articles are displayed on the Search "
 "results pages. This option works independently from the Settings > Reading "
@@ -2080,11 +2080,11 @@ msgstr ""
 "stronach wyników wyszukiwania. Ta opcja działa niezależnie od opcji "
 "odczytywania w zakładce wp-admin."
 
-#: options_blu.php:222
+#: options_divi.php:222
 msgid "Number of Posts displayed on Tag pages"
 msgstr "Liczba wpisów wyświetlanych na stronnach znaczników"
 
-#: options_blu.php:226
+#: options_divi.php:226
 msgid ""
 "Here you can designate how many recent articles are displayed on the Tag "
 "pages. This option works independently from the Settings > Reading options "
@@ -2094,11 +2094,11 @@ msgstr ""
 "stronach znaczników. Ta opcja działa niezależnie od opcji odczytywania w "
 "zakładce wp-admin."
 
-#: options_blu.php:230
+#: options_divi.php:230
 msgid "Date format"
 msgstr "Format daty"
 
-#: options_blu.php:234
+#: options_divi.php:234
 msgid ""
 "This option allows you to change how your dates are displayed. For more "
 "information please refer to the WordPress codex here:<a href='http://codex."
@@ -2110,52 +2110,52 @@ msgstr ""
 "wordpress.org/Formatting_Date_and_Time' target='_blank'>Formatowanie daty i "
 "czasu</a>"
 
-#: options_blu.php:238
+#: options_divi.php:238
 msgid "Use excerpts when defined"
 msgstr "Jeśli tak określono, używaj fragmentów"
 
-#: options_blu.php:242
+#: options_divi.php:242
 msgid "This will enable the use of excerpts in posts or pages."
 msgstr "Ta opcja umożliwi stosowanie fragmentów we wpisach lub na stronach."
 
-#: options_blu.php:245
+#: options_divi.php:245
 msgid "Responsive shortcodes"
 msgstr "Responsywne shortcodes"
 
-#: options_blu.php:249
+#: options_divi.php:249
 msgid "Enable this option to make shortcodes respond to various screen sizes"
 msgstr "Włącz tę opcję, aby shortcodes reagowały na różne rozmiary ekranu"
 
-#: options_blu.php:252
+#: options_divi.php:252
 msgid "Google Fonts subsets"
 msgstr "Podzbiory Google Fonts"
 
-#: options_blu.php:256
+#: options_divi.php:256
 msgid "This will enable Google Fonts for Non-English languages."
 msgstr "Spowoduje to włączenie Google Fonts do języków innych niż angielski."
 
-#: options_blu.php:259
+#: options_divi.php:259
 msgid "Back To Top Button"
 msgstr "Przycisk powrotu do góry"
 
-#: options_blu.php:263
+#: options_divi.php:263
 msgid "Enable this option to display Back To Top Button while scrolling"
 msgstr "Włącz tę opcję, aby podczas przewijania wyświetlać „Wróć do góry”"
 
-#: options_blu.php:266
+#: options_divi.php:266
 msgid "Smooth Scrolling"
 msgstr "Płynne przewijanie"
 
-#: options_blu.php:270
+#: options_divi.php:270
 msgid "Enable this option to get the smooth scrolling effect with mouse wheel"
 msgstr ""
 "Włącz tę opcję, aby uzyskać efekt płynnego przewijania kółeczkiem myszy"
 
-#: options_blu.php:273
+#: options_divi.php:273
 msgid "Disable Translations"
 msgstr "Wyłącz tłumaczenie"
 
-#: options_blu.php:277
+#: options_divi.php:277
 msgid ""
 "Disable translations if you don't want to display translated theme strings "
 "on your site."
@@ -2163,33 +2163,33 @@ msgstr ""
 "Wyłącz tłumaczenie, jeśli nie chcesz, by stringi Twojego motywu były "
 "tłumaczone."
 
-#: options_blu.php:280
+#: options_divi.php:280
 msgid "Custom CSS"
 msgstr "Niestandardowe CSS"
 
-#: options_blu.php:284
+#: options_divi.php:284
 msgid "Here you can add custom css to override or extend default styles."
 msgstr ""
 "Tutaj możesz dodać niestandardowe CSS, aby nadpisać lub rozszerzyć style "
 "domyślne."
 
-#: options_blu.php:289
+#: options_divi.php:289
 msgid "Memory Limit Increase"
 msgstr "Zwiększenie limitu pamięci"
 
-#: options_blu.php:291
+#: options_divi.php:291
 msgid "Here you can disable automatic memory limit increase."
 msgstr "W tym miejscu można wyłączyć automatyczne zwiększanie limitu pamięci."
 
-#: options_blu.php:311
+#: options_divi.php:311
 msgid "Pages"
 msgstr "Strony"
 
-#: options_blu.php:329
+#: options_divi.php:329
 msgid "Exclude pages from the navigation bar"
 msgstr "Wyłącz strony z paska nawigacji"
 
-#: options_blu.php:333
+#: options_divi.php:333
 msgid ""
 "Here you can choose to remove certain pages from the navigation menu. All "
 "pages marked with an X will not appear in your navigation bar. "
@@ -2197,11 +2197,11 @@ msgstr ""
 "Tutaj możesz wybrać niektóre strony do usunięcia z menu nawigacji. Wszystkie "
 "strony oznaczone literą X nie będą pojawiały się w pasku nawigacji. "
 
-#: options_blu.php:337 options_blu.php:387
+#: options_divi.php:337 options_divi.php:387
 msgid "Show dropdown menus"
 msgstr "Pokaż menu rozwijane"
 
-#: options_blu.php:341
+#: options_divi.php:341
 msgid ""
 "If you would like to remove the dropdown menus from the pages navigation bar "
 "disable this feature."
@@ -2209,11 +2209,11 @@ msgstr ""
 "Jeśli chcesz usunąć menu rozwijalne z paska nawigacji stron, wyłącz tę "
 "funkcję."
 
-#: options_blu.php:344
+#: options_divi.php:344
 msgid "Display Home link"
 msgstr "Wyświetlaj odnośnik do strony głównej"
 
-#: options_blu.php:348
+#: options_divi.php:348
 msgid ""
 "By default the theme creates a Home link that, when clicked, leads back to "
 "your blog's homepage. If, however, you are using a static homepage and have "
@@ -2226,19 +2226,19 @@ msgstr ""
 "tej funkcji spowoduje powstanie zduplikowany odnośnik. W takim przypadku "
 "należy wyłączyć tę opcję, aby usunąć ten odnośnik."
 
-#: options_blu.php:351
+#: options_divi.php:351
 msgid "Sort Pages Links"
 msgstr "Sortuj odnośniki do stron"
 
-#: options_blu.php:355
+#: options_divi.php:355
 msgid "Here you can choose to sort your pages links."
 msgstr "Tutaj możesz wybrać sposób sortowania odnośników do stron."
 
-#: options_blu.php:358
+#: options_divi.php:358
 msgid "Order Pages Links by Ascending/Descending"
 msgstr "Układaj odnośniki w kolejności rosnącej/malejącej"
 
-#: options_blu.php:362
+#: options_divi.php:362
 msgid ""
 "Here you can choose to reverse the order that your pages links are "
 "displayed. You can choose between ascending and descending."
@@ -2246,11 +2246,11 @@ msgstr ""
 "Tutaj możesz wybrać odwrotną kolejność wyświetlania odnośników do stron. "
 "Możesz wybrać kolejność rosnącą lub malejącą."
 
-#: options_blu.php:365 options_blu.php:401
+#: options_divi.php:365 options_divi.php:401
 msgid "Number of dropdown tiers shown"
 msgstr "Liczba pokazywanych poziomów rozwijania."
 
-#: options_blu.php:369 options_blu.php:405
+#: options_divi.php:369 options_divi.php:405
 msgid ""
 "This options allows you to control how many teirs your pages dropdown menu "
 "has. Increasing the number allows for additional menu items to be shown."
@@ -2259,11 +2259,11 @@ msgstr ""
 "na Twoich stronach. Zwiększenie ich liczby umożliwi pokazywanie dodatkowych "
 "elementów menu."
 
-#: options_blu.php:379
+#: options_divi.php:379
 msgid "Exclude categories from the navigation bar"
 msgstr "Wyłącz kategorie z paska nawigacji"
 
-#: options_blu.php:383
+#: options_divi.php:383
 msgid ""
 "Here you can choose to remove certain categories from the navigation menu. "
 "All categories marked with an X will not appear in your navigation bar. "
@@ -2272,7 +2272,7 @@ msgstr ""
 "Wszystkie kategorie oznaczone literą X nie będą pojawiały się w pasku "
 "nawigacji. "
 
-#: options_blu.php:391
+#: options_divi.php:391
 msgid ""
 "If you would like to remove the dropdown menus from the categories "
 "navigation bar disable this feature."
@@ -2280,11 +2280,11 @@ msgstr ""
 "Jeśli chcesz usunąć menu rozwijalne z paska nawigacji kategorii, wyłącz tę "
 "funkcję."
 
-#: options_blu.php:394
+#: options_divi.php:394
 msgid "Hide empty categories"
 msgstr "Ukryj puste kategorie"
 
-#: options_blu.php:398
+#: options_divi.php:398
 msgid ""
 "If you would like categories to be displayed in your navigationbar that "
 "don't have any posts in them then disable this option. By default empty "
@@ -2293,11 +2293,11 @@ msgstr ""
 "Jeśli chcesz, by w pasku nawigacji były wyświetlane kategorie, w których nie "
 "ma żadnych wpisów, wyłącz tę opcję. Domyślnie, puste kategorie są ukryte."
 
-#: options_blu.php:409
+#: options_divi.php:409
 msgid "Sort Categories Links by Name/ID/Slug/Count/Term Group"
 msgstr "Sortuj odnośniki kategorii według grupy Name/ID/Slug/Count/Term"
 
-#: options_blu.php:413
+#: options_divi.php:413
 msgid ""
 "By default pages are sorted by name. However if you would rather have them "
 "sorted by ID you can adjust this setting."
@@ -2305,11 +2305,11 @@ msgstr ""
 "Domyślnie, strony są sortowane według nazwy. Jeśli jednak chcesz, by były "
 "sortowane według ID, możesz dostosować to ustawienie."
 
-#: options_blu.php:416
+#: options_divi.php:416
 msgid "Order Category Links by Ascending/Descending"
 msgstr "Układaj kategorie w kolejności rosnącej/malejącej"
 
-#: options_blu.php:420
+#: options_divi.php:420
 msgid ""
 "Here you can choose to reverse the order that your categories links are "
 "displayed. You can choose between ascending and descending."
@@ -2317,11 +2317,11 @@ msgstr ""
 "Tutaj możesz wybrać odwrotną kolejność wyświetlania kategorii stron. Możesz "
 "wybrać kolejność rosnącą lub malejącą."
 
-#: options_blu.php:429
+#: options_divi.php:429
 msgid "Disable top tier dropdown menu links"
 msgstr "Wyłącz odnośniki menu rozwijalnego z najwyższego poziomu"
 
-#: options_blu.php:433
+#: options_divi.php:433
 msgid ""
 "In some cases users will want to create parent categories or links as "
 "placeholders to hold a list of child links or categories. In this case it is "
@@ -2338,21 +2338,21 @@ msgstr ""
 "wszystkich stron/lategorii nadrzędnych tak, aby nigdzie nie przekierowywać "
 "po kliknięciu."
 
-#: options_blu.php:451
+#: options_divi.php:451
 msgid "Single Post Layout"
 msgstr "Układ graficzny z jednym wpisem"
 
-#: options_blu.php:456
+#: options_divi.php:456
 msgid "Single Page Layout"
 msgstr "Układ graficzny z jedną stroną"
 
-#: options_blu.php:469
+#: options_divi.php:469
 msgid "Choose which items to display in the postinfo section"
 msgstr ""
 "Wybierz, które elementy mają być wyświetlane w sekcji informacji dotyczących "
 "wpisu"
 
-#: options_blu.php:473
+#: options_divi.php:473
 msgid ""
 "Here you can choose which items appear in the postinfo section on single "
 "post pages. This is the area, usually below the post title, which displays "
@@ -2364,11 +2364,11 @@ msgstr ""
 "pod tytułem wpisu, gdzie wyświetlane są podstawowe informacje o wpisie. "
 "Pojawiać się tam będą elementy podświetlone poniżej. "
 
-#: options_blu.php:477
+#: options_divi.php:477
 msgid "Show comments on posts"
 msgstr "Pokaż komentarze we wpisach"
 
-#: options_blu.php:481
+#: options_divi.php:481
 msgid ""
 "You can disable this option if you want to remove the comments and comment "
 "form from single post pages. "
@@ -2376,11 +2376,11 @@ msgstr ""
 "Tę opcję można wyłączyć, jeśli chcesz usunąć z wpisów komentarze i "
 "formularze komentarzy. "
 
-#: options_blu.php:484
+#: options_divi.php:484
 msgid "Place Thumbs on Posts"
 msgstr "Umieszczaj miniaturki obrazków we wpisach"
 
-#: options_blu.php:488
+#: options_divi.php:488
 msgid ""
 "By default thumbnails are placed at the beginning of your post on single "
 "post pages. If you would like to remove this initial thumbnail image to "
@@ -2390,11 +2390,11 @@ msgstr ""
 "z pojedynczym wpisem. Jeśli chcesz usunąć te wyświetlane na początku "
 "miniaturki obrazków, aby uniknąć powtórzeń, po prostu wyłącz tę opcję. "
 
-#: options_blu.php:497
+#: options_divi.php:497
 msgid "Place Thumbs on Pages"
 msgstr "Umieszczaj miniaturki obrazków na stronach"
 
-#: options_blu.php:501
+#: options_divi.php:501
 msgid ""
 "By default thumbnails are not placed on pages (they are only used on posts). "
 "However, if you want to use thumbnails on pages you can! Just enable this "
@@ -2404,11 +2404,11 @@ msgstr ""
 "postach). Jeśli chcesz, możesz umieścić miniatury także na stronach. "
 "Wystarczy włączyć tę opcję."
 
-#: options_blu.php:504
+#: options_divi.php:504
 msgid "Show comments on pages"
 msgstr "Pokaż komentarze na stronach"
 
-#: options_blu.php:508
+#: options_divi.php:508
 msgid ""
 "By default comments are not placed on pages, however, if you would like to "
 "allow people to comment on your pages simply enable this option. "
@@ -2417,11 +2417,11 @@ msgstr ""
 "umożliwić użytkownikom komentowanie na swoich stronach, po prostu włącz tę "
 "opcję. "
 
-#: options_blu.php:517
+#: options_divi.php:517
 msgid "Post info section"
 msgstr "Sekcja z informacjami o wpisie"
 
-#: options_blu.php:521
+#: options_divi.php:521
 msgid ""
 "Here you can choose which items appear in the postinfo section on pages. "
 "This is the area, usually below the post title, which displays basic "
@@ -2432,32 +2432,32 @@ msgstr ""
 "gdzie wyświetlane są podstawowe informacje o wpisie. Pojawiać się tam będą "
 "elementy podświetlone poniżej. "
 
-#: options_blu.php:524
+#: options_divi.php:524
 msgid "Show Thumbs on Index pages"
 msgstr "Pokaż miniaturki obrazków na stronach indeksowanych"
 
-#: options_blu.php:528
+#: options_divi.php:528
 msgid "Enable this option to show thumbnails on Index Pages."
 msgstr ""
 "Aby pokazywać miniaturki obrazków na stronach indeksowanych, włącz tę opcję."
 
-#: options_blu.php:545
+#: options_divi.php:545
 msgid "Homepage SEO"
 msgstr "SEO – strona główna"
 
-#: options_blu.php:550
+#: options_divi.php:550
 msgid "Single Post Page SEO"
 msgstr "SEO – strona z pojedynczym wpisem"
 
-#: options_blu.php:555
+#: options_divi.php:555
 msgid "Index Page SEO"
 msgstr "SEO – strona indeksowana"
 
-#: options_blu.php:563
+#: options_divi.php:563
 msgid " Enable custom title "
 msgstr "Włącz tytuł niestandardowy "
 
-#: options_blu.php:567
+#: options_divi.php:567
 msgid ""
 "By default the theme uses a combination of your blog name and your blog "
 "description, as defined when you created your blog, to create your homepage "
@@ -2469,11 +2469,11 @@ msgstr ""
 "tworzenia bloga. Tym niemniej, jeśli chcesz utworzyć tytuł niestandardowy, "
 "po prostu włącz tę opcję i wypełnij pole tytułu niestandardowego poniżej. "
 
-#: options_blu.php:570
+#: options_divi.php:570
 msgid " Enable meta description"
 msgstr "Włącz znacznik meta „description”"
 
-#: options_blu.php:574
+#: options_divi.php:574
 msgid ""
 "By default the theme uses your blog description, as defined when you created "
 "your blog, to fill in the meta description field. If you would like to use a "
@@ -2484,11 +2484,11 @@ msgstr ""
 "opis bloga taki, jaki podano podczas tworzenia bloga. Jeśli chcesz użyć "
 "innego opisu, włącz tę opcję i wypełnij niestandardowe pole opisu poniżej. "
 
-#: options_blu.php:577
+#: options_divi.php:577
 msgid " Enable meta keywords"
 msgstr "Włącz znacznik meta „keywords”"
 
-#: options_blu.php:581
+#: options_divi.php:581
 msgid ""
 "By default the theme does not add keywords to your header. Most search "
 "engines don't use keywords to rank your site anymore, but some people define "
@@ -2501,11 +2501,11 @@ msgstr ""
 "znaczniki meta „keywords” do nagłówka, włącz tę opcję i wypełnij poniżej "
 "pole niestandardowych słów kluczowych. "
 
-#: options_blu.php:584 options_blu.php:711
+#: options_divi.php:584 options_divi.php:711
 msgid " Enable canonical URL's"
 msgstr "Włącz kanoniczne adresy URL"
 
-#: options_blu.php:588 options_blu.php:662 options_blu.php:715
+#: options_divi.php:588 options_divi.php:662 options_divi.php:715
 msgid ""
 "Canonicalization helps to prevent the indexing of duplicate content by "
 "search engines, and as a result, may help avoid duplicate content penalties "
@@ -2530,11 +2530,11 @@ msgstr ""
 "kanoniczne adresy URL na linkach i nazwie domeny zdefiniowanych w zakładce "
 "ustawień wp-admin."
 
-#: options_blu.php:591
+#: options_divi.php:591
 msgid "Homepage custom title (if enabled)"
 msgstr "Niestandardowy tytuł strony głównej (jeśli włączono)"
 
-#: options_blu.php:595
+#: options_divi.php:595
 msgid ""
 "If you have enabled custom titles you can add your custom title here. "
 "Whatever you type here will be placed between the < title >< /title > tags "
@@ -2544,11 +2544,11 @@ msgstr ""
 "niestandardowy. Cokolwiek tu wpiszesz, zostanie umieszczone między "
 "znacznikami < title >< /title > w pliku header.php"
 
-#: options_blu.php:599
+#: options_divi.php:599
 msgid "Homepage meta description (if enabled)"
 msgstr "Znacznik meta „description” strony głównej (jeśli włączono)"
 
-#: options_blu.php:603
+#: options_divi.php:603
 msgid ""
 "If you have enabled meta descriptions you can add your custom description "
 "here."
@@ -2556,11 +2556,11 @@ msgstr ""
 "Jeśli masz włączone znaczniki meta „description”, tutaj możesz dodać swój "
 "niestandardowy opis."
 
-#: options_blu.php:607
+#: options_divi.php:607
 msgid "Homepage meta keywords (if enabled)"
 msgstr "Znacznik meta „keywords” strony głównej (jeśli włączono)"
 
-#: options_blu.php:611
+#: options_divi.php:611
 msgid ""
 "If you have enabled meta keywords you can add your custom keywords here. "
 "Keywords should be separated by comas. For example: wordpress,themes,"
@@ -2570,13 +2570,13 @@ msgstr ""
 "niestandardowe słowa kluczowe. Słowa kluczowe należy oddzielać przecinkami. "
 "Na przykład: wordpress,themes,templates,elegant"
 
-#: options_blu.php:615 options_blu.php:689
+#: options_divi.php:615 options_divi.php:689
 msgid "If custom titles are disabled, choose autogeneration method"
 msgstr ""
 "Jeśli tytuły niestandardowe są wyłączone, wybierz automatyczną metodę "
 "generowania tytułów"
 
-#: options_blu.php:620
+#: options_divi.php:620
 msgid ""
 "If you are not using cutsom post titles you can still have control over how "
 "your titles are generated. Here you can choose which order you would like "
@@ -2588,12 +2588,12 @@ msgstr ""
 "wyświetlania tytułów wpisów i nazwy bloga albo całkowicie usunąć nazwę bloga "
 "z tytułu."
 
-#: options_blu.php:623 options_blu.php:697 options_blu.php:733
+#: options_divi.php:623 options_divi.php:697 options_divi.php:733
 msgid "Define a character to separate BlogName and Post title"
 msgstr ""
 "Zdefiniuj znak do oddzielania nazwy strony internetowej od tytułu wpisu"
 
-#: options_blu.php:627 options_blu.php:701
+#: options_divi.php:627 options_divi.php:701
 msgid ""
 "Here you can change which character separates your blog title and post name "
 "when using autogenerated post titles. Common values are | or -"
@@ -2602,11 +2602,11 @@ msgstr ""
 "na potrzeby automatycznego generowania tytułów wpisów. Popularne wartości to "
 "| lub -"
 
-#: options_blu.php:637
+#: options_divi.php:637
 msgid "Enable custom titles"
 msgstr "Włącz tytuły niestandardowe"
 
-#: options_blu.php:641
+#: options_divi.php:641
 msgid ""
 "By default the theme creates post titles based on the title of your post and "
 "your blog name. If you would like to make your meta title different than "
@@ -2621,11 +2621,11 @@ msgstr ""
 "musi być włączona i poniżej musisz podać niestandardową nazwę, która stanie "
 "się tytułem."
 
-#: options_blu.php:644
+#: options_divi.php:644
 msgid "Enable custom description"
 msgstr "Włącz opis niestandardowy"
 
-#: options_blu.php:648
+#: options_divi.php:648
 msgid ""
 "If you would like to add a meta description to your post you can do so using "
 "custom fields. This option must be enabled for descriptions to be displayed "
@@ -2638,11 +2638,11 @@ msgstr ""
 "„description” za pomocą pól niestandardowych, w oparciu o niestandardową "
 "nazwę zdefiniowaną przez Ciebie poniżej."
 
-#: options_blu.php:651
+#: options_divi.php:651
 msgid "Enable custom keywords"
 msgstr "Włącz niestandardowe słowa kluczowe"
 
-#: options_blu.php:655
+#: options_divi.php:655
 msgid ""
 "If you would like to add meta keywords to your post you can do so using "
 "custom fields. This option must be enabled for keywords to be displayed on "
@@ -2655,15 +2655,15 @@ msgstr ""
 "„keywords” za pomocą pól niestandardowych, w oparciu o niestandardową nazwę "
 "zdefiniowaną przez Ciebie poniżej."
 
-#: options_blu.php:658
+#: options_divi.php:658
 msgid "Enable canonical URL's"
 msgstr "Włącz kanoniczne adresy URL"
 
-#: options_blu.php:665
+#: options_divi.php:665
 msgid "Custom field Name to be used for title"
 msgstr "Niestandardowa nazwa do tytułu"
 
-#: options_blu.php:669
+#: options_divi.php:669
 msgid ""
 "When you define your title using custom fields you should use this value for "
 "the custom field Name. The Value of your custom field should be the custom "
@@ -2673,11 +2673,11 @@ msgstr ""
 "jako nazwy niestandardowej. Wartością Twojego pola niestandardowego powinien "
 "być niestandardowy tytuł, którego chcesz użyć."
 
-#: options_blu.php:673
+#: options_divi.php:673
 msgid "Custom field Name to be used for description"
 msgstr "Niestandardowa nazwa do opisu"
 
-#: options_blu.php:677
+#: options_divi.php:677
 msgid ""
 "When you define your meta description using custom fields you should use "
 "this value for the custom field Name. The Value of your custom field should "
@@ -2687,11 +2687,11 @@ msgstr ""
 "nazwy niestandardowej. Wartością Twojego pola niestandardowego powinien być "
 "niestandardowy opis, którego chcesz użyć."
 
-#: options_blu.php:681
+#: options_divi.php:681
 msgid "Custom field Name to be used for keywords"
 msgstr "Niestandardowa nazwa do słów kluczowych"
 
-#: options_blu.php:685
+#: options_divi.php:685
 msgid ""
 "When you define your keywords using custom fields you should use this value "
 "for the custom field Name. The Value of your custom field should be the meta "
@@ -2701,7 +2701,7 @@ msgstr ""
 "wartości jako nazwy niestandardowej. Wartością Twojego pola niestandardowego "
 "powinny być niestandardowe słowa kluczowe, których chcesz użyć."
 
-#: options_blu.php:694
+#: options_divi.php:694
 msgid ""
 "If you are not using cutsom post titles you can still have control over hw "
 "your titles are generated. Here you can choose which order you would like "
@@ -2713,11 +2713,11 @@ msgstr ""
 "wyświetlania tytułów wpisów i nazwy bloga albo całkowicie usunąć nazwę bloga "
 "z tytułu."
 
-#: options_blu.php:718
+#: options_divi.php:718
 msgid "Enable meta descriptions"
 msgstr "Włącz znaczniki meta „description”"
 
-#: options_blu.php:722
+#: options_divi.php:722
 msgid ""
 "Check this box if you want to display meta descriptions on category/archive "
 "pages. The description is based off the category description you choose when "
@@ -2727,11 +2727,11 @@ msgstr ""
 "archiwum, zaznacz to okienko. Ten opis powstaje w oparciu o opis kategorii "
 "wybrany podczas tworzenia/edytowania kategorii w zakładce wp-admin."
 
-#: options_blu.php:725
+#: options_divi.php:725
 msgid "Choose title autogeneration method"
 msgstr "Wybierz sposób generowania tytułu"
 
-#: options_blu.php:730
+#: options_divi.php:730
 msgid ""
 "Here you can choose how your titles on index pages are generated. You can "
 "change which order your blog name and index title are displayed, or you can "
@@ -2741,7 +2741,7 @@ msgstr ""
 "Możesz zmienić kolejność wyświetlania nazwy bloga i indeksowanego tytułu lub "
 "całkowicie usunąć nazwę bloga z tytułu."
 
-#: options_blu.php:737
+#: options_divi.php:737
 msgid ""
 "Here you can change which character separates your blog title and index page "
 "name when using autogenerated post titles. Common values are | or -"
@@ -2750,15 +2750,15 @@ msgstr ""
 "indeksowanej, na potrzeby automatycznego generowania tytułów wpisów. "
 "Popularne wartości to | lub -"
 
-#: options_blu.php:756
+#: options_divi.php:756
 msgid "Code Integration"
 msgstr "Integracja kodu"
 
-#: options_blu.php:764
+#: options_divi.php:764
 msgid "Enable header code"
 msgstr "Włącz kod nagłówka"
 
-#: options_blu.php:768
+#: options_divi.php:768
 msgid ""
 "Disabling this option will remove the header code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2767,11 +2767,11 @@ msgstr ""
 "bloga. W ten sposób możesz usunąć kod, zachowując go jednocześnie do "
 "późniejszego użytku."
 
-#: options_blu.php:771
+#: options_divi.php:771
 msgid "Enable body code"
 msgstr "Włącz kod < body >"
 
-#: options_blu.php:775
+#: options_divi.php:775
 msgid ""
 "Disabling this option will remove the body code below from your blog. This "
 "allows you to remove the code while saving it for later use."
@@ -2780,11 +2780,11 @@ msgstr ""
 "bloga. W ten sposób możesz usunąć kod, zachowując go jednocześnie do "
 "późniejszego użytku."
 
-#: options_blu.php:778
+#: options_divi.php:778
 msgid "Enable single top code"
 msgstr "Włącz pojedynczy kod górny"
 
-#: options_blu.php:782
+#: options_divi.php:782
 msgid ""
 "Disabling this option will remove the single top code below from your blog. "
 "This allows you to remove the code while saving it for later use."
@@ -2793,11 +2793,11 @@ msgstr ""
 "górnego z Twojego bloga. W ten sposób możesz usunąć kod, zachowując go "
 "jednocześnie do późniejszego użytku."
 
-#: options_blu.php:785
+#: options_divi.php:785
 msgid "Enable single bottom code"
 msgstr "Włącz pojedynczy kod dolny"
 
-#: options_blu.php:789
+#: options_divi.php:789
 msgid ""
 "Disabling this option will remove the single bottom code below from your "
 "blog. This allows you to remove the code while saving it for later use."
@@ -2806,11 +2806,11 @@ msgstr ""
 "dolnego z Twojego bloga. W ten sposób możesz usunąć kod, zachowując go "
 "jednocześnie do późniejszego użytku."
 
-#: options_blu.php:792
+#: options_divi.php:792
 msgid "Add code to the < head > of your blog"
 msgstr "Dodaj kod < head > Twojego bloga"
 
-#: options_blu.php:796
+#: options_divi.php:796
 msgid ""
 "Any code you place here will appear in the head section of every page of "
 "your blog. This is useful when you need to add javascript or css to all "
@@ -2820,14 +2820,14 @@ msgstr ""
 "strony Twojego bloga. Jest to przydatne, gdy trzeba dodać Javascript lub CSS "
 "do wszystkich stron."
 
-#: options_blu.php:799
+#: options_divi.php:799
 msgid ""
 "Add code to the < body > (good for tracking codes such as google analytics)"
 msgstr ""
 "Dodaj kod do obszaru < body > (dobry do śledzenia kodów, np. Google "
 "Analytics)"
 
-#: options_blu.php:803
+#: options_divi.php:803
 msgid ""
 "Any code you place here will appear in body section of all pages of your "
 "blog. This is usefull if you need to input a tracking pixel for a state "
@@ -2837,11 +2837,11 @@ msgstr ""
 "strony Twojego bloga. Jest to przydatne, gdy trzeba wstawić piksel do "
 "śledzenia do licznika odwiedzin, np. Google Analytics."
 
-#: options_blu.php:806
+#: options_divi.php:806
 msgid "Add code to the top of your posts"
 msgstr "Dodaj kod u góry Twoich wpisów"
 
-#: options_blu.php:810 options_blu.php:817
+#: options_divi.php:810 options_divi.php:817
 msgid ""
 "Any code you place here will be placed at the top of all single posts. This "
 "is useful if you are looking to integrating things such as social "
@@ -2851,19 +2851,19 @@ msgstr ""
 "wpisów. Jest to przydatne, gdy chcesz zintegrować np. takie funkcje, jak "
 "odnośniki do portali społecznościowych."
 
-#: options_blu.php:813
+#: options_divi.php:813
 msgid "Add code to the bottom of your posts, before the comments"
 msgstr "Dodaj kod na dole swoich wpisów, przed komentarzami"
 
-#: options_blu.php:835
+#: options_divi.php:835
 msgid "Manage Un-widgetized Advertisements"
 msgstr "Zarządzaj ogłoszeniami reklamowymi"
 
-#: options_blu.php:843
+#: options_divi.php:843
 msgid "Enable Single Post 468x60 banner"
 msgstr "Włącz baner w rozmiarze 468x60 do pojedynczego wpisu"
 
-#: options_blu.php:847
+#: options_divi.php:847
 msgid ""
 "Enabling this option will display a 468x60 banner ad on the bottom of your "
 "post pages below the single post content. If enabled you must fill in the "
@@ -2874,27 +2874,27 @@ msgstr ""
 "pojedynczego wpisu. W przypadku włączenia tej funkcji należy podać poniżej "
 "obrazek banera i docelowy adres URL."
 
-#: options_blu.php:850
+#: options_divi.php:850
 msgid "Input 468x60 advertisement banner image"
 msgstr "Wstaw obrazek banera ogłoszeniowego w rozmiarze 468x60"
 
-#: options_blu.php:854
+#: options_divi.php:854
 msgid "Here you can provide 468x60 banner image url"
 msgstr "Tutaj można wstawić adres URL obrazka banera o rozmiarze 468x60"
 
-#: options_blu.php:858
+#: options_divi.php:858
 msgid "Input 468x60 advertisement destination url"
 msgstr "Wstaw docelowy adres URL ogłoszenia reklamowego w rozmiarze 468x60"
 
-#: options_blu.php:862
+#: options_divi.php:862
 msgid "Here you can provide 468x60 banner destination url"
 msgstr "Tutaj można wstawić docelowy adres URL banera o rozmiarze 468x60"
 
-#: options_blu.php:866
+#: options_divi.php:866
 msgid "Input 468x60 adsense code"
 msgstr "Wstaw kod ogłoszeń reklamowych Google Adsense w rozmiarze 468x60"
 
-#: options_blu.php:870
+#: options_divi.php:870
 msgid "Place your adsense code here."
 msgstr "Tutaj wpisz swój kod Google Adsense."
 
