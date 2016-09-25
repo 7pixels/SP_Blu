@@ -8302,7 +8302,7 @@ function sevenp_blu_output_content_wrapper_end() {
 		</div> <!-- #main-content -->';
 }
 
-function et_add_divi_menu() {
+function et_add_blu_menu() {
 	$core_page = add_menu_page( 'Blu', 'Blu', 'switch_themes', 'sevenp_blu_options', 'et_build_epanel' );
 
 	// Add Theme Options menu only if it's enabled for current user
@@ -8341,9 +8341,9 @@ function et_add_divi_menu() {
 	add_action( "admin_print_scripts-{$core_page}", 'et_epanel_media_upload_scripts');
 	add_action( "admin_head-{$core_page}", 'et_epanel_media_upload_styles');
 }
-add_action('admin_menu', 'et_add_divi_menu');
+add_action('admin_menu', 'et_add_blu_menu');
 
-function add_divi_customizer_admin_menu() {
+function add_blu_customizer_admin_menu() {
 	if ( ! current_user_can( 'customize' ) ) {
 		return;
 	}
@@ -8380,7 +8380,7 @@ function add_divi_customizer_admin_menu() {
 	}
 	$wp_admin_bar->remove_menu( 'customize' );
 }
-add_action( 'admin_bar_menu', 'add_divi_customizer_admin_menu', 999 );
+add_action( 'admin_bar_menu', 'add_blu_customizer_admin_menu', 999 );
 
 function et_pb_hide_options_menu() {
 	// do nothing if theme options should be displayed in the menu
