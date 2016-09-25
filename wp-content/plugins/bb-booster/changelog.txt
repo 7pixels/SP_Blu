@@ -1,0 +1,14 @@
+<h4>1.0.2 - 9/14/2016</h4>
+<ul>
+	<li>Added missing translation files.</li>
+</ul>
+
+<h4>1.0.1 - 9/12/2016</h4>
+<ul>
+	<li>Updated translations.</li>
+</ul>
+
+<h4>1.0 - 9/9/2016</h4>
+<ul>
+	<li>Public release</li>
+</ul>
