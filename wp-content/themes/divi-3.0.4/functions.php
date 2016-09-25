@@ -4,7 +4,7 @@ if ( ! isset( $content_width ) ) $content_width = 1080;
 
 function et_setup_theme() {
 	global $themename, $shortname, $et_store_options_in_one_row, $default_colorscheme;
-	$themename = 'Divi';
+	$themename = 'Blu';
 	$shortname = 'divi';
 	$et_store_options_in_one_row = true;
 
@@ -28,7 +28,7 @@ function et_setup_theme() {
 
 	require_once( $template_directory . '/includes/functions/sidebars.php' );
 
-	load_theme_textdomain( 'Divi', $template_directory . '/lang' );
+	load_theme_textdomain( 'Blu', $template_directory . '/lang' );
 
 	require_once( $template_directory . '/epanel/core_functions.php' );
 
@@ -37,9 +37,9 @@ function et_setup_theme() {
 	include( $template_directory . '/includes/widgets.php' );
 
 	register_nav_menus( array(
-		'primary-menu'   => esc_html__( 'Primary Menu', 'Divi' ),
-		'secondary-menu' => esc_html__( 'Secondary Menu', 'Divi' ),
-		'footer-menu'    => esc_html__( 'Footer Menu', 'Divi' ),
+		'primary-menu'   => esc_html__( 'Primary Menu', 'Blu' ),
+		'secondary-menu' => esc_html__( 'Secondary Menu', 'Blu' ),
+		'footer-menu'    => esc_html__( 'Footer Menu', 'Blu' ),
 	) );
 
 	// don't display the empty title bar if the widget title is not set
@@ -110,7 +110,7 @@ function sevenp_blu_fonts_url() {
 	 * supported by Open Sans, translate this to 'off'. Do not translate
 	 * into your own language.
 	 */
-	$open_sans = _x( 'on', 'Open Sans font: on or off', 'Divi' );
+	$open_sans = _x( 'on', 'Open Sans font: on or off', 'Blu' );
 
 	if ( 'off' !== $open_sans ) {
 		$font_families = array();
@@ -211,7 +211,7 @@ function et_add_mobile_navigation(){
 					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
 				</div>
 			</div>',
-			esc_html__( 'Select Page', 'Divi' )
+			esc_html__( 'Select Page', 'Blu' )
 		);
 	}
 }
@@ -273,21 +273,21 @@ endif;
 function et_add_post_meta_box() {
 	// Add Page settings meta box only if it's not disabled for current user
 	if ( et_pb_is_allowed( 'page_options' ) ) {
-		add_meta_box( 'et_settings_meta_box', esc_html__( 'Divi Page Settings', 'Divi' ), 'et_single_settings_meta_box', 'page', 'side', 'high' );
+		add_meta_box( 'et_settings_meta_box', esc_html__( 'Divi Page Settings', 'Blu' ), 'et_single_settings_meta_box', 'page', 'side', 'high' );
 	}
-	add_meta_box( 'et_settings_meta_box', esc_html__( 'Divi Post Settings', 'Divi' ), 'et_single_settings_meta_box', 'post', 'side', 'high' );
-	add_meta_box( 'et_settings_meta_box', esc_html__( 'Divi Product Settings', 'Divi' ), 'et_single_settings_meta_box', 'product', 'side', 'high' );
-	add_meta_box( 'et_settings_meta_box', esc_html__( 'Divi Project Settings', 'Divi' ), 'et_single_settings_meta_box', 'project', 'side', 'high' );
+	add_meta_box( 'et_settings_meta_box', esc_html__( 'Divi Post Settings', 'Blu' ), 'et_single_settings_meta_box', 'post', 'side', 'high' );
+	add_meta_box( 'et_settings_meta_box', esc_html__( 'Divi Product Settings', 'Blu' ), 'et_single_settings_meta_box', 'product', 'side', 'high' );
+	add_meta_box( 'et_settings_meta_box', esc_html__( 'Divi Project Settings', 'Blu' ), 'et_single_settings_meta_box', 'project', 'side', 'high' );
 }
 add_action( 'add_meta_boxes', 'et_add_post_meta_box' );
 
 if ( ! function_exists( 'et_pb_portfolio_meta_box' ) ) :
 function et_pb_portfolio_meta_box() { ?>
 	<div class="et_project_meta">
-		<strong class="et_project_meta_title"><?php echo esc_html__( 'Skills', 'Divi' ); ?></strong>
+		<strong class="et_project_meta_title"><?php echo esc_html__( 'Skills', 'Blu' ); ?></strong>
 		<p><?php echo get_the_term_list( get_the_ID(), 'project_tag', '', ', ' ); ?></p>
 
-		<strong class="et_project_meta_title"><?php echo esc_html__( 'Posted on', 'Divi' ); ?></strong>
+		<strong class="et_project_meta_title"><?php echo esc_html__( 'Posted on', 'Blu' ); ?></strong>
 		<p><?php echo get_the_date(); ?></p>
 	</div>
 <?php }
@@ -311,14 +311,14 @@ function et_single_settings_meta_box( $post ) {
 	$show_title = get_post_meta( $post_id, '_et_pb_show_title', true );
 
 	$page_layouts = array(
-		'et_right_sidebar'   => esc_html__( 'Right Sidebar', 'Divi' ),
-		'et_left_sidebar'    => esc_html__( 'Left Sidebar', 'Divi' ),
-		'et_full_width_page' => esc_html__( 'Full Width', 'Divi' ),
+		'et_right_sidebar'   => esc_html__( 'Right Sidebar', 'Blu' ),
+		'et_left_sidebar'    => esc_html__( 'Left Sidebar', 'Blu' ),
+		'et_full_width_page' => esc_html__( 'Full Width', 'Blu' ),
 	);
 
 	$layouts = array(
-		'light' => esc_html__( 'Light', 'Divi' ),
-		'dark'  => esc_html__( 'Dark', 'Divi' ),
+		'light' => esc_html__( 'Light', 'Blu' ),
+		'dark'  => esc_html__( 'Dark', 'Blu' ),
 	);
 	$post_bg_color  = ( $bg_color = get_post_meta( $post_id, '_et_post_bg_color', true ) ) && '' !== $bg_color
 		? $bg_color
@@ -331,7 +331,7 @@ function et_single_settings_meta_box( $post ) {
 		: 'light'; ?>
 
 	<p class="et_pb_page_settings et_pb_page_layout_settings">
-		<label for="et_pb_page_layout" style="display: block; font-weight: bold; margin-bottom: 5px;"><?php esc_html_e( 'Page Layout', 'Divi' ); ?>: </label>
+		<label for="et_pb_page_layout" style="display: block; font-weight: bold; margin-bottom: 5px;"><?php esc_html_e( 'Page Layout', 'Blu' ); ?>: </label>
 
 		<select id="et_pb_page_layout" name="et_pb_page_layout">
 		<?php
@@ -345,44 +345,44 @@ function et_single_settings_meta_box( $post ) {
 		</select>
 	</p>
 	<p class="et_pb_page_settings et_pb_side_nav_settings" style="display: none;">
-		<label for="et_pb_side_nav" style="display: block; font-weight: bold; margin-bottom: 5px;"><?php esc_html_e( 'Dot Navigation', 'Divi' ); ?>: </label>
+		<label for="et_pb_side_nav" style="display: block; font-weight: bold; margin-bottom: 5px;"><?php esc_html_e( 'Dot Navigation', 'Blu' ); ?>: </label>
 
 		<select id="et_pb_side_nav" name="et_pb_side_nav">
-			<option value="off" <?php selected( 'off', $side_nav ); ?>><?php esc_html_e( 'Off', 'Divi' ); ?></option>
-			<option value="on" <?php selected( 'on', $side_nav ); ?>><?php esc_html_e( 'On', 'Divi' ); ?></option>
+			<option value="off" <?php selected( 'off', $side_nav ); ?>><?php esc_html_e( 'Off', 'Blu' ); ?></option>
+			<option value="on" <?php selected( 'on', $side_nav ); ?>><?php esc_html_e( 'On', 'Blu' ); ?></option>
 		</select>
 	</p>
 	<p class="et_pb_page_settings">
-		<label for="et_pb_post_hide_nav" style="display: block; font-weight: bold; margin-bottom: 5px;"><?php esc_html_e( 'Hide Nav Before Scroll', 'Divi' ); ?>: </label>
+		<label for="et_pb_post_hide_nav" style="display: block; font-weight: bold; margin-bottom: 5px;"><?php esc_html_e( 'Hide Nav Before Scroll', 'Blu' ); ?>: </label>
 
 		<select id="et_pb_post_hide_nav" name="et_pb_post_hide_nav">
-			<option value="default" <?php selected( 'default', $post_hide_nav ); ?>><?php esc_html_e( 'Default', 'Divi' ); ?></option>
-			<option value="no" <?php selected( 'no', $post_hide_nav ); ?>><?php esc_html_e( 'Off', 'Divi' ); ?></option>
-			<option value="on" <?php selected( 'on', $post_hide_nav ); ?>><?php esc_html_e( 'On', 'Divi' ); ?></option>
+			<option value="default" <?php selected( 'default', $post_hide_nav ); ?>><?php esc_html_e( 'Default', 'Blu' ); ?></option>
+			<option value="no" <?php selected( 'no', $post_hide_nav ); ?>><?php esc_html_e( 'Off', 'Blu' ); ?></option>
+			<option value="on" <?php selected( 'on', $post_hide_nav ); ?>><?php esc_html_e( 'On', 'Blu' ); ?></option>
 		</select>
 	</p>
 
 <?php if ( 'post' === $post->post_type ) : ?>
 	<p class="et_pb_page_settings et_pb_single_title" style="display: none;">
-		<label for="et_single_title" style="display: block; font-weight: bold; margin-bottom: 5px;"><?php esc_html_e( 'Post Title', 'Divi' ); ?>: </label>
+		<label for="et_single_title" style="display: block; font-weight: bold; margin-bottom: 5px;"><?php esc_html_e( 'Post Title', 'Blu' ); ?>: </label>
 
 		<select id="et_single_title" name="et_single_title">
-			<option value="on" <?php selected( 'on', $show_title ); ?>><?php esc_html_e( 'Show', 'Divi' ); ?></option>
-			<option value="off" <?php selected( 'off', $show_title ); ?>><?php esc_html_e( 'Hide', 'Divi' ); ?></option>
+			<option value="on" <?php selected( 'on', $show_title ); ?>><?php esc_html_e( 'Show', 'Blu' ); ?></option>
+			<option value="off" <?php selected( 'off', $show_title ); ?>><?php esc_html_e( 'Hide', 'Blu' ); ?></option>
 		</select>
 	</p>
 
 	<p class="sevenp_blu_quote_settings sevenp_blu_audio_settings sevenp_blu_link_settings sevenp_blu_format_setting et_pb_page_settings">
-		<label for="et_post_use_bg_color" style="display: block; font-weight: bold; margin-bottom: 5px;"><?php esc_html_e( 'Use Background Color', 'Divi' ); ?></label>
+		<label for="et_post_use_bg_color" style="display: block; font-weight: bold; margin-bottom: 5px;"><?php esc_html_e( 'Use Background Color', 'Blu' ); ?></label>
 		<input name="et_post_use_bg_color" type="checkbox" id="et_post_use_bg_color" <?php checked( $post_use_bg_color ); ?> />
 	</p>
 
 	<p class="et_post_bg_color_setting sevenp_blu_format_setting et_pb_page_settings">
-		<input id="et_post_bg_color" name="et_post_bg_color" class="color-picker-hex" type="text" maxlength="7" placeholder="<?php esc_attr_e( 'Hex Value', 'Divi' ); ?>" value="<?php echo esc_attr( $post_bg_color ); ?>" data-default-color="#ffffff" />
+		<input id="et_post_bg_color" name="et_post_bg_color" class="color-picker-hex" type="text" maxlength="7" placeholder="<?php esc_attr_e( 'Hex Value', 'Blu' ); ?>" value="<?php echo esc_attr( $post_bg_color ); ?>" data-default-color="#ffffff" />
 	</p>
 
 	<p class="sevenp_blu_quote_settings sevenp_blu_audio_settings sevenp_blu_link_settings sevenp_blu_format_setting">
-		<label for="et_post_bg_layout" style="font-weight: bold; margin-bottom: 5px;"><?php esc_html_e( 'Text Color', 'Divi' ); ?>: </label>
+		<label for="et_post_bg_layout" style="font-weight: bold; margin-bottom: 5px;"><?php esc_html_e( 'Text Color', 'Blu' ); ?>: </label>
 		<select id="et_post_bg_layout" name="et_post_bg_layout">
 	<?php
 		foreach ( $layouts as $layout_name => $layout_title )
@@ -398,11 +398,11 @@ function et_single_settings_meta_box( $post ) {
 
 if ( 'project' === $post->post_type ) : ?>
 	<p class="et_pb_page_settings et_pb_project_nav" style="display: none;">
-		<label for="et_project_nav" style="display: block; font-weight: bold; margin-bottom: 5px;"><?php esc_html_e( 'Project Navigation', 'Divi' ); ?>: </label>
+		<label for="et_project_nav" style="display: block; font-weight: bold; margin-bottom: 5px;"><?php esc_html_e( 'Project Navigation', 'Blu' ); ?>: </label>
 
 		<select id="et_project_nav" name="et_project_nav">
-			<option value="off" <?php selected( 'off', $project_nav ); ?>><?php esc_html_e( 'Hide', 'Divi' ); ?></option>
-			<option value="on" <?php selected( 'on', $project_nav ); ?>><?php esc_html_e( 'Show', 'Divi' ); ?></option>
+			<option value="off" <?php selected( 'off', $project_nav ); ?>><?php esc_html_e( 'Hide', 'Blu' ); ?></option>
+			<option value="on" <?php selected( 'on', $project_nav ); ?>><?php esc_html_e( 'Show', 'Blu' ); ?></option>
 		</select>
 	</p>
 <?php endif;
@@ -546,7 +546,7 @@ function sevenp_blu_customize_register( $wp_customize ) {
 	if ( isset( $customizer_option_set ) && 'module' === $customizer_option_set ) {
 		// display wp error screen if module customizer disabled for current user
 		if ( ! et_pb_is_allowed( 'module_customizer' ) ) {
-			wp_die( esc_html__( "you don't have sufficient permissions to access this page", 'Divi' ) );
+			wp_die( esc_html__( "you don't have sufficient permissions to access this page", 'Blu' ) );
 		}
 
 		$removed_default_sections = array( 'nav', 'static_front_page' );
@@ -558,7 +558,7 @@ function sevenp_blu_customize_register( $wp_customize ) {
 	} else {
 		// display wp error screen if theme customizer disabled for current user
 		if ( ! et_pb_is_allowed( 'theme_customizer' ) ) {
-			wp_die( esc_html__( "you don't have sufficient permissions to access this page", 'Divi' ) );
+			wp_die( esc_html__( "you don't have sufficient permissions to access this page", 'Blu' ) );
 		}
 
 		sevenp_blu_customizer_theme_settings( $wp_customize );
@@ -606,143 +606,143 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	}
 
 	$wp_customize->add_panel( 'sevenp_blu_general_settings' , array(
-		'title'		=> esc_html__( 'General Settings', 'Divi' ),
+		'title'		=> esc_html__( 'General Settings', 'Blu' ),
 		'priority'	=> 1,
 	) );
 
 	$wp_customize->add_section( 'title_tagline', array(
-		'title'    => esc_html__( 'Site Identity', 'Divi' ),
+		'title'    => esc_html__( 'Site Identity', 'Blu' ),
 		'panel' => 'sevenp_blu_general_settings',
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_general_layout' , array(
-		'title'		=> esc_html__( 'Layout Settings', 'Divi' ),
+		'title'		=> esc_html__( 'Layout Settings', 'Blu' ),
 		'panel' => 'sevenp_blu_general_settings',
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_general_typography' , array(
-		'title'		=> esc_html__( 'Typography', 'Divi' ),
+		'title'		=> esc_html__( 'Typography', 'Blu' ),
 		'panel' => 'sevenp_blu_general_settings',
 	) );
 
 	$wp_customize->add_panel( 'sevenp_blu_mobile' , array(
-		'title'		=> esc_html__( 'Mobile Styles', 'Divi' ),
+		'title'		=> esc_html__( 'Mobile Styles', 'Blu' ),
 		'priority' => 6,
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_mobile_tablet' , array(
-		'title'		=> esc_html__( 'Tablet', 'Divi' ),
+		'title'		=> esc_html__( 'Tablet', 'Blu' ),
 		'panel' => 'sevenp_blu_mobile',
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_mobile_phone' , array(
-		'title'		=> esc_html__( 'Phone', 'Divi' ),
+		'title'		=> esc_html__( 'Phone', 'Blu' ),
 		'panel' => 'sevenp_blu_mobile',
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_mobile_menu' , array(
-		'title'		=> esc_html__( 'Mobile Menu', 'Divi' ),
+		'title'		=> esc_html__( 'Mobile Menu', 'Blu' ),
 		'panel' => 'sevenp_blu_mobile',
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_general_background' , array(
-		'title'		=> esc_html__( 'Background', 'Divi' ),
+		'title'		=> esc_html__( 'Background', 'Blu' ),
 		'panel' => 'sevenp_blu_general_settings',
 	) );
 
 	$wp_customize->add_panel( 'sevenp_blu_header_panel', array(
-		'title' => esc_html__( 'Header & Navigation', 'Divi' ),
+		'title' => esc_html__( 'Header & Navigation', 'Blu' ),
 		'priority' => 2,
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_header_layout' , array(
-		'title'		=> esc_html__( 'Header Format', 'Divi' ),
+		'title'		=> esc_html__( 'Header Format', 'Blu' ),
 		'panel' => 'sevenp_blu_header_panel',
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_header_primary' , array(
-		'title'		=> esc_html__( 'Primary Menu Bar', 'Divi' ),
+		'title'		=> esc_html__( 'Primary Menu Bar', 'Blu' ),
 		'panel' => 'sevenp_blu_header_panel',
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_header_secondary' , array(
-		'title'		=> esc_html__( 'Secondary Menu Bar', 'Divi' ),
+		'title'		=> esc_html__( 'Secondary Menu Bar', 'Blu' ),
 		'panel' => 'sevenp_blu_header_panel',
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_header_slide' , array(
-		'title'		=> esc_html__( 'Slide In & Fullscreen Header Settings', 'Divi' ),
+		'title'		=> esc_html__( 'Slide In & Fullscreen Header Settings', 'Blu' ),
 		'panel' => 'sevenp_blu_header_panel',
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_header_fixed' , array(
-		'title'		=> esc_html__( 'Fixed Navigation Settings', 'Divi' ),
+		'title'		=> esc_html__( 'Fixed Navigation Settings', 'Blu' ),
 		'panel' => 'sevenp_blu_header_panel',
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_header_information' , array(
-		'title'		=> esc_html__( 'Header Elements', 'Divi' ),
+		'title'		=> esc_html__( 'Header Elements', 'Blu' ),
 		'panel' => 'sevenp_blu_header_panel',
 	) );
 
 	$wp_customize->add_panel( 'sevenp_blu_footer_panel' , array(
-		'title'		=> esc_html__( 'Footer', 'Divi' ),
+		'title'		=> esc_html__( 'Footer', 'Blu' ),
 		'priority'	=> 3,
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_footer_layout' , array(
-		'title'		=> esc_html__( 'Layout', 'Divi' ),
+		'title'		=> esc_html__( 'Layout', 'Blu' ),
 		'panel' => 'sevenp_blu_footer_panel',
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_footer_widgets' , array(
-		'title'		=> esc_html__( 'Widgets', 'Divi' ),
+		'title'		=> esc_html__( 'Widgets', 'Blu' ),
 		'panel' => 'sevenp_blu_footer_panel',
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_footer_elements' , array(
-		'title'		=> esc_html__( 'Footer Elements', 'Divi' ),
+		'title'		=> esc_html__( 'Footer Elements', 'Blu' ),
 		'panel' => 'sevenp_blu_footer_panel',
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_footer_menu' , array(
-		'title'		=> esc_html__( 'Footer Menu', 'Divi' ),
+		'title'		=> esc_html__( 'Footer Menu', 'Blu' ),
 		'panel' => 'sevenp_blu_footer_panel',
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_bottom_bar' , array(
-		'title'		=> esc_html__( 'Bottom Bar', 'Divi' ),
+		'title'		=> esc_html__( 'Bottom Bar', 'Blu' ),
 		'panel' => 'sevenp_blu_footer_panel',
 	) );
 
 	$wp_customize->add_section( 'et_color_schemes' , array(
-		'title'       => esc_html__( 'Color Schemes', 'Divi' ),
+		'title'       => esc_html__( 'Color Schemes', 'Blu' ),
 		'priority'    => 7,
-		'description' => esc_html__( 'Note: Color settings set above should be applied to the Default color scheme.', 'Divi' ),
+		'description' => esc_html__( 'Note: Color settings set above should be applied to the Default color scheme.', 'Blu' ),
 	) );
 
 	$wp_customize->add_panel( 'sevenp_blu_buttons_settings' , array(
-		'title'		=> esc_html__( 'Buttons', 'Divi' ),
+		'title'		=> esc_html__( 'Buttons', 'Blu' ),
 		'priority'	=> 4,
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_buttons' , array(
-		'title'       => esc_html__( 'Buttons Style', 'Divi' ),
+		'title'       => esc_html__( 'Buttons Style', 'Blu' ),
 		'panel'       => 'sevenp_blu_buttons_settings',
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_buttons_hover' , array(
-		'title'       => esc_html__( 'Buttons Hover Style', 'Divi' ),
+		'title'       => esc_html__( 'Buttons Hover Style', 'Blu' ),
 		'panel'       => 'sevenp_blu_buttons_settings',
 	) );
 
 	$wp_customize->add_panel( 'sevenp_blu_blog_settings' , array(
-		'title'		=> esc_html__( 'Blog', 'Divi' ),
+		'title'		=> esc_html__( 'Blog', 'Blu' ),
 		'priority'	=> 5,
 	) );
 
 	$wp_customize->add_section( 'sevenp_blu_blog_post' , array(
-		'title'       => esc_html__( 'Post', 'Divi' ),
+		'title'       => esc_html__( 'Post', 'Blu' ),
 		'panel'       => 'sevenp_blu_blog_settings',
 	) );
 
@@ -759,7 +759,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	$wp_customize->get_setting( 'blogdescription' )->transport = 'postMessage';
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[post_meta_font_size]', array(
-		'label'	      => esc_html__( 'Meta Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Meta Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_blog_post',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -778,7 +778,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[post_meta_height]', array(
-		'label'	      => esc_html__( 'Meta Line Height', 'Divi' ),
+		'label'	      => esc_html__( 'Meta Line Height', 'Blu' ),
 		'section'     => 'sevenp_blu_blog_post',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -797,7 +797,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[post_meta_spacing]', array(
-		'label'	      => esc_html__( 'Meta Letter Spacing', 'Divi' ),
+		'label'	      => esc_html__( 'Meta Letter Spacing', 'Blu' ),
 		'section'     => 'sevenp_blu_blog_post',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -816,7 +816,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[post_meta_style]', array(
-		'label'	      => esc_html__( 'Meta Font Style', 'Divi' ),
+		'label'	      => esc_html__( 'Meta Font Style', 'Blu' ),
 		'section'     => 'sevenp_blu_blog_post',
 		'type'        => 'font_style',
 		'choices'     => sevenp_blu_font_style_choices(),
@@ -831,7 +831,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[post_header_font_size]', array(
-		'label'	      => esc_html__( 'Header Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Header Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_blog_post',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -850,7 +850,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[post_header_height]', array(
-		'label'	      => esc_html__( 'Header Line Height', 'Divi' ),
+		'label'	      => esc_html__( 'Header Line Height', 'Blu' ),
 		'section'     => 'sevenp_blu_blog_post',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -869,7 +869,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[post_header_spacing]', array(
-		'label'	      => esc_html__( 'Header Letter Spacing', 'Divi' ),
+		'label'	      => esc_html__( 'Header Letter Spacing', 'Blu' ),
 		'section'     => 'sevenp_blu_blog_post',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -888,7 +888,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[post_header_style]', array(
-		'label'	      => esc_html__( 'Header Font Style', 'Divi' ),
+		'label'	      => esc_html__( 'Header Font Style', 'Blu' ),
 		'section'     => 'sevenp_blu_blog_post',
 		'type'        => 'font_style',
 		'choices'     => sevenp_blu_font_style_choices(),
@@ -902,7 +902,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[boxed_layout]', array(
-		'label'		=> esc_html__( 'Enable Boxed Layout', 'Divi' ),
+		'label'		=> esc_html__( 'Enable Boxed Layout', 'Blu' ),
 		'section'	=> 'sevenp_blu_general_layout',
 		'type'      => 'checkbox',
 	) );
@@ -916,7 +916,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[content_width]', array(
-		'label'	      => esc_html__( 'Website Content Width', 'Divi' ),
+		'label'	      => esc_html__( 'Website Content Width', 'Blu' ),
 		'section'     => 'sevenp_blu_general_layout',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -935,7 +935,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[gutter_width]', array(
-		'label'	      => esc_html__( 'Website Gutter Width', 'Divi' ),
+		'label'	      => esc_html__( 'Website Gutter Width', 'Blu' ),
 		'section'     => 'sevenp_blu_general_layout',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -953,7 +953,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[use_sidebar_width]', array(
-		'label'		=> esc_html__( 'Use Custom Sidebar Width', 'Divi' ),
+		'label'		=> esc_html__( 'Use Custom Sidebar Width', 'Blu' ),
 		'section'	=> 'sevenp_blu_general_layout',
 		'type'      => 'checkbox',
 	) );
@@ -967,7 +967,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[sidebar_width]', array(
-		'label'	      => esc_html__( 'Sidebar Width', 'Divi' ),
+		'label'	      => esc_html__( 'Sidebar Width', 'Blu' ),
 		'section'     => 'sevenp_blu_general_layout',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -986,7 +986,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[section_padding]', array(
-		'label'	      => esc_html__( 'Section Height', 'Divi' ),
+		'label'	      => esc_html__( 'Section Height', 'Blu' ),
 		'section'     => 'sevenp_blu_general_layout',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1005,7 +1005,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[phone_section_height]', array(
-		'label'	      => esc_html__( 'Section Height', 'Divi' ),
+		'label'	      => esc_html__( 'Section Height', 'Blu' ),
 		'section'     => 'sevenp_blu_mobile_phone',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1024,7 +1024,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[tablet_section_height]', array(
-		'label'	      => esc_html__( 'Section Height', 'Divi' ),
+		'label'	      => esc_html__( 'Section Height', 'Blu' ),
 		'section'     => 'sevenp_blu_mobile_tablet',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1043,7 +1043,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[row_padding]', array(
-		'label'	      => esc_html__( 'Row Height', 'Divi' ),
+		'label'	      => esc_html__( 'Row Height', 'Blu' ),
 		'section'     => 'sevenp_blu_general_layout',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1062,7 +1062,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[phone_row_height]', array(
-		'label'	      => esc_html__( 'Row Height', 'Divi' ),
+		'label'	      => esc_html__( 'Row Height', 'Blu' ),
 		'section'     => 'sevenp_blu_mobile_phone',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1081,7 +1081,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[tablet_row_height]', array(
-		'label'	      => esc_html__( 'Row Height', 'Divi' ),
+		'label'	      => esc_html__( 'Row Height', 'Blu' ),
 		'section'     => 'sevenp_blu_mobile_tablet',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1100,55 +1100,55 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[cover_background]', array(
-		'label'		=> esc_html__( 'Stretch Background Image', 'Divi' ),
+		'label'		=> esc_html__( 'Stretch Background Image', 'Blu' ),
 		'section'	=> 'sevenp_blu_general_background',
 		'type'      => 'checkbox',
 	) );
 
 	if ( ! is_null( $wp_customize->get_setting( 'background_color' ) ) ) {
 		$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'background_color', array(
-			'label'		=> esc_html__( 'Background Color', 'Divi' ),
+			'label'		=> esc_html__( 'Background Color', 'Blu' ),
 			'section'	=> 'sevenp_blu_general_background',
 		) ) );
 	}
 
 	if ( ! is_null( $wp_customize->get_setting( 'background_image' ) ) ) {
 		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'background_image', array(
-			'label'		=> esc_html__( 'Background Image', 'Divi' ),
+			'label'		=> esc_html__( 'Background Image', 'Blu' ),
 			'section'	=> 'sevenp_blu_general_background',
 		) ) );
 	}
 
 	$wp_customize->add_control( 'background_repeat', array(
-		'label'		=> esc_html__( 'Background Repeat', 'Divi' ),
+		'label'		=> esc_html__( 'Background Repeat', 'Blu' ),
 		'section'	=> 'sevenp_blu_general_background',
 		'type'      => 'radio',
 		'choices'    => array(
-				'no-repeat'  => esc_html__( 'No Repeat', 'Divi' ),
-				'repeat'     => esc_html__( 'Tile', 'Divi' ),
-				'repeat-x'   => esc_html__( 'Tile Horizontally', 'Divi' ),
-				'repeat-y'   => esc_html__( 'Tile Vertically', 'Divi' ),
+				'no-repeat'  => esc_html__( 'No Repeat', 'Blu' ),
+				'repeat'     => esc_html__( 'Tile', 'Blu' ),
+				'repeat-x'   => esc_html__( 'Tile Horizontally', 'Blu' ),
+				'repeat-y'   => esc_html__( 'Tile Vertically', 'Blu' ),
 			),
 	) );
 
 	$wp_customize->add_control( 'background_position_x', array(
-		'label'		=> esc_html__( 'Background Position', 'Divi' ),
+		'label'		=> esc_html__( 'Background Position', 'Blu' ),
 		'section'	=> 'sevenp_blu_general_background',
 		'type'      => 'radio',
 		'choices'    => array(
-				'left'       => esc_html__( 'Left', 'Divi' ),
-				'center'     => esc_html__( 'Center', 'Divi' ),
-				'right'      => esc_html__( 'Right', 'Divi' ),
+				'left'       => esc_html__( 'Left', 'Blu' ),
+				'center'     => esc_html__( 'Center', 'Blu' ),
+				'right'      => esc_html__( 'Right', 'Blu' ),
 			),
 	) );
 
 	$wp_customize->add_control( 'background_attachment', array(
-		'label'		=> esc_html__( 'Background Position', 'Divi' ),
+		'label'		=> esc_html__( 'Background Position', 'Blu' ),
 		'section'	=> 'sevenp_blu_general_background',
 		'type'      => 'radio',
 		'choices'    => array(
-				'scroll'     => esc_html__( 'Scroll', 'Divi' ),
-				'fixed'      => esc_html__( 'Fixed', 'Divi' ),
+				'scroll'     => esc_html__( 'Scroll', 'Blu' ),
+				'fixed'      => esc_html__( 'Fixed', 'Blu' ),
 			),
 	) );
 
@@ -1161,7 +1161,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[body_font_size]', array(
-		'label'	      => esc_html__( 'Body Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Body Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_general_typography',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1180,7 +1180,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[body_font_height]', array(
-		'label'	      => esc_html__( 'Body Line Height', 'Divi' ),
+		'label'	      => esc_html__( 'Body Line Height', 'Blu' ),
 		'section'     => 'sevenp_blu_general_typography',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1199,7 +1199,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[phone_body_font_size]', array(
-		'label'	      => esc_html__( 'Body Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Body Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_mobile_phone',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1218,7 +1218,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[tablet_body_font_size]', array(
-		'label'	      => esc_html__( 'Body Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Body Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_mobile_tablet',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1237,7 +1237,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[body_header_size]', array(
-		'label'	      => esc_html__( 'Header Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Header Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_general_typography',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1256,7 +1256,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[body_header_spacing]', array(
-		'label'	      => esc_html__( 'Header Letter Spacing', 'Divi' ),
+		'label'	      => esc_html__( 'Header Letter Spacing', 'Blu' ),
 		'section'     => 'sevenp_blu_general_typography',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1275,7 +1275,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[body_header_height]', array(
-		'label'	      => esc_html__( 'Header Line Height', 'Divi' ),
+		'label'	      => esc_html__( 'Header Line Height', 'Blu' ),
 		'section'     => 'sevenp_blu_general_typography',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1294,7 +1294,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[body_header_style]', array(
-		'label'	      => esc_html__( 'Header Font Style', 'Divi' ),
+		'label'	      => esc_html__( 'Header Font Style', 'Blu' ),
 		'section'     => 'sevenp_blu_general_typography',
 		'type'        => 'font_style',
 		'choices'     => sevenp_blu_font_style_choices(),
@@ -1309,7 +1309,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[phone_header_font_size]', array(
-		'label'	      => esc_html__( 'Header Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Header Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_mobile_phone',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1328,7 +1328,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[tablet_header_font_size]', array(
-		'label'	      => esc_html__( 'Header Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Header Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_mobile_tablet',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1348,7 +1348,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		) );
 
 		$wp_customize->add_control( new ET_Divi_Select_Option ( $wp_customize, 'sevenp_blu[heading_font]', array(
-			'label'		=> esc_html__( 'Header Font', 'Divi' ),
+			'label'		=> esc_html__( 'Header Font', 'Blu' ),
 			'section'	=> 'sevenp_blu_general_typography',
 			'settings'	=> 'sevenp_blu[heading_font]',
 			'type'		=> 'select',
@@ -1364,7 +1364,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		) );
 
 		$wp_customize->add_control( new ET_Divi_Select_Option ( $wp_customize, 'sevenp_blu[body_font]', array(
-			'label'		=> esc_html__( 'Body Font', 'Divi' ),
+			'label'		=> esc_html__( 'Body Font', 'Blu' ),
 			'section'	=> 'sevenp_blu_general_typography',
 			'settings'	=> 'sevenp_blu[body_font]',
 			'type'		=> 'select',
@@ -1381,7 +1381,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'sevenp_blu[link_color]', array(
-		'label'		=> esc_html__( 'Body Link Color', 'Divi' ),
+		'label'		=> esc_html__( 'Body Link Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_general_typography',
 		'settings'	=> 'sevenp_blu[link_color]',
 	) ) );
@@ -1395,7 +1395,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'sevenp_blu[font_color]', array(
-		'label'		=> esc_html__( 'Body Text Color', 'Divi' ),
+		'label'		=> esc_html__( 'Body Text Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_general_typography',
 		'settings'	=> 'sevenp_blu[font_color]',
 	) ) );
@@ -1409,7 +1409,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'sevenp_blu[header_color]', array(
-		'label'		=> esc_html__( 'Header Text Color', 'Divi' ),
+		'label'		=> esc_html__( 'Header Text Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_general_typography',
 		'settings'	=> 'sevenp_blu[header_color]',
 	) ) );
@@ -1423,7 +1423,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'sevenp_blu[accent_color]', array(
-		'label'		=> esc_html__( 'Theme Accent Color', 'Divi' ),
+		'label'		=> esc_html__( 'Theme Accent Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_general_layout',
 		'settings'	=> 'sevenp_blu[accent_color]',
 	) ) );
@@ -1437,7 +1437,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[color_schemes]', array(
-		'label'		=> esc_html__( 'Color Schemes', 'Divi' ),
+		'label'		=> esc_html__( 'Color Schemes', 'Blu' ),
 		'section'	=> 'et_color_schemes',
 		'settings'	=> 'sevenp_blu[color_schemes]',
 		'type'		=> 'select',
@@ -1453,7 +1453,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[header_style]', array(
-		'label'		=> esc_html__( 'Header Style', 'Divi' ),
+		'label'		=> esc_html__( 'Header Style', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_layout',
 		'type'      => 'select',
 		'choices'	=> sevenp_blu_header_style_choices(),
@@ -1467,7 +1467,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[vertical_nav]', array(
-		'label'		=> esc_html__( 'Enable Vertical Navigation', 'Divi' ),
+		'label'		=> esc_html__( 'Enable Vertical Navigation', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_layout',
 		'type'      => 'checkbox',
 	) );
@@ -1481,7 +1481,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[vertical_nav_orientation]', array(
-		'label'		=> esc_html__( 'Vertical Menu Orientation', 'Divi' ),
+		'label'		=> esc_html__( 'Vertical Menu Orientation', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_layout',
 		'type'      => 'select',
 		'choices'	=> sevenp_blu_left_right_choices(),
@@ -1497,7 +1497,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		) );
 
 		$wp_customize->add_control( 'sevenp_blu[hide_nav]', array(
-			'label'		=> esc_html__( 'Hide Navigation Until Scroll', 'Divi' ),
+			'label'		=> esc_html__( 'Hide Navigation Until Scroll', 'Blu' ),
 			'section'	=> 'sevenp_blu_header_layout',
 			'type'      => 'checkbox',
 		) );
@@ -1512,7 +1512,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[show_header_social_icons]', array(
-		'label'		=> esc_html__( 'Show Social Icons', 'Divi' ),
+		'label'		=> esc_html__( 'Show Social Icons', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_information',
 		'type'      => 'checkbox',
 	) );
@@ -1526,7 +1526,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[show_search_icon]', array(
-		'label'		=> esc_html__( 'Show Search Icon', 'Divi' ),
+		'label'		=> esc_html__( 'Show Search Icon', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_information',
 		'type'      => 'checkbox',
 	) );
@@ -1540,7 +1540,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[slide_nav_show_top_bar]', array(
-		'label'		=> esc_html__( 'Show Top Bar', 'Divi' ),
+		'label'		=> esc_html__( 'Show Top Bar', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_slide',
 		'type'      => 'checkbox',
 	) );
@@ -1554,7 +1554,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[slide_nav_width]', array(
-		'label'	      => esc_html__( 'Menu Width', 'Divi' ),
+		'label'	      => esc_html__( 'Menu Width', 'Blu' ),
 		'section'     => 'sevenp_blu_header_slide',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1573,7 +1573,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[slide_nav_font_size]', array(
-		'label'	      => esc_html__( 'Menu Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Menu Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_header_slide',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1592,7 +1592,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[slide_nav_top_font_size]', array(
-		'label'	      => esc_html__( 'Top Bar Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Top Bar Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_header_slide',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1611,7 +1611,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[fullscreen_nav_font_size]', array(
-		'label'	      => esc_html__( 'Menu Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Menu Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_header_slide',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1630,7 +1630,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[fullscreen_nav_top_font_size]', array(
-		'label'	      => esc_html__( 'Top Bar Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Top Bar Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_header_slide',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1649,7 +1649,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[slide_nav_font_spacing]', array(
-		'label'	      => esc_html__( 'Letter Spacing', 'Divi' ),
+		'label'	      => esc_html__( 'Letter Spacing', 'Blu' ),
 		'section'     => 'sevenp_blu_header_slide',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1669,7 +1669,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		) );
 
 		$wp_customize->add_control( new ET_Divi_Select_Option ( $wp_customize, 'sevenp_blu[slide_nav_font]', array(
-			'label'		=> esc_html__( 'Font', 'Divi' ),
+			'label'		=> esc_html__( 'Font', 'Blu' ),
 			'section'	=> 'sevenp_blu_header_slide',
 			'settings'	=> 'sevenp_blu[slide_nav_font]',
 			'type'		=> 'select',
@@ -1686,7 +1686,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[slide_nav_font_style]', array(
-		'label'	      => esc_html__( 'Font Style', 'Divi' ),
+		'label'	      => esc_html__( 'Font Style', 'Blu' ),
 		'section'     => 'sevenp_blu_header_slide',
 		'type'        => 'font_style',
 		'choices'     => sevenp_blu_font_style_choices(),
@@ -1701,7 +1701,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[slide_nav_bg]', array(
-		'label'		=> esc_html__( 'Background Color', 'Divi' ),
+		'label'		=> esc_html__( 'Background Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_slide',
 		'settings'	=> 'sevenp_blu[slide_nav_bg]',
 	) ) );
@@ -1715,7 +1715,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[slide_nav_links_color]', array(
-		'label'		=> esc_html__( 'Menu Link Color', 'Divi' ),
+		'label'		=> esc_html__( 'Menu Link Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_slide',
 		'settings'	=> 'sevenp_blu[slide_nav_links_color]',
 	) ) );
@@ -1729,7 +1729,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[slide_nav_links_color_active]', array(
-		'label'		=> esc_html__( 'Active Link Color', 'Divi' ),
+		'label'		=> esc_html__( 'Active Link Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_slide',
 		'settings'	=> 'sevenp_blu[slide_nav_links_color_active]',
 	) ) );
@@ -1743,7 +1743,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[slide_nav_top_color]', array(
-		'label'		=> esc_html__( 'Top Bar Text Color', 'Divi' ),
+		'label'		=> esc_html__( 'Top Bar Text Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_slide',
 		'settings'	=> 'sevenp_blu[slide_nav_top_color]',
 	) ) );
@@ -1757,7 +1757,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[slide_nav_search]', array(
-		'label'		=> esc_html__( 'Search Bar Text Color', 'Divi' ),
+		'label'		=> esc_html__( 'Search Bar Text Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_slide',
 		'settings'	=> 'sevenp_blu[slide_nav_search]',
 	) ) );
@@ -1771,7 +1771,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[slide_nav_search_bg]', array(
-		'label'		=> esc_html__( 'Search Bar Background Color', 'Divi' ),
+		'label'		=> esc_html__( 'Search Bar Background Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_slide',
 		'settings'	=> 'sevenp_blu[slide_nav_search_bg]',
 	) ) );
@@ -1784,7 +1784,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[nav_fullwidth]', array(
-		'label'		=> esc_html__( 'Make Full Width', 'Divi' ),
+		'label'		=> esc_html__( 'Make Full Width', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_primary',
 		'type'      => 'checkbox',
 	) );
@@ -1797,7 +1797,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[hide_primary_logo]', array(
-		'label'		=> esc_html__( 'Hide Logo Image', 'Divi' ),
+		'label'		=> esc_html__( 'Hide Logo Image', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_primary',
 		'type'      => 'checkbox',
 	) );
@@ -1811,7 +1811,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[menu_height]', array(
-		'label'	      => esc_html__( 'Menu Height', 'Divi' ),
+		'label'	      => esc_html__( 'Menu Height', 'Blu' ),
 		'section'     => 'sevenp_blu_header_primary',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1830,7 +1830,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[logo_height]', array(
-		'label'	      => esc_html__( 'Logo Max Height', 'Divi' ),
+		'label'	      => esc_html__( 'Logo Max Height', 'Blu' ),
 		'section'     => 'sevenp_blu_header_primary',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1849,7 +1849,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[menu_margin_top]', array(
-		'label'	      => esc_html__( 'Menu Top Margin', 'Divi' ),
+		'label'	      => esc_html__( 'Menu Top Margin', 'Blu' ),
 		'section'     => 'sevenp_blu_header_primary',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1868,7 +1868,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[primary_nav_font_size]', array(
-		'label'	      => esc_html__( 'Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_header_primary',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1887,7 +1887,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[primary_nav_font_spacing]', array(
-		'label'	      => esc_html__( 'Letter Spacing', 'Divi' ),
+		'label'	      => esc_html__( 'Letter Spacing', 'Blu' ),
 		'section'     => 'sevenp_blu_header_primary',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1907,7 +1907,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		) );
 
 		$wp_customize->add_control( new ET_Divi_Select_Option ( $wp_customize, 'sevenp_blu[primary_nav_font]', array(
-			'label'		=> esc_html__( 'Font', 'Divi' ),
+			'label'		=> esc_html__( 'Font', 'Blu' ),
 			'section'	=> 'sevenp_blu_header_primary',
 			'settings'	=> 'sevenp_blu[primary_nav_font]',
 			'type'		=> 'select',
@@ -1924,7 +1924,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[primary_nav_font_style]', array(
-		'label'	      => esc_html__( 'Font Style', 'Divi' ),
+		'label'	      => esc_html__( 'Font Style', 'Blu' ),
 		'section'     => 'sevenp_blu_header_primary',
 		'type'        => 'font_style',
 		'choices'     => sevenp_blu_font_style_choices(),
@@ -1946,13 +1946,13 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[secondary_nav_fullwidth]', array(
-		'label'		=> esc_html__( 'Make Full Width', 'Divi' ),
+		'label'		=> esc_html__( 'Make Full Width', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_secondary',
 		'type'      => 'checkbox',
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[secondary_nav_font_size]', array(
-		'label'	      => esc_html__( 'Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_header_secondary',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1971,7 +1971,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[secondary_nav_font_spacing]', array(
-		'label'	      => esc_html__( 'Letter Spacing', 'Divi' ),
+		'label'	      => esc_html__( 'Letter Spacing', 'Blu' ),
 		'section'     => 'sevenp_blu_header_secondary',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -1991,7 +1991,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		) );
 
 		$wp_customize->add_control( new ET_Divi_Select_Option ( $wp_customize, 'sevenp_blu[secondary_nav_font]', array(
-			'label'		=> esc_html__( 'Font', 'Divi' ),
+			'label'		=> esc_html__( 'Font', 'Blu' ),
 			'section'	=> 'sevenp_blu_header_secondary',
 			'settings'	=> 'sevenp_blu[secondary_nav_font]',
 			'type'		=> 'select',
@@ -2008,7 +2008,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[secondary_nav_font_style]', array(
-		'label'	      => esc_html__( 'Font Style', 'Divi' ),
+		'label'	      => esc_html__( 'Font Style', 'Blu' ),
 		'section'     => 'sevenp_blu_header_secondary',
 		'type'        => 'font_style',
 		'choices'     => sevenp_blu_font_style_choices(),
@@ -2023,7 +2023,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[menu_link]', array(
-		'label'		=> esc_html__( 'Text Color', 'Divi' ),
+		'label'		=> esc_html__( 'Text Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_primary',
 		'settings'	=> 'sevenp_blu[menu_link]',
 	) ) );
@@ -2036,7 +2036,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[hide_mobile_logo]', array(
-		'label'		=> esc_html__( 'Hide Logo Image', 'Divi' ),
+		'label'		=> esc_html__( 'Hide Logo Image', 'Blu' ),
 		'section'	=> 'sevenp_blu_mobile_menu',
 		'type'      => 'checkbox',
 	) );
@@ -2050,7 +2050,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[mobile_menu_link]', array(
-		'label'		=> esc_html__( 'Text Color', 'Divi' ),
+		'label'		=> esc_html__( 'Text Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_mobile_menu',
 		'settings'	=> 'sevenp_blu[mobile_menu_link]',
 	) ) );
@@ -2064,7 +2064,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[menu_link_active]', array(
-		'label'		=> esc_html__( 'Active Link Color', 'Divi' ),
+		'label'		=> esc_html__( 'Active Link Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_primary',
 		'settings'	=> 'sevenp_blu[menu_link_active]',
 	) ) );
@@ -2078,7 +2078,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[primary_nav_bg]', array(
-		'label'		=> esc_html__( 'Background Color', 'Divi' ),
+		'label'		=> esc_html__( 'Background Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_primary',
 		'settings'	=> 'sevenp_blu[primary_nav_bg]',
 	) ) );
@@ -2092,7 +2092,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[primary_nav_dropdown_bg]', array(
-		'label'		=> esc_html__( 'Dropdown Menu Background Color', 'Divi' ),
+		'label'		=> esc_html__( 'Dropdown Menu Background Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_primary',
 		'settings'	=> 'sevenp_blu[primary_nav_dropdown_bg]',
 	) ) );
@@ -2106,7 +2106,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[primary_nav_dropdown_line_color]', array(
-		'label'		=> esc_html__( 'Dropdown Menu Line Color', 'Divi' ),
+		'label'		=> esc_html__( 'Dropdown Menu Line Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_primary',
 		'settings'	=> 'sevenp_blu[primary_nav_dropdown_line_color]',
 	) ) );
@@ -2120,7 +2120,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[primary_nav_dropdown_link_color]', array(
-		'label'		=> esc_html__( 'Dropdown Menu Text Color', 'Divi' ),
+		'label'		=> esc_html__( 'Dropdown Menu Text Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_primary',
 		'settings'	=> 'sevenp_blu[primary_nav_dropdown_link_color]',
 	) ) );
@@ -2134,7 +2134,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[primary_nav_dropdown_animation]', array(
-		'label'		=> esc_html__( 'Dropdown Menu Animation', 'Divi' ),
+		'label'		=> esc_html__( 'Dropdown Menu Animation', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_primary',
 		'type'      => 'select',
 		'choices'	=> sevenp_blu_dropdown_animation_choices(),
@@ -2149,7 +2149,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[mobile_primary_nav_bg]', array(
-		'label'		=> esc_html__( 'Background Color', 'Divi' ),
+		'label'		=> esc_html__( 'Background Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_mobile_menu',
 		'settings'	=> 'sevenp_blu[mobile_primary_nav_bg]',
 	) ) );
@@ -2163,7 +2163,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[secondary_nav_bg]', array(
-		'label'		=> esc_html__( 'Background Color', 'Divi' ),
+		'label'		=> esc_html__( 'Background Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_secondary',
 		'settings'	=> 'sevenp_blu[secondary_nav_bg]',
 	) ) );
@@ -2177,7 +2177,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[secondary_nav_text_color_new]', array(
-		'label'		=> esc_html__( 'Text Color', 'Divi' ),
+		'label'		=> esc_html__( 'Text Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_secondary',
 		'settings'	=> 'sevenp_blu[secondary_nav_text_color_new]',
 	) ) );
@@ -2191,7 +2191,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[secondary_nav_dropdown_bg]', array(
-		'label'		=> esc_html__( 'Dropdown Menu Background Color', 'Divi' ),
+		'label'		=> esc_html__( 'Dropdown Menu Background Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_secondary',
 		'settings'	=> 'sevenp_blu[secondary_nav_dropdown_bg]',
 	) ) );
@@ -2205,7 +2205,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[secondary_nav_dropdown_link_color]', array(
-		'label'		=> esc_html__( 'Dropdown Menu Text Color', 'Divi' ),
+		'label'		=> esc_html__( 'Dropdown Menu Text Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_secondary',
 		'settings'	=> 'sevenp_blu[secondary_nav_dropdown_link_color]',
 	) ) );
@@ -2219,7 +2219,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[secondary_nav_dropdown_animation]', array(
-		'label'		=> esc_html__( 'Dropdown Menu Animation', 'Divi' ),
+		'label'		=> esc_html__( 'Dropdown Menu Animation', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_secondary',
 		'type'      => 'select',
 		'choices'	=> sevenp_blu_dropdown_animation_choices(),
@@ -2252,7 +2252,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		) );
 
 		$wp_customize->add_control( 'sevenp_blu[hide_fixed_logo]', array(
-			'label'		=> esc_html__( 'Hide Logo Image', 'Divi' ),
+			'label'		=> esc_html__( 'Hide Logo Image', 'Blu' ),
 			'section'	=> 'sevenp_blu_header_fixed',
 			'type'      => 'checkbox',
 		) );
@@ -2266,7 +2266,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		) );
 
 		$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[minimized_menu_height]', array(
-			'label'	      => esc_html__( 'Fixed Menu Height', 'Divi' ),
+			'label'	      => esc_html__( 'Fixed Menu Height', 'Blu' ),
 			'section'     => 'sevenp_blu_header_fixed',
 			'type'        => 'range',
 			'input_attrs' => array(
@@ -2285,7 +2285,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		) );
 
 		$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[fixed_primary_nav_font_size]', array(
-			'label'	      => esc_html__( 'Text Size', 'Divi' ),
+			'label'	      => esc_html__( 'Text Size', 'Blu' ),
 			'section'     => 'sevenp_blu_header_fixed',
 			'type'        => 'range',
 			'input_attrs' => array(
@@ -2304,7 +2304,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		) );
 
 		$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[fixed_primary_nav_bg]', array(
-			'label'		=> esc_html__( 'Primary Menu Background Color', 'Divi' ),
+			'label'		=> esc_html__( 'Primary Menu Background Color', 'Blu' ),
 			'section'	=> 'sevenp_blu_header_fixed',
 			'settings'	=> 'sevenp_blu[fixed_primary_nav_bg]',
 		) ) );
@@ -2318,7 +2318,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		) );
 
 		$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[fixed_secondary_nav_bg]', array(
-			'label'		=> esc_html__( 'Secondary Menu Background Color', 'Divi' ),
+			'label'		=> esc_html__( 'Secondary Menu Background Color', 'Blu' ),
 			'section'	=> 'sevenp_blu_header_fixed',
 			'settings'	=> 'sevenp_blu[fixed_secondary_nav_bg]',
 		) ) );
@@ -2332,7 +2332,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		) );
 
 		$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[fixed_menu_link]', array(
-			'label'		=> esc_html__( 'Primary Menu Link Color', 'Divi' ),
+			'label'		=> esc_html__( 'Primary Menu Link Color', 'Blu' ),
 			'section'	=> 'sevenp_blu_header_fixed',
 			'settings'	=> 'sevenp_blu[fixed_menu_link]',
 		) ) );
@@ -2346,7 +2346,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		) );
 
 		$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[fixed_secondary_menu_link]', array(
-			'label'		=> esc_html__( 'Secondary Menu Link Color', 'Divi' ),
+			'label'		=> esc_html__( 'Secondary Menu Link Color', 'Blu' ),
 			'section'	=> 'sevenp_blu_header_fixed',
 			'settings'	=> 'sevenp_blu[fixed_secondary_menu_link]',
 		) ) );
@@ -2360,7 +2360,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		) );
 
 		$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[fixed_menu_link_active]', array(
-			'label'		=> esc_html__( 'Active Primary Menu Link Color', 'Divi' ),
+			'label'		=> esc_html__( 'Active Primary Menu Link Color', 'Blu' ),
 			'section'	=> 'sevenp_blu_header_fixed',
 			'settings'	=> 'sevenp_blu[fixed_menu_link_active]',
 		) ) );
@@ -2374,7 +2374,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[phone_number]', array(
-		'label'		=> esc_html__( 'Phone Number', 'Divi' ),
+		'label'		=> esc_html__( 'Phone Number', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_information',
 		'type'      => 'text',
 	) );
@@ -2387,7 +2387,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[header_email]', array(
-		'label'		=> esc_html__( 'Email', 'Divi' ),
+		'label'		=> esc_html__( 'Email', 'Blu' ),
 		'section'	=> 'sevenp_blu_header_information',
 		'type'      => 'text',
 	) );
@@ -2401,7 +2401,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[show_footer_social_icons]', array(
-		'label'		=> esc_html__( 'Show Social Icons', 'Divi' ),
+		'label'		=> esc_html__( 'Show Social Icons', 'Blu' ),
 		'section'	=> 'sevenp_blu_footer_elements',
 		'type'      => 'checkbox',
 	) );
@@ -2415,7 +2415,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[footer_columns]', array(
-		'label'		=> esc_html__( 'Column Layout', 'Divi' ),
+		'label'		=> esc_html__( 'Column Layout', 'Blu' ),
 		'section'	=> 'sevenp_blu_footer_layout',
 		'settings'	=> 'sevenp_blu[footer_columns]',
 		'type'		=> 'select',
@@ -2431,7 +2431,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'sevenp_blu[footer_bg]', array(
-		'label'		=> esc_html__( 'Footer Background Color', 'Divi' ),
+		'label'		=> esc_html__( 'Footer Background Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_footer_layout',
 		'settings'	=> 'sevenp_blu[footer_bg]',
 	) ) );
@@ -2445,7 +2445,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[widget_header_font_size]', array(
-		'label'	      => esc_html__( 'Header Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Header Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_footer_widgets',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -2464,7 +2464,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[widget_header_font_style]', array(
-		'label'	      => esc_html__( 'Header Font Style', 'Divi' ),
+		'label'	      => esc_html__( 'Header Font Style', 'Blu' ),
 		'section'     => 'sevenp_blu_footer_widgets',
 		'type'        => 'font_style',
 		'choices'     => sevenp_blu_font_style_choices(),
@@ -2479,7 +2479,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[widget_body_font_size]', array(
-		'label'	      => esc_html__( 'Body/Link Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Body/Link Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_footer_widgets',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -2498,7 +2498,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[widget_body_line_height]', array(
-		'label'	      => esc_html__( 'Body/Link Line Height', 'Divi' ),
+		'label'	      => esc_html__( 'Body/Link Line Height', 'Blu' ),
 		'section'     => 'sevenp_blu_footer_widgets',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -2517,7 +2517,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[widget_body_font_style]', array(
-		'label'	      => esc_html__( 'Body Font Style', 'Divi' ),
+		'label'	      => esc_html__( 'Body Font Style', 'Blu' ),
 		'section'     => 'sevenp_blu_footer_widgets',
 		'type'        => 'font_style',
 		'choices'     => sevenp_blu_font_style_choices(),
@@ -2532,7 +2532,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'sevenp_blu[footer_widget_text_color]', array(
-		'label'		=> esc_html__( 'Widget Text Color', 'Divi' ),
+		'label'		=> esc_html__( 'Widget Text Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_footer_widgets',
 		'settings'	=> 'sevenp_blu[footer_widget_text_color]',
 	) ) );
@@ -2546,7 +2546,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'sevenp_blu[footer_widget_link_color]', array(
-		'label'		=> esc_html__( 'Widget Link Color', 'Divi' ),
+		'label'		=> esc_html__( 'Widget Link Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_footer_widgets',
 		'settings'	=> 'sevenp_blu[footer_widget_link_color]',
 	) ) );
@@ -2560,7 +2560,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'sevenp_blu[footer_widget_header_color]', array(
-		'label'		=> esc_html__( 'Widget Header Color', 'Divi' ),
+		'label'		=> esc_html__( 'Widget Header Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_footer_widgets',
 		'settings'	=> 'sevenp_blu[footer_widget_header_color]',
 	) ) );
@@ -2574,7 +2574,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'sevenp_blu[footer_widget_bullet_color]', array(
-		'label'		=> esc_html__( 'Widget Bullet Color', 'Divi' ),
+		'label'		=> esc_html__( 'Widget Bullet Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_footer_widgets',
 		'settings'	=> 'sevenp_blu[footer_widget_bullet_color]',
 	) ) );
@@ -2589,7 +2589,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[footer_menu_background_color]', array(
-		'label'		=> esc_html__( 'Footer Menu Background Color', 'Divi' ),
+		'label'		=> esc_html__( 'Footer Menu Background Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_footer_menu',
 		'settings'	=> 'sevenp_blu[footer_menu_background_color]',
 	) ) );
@@ -2603,7 +2603,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[footer_menu_text_color]', array(
-		'label'		=> esc_html__( 'Footer Menu Text Color', 'Divi' ),
+		'label'		=> esc_html__( 'Footer Menu Text Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_footer_menu',
 		'settings'	=> 'sevenp_blu[footer_menu_text_color]',
 	) ) );
@@ -2617,7 +2617,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[footer_menu_active_link_color]', array(
-		'label'		=> esc_html__( 'Footer Menu Active Link Color', 'Divi' ),
+		'label'		=> esc_html__( 'Footer Menu Active Link Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_footer_menu',
 		'settings'	=> 'sevenp_blu[footer_menu_active_link_color]',
 	) ) );
@@ -2631,7 +2631,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[footer_menu_letter_spacing]', array(
-		'label'	      => esc_html__( 'Letter Spacing', 'Divi' ),
+		'label'	      => esc_html__( 'Letter Spacing', 'Blu' ),
 		'section'     => 'sevenp_blu_footer_menu',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -2650,7 +2650,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[footer_menu_font_style]', array(
-		'label'	      => esc_html__( 'Font Style', 'Divi' ),
+		'label'	      => esc_html__( 'Font Style', 'Blu' ),
 		'section'     => 'sevenp_blu_footer_menu',
 		'type'        => 'font_style',
 		'choices'     => sevenp_blu_font_style_choices(),
@@ -2665,7 +2665,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[footer_menu_font_size]', array(
-		'label'	      => esc_html__( 'Font Size', 'Divi' ),
+		'label'	      => esc_html__( 'Font Size', 'Blu' ),
 		'section'     => 'sevenp_blu_footer_menu',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -2685,7 +2685,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[bottom_bar_background_color]', array(
-		'label'		=> esc_html__( 'Background Color', 'Divi' ),
+		'label'		=> esc_html__( 'Background Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_bottom_bar',
 		'settings'	=> 'sevenp_blu[bottom_bar_background_color]',
 	) ) );
@@ -2699,7 +2699,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[bottom_bar_text_color]', array(
-		'label'		=> esc_html__( 'Text Color', 'Divi' ),
+		'label'		=> esc_html__( 'Text Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_bottom_bar',
 		'settings'	=> 'sevenp_blu[bottom_bar_text_color]',
 	) ) );
@@ -2713,7 +2713,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[bottom_bar_font_style]', array(
-		'label'	      => esc_html__( 'Font Style', 'Divi' ),
+		'label'	      => esc_html__( 'Font Style', 'Blu' ),
 		'section'     => 'sevenp_blu_bottom_bar',
 		'type'        => 'font_style',
 		'choices'     => sevenp_blu_font_style_choices(),
@@ -2728,7 +2728,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[bottom_bar_font_size]', array(
-		'label'	      => esc_html__( 'Font Size', 'Divi' ),
+		'label'	      => esc_html__( 'Font Size', 'Blu' ),
 		'section'     => 'sevenp_blu_bottom_bar',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -2747,7 +2747,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[bottom_bar_social_icon_size]', array(
-		'label'	      => esc_html__( 'Social Icon Size', 'Divi' ),
+		'label'	      => esc_html__( 'Social Icon Size', 'Blu' ),
 		'section'     => 'sevenp_blu_bottom_bar',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -2766,7 +2766,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[bottom_bar_social_icon_color]', array(
-		'label'		=> esc_html__( 'Social Icon Color', 'Divi' ),
+		'label'		=> esc_html__( 'Social Icon Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_bottom_bar',
 		'settings'	=> 'sevenp_blu[bottom_bar_social_icon_color]',
 	) ) );
@@ -2779,7 +2779,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[disable_custom_footer_credits]', array(
-		'label'   => esc_html__( 'Disable Footer Credits', 'Divi' ),
+		'label'   => esc_html__( 'Disable Footer Credits', 'Blu' ),
 		'section' => 'sevenp_blu_bottom_bar',
 		'type'    => 'checkbox',
 	) );
@@ -2793,7 +2793,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[custom_footer_credits]', array(
-		'label'    => esc_html__( 'Edit Footer Credits', 'Divi' ),
+		'label'    => esc_html__( 'Edit Footer Credits', 'Blu' ),
 		'section'  => 'sevenp_blu_bottom_bar',
 		'settings' => 'sevenp_blu[custom_footer_credits]',
 		'type'     => 'textarea',
@@ -2808,7 +2808,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[all_buttons_font_size]', array(
-		'label'	      => esc_html__( 'Text Size', 'Divi' ),
+		'label'	      => esc_html__( 'Text Size', 'Blu' ),
 		'section'     => 'sevenp_blu_buttons',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -2827,7 +2827,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[all_buttons_text_color]', array(
-		'label'		=> esc_html__( 'Text Color', 'Divi' ),
+		'label'		=> esc_html__( 'Text Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_buttons',
 		'settings'	=> 'sevenp_blu[all_buttons_text_color]',
 	) ) );
@@ -2841,7 +2841,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[all_buttons_bg_color]', array(
-		'label'		=> esc_html__( 'Background Color', 'Divi' ),
+		'label'		=> esc_html__( 'Background Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_buttons',
 		'settings'	=> 'sevenp_blu[all_buttons_bg_color]',
 	) ) );
@@ -2855,7 +2855,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[all_buttons_border_width]', array(
-		'label'	      => esc_html__( 'Border Width', 'Divi' ),
+		'label'	      => esc_html__( 'Border Width', 'Blu' ),
 		'section'     => 'sevenp_blu_buttons',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -2874,7 +2874,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[all_buttons_border_color]', array(
-		'label'		=> esc_html__( 'Border Color', 'Divi' ),
+		'label'		=> esc_html__( 'Border Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_buttons',
 		'settings'	=> 'sevenp_blu[all_buttons_border_color]',
 	) ) );
@@ -2888,7 +2888,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[all_buttons_border_radius]', array(
-		'label'	      => esc_html__( 'Border Radius', 'Divi' ),
+		'label'	      => esc_html__( 'Border Radius', 'Blu' ),
 		'section'     => 'sevenp_blu_buttons',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -2907,7 +2907,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[all_buttons_spacing]', array(
-		'label'	      => esc_html__( 'Letter Spacing', 'Divi' ),
+		'label'	      => esc_html__( 'Letter Spacing', 'Blu' ),
 		'section'     => 'sevenp_blu_buttons',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -2926,7 +2926,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[all_buttons_font_style]', array(
-		'label'	      => esc_html__( 'Button Font Style', 'Divi' ),
+		'label'	      => esc_html__( 'Button Font Style', 'Blu' ),
 		'section'     => 'sevenp_blu_buttons',
 		'type'        => 'font_style',
 		'choices'     => sevenp_blu_font_style_choices(),
@@ -2942,7 +2942,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 		) );
 
 		$wp_customize->add_control( new ET_Divi_Select_Option ( $wp_customize, 'sevenp_blu[all_buttons_font]', array(
-			'label'		=> esc_html__( 'Buttons Font', 'Divi' ),
+			'label'		=> esc_html__( 'Buttons Font', 'Blu' ),
 			'section'	=> 'sevenp_blu_buttons',
 			'settings'	=> 'sevenp_blu[all_buttons_font]',
 			'type'		=> 'select',
@@ -2959,7 +2959,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[all_buttons_icon]', array(
-		'label'		=> esc_html__( 'Add Button Icon', 'Divi' ),
+		'label'		=> esc_html__( 'Add Button Icon', 'Blu' ),
 		'section'	=> 'sevenp_blu_buttons',
 		'type'      => 'select',
 		'choices'	=> sevenp_blu_yes_no_choices(),
@@ -2974,7 +2974,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Icon_Picker_Option ( $wp_customize, 'sevenp_blu[all_buttons_selected_icon]', array(
-		'label'	      => esc_html__( 'Select Icon', 'Divi' ),
+		'label'	      => esc_html__( 'Select Icon', 'Blu' ),
 		'section'     => 'sevenp_blu_buttons',
 		'type'        => 'icon_picker',
 	) ) );
@@ -2988,7 +2988,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[all_buttons_icon_color]', array(
-		'label'		=> esc_html__( 'Icon Color', 'Divi' ),
+		'label'		=> esc_html__( 'Icon Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_buttons',
 		'settings'	=> 'sevenp_blu[all_buttons_icon_color]',
 	) ) );
@@ -3002,7 +3002,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[all_buttons_icon_placement]', array(
-		'label'		=> esc_html__( 'Icon Placement', 'Divi' ),
+		'label'		=> esc_html__( 'Icon Placement', 'Blu' ),
 		'section'	=> 'sevenp_blu_buttons',
 		'type'      => 'select',
 		'choices'	=> sevenp_blu_left_right_choices(),
@@ -3017,7 +3017,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( 'sevenp_blu[all_buttons_icon_hover]', array(
-		'label'		=> esc_html__( 'Only Show Icon on Hover', 'Divi' ),
+		'label'		=> esc_html__( 'Only Show Icon on Hover', 'Blu' ),
 		'section'	=> 'sevenp_blu_buttons',
 		'type'      => 'select',
 		'choices'	=> sevenp_blu_yes_no_choices(),
@@ -3032,7 +3032,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[all_buttons_text_color_hover]', array(
-		'label'		=> esc_html__( 'Text Color', 'Divi' ),
+		'label'		=> esc_html__( 'Text Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_buttons_hover',
 		'settings'	=> 'sevenp_blu[all_buttons_text_color_hover]',
 	) ) );
@@ -3046,7 +3046,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[all_buttons_bg_color_hover]', array(
-		'label'		=> esc_html__( 'Background Color', 'Divi' ),
+		'label'		=> esc_html__( 'Background Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_buttons_hover',
 		'settings'	=> 'sevenp_blu[all_buttons_bg_color_hover]',
 	) ) );
@@ -3060,7 +3060,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[all_buttons_border_color_hover]', array(
-		'label'		=> esc_html__( 'Border Color', 'Divi' ),
+		'label'		=> esc_html__( 'Border Color', 'Blu' ),
 		'section'	=> 'sevenp_blu_buttons_hover',
 		'settings'	=> 'sevenp_blu[all_buttons_border_color_hover]',
 	) ) );
@@ -3074,7 +3074,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[all_buttons_border_radius_hover]', array(
-		'label'	      => esc_html__( 'Border Radius', 'Divi' ),
+		'label'	      => esc_html__( 'Border Radius', 'Blu' ),
 		'section'     => 'sevenp_blu_buttons_hover',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -3093,7 +3093,7 @@ function sevenp_blu_customizer_theme_settings( $wp_customize ) {
 	) );
 
 	$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[all_buttons_spacing_hover]', array(
-		'label'	      => esc_html__( 'Letter Spacing', 'Divi' ),
+		'label'	      => esc_html__( 'Letter Spacing', 'Blu' ),
 		'section'     => 'sevenp_blu_buttons_hover',
 		'type'        => 'range',
 		'input_attrs' => array(
@@ -3111,8 +3111,8 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_image', array(
 			'priority'       => 10,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Image', 'Divi' ),
-			'description'    => esc_html__( 'Image Module Settings', 'Divi' ),
+			'title'          => esc_html__( 'Image', 'Blu' ),
+			'description'    => esc_html__( 'Image Module Settings', 'Blu' ),
 		) );
 
 			$wp_customize->add_setting( 'sevenp_blu[et_pb_image-animation]', array(
@@ -3123,8 +3123,8 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( 'sevenp_blu[et_pb_image-animation]', array(
-				'label'		=> esc_html__( 'Animation', 'Divi' ),
-				'description' => esc_html__( 'This controls default direction of the lazy-loading animation.', 'Divi' ),
+				'label'		=> esc_html__( 'Animation', 'Blu' ),
+				'description' => esc_html__( 'This controls default direction of the lazy-loading animation.', 'Blu' ),
 				'section'	=> 'et_pagebuilder_image',
 				'type'      => 'select',
 				'choices'	=> sevenp_blu_image_animation_choices(),
@@ -3134,7 +3134,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_gallery', array(
 			'priority'       => 20,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Gallery', 'Divi' ),
+			'title'          => esc_html__( 'Gallery', 'Blu' ),
 		) );
 
 			// Zoom Icon Color
@@ -3147,7 +3147,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'sevenp_blu[et_pb_gallery-zoom_icon_color]', array(
-				'label'		=> esc_html__( 'Zoom Icon Color', 'Divi' ),
+				'label'		=> esc_html__( 'Zoom Icon Color', 'Blu' ),
 				'section'	=> 'et_pagebuilder_gallery',
 				'settings'	=> 'sevenp_blu[et_pb_gallery-zoom_icon_color]',
 			) ) );
@@ -3162,7 +3162,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[et_pb_gallery-hover_overlay_color]', array(
-				'label'		=> esc_html__( 'Hover Overlay Color', 'Divi' ),
+				'label'		=> esc_html__( 'Hover Overlay Color', 'Blu' ),
 				'section'	=> 'et_pagebuilder_gallery',
 				'settings'	=> 'sevenp_blu[et_pb_gallery-hover_overlay_color]',
 			) ) );
@@ -3177,7 +3177,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_gallery-title_font_size]', array(
-				'label'	      => esc_html__( 'Title Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Title Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_gallery',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3197,7 +3197,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_gallery-title_font_style]', array(
-				'label'	      => esc_html__( 'Title Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Title Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_gallery',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -3213,7 +3213,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_gallery-caption_font_size]', array(
-				'label'	      => esc_html__( 'Caption Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Caption Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_gallery',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3233,7 +3233,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_gallery-caption_font_style]', array(
-				'label'	      => esc_html__( 'Caption Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Caption Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_gallery',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -3243,7 +3243,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_blurb', array(
 			'priority'       => 30,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Blurb', 'Divi' ),
+			'title'          => esc_html__( 'Blurb', 'Blu' ),
 		) );
 
 			// Header Font Size: Range 10px - 72px
@@ -3256,7 +3256,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_blurb-header_font_size]', array(
-				'label'	      => esc_html__( 'Header Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_blurb',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3270,7 +3270,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_tabs', array(
 			'priority'       => 40,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Tabs', 'Divi' ),
+			'title'          => esc_html__( 'Tabs', 'Blu' ),
 		) );
 
 			// Tab Title Font size: Range 10px - 32px
@@ -3283,7 +3283,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_tabs-title_font_size]', array(
-				'label'	      => esc_html__( 'Title Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Title Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_tabs',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3303,7 +3303,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_tabs-title_font_style]', array(
-				'label'	      => esc_html__( 'Title Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Title Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_tabs',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -3320,7 +3320,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_tabs-padding]', array(
-				'label'	      => esc_html__( 'Padding', 'Divi' ),
+				'label'	      => esc_html__( 'Padding', 'Blu' ),
 				'section'     => 'et_pagebuilder_tabs',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3334,7 +3334,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_slider', array(
 			'priority'       => 50,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Slider', 'Divi' ),
+			'title'          => esc_html__( 'Slider', 'Blu' ),
 			// 'description'    => '',
 		) );
 
@@ -3348,7 +3348,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_slider-padding]', array(
-				'label'	      => esc_html__( 'Top & Bottom Padding', 'Divi' ),
+				'label'	      => esc_html__( 'Top & Bottom Padding', 'Blu' ),
 				'section'     => 'et_pagebuilder_slider',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3368,7 +3368,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_slider-header_font_size]', array(
-				'label'	      => esc_html__( 'Header Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_slider',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3388,7 +3388,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_slider-header_font_style]', array(
-				'label'	      => esc_html__( 'Header Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_slider',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -3404,7 +3404,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_slider-body_font_size]', array(
-				'label'	      => esc_html__( 'Content Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Content Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_slider',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3424,7 +3424,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_slider-body_font_style]', array(
-				'label'	      => esc_html__( 'Content Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Content Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_slider',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -3434,7 +3434,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_testimonial', array(
 			'priority'       => 60,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Testimonial', 'Divi' ),
+			'title'          => esc_html__( 'Testimonial', 'Blu' ),
 		) );
 
 			// Author Name Font Style: B / I / TT / U
@@ -3447,7 +3447,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_testimonial-author_name_font_style]', array(
-				'label'	      => esc_html__( 'Name Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Name Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_testimonial',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -3463,7 +3463,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_testimonial-author_details_font_style]', array(
-				'label'	      => esc_html__( 'Details Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Details Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_testimonial',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -3479,7 +3479,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_testimonial-portrait_border_radius]', array(
-				'label'	      => esc_html__( 'Portrait Border Radius', 'Divi' ),
+				'label'	      => esc_html__( 'Portrait Border Radius', 'Blu' ),
 				'section'     => 'et_pagebuilder_testimonial',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3499,7 +3499,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_testimonial-portrait_width]', array(
-				'label'	      => esc_html__( 'Image Width', 'Divi' ),
+				'label'	      => esc_html__( 'Image Width', 'Blu' ),
 				'section'     => 'et_pagebuilder_testimonial',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3519,7 +3519,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_testimonial-portrait_height]', array(
-				'label'	      => esc_html__( 'Image Height', 'Divi' ),
+				'label'	      => esc_html__( 'Image Height', 'Blu' ),
 				'section'     => 'et_pagebuilder_testimonial',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3533,7 +3533,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_pricing_table', array(
 			'priority'       => 70,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Pricing Table', 'Divi' ),
+			'title'          => esc_html__( 'Pricing Table', 'Blu' ),
 		) );
 
 			// Header Font size: Range 10px - 32px
@@ -3546,7 +3546,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_pricing_tables-header_font_size]', array(
-				'label'	      => esc_html__( 'Header Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_pricing_table',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3566,7 +3566,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_pricing_tables-header_font_style]', array(
-				'label'	      => esc_html__( 'Header Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_pricing_table',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -3582,7 +3582,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_pricing_tables-subheader_font_size]', array(
-				'label'	      => esc_html__( 'Subheader Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Subheader Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_pricing_table',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3602,7 +3602,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_pricing_tables-subheader_font_style]', array(
-				'label'	      => esc_html__( 'Subheader Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Subheader Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_pricing_table',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -3618,7 +3618,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_pricing_tables-price_font_size]', array(
-				'label'	      => esc_html__( 'Price Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Price Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_pricing_table',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3638,7 +3638,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_pricing_tables-price_font_style]', array(
-				'label'	      => esc_html__( 'Pricing Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Pricing Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_pricing_table',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -3648,7 +3648,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_call_to_action', array(
 			'priority'       => 80,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Call To Action', 'Divi' ),
+			'title'          => esc_html__( 'Call To Action', 'Blu' ),
 		) );
 
 			// Header font size: Range 10px - 32px
@@ -3661,7 +3661,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_cta-header_font_size]', array(
-				'label'	      => esc_html__( 'Header Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_call_to_action',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3681,7 +3681,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_cta-header_font_style]', array(
-				'label'	      => esc_html__( 'Header Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_call_to_action',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -3697,7 +3697,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_cta-custom_padding]', array(
-				'label'	      => esc_html__( 'Padding', 'Divi' ),
+				'label'	      => esc_html__( 'Padding', 'Blu' ),
 				'section'     => 'et_pagebuilder_call_to_action',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3711,7 +3711,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_audio', array(
 			'priority'       => 90,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Audio', 'Divi' ),
+			'title'          => esc_html__( 'Audio', 'Blu' ),
 		) );
 
 			// Header Font size: Range 10px - 32px
@@ -3724,7 +3724,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_audio-title_font_size]', array(
-				'label'	      => esc_html__( 'Header Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_audio',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3744,7 +3744,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_audio-title_font_style]', array(
-				'label'	      => esc_html__( 'Header Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_audio',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -3760,7 +3760,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_audio-caption_font_size]', array(
-				'label'	      => esc_html__( 'Subheader Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Subheader Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_audio',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3780,7 +3780,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_audio-caption_font_style]', array(
-				'label'	      => esc_html__( 'Subheader Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Subheader Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_audio',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -3790,7 +3790,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_subscribe', array(
 			'priority'       => 100,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Email Optin', 'Divi' ),
+			'title'          => esc_html__( 'Email Optin', 'Blu' ),
 		) );
 
 			// Header font size: Range 10px - 32px
@@ -3803,7 +3803,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_signup-header_font_size]', array(
-				'label'	      => esc_html__( 'Header Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_subscribe',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3823,7 +3823,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_signup-header_font_style]', array(
-				'label'	      => esc_html__( 'Header Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_subscribe',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -3839,7 +3839,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_signup-padding]', array(
-				'label'	      => esc_html__( 'Padding', 'Divi' ),
+				'label'	      => esc_html__( 'Padding', 'Blu' ),
 				'section'     => 'et_pagebuilder_subscribe',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3853,7 +3853,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_login', array(
 			'priority'       => 110,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Login', 'Divi' ),
+			'title'          => esc_html__( 'Login', 'Blu' ),
 			// 'description'    => '',
 		) );
 
@@ -3867,7 +3867,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_login-header_font_size]', array(
-				'label'	      => esc_html__( 'Header Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_login',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3887,7 +3887,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_login-header_font_style]', array(
-				'label'	      => esc_html__( 'Header Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_login',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -3903,7 +3903,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_login-custom_padding]', array(
-				'label'	      => esc_html__( 'Padding', 'Divi' ),
+				'label'	      => esc_html__( 'Padding', 'Blu' ),
 				'section'     => 'et_pagebuilder_login',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3917,7 +3917,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_portfolio', array(
 			'priority'       => 120,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Portfolio', 'Divi' ),
+			'title'          => esc_html__( 'Portfolio', 'Blu' ),
 		) );
 
 			// Zoom Icon Color
@@ -3930,7 +3930,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'sevenp_blu[et_pb_portfolio-zoom_icon_color]', array(
-				'label'		=> esc_html__( 'Zoom Icon Color', 'Divi' ),
+				'label'		=> esc_html__( 'Zoom Icon Color', 'Blu' ),
 				'section'	=> 'et_pagebuilder_portfolio',
 				'settings'	=> 'sevenp_blu[et_pb_portfolio-zoom_icon_color]',
 			) ) );
@@ -3945,7 +3945,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[et_pb_portfolio-hover_overlay_color]', array(
-				'label'		=> esc_html__( 'Hover Overlay Color', 'Divi' ),
+				'label'		=> esc_html__( 'Hover Overlay Color', 'Blu' ),
 				'section'	=> 'et_pagebuilder_portfolio',
 				'settings'	=> 'sevenp_blu[et_pb_portfolio-hover_overlay_color]',
 			) ) );
@@ -3960,7 +3960,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_portfolio-title_font_size]', array(
-				'label'	      => esc_html__( 'Title Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Title Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_portfolio',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -3980,7 +3980,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_portfolio-title_font_style]', array(
-				'label'	      => esc_html__( 'Title Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Title Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_portfolio',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -3996,7 +3996,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_portfolio-caption_font_size]', array(
-				'label'	      => esc_html__( 'Caption Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Caption Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_portfolio',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4016,7 +4016,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_portfolio-caption_font_style]', array(
-				'label'	      => esc_html__( 'Caption Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Caption Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_portfolio',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4026,7 +4026,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_filterable_portfolio', array(
 			'priority'       => 130,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Filterable Portfolio', 'Divi' ),
+			'title'          => esc_html__( 'Filterable Portfolio', 'Blu' ),
 		) );
 
 			// Zoom Icon Color
@@ -4039,7 +4039,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'sevenp_blu[et_pb_filterable_portfolio-zoom_icon_color]', array(
-				'label'		=> esc_html__( 'Zoom Icon Color', 'Divi' ),
+				'label'		=> esc_html__( 'Zoom Icon Color', 'Blu' ),
 				'section'	=> 'et_pagebuilder_filterable_portfolio',
 				'settings'	=> 'sevenp_blu[et_pb_filterable_portfolio-zoom_icon_color]',
 			) ) );
@@ -4054,7 +4054,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Customize_Color_Alpha_Control( $wp_customize, 'sevenp_blu[et_pb_filterable_portfolio-hover_overlay_color]', array(
-				'label'		=> esc_html__( 'Hover Overlay Color', 'Divi' ),
+				'label'		=> esc_html__( 'Hover Overlay Color', 'Blu' ),
 				'section'	=> 'et_pagebuilder_filterable_portfolio',
 				'settings'	=> 'sevenp_blu[et_pb_filterable_portfolio-hover_overlay_color]',
 			) ) );
@@ -4069,7 +4069,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_filterable_portfolio-title_font_size]', array(
-				'label'	      => esc_html__( 'Title Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Title Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_filterable_portfolio',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4089,7 +4089,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_filterable_portfolio-title_font_style]', array(
-				'label'	      => esc_html__( 'Title Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Title Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_filterable_portfolio',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4105,7 +4105,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_filterable_portfolio-caption_font_size]', array(
-				'label'	      => esc_html__( 'Caption Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Caption Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_filterable_portfolio',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4125,7 +4125,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_filterable_portfolio-caption_font_style]', array(
-				'label'	      => esc_html__( 'Caption Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Caption Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_filterable_portfolio',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4141,7 +4141,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_filterable_portfolio-filter_font_size]', array(
-				'label'	      => esc_html__( 'Filters Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Filters Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_filterable_portfolio',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4161,7 +4161,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_filterable_portfolio-filter_font_style]', array(
-				'label'	      => esc_html__( 'Filters Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Filters Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_filterable_portfolio',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4171,7 +4171,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_bar_counter', array(
 			'priority'       => 140,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Bar Counter', 'Divi' ),
+			'title'          => esc_html__( 'Bar Counter', 'Blu' ),
 		) );
 
 			// Label Font Size
@@ -4184,7 +4184,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_counters-title_font_size]', array(
-				'label'	      => esc_html__( 'Label Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Label Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_bar_counter',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4204,7 +4204,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_counters-title_font_style]', array(
-				'label'	      => esc_html__( 'Label Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Label Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_bar_counter',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4220,7 +4220,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_counters-percent_font_size]', array(
-				'label'	      => esc_html__( 'Percent Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Percent Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_bar_counter',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4240,7 +4240,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_counters-percent_font_style]', array(
-				'label'	      => esc_html__( 'Percent Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Percent Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_bar_counter',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4256,7 +4256,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_counters-padding]', array(
-				'label'	      => esc_html__( 'Bar Padding', 'Divi' ),
+				'label'	      => esc_html__( 'Bar Padding', 'Blu' ),
 				'section'     => 'et_pagebuilder_bar_counter',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4276,7 +4276,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_counters-border_radius]', array(
-				'label'	      => esc_html__( 'Bar Border Radius', 'Divi' ),
+				'label'	      => esc_html__( 'Bar Border Radius', 'Blu' ),
 				'section'     => 'et_pagebuilder_bar_counter',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4290,7 +4290,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_circle_counter', array(
 			'priority'       => 150,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Circle Counter', 'Divi' ),
+			'title'          => esc_html__( 'Circle Counter', 'Blu' ),
 		) );
 			// Number Font Size
 			$wp_customize->add_setting( 'sevenp_blu[et_pb_circle_counter-number_font_size]', array(
@@ -4302,7 +4302,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_circle_counter-number_font_size]', array(
-				'label'	      => esc_html__( 'Number Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Number Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_circle_counter',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4322,7 +4322,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_circle_counter-number_font_style]', array(
-				'label'	      => esc_html__( 'Number Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Number Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_circle_counter',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4338,7 +4338,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_circle_counter-title_font_size]', array(
-				'label'	      => esc_html__( 'Title Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Title Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_circle_counter',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4358,7 +4358,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_circle_counter-title_font_style]', array(
-				'label'	      => esc_html__( 'Title Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Title Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_circle_counter',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4368,7 +4368,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_number_counter', array(
 			'priority'       => 160,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Number Counter', 'Divi' ),
+			'title'          => esc_html__( 'Number Counter', 'Blu' ),
 		) );
 
 			// Number Font Size
@@ -4381,7 +4381,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_number_counter-number_font_size]', array(
-				'label'	      => esc_html__( 'Number Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Number Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_number_counter',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4401,7 +4401,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_number_counter-number_font_style]', array(
-				'label'	      => esc_html__( 'Number Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Number Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_number_counter',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4417,7 +4417,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_number_counter-title_font_size]', array(
-				'label'	      => esc_html__( 'Title Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Title Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_number_counter',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4437,7 +4437,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_number_counter-title_font_style]', array(
-				'label'	      => esc_html__( 'Title Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Title Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_number_counter',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4447,7 +4447,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_accordion', array(
 			'priority'       => 170,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Accordion', 'Divi' ),
+			'title'          => esc_html__( 'Accordion', 'Blu' ),
 		) );
 			// Title Font Size
 			$wp_customize->add_setting( 'sevenp_blu[et_pb_accordion-toggle_font_size]', array(
@@ -4459,7 +4459,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_accordion-toggle_font_size]', array(
-				'label'	      => esc_html__( 'Title Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Title Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_accordion',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4479,7 +4479,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_accordion-toggle_font_style]', array(
-				'label'	      => esc_html__( 'Opened Title Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Opened Title Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_accordion',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4495,7 +4495,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_accordion-inactive_toggle_font_style]', array(
-				'label'	      => esc_html__( 'Closed Title Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Closed Title Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_accordion',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4511,7 +4511,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_accordion-toggle_icon_size]', array(
-				'label'	      => esc_html__( 'Toggle Icon Size', 'Divi' ),
+				'label'	      => esc_html__( 'Toggle Icon Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_accordion',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4532,7 +4532,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_accordion-custom_padding]', array(
-				'label'	      => esc_html__( 'Toggle Padding', 'Divi' ),
+				'label'	      => esc_html__( 'Toggle Padding', 'Blu' ),
 				'section'     => 'et_pagebuilder_accordion',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4546,7 +4546,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_toggle', array(
 			'priority'       => 180,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Toggle', 'Divi' ),
+			'title'          => esc_html__( 'Toggle', 'Blu' ),
 		) );
 
 			// Title Font Size
@@ -4559,7 +4559,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_toggle-title_font_size]', array(
-				'label'	      => esc_html__( 'Title Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Title Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_toggle',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4579,7 +4579,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_toggle-title_font_style]', array(
-				'label'	      => esc_html__( 'Opened Title Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Opened Title Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_toggle',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4595,7 +4595,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_toggle-inactive_title_font_style]', array(
-				'label'	      => esc_html__( 'Closed Title Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Closed Title Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_toggle',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4611,7 +4611,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_toggle-toggle_icon_size]', array(
-				'label'	      => esc_html__( 'Toggle Icon Size', 'Divi' ),
+				'label'	      => esc_html__( 'Toggle Icon Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_toggle',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4631,7 +4631,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_toggle-custom_padding]', array(
-				'label'	      => esc_html__( 'Toggle Padding', 'Divi' ),
+				'label'	      => esc_html__( 'Toggle Padding', 'Blu' ),
 				'section'     => 'et_pagebuilder_toggle',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4645,7 +4645,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_contact_form', array(
 			'priority'       => 190,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Contact Form', 'Divi' ),
+			'title'          => esc_html__( 'Contact Form', 'Blu' ),
 		) );
 
 			// Header Font size: Range 10px - 32px
@@ -4658,7 +4658,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_contact_form-title_font_size]', array(
-				'label'	      => esc_html__( 'Header Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_contact_form',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4678,7 +4678,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_contact_form-title_font_style]', array(
-				'label'	      => esc_html__( 'Header Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_contact_form',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4694,7 +4694,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_contact_form-form_field_font_size]', array(
-				'label'	      => esc_html__( 'Input Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Input Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_contact_form',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4714,7 +4714,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_contact_form-form_field_font_style]', array(
-				'label'	      => esc_html__( 'Input Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Input Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_contact_form',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4730,7 +4730,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_contact_form-padding]', array(
-				'label'	      => esc_html__( 'Input Field Padding', 'Divi' ),
+				'label'	      => esc_html__( 'Input Field Padding', 'Blu' ),
 				'section'     => 'et_pagebuilder_contact_form',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4750,7 +4750,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_contact_form-captcha_font_size]', array(
-				'label'	      => esc_html__( 'Captcha Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Captcha Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_contact_form',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4770,7 +4770,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_contact_form-captcha_font_style]', array(
-				'label'	      => esc_html__( 'Captcha Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Captcha Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_contact_form',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4780,7 +4780,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_sidebar', array(
 			'priority'       => 200,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Sidebar', 'Divi' ),
+			'title'          => esc_html__( 'Sidebar', 'Blu' ),
 		) );
 
 			// Header Font size: Range 10px - 32px
@@ -4793,7 +4793,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_sidebar-header_font_size]', array(
-				'label'	      => esc_html__( 'Widget Header Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Widget Header Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_sidebar',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4813,7 +4813,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_sidebar-header_font_style]', array(
-				'label'	      => esc_html__( 'Widget Header Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Widget Header Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_sidebar',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4829,7 +4829,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( 'sevenp_blu[et_pb_sidebar-remove_border]', array(
-				'label'		=> esc_html__( 'Remove Vertical Divider', 'Divi' ),
+				'label'		=> esc_html__( 'Remove Vertical Divider', 'Blu' ),
 				'section'	=> 'et_pagebuilder_sidebar',
 				'type'      => 'checkbox',
 			) );
@@ -4838,7 +4838,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_divider', array(
 			'priority'       => 200,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Divider', 'Divi' ),
+			'title'          => esc_html__( 'Divider', 'Blu' ),
 		) );
 
 			// Show/hide Divider
@@ -4850,7 +4850,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( 'sevenp_blu[et_pb_divider-show_divider]', array(
-				'label'		=> esc_html__( 'Show Divider', 'Divi' ),
+				'label'		=> esc_html__( 'Show Divider', 'Blu' ),
 				'section'	=> 'et_pagebuilder_divider',
 				'type'      => 'checkbox',
 			) );
@@ -4865,7 +4865,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( 'sevenp_blu[et_pb_divider-divider_style]', array(
-				'label'		=> esc_html__( 'Divider Style', 'Divi' ),
+				'label'		=> esc_html__( 'Divider Style', 'Blu' ),
 				'section'	=> 'et_pagebuilder_divider',
 				'settings'	=> 'sevenp_blu[et_pb_divider-divider_style]',
 				'type'		=> 'select',
@@ -4882,7 +4882,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_divider-divider_weight]', array(
-				'label'	      => esc_html__( 'Divider Weight', 'Divi' ),
+				'label'	      => esc_html__( 'Divider Weight', 'Blu' ),
 				'section'     => 'et_pagebuilder_divider',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4902,7 +4902,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_divider-height]', array(
-				'label'	      => esc_html__( 'Divider Height', 'Divi' ),
+				'label'	      => esc_html__( 'Divider Height', 'Blu' ),
 				'section'     => 'et_pagebuilder_divider',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4922,7 +4922,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( 'sevenp_blu[et_pb_divider-divider_position]', array(
-				'label'		=> esc_html__( 'Divider Position', 'Divi' ),
+				'label'		=> esc_html__( 'Divider Position', 'Blu' ),
 				'section'	=> 'et_pagebuilder_divider',
 				'settings'	=> 'sevenp_blu[et_pb_divider-divider_position]',
 				'type'		=> 'select',
@@ -4933,7 +4933,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_person', array(
 			'priority'       => 210,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Person', 'Divi' ),
+			'title'          => esc_html__( 'Person', 'Blu' ),
 		) );
 
 			// Header Font size: Range 10px - 32px
@@ -4946,7 +4946,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_team_member-header_font_size]', array(
-				'label'	      => esc_html__( 'Name Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Name Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_person',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -4966,7 +4966,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_team_member-header_font_style]', array(
-				'label'	      => esc_html__( 'Name Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Name Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_person',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -4982,7 +4982,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_team_member-subheader_font_size]', array(
-				'label'	      => esc_html__( 'Subheader Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Subheader Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_person',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -5002,7 +5002,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_team_member-subheader_font_style]', array(
-				'label'	      => esc_html__( 'Subheader Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Subheader Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_person',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -5018,7 +5018,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_team_member-social_network_icon_size]', array(
-				'label'	      => esc_html__( 'Social Network Icon Size', 'Divi' ),
+				'label'	      => esc_html__( 'Social Network Icon Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_person',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -5032,7 +5032,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_blog', array(
 			'priority'       => 220,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Blog', 'Divi' ),
+			'title'          => esc_html__( 'Blog', 'Blu' ),
 		) );
 
 			// Post Title Font Size
@@ -5045,7 +5045,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_blog-header_font_size]', array(
-				'label'	      => esc_html__( 'Post Title Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Post Title Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_blog',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -5065,7 +5065,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_blog-header_font_style]', array(
-				'label'	      => esc_html__( 'Title Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Title Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_blog',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -5081,7 +5081,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_blog-meta_font_size]', array(
-				'label'	      => esc_html__( 'Meta Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Meta Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_blog',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -5101,7 +5101,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_blog-meta_font_style]', array(
-				'label'	      => esc_html__( 'Meta Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Meta Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_blog',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -5111,7 +5111,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_masonry_blog', array(
 			'priority'       => 230,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Blog Grid', 'Divi' ),
+			'title'          => esc_html__( 'Blog Grid', 'Blu' ),
 		) );
 
 			// Post Title Font Size
@@ -5124,7 +5124,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_blog_masonry-header_font_size]', array(
-				'label'	      => esc_html__( 'Post Title Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Post Title Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_masonry_blog',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -5144,7 +5144,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_blog_masonry-header_font_style]', array(
-				'label'	      => esc_html__( 'Title Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Title Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_masonry_blog',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -5160,7 +5160,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_blog_masonry-meta_font_size]', array(
-				'label'	      => esc_html__( 'Meta Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Meta Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_masonry_blog',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -5180,7 +5180,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_blog_masonry-meta_font_style]', array(
-				'label'	      => esc_html__( 'Meta Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Meta Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_masonry_blog',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -5190,7 +5190,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_shop', array(
 			'priority'       => 240,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Shop', 'Divi' ),
+			'title'          => esc_html__( 'Shop', 'Blu' ),
 		) );
 
 			// Product Name Font size: Range 10px - 32px
@@ -5203,7 +5203,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_shop-title_font_size]', array(
-				'label'	      => esc_html__( 'Product Name Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Product Name Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_shop',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -5223,7 +5223,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_shop-title_font_style]', array(
-				'label'	      => esc_html__( 'Product Name Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Product Name Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_shop',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -5239,7 +5239,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_shop-sale_badge_font_size]', array(
-				'label'	      => esc_html__( 'Sale Badge Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Sale Badge Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_shop',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -5259,7 +5259,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_shop-sale_badge_font_style]', array(
-				'label'	      => esc_html__( 'Sale Badge Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Sale Badge Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_shop',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -5275,7 +5275,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_shop-price_font_size]', array(
-				'label'	      => esc_html__( 'Price Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Price Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_shop',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -5295,7 +5295,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_shop-price_font_style]', array(
-				'label'	      => esc_html__( 'Price Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Price Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_shop',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -5311,7 +5311,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_shop-sale_price_font_size]', array(
-				'label'	      => esc_html__( 'Sale Price Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Sale Price Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_shop',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -5331,7 +5331,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_shop-sale_price_font_style]', array(
-				'label'	      => esc_html__( 'Sale Price Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Sale Price Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_shop',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -5341,7 +5341,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_countdown', array(
 			'priority'       => 250,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Countdown', 'Divi' ),
+			'title'          => esc_html__( 'Countdown', 'Blu' ),
 		) );
 
 			// Header Font size: Range 10px - 32px
@@ -5354,7 +5354,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_countdown_timer-header_font_size]', array(
-				'label'	      => esc_html__( 'Header Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_countdown',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -5374,7 +5374,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_countdown_timer-header_font_style]', array(
-				'label'	      => esc_html__( 'Header Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_countdown',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -5384,7 +5384,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_social_follow', array(
 			'priority'       => 250,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Social Follow', 'Divi' ),
+			'title'          => esc_html__( 'Social Follow', 'Blu' ),
 		) );
 
 			// Follow Button Font size: Range 10px - 32px
@@ -5397,7 +5397,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_social_media_follow-icon_size]', array(
-				'label'	      => esc_html__( 'Follow Font & Icon Size', 'Divi' ),
+				'label'	      => esc_html__( 'Follow Font & Icon Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_social_follow',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -5417,7 +5417,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_social_media_follow-button_font_style]', array(
-				'label'	      => esc_html__( 'Button Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Button Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_social_follow',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -5427,7 +5427,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 		$wp_customize->add_section( 'et_pagebuilder_fullwidth_slider', array(
 			'priority'       => 270,
 			'capability'     => 'edit_theme_options',
-			'title'          => esc_html__( 'Fullwidth Slider', 'Divi' ),
+			'title'          => esc_html__( 'Fullwidth Slider', 'Blu' ),
 		) );
 
 			// Slider Padding: Top/Bottom Only
@@ -5440,7 +5440,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_fullwidth_slider-padding]', array(
-				'label'	      => esc_html__( 'Top & Bottom Padding', 'Divi' ),
+				'label'	      => esc_html__( 'Top & Bottom Padding', 'Blu' ),
 				'section'     => 'et_pagebuilder_fullwidth_slider',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -5460,7 +5460,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_fullwidth_slider-header_font_size]', array(
-				'label'	      => esc_html__( 'Header Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_fullwidth_slider',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -5480,7 +5480,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_fullwidth_slider-header_font_style]', array(
-				'label'	      => esc_html__( 'Header Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Header Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_fullwidth_slider',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -5496,7 +5496,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Range_Option ( $wp_customize, 'sevenp_blu[et_pb_fullwidth_slider-body_font_size]', array(
-				'label'	      => esc_html__( 'Content Font Size', 'Divi' ),
+				'label'	      => esc_html__( 'Content Font Size', 'Blu' ),
 				'section'     => 'et_pagebuilder_fullwidth_slider',
 				'type'        => 'range',
 				'input_attrs' => array(
@@ -5516,7 +5516,7 @@ function sevenp_blu_customizer_module_settings( $wp_customize ) {
 			) );
 
 			$wp_customize->add_control( new ET_Divi_Font_Style_Option ( $wp_customize, 'sevenp_blu[et_pb_fullwidth_slider-body_font_style]', array(
-				'label'	      => esc_html__( 'Content Font Style', 'Divi' ),
+				'label'	      => esc_html__( 'Content Font Style', 'Blu' ),
 				'section'     => 'et_pagebuilder_fullwidth_slider',
 				'type'        => 'font_style',
 				'choices'     => sevenp_blu_font_style_choices(),
@@ -5698,7 +5698,7 @@ if ( class_exists( 'WP_Customize_Control' ) ) {
 		public $statuses;
 
 		public function __construct( $manager, $id, $args = array() ) {
-			$this->statuses = array( '' => esc_html__( 'Default', 'Divi' ) );
+			$this->statuses = array( '' => esc_html__( 'Default', 'Blu' ) );
 			parent::__construct( $manager, $id, $args );
 		}
 
@@ -5734,7 +5734,7 @@ if ( class_exists( 'WP_Customize_Control' ) ) {
 					<span class="description customize-control-description">{{{ data.description }}}</span>
 				<# } #>
 				<div class="customize-control-content">
-					<input class="color-picker-hex" data-alpha="true" type="text" maxlength="30" placeholder="<?php esc_attr_e( 'Hex Value', 'Divi' ); ?>" {{ defaultValue }} />
+					<input class="color-picker-hex" data-alpha="true" type="text" maxlength="30" placeholder="<?php esc_attr_e( 'Hex Value', 'Blu' ); ?>" {{ defaultValue }} />
 				</div>
 			</label>
 			<?php
@@ -7830,7 +7830,7 @@ function sevenp_blu_post_meta() {
 
 	if ( $postinfo ) :
 		echo '<p class="post-meta">';
-		echo et_pb_postinfo_meta( $postinfo, et_get_option( 'divi_date_format', 'M j, Y' ), esc_html__( '0 comments', 'Divi' ), esc_html__( '1 comment', 'Divi' ), '% ' . esc_html__( 'comments', 'Divi' ) );
+		echo et_pb_postinfo_meta( $postinfo, et_get_option( 'divi_date_format', 'M j, Y' ), esc_html__( '0 comments', 'Blu' ), esc_html__( '1 comment', 'Blu' ), '% ' . esc_html__( 'comments', 'Blu' ) );
 		echo '</p>';
 	endif;
 }
@@ -7913,12 +7913,12 @@ function et_password_form() {
 				<p><button type="submit" class="et_submit_button et_pb_button">%6$s</button></p>
 			</form
 		</div>',
-		esc_html__( 'Password Protected', 'Divi' ),
-		esc_html__( 'To view this protected post, enter the password below', 'Divi' ),
+		esc_html__( 'Password Protected', 'Blu' ),
+		esc_html__( 'To view this protected post, enter the password below', 'Blu' ),
 		esc_url( site_url( 'wp-login.php?action=postpass', 'login_post' ) ),
 		esc_attr( 'pwbox-' . $pwbox_id ),
-		esc_html__( 'Password', 'Divi' ),
-		esc_html__( 'Submit', 'Divi' )
+		esc_html__( 'Password', 'Blu' ),
+		esc_html__( 'Submit', 'Blu' )
 	);
 
 	$output = sprintf(
@@ -8121,7 +8121,7 @@ if ( ! function_exists( 'et_show_cart_total' ) ) {
 			esc_url( WC()->cart->get_cart_url() ),
 			( ! $args['no_text']
 				? esc_html( sprintf(
-					_nx( '1 Item', '%1$s Items', $items_number, 'WooCommerce items number', 'Divi' ),
+					_nx( '1 Item', '%1$s Items', $items_number, 'WooCommerce items number', 'Blu' ),
 					number_format_i18n( $items_number )
 				) )
 				: ''
@@ -8303,7 +8303,7 @@ function sevenp_blu_output_content_wrapper_end() {
 }
 
 function et_add_divi_menu() {
-	$core_page = add_menu_page( 'Divi', 'Divi', 'switch_themes', 'sevenp_blu_options', 'et_build_epanel' );
+	$core_page = add_menu_page( 'Blu', 'Blu', 'switch_themes', 'sevenp_blu_options', 'et_build_epanel' );
 
 	// Add Theme Options menu only if it's enabled for current user
 	if ( et_pb_is_allowed( 'theme_options' ) ) {
@@ -8318,20 +8318,20 @@ function et_add_divi_menu() {
 			}
 		}
 
-		add_submenu_page( 'sevenp_blu_options', esc_html__( 'Theme Options', 'Divi' ), esc_html__( 'Theme Options', 'Divi' ), 'manage_options', 'sevenp_blu_options' );
+		add_submenu_page( 'sevenp_blu_options', esc_html__( 'Theme Options', 'Blu' ), esc_html__( 'Theme Options', 'Blu' ), 'manage_options', 'sevenp_blu_options' );
 	}
 	// Add Theme Customizer menu only if it's enabled for current user
 	if ( et_pb_is_allowed( 'theme_customizer' ) ) {
-		add_submenu_page( 'sevenp_blu_options', esc_html__( 'Theme Customizer', 'Divi' ), esc_html__( 'Theme Customizer', 'Divi' ), 'manage_options', 'customize.php?et_customizer_option_set=theme' );
+		add_submenu_page( 'sevenp_blu_options', esc_html__( 'Theme Customizer', 'Blu' ), esc_html__( 'Theme Customizer', 'Blu' ), 'manage_options', 'customize.php?et_customizer_option_set=theme' );
 	}
 	// Add Module Customizer menu only if it's enabled for current user
 	if ( et_pb_is_allowed( 'module_customizer' ) ) {
-		add_submenu_page( 'sevenp_blu_options', esc_html__( 'Module Customizer', 'Divi' ), esc_html__( 'Module Customizer', 'Divi' ), 'manage_options', 'customize.php?et_customizer_option_set=module' );
+		add_submenu_page( 'sevenp_blu_options', esc_html__( 'Module Customizer', 'Blu' ), esc_html__( 'Module Customizer', 'Blu' ), 'manage_options', 'customize.php?et_customizer_option_set=module' );
 	}
-	add_submenu_page( 'sevenp_blu_options', esc_html__( 'Role Editor', 'Divi' ), esc_html__( 'Role Editor', 'Divi' ), 'manage_options', 'sevenp_blu_role_editor', 'et_pb_display_role_editor' );
+	add_submenu_page( 'sevenp_blu_options', esc_html__( 'Role Editor', 'Blu' ), esc_html__( 'Role Editor', 'Blu' ), 'manage_options', 'sevenp_blu_role_editor', 'et_pb_display_role_editor' );
 	// Add Divi Library menu only if it's enabled for current user
 	if ( et_pb_is_allowed( 'divi_library' ) ) {
-		add_submenu_page( 'sevenp_blu_options', esc_html__( 'Divi Library', 'Divi' ), esc_html__( 'Divi Library', 'Divi' ), 'manage_options', 'edit.php?post_type=et_pb_layout' );
+		add_submenu_page( 'sevenp_blu_options', esc_html__( 'Divi Library', 'Blu' ), esc_html__( 'Divi Library', 'Blu' ), 'manage_options', 'edit.php?post_type=et_pb_layout' );
 	}
 
 	add_action( "load-{$core_page}", 'et_pb_check_options_access' ); // load function to check the permissions of current user
@@ -8358,7 +8358,7 @@ function add_divi_customizer_admin_menu() {
 		$wp_admin_bar->add_menu( array(
 			'parent' => 'appearance',
 			'id'     => 'customize-divi-theme',
-			'title'  => esc_html__( 'Theme Customizer', 'Divi' ),
+			'title'  => esc_html__( 'Theme Customizer', 'Blu' ),
 			'href'   => $customize_url . '&et_customizer_option_set=theme',
 			'meta'   => array(
 				'class' => 'hide-if-no-customize',
@@ -8371,7 +8371,7 @@ function add_divi_customizer_admin_menu() {
 		$wp_admin_bar->add_menu( array(
 			'parent' => 'appearance',
 			'id'     => 'customize-divi-module',
-			'title'  => esc_html__( 'Module Customizer', 'Divi' ),
+			'title'  => esc_html__( 'Module Customizer', 'Blu' ),
 			'href'   => $customize_url . '&et_customizer_option_set=module',
 			'meta'   => array(
 				'class' => 'hide-if-no-customize',
@@ -8397,7 +8397,7 @@ add_action( 'admin_enqueue_scripts', 'et_pb_hide_options_menu' );
 function et_pb_check_options_access() {
 	// display wp error screen if theme customizer disabled for current user
 	if ( ! et_pb_is_allowed( 'theme_options' ) ) {
-		wp_die( esc_html__( "you don't have sufficient permissions to access this page", 'Divi' ) );
+		wp_die( esc_html__( "you don't have sufficient permissions to access this page", 'Blu' ) );
 	}
 }
 
@@ -8541,7 +8541,7 @@ function sevenp_blu_register_customizer_portability() {
 
 	// Register the portability.
 	et_core_portability_register( 'sevenp_blu_mods', array(
-		'name'    => esc_html__( 'Divi Customizer Settings', 'Divi' ),
+		'name'    => esc_html__( 'Divi Customizer Settings', 'Blu' ),
 		'type'    => 'options',
 		'target'  => 'sevenp_blu',
 		'exclude' => $exclude,
@@ -8582,7 +8582,7 @@ add_filter( 'body_class', 'sevenp_blu_theme_body_class' );
 
 if ( ! function_exists( 'et_get_original_footer_credits' ) ) :
 function et_get_original_footer_credits() {
-	return sprintf( __( 'Designed by %1$s | Powered by %2$s', 'Divi' ), '<a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant Themes</a>', '<a href="http://www.wordpress.org">WordPress</a>' );
+	return sprintf( __( 'Designed by %1$s | Powered by %2$s', 'Blu' ), '<a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant Themes</a>', '<a href="http://www.wordpress.org">WordPress</a>' );
 }
 endif;
 

@@ -4903,7 +4903,7 @@ add_filter( 'jetpack_relatedposts_returned_results', 'et_jetpack_post_excerpt' )
  * Adds a Divi gallery type when the Jetpack plugin is enabled
  */
 function et_jetpack_gallery_type( $types ) {
-	$types['divi'] = 'Divi';
+	$types['divi'] = 'Blu';
 	return $types;
 }
 add_filter( 'jetpack_gallery_types', 'et_jetpack_gallery_type' );

@@ -54,7 +54,7 @@ function et_core_get_main_fonts() {
 	 * supported by Open Sans, translate this to 'off'. Do not translate
 	 * into your own language.
 	 */
-	$open_sans = _x( 'on', 'Open Sans font: on or off', 'Divi' );
+	$open_sans = _x( 'on', 'Open Sans font: on or off', 'Blu' );
 
 	if ( 'off' !== $open_sans ) {
 		$font_families = array();

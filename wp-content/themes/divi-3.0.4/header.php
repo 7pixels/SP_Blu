@@ -140,9 +140,9 @@
 				<form role="search" method="get" class="et-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<?php
 						printf( '<input type="search" class="et-search-field" placeholder="%1$s" placeholder="%2$s" name="s" title="%3$s" />',
-							esc_attr__( 'Search &hellip;', 'Divi' ),
+							esc_attr__( 'Search &hellip;', 'Blu' ),
 							get_search_query(),
-							esc_attr__( 'Search for:', 'Divi' )
+							esc_attr__( 'Search for:', 'Blu' )
 						);
 					?>
 					<button type="submit" id="searchsubmit_header"></button>
@@ -185,7 +185,7 @@
 					if ( '' == $slide_nav ) :
 				?>
 						<?php if ( 'on' == et_get_option( 'divi_home_link' ) ) { ?>
-							<li <?php if ( is_home() ) echo( 'class="current_page_item"' ); ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Home', 'Divi' ); ?></a></li>
+							<li <?php if ( is_home() ) echo( 'class="current_page_item"' ); ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Home', 'Blu' ); ?></a></li>
 						<?php }; ?>
 
 						<?php show_page_menu( $slide_menu_class, false, false ); ?>
@@ -228,7 +228,7 @@
 						?>
 							<ul id="top-menu" class="<?php echo esc_attr( $menuClass ); ?>">
 								<?php if ( 'on' == et_get_option( 'divi_home_link' ) ) { ?>
-									<li <?php if ( is_home() ) echo( 'class="current_page_item"' ); ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Home', 'Divi' ); ?></a></li>
+									<li <?php if ( is_home() ) echo( 'class="current_page_item"' ); ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Home', 'Blu' ); ?></a></li>
 								<?php }; ?>
 
 								<?php show_page_menu( $menuClass, false, false ); ?>
@@ -268,9 +268,9 @@
 					<form role="search" method="get" class="et-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<?php
 						printf( '<input type="search" class="et-search-field" placeholder="%1$s" value="%2$s" name="s" title="%3$s" />',
-							esc_attr__( 'Search &hellip;', 'Divi' ),
+							esc_attr__( 'Search &hellip;', 'Blu' ),
 							get_search_query(),
-							esc_attr__( 'Search for:', 'Divi' )
+							esc_attr__( 'Search for:', 'Blu' )
 						);
 					?>
 					</form>
