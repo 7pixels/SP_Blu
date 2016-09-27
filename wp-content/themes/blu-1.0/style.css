@@ -6068,15 +6068,23 @@ ul.et_pb_side_nav .side_nav_item a.active {
 	box-sizing: border-box;
 }
 
-#wp-admin-bar-et-use-visual-builder a:before {
+/*#wp-admin-bar-et-use-visual-builder a:before {
 	width: 28px;
 	margin-top: -3px;
 	color: #974df3 !important;
 	font-family: "ETmodules" !important;
 	font-size: 30px !important;
 	content: "\e625";
+}*/
+#wpadminbar #wp-admin-bar-et-use-visual-builder .ab-item:before {
+	width: 28px;
+	margin-top: -3px;
+	color: #974df3 !important;
+	font-family: "ETmodules" !important;
+	font-size: 30px !important;
+	content: "";
+	background-image: url("includes/builder/styles/images/blu_epanel_icon.png") !important;
 }
-
 #wp-admin-bar-et-use-visual-builder:hover a:before {
 	color: #fff !important;
 }
