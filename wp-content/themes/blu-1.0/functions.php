@@ -8582,7 +8582,7 @@ add_filter( 'body_class', 'sevenp_blu_theme_body_class' );
 
 if ( ! function_exists( 'et_get_original_footer_credits' ) ) :
 function et_get_original_footer_credits() {
-	return sprintf( __( 'Designed by %1$s | Powered by %2$s', 'Blu' ), '<a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant Themes</a>', '<a href="http://www.wordpress.org">WordPress</a>' );
+	return sprintf( __( 'Copyright &copy; %1$s | Powered by %2$s', 'Blu' ), '<a href="/" title="This Company">This Company</a>', '<a href="http://7pixelsgh.com">7pixels</a>' );
 }
 endif;
 
